@@ -88,15 +88,14 @@ CREATE TABLE IF NOT EXISTS fact_metric (
 --   ① 没有定义层：没人知道合法值域是什么、谁定的、什么时候改过；
 --   ② 没有抽检：标签对不对没有任何记录，准确率无从谈起；
 --   ③ 把两个正交的轴压成一列：RPG/SLG 是**品类**，merge/sort 是**玩法机制**。
---      依据 Newzoo Games Taxonomy（见 refs/newzoo_taxonomy.md），它是四轴分离的：
---      Subgenre / Mechanics / Themes / Art Styles。「喵骑战域」既是 Role Playing
---      又是 idle-shooter，本来就不该挤在同一个格子里。
+--      当时参考的分类思路把 Subgenre / Mechanics / Themes / Art Styles 四轴分开：
+--      「喵骑战域」既是 Role Playing 又是 idle-shooter，不该挤在同一个格子里。
 DROP TABLE IF EXISTS dim_tag;
 
--- 标签字典：一行 = 一个标签键的定义。这就是"标签数据字典"这个交付物本身。
+-- 标签字典：一行 = 一个标签键的定义及其值域约束。
 -- value_domain 为 NULL 表示**开集**（自由文本，只限长度）；非 NULL 表示**闭集**（JSON 数组，逐值校验）。
 CREATE TABLE IF NOT EXISTS dim_tag_def (
-    tag_key      TEXT PRIMARY KEY,           -- subgenre / play_desc / like_of / theme / art
+    tag_key      TEXT PRIMARY KEY,           -- play_desc / like_of / name_cn / descr_cn
     name_cn      TEXT NOT NULL,
     definition   TEXT NOT NULL,              -- 判定标准：什么算、什么不算、边界案例
     value_domain TEXT,                       -- JSON 数组 = 闭集；NULL = 自由文本（开集）
