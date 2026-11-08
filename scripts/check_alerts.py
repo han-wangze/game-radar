@@ -6,7 +6,7 @@ game-radar / 运行告警检查
 无人值守系统最危险的不是出错，是**出错了没人知道**。
 health.py 只打印给人看；本脚本给"判断能不能信"这件事下结论，并留下可审计的记录。
 
-六类检查（每类都对应一种真实失败模式）：
+七类检查（每类都对应一种真实失败模式）：
 
   A stale_run        最近一次任务距今 > N 小时   → CRITICAL（自动化停了 / 机器没开）
   B missing_days     某国某榜某整日无数据        → CRITICAL（缺日不可回补）
@@ -14,6 +14,7 @@ health.py 只打印给人看；本脚本给"判断能不能信"这件事下结�
   D latest_lag       最新榜日落后 UTC 今天 > 1 天 → CRITICAL（没抓到新数据）
   E run_fail         最近 2 天出现 fail/partial   → WARN（重试后可能已恢复）
   F field_null       release_date 空值率 > 1%    → WARN（维度回填漏了）
+  G snapshot_broken  条数与 job_log 不符 / 名次不连续 → WARN（快照被截断或被拼接）
 
 用法：
     python scripts/check_alerts.py
@@ -41,6 +42,19 @@ DB_PATH = ROOT / "data" / "radar.db"
 LOG_DIR = ROOT / "logs"
 
 EXPECTED_PER_DAY = 100
+
+# 已知的历史遗留：2026-11-08 之前，采集用 INSERT OR REPLACE 逐行写，
+# 次日凌晨那班只返回 99 条时会漏掉第 100 名，于是那一行继续留着前一天的
+# （同一天 16:00 那班的）数据 —— 四天的快照是「99 条新的 + 1 条旧的」拼成的。
+# 当时没有行级来源可以分辨哪一条是旧的，事后再改只会把错换成另一种错，
+# 所以登记在这里、不再重复报警；新代码（整份替换 + 条数守卫）不会再产生。
+# 不加白名单的话这条 WARN 会永远亮着，最后没人再看告警。
+KNOWN_BROKEN = {
+    ("2026-10-30", "us"): "次日凌晨只回 99 条，第 100 名沿用 16:00 那班",
+    ("2026-11-03", "cn"): "同上",
+    ("2026-11-05", "cn"): "同上",
+    ("2026-11-05", "kr"): "同上",
+}
 
 
 def add(findings, level, code, msg, detail=None):
@@ -143,6 +157,44 @@ def main() -> int:
         add(findings, "WARN", "field_null",
             f"release_date 空值率 {nul}/{tot} = {nul / tot:.1%}（超过 1%，检查是否漏回填）")
 
+    # ── G 快照完整性（条数对得上吗、名次连续吗）───────────────
+    # job_log 记「这次抓了多少条」，fact_rank 记「库里存了多少条」，两者必须一致。
+    # 只比各地最后一次 ok 的运行：同日双跑时后者本应整份覆盖前者。
+    # 名次必须 1..n 连续：中间有洞说明写入被截断，或某一行被单独删过。
+    drift = conn.execute("""
+        SELECT l.snap_date, l.country, l.chart, l.n_rank, f.n AS n_in_db
+          FROM (SELECT snap_date, country, chart, n_rank,
+                       ROW_NUMBER() OVER (PARTITION BY snap_date, country, chart
+                                          ORDER BY run_id DESC) rn
+                  FROM job_log WHERE status = 'ok') l
+          JOIN (SELECT snap_date, country, chart, COUNT(*) n
+                  FROM fact_rank GROUP BY 1,2,3) f
+            ON f.snap_date = l.snap_date
+           AND f.country  = l.country
+           AND f.chart    = l.chart
+         WHERE l.rn = 1 AND l.n_rank <> f.n
+    """).fetchall()
+    gaps = conn.execute("""
+        SELECT snap_date, country, chart, COUNT(*) n, MIN(rank) lo, MAX(rank) hi
+          FROM fact_rank GROUP BY 1,2,3
+        HAVING lo <> 1 OR hi <> n
+    """).fetchall()
+    known = [r for r in drift if (r["snap_date"], r["country"]) in KNOWN_BROKEN]
+    drift = [r for r in drift if (r["snap_date"], r["country"]) not in KNOWN_BROKEN]
+    if known:
+        print(f"已知历史遗留 {len(known)} 处（{', '.join(sorted({r['snap_date'] for r in known}))}）"
+              f"，见 KNOWN_BROKEN，不计入告警")
+    if drift or gaps:
+        parts = []
+        if drift:
+            parts.append(f"{len(drift)} 处条数与 job_log 记录不符")
+        if gaps:
+            parts.append(f"{len(gaps)} 处名次不连续")
+        add(findings, "WARN", "snapshot_broken",
+            "；".join(parts) + "（快照可能被截断，或由两次抓取拼成）",
+            {"drift": [dict(r) for r in drift[:10]],
+             "gaps": [dict(r) for r in gaps[:10]]})
+
     # ── 汇总输出 ─────────────────────────────────────────────
     crit = [f for f in findings if f["level"] == "CRITICAL"]
     warn = [f for f in findings if f["level"] == "WARN"]
@@ -156,7 +208,7 @@ def main() -> int:
         if f["level"] == "CRITICAL" and f["detail"]:
             print(f"             {json.dumps(f['detail'], ensure_ascii=False)[:400]}")
     if not findings:
-        print("  ✓ 六类检查全部通过")
+        print("  ✓ 七类检查全部通过")
 
     payload = {
         "checked_at": now.isoformat(timespec="seconds"),

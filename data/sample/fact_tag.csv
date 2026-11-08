@@ -1,0 +1,3563 @@
+﻿app_id,tag_key,value,evidence_strength,method,model,tag_ver,evidence,descr_country,descr_sha1,need_review,tagged_at
+1019078390,like_of,棋类对弈,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=15f69b9f3189,cn,15f69b9f3189,1,2026-10-24
+1019078390,play_desc,与电脑或联网对手对弈中国象棋，解残局、推演棋谱，目标将死对方将帅。,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=15f69b9f3189,cn,15f69b9f3189,1,2026-10-24
+1053012308,like_of,实时卡牌对战,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=6d6405744a8b,us,6d6405744a8b,1,2026-10-24
+1053012308,name_cn,皇室战争,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=6d6405744a8b,us,6d6405744a8b,1,2026-10-24
+1053012308,play_desc,组建卡组，在实时对战中放置卡牌推塔，摧毁敌方国王塔取胜,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=6d6405744a8b,us,6d6405744a8b,1,2026-10-24
+1094930513,like_of,足球竞技+卡牌养成,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=b69a43c425a6,us,b69a43c425a6,1,2026-10-24
+1094930513,name_cn,EA SPORTS FC足球手游27,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=b69a43c425a6,us,b69a43c425a6,1,2026-10-24
+1094930513,play_desc,组建球星终极球队，操控球员踢比赛，在多种PVP与国家队赛事中升级夺冠,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=b69a43c425a6,us,b69a43c425a6,1,2026-10-24
+1105855019,descr_cn,"欢迎来到《梦幻花园》，Playrix 梦想（SCAPES™）系列游戏之一！通过消除三消益智关卡，把家里各处打造成舒适愉快的空间吧。
+
+在每个章节中解开谜题、解锁花园新区域、结识新朋友，体验引人入胜的故事。管家奥斯汀欢迎你进入奇妙的冒险世界！
+
+游戏介绍：
+● 数百万玩家喜爱的玩法！解开三消谜题，跟随精彩故事，装扮你的花园！
+● 超过 16,000 个迷人关卡，拥有爆炸性道具、实用增益和精彩元素。
+● 精彩活动！开启刺激探险，在多项挑战中与其他玩家一较高下，赢取丰厚奖品！
+● 从喷泉群到岛屿风光，布局独特的特别花园区域。
+● 有趣的角色：来认识奥斯汀的朋友和邻居们吧！
+● 可爱的动物伙伴会一直陪伴在你身边！
+
+与 Facebook 和 Game Center 好友一起游玩，或在游戏社区中结交新朋友！
+
+《梦幻花园》可免费游玩，但部分游戏物品（含随机物品）可付费购买。如不想进行付费购买，请在设备的“限制”菜单中关闭该功能。
+
+无需 Wi-Fi 或网络连接即可游玩。
+ *使用竞赛及附加功能需要网络连接。
+
+梦",inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=7bc1d4b9453d,kr,7bc1d4b9453d,1,2026-11-07
+1105855019,like_of,三消+家装,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=7bc1d4b9453d,kr,7bc1d4b9453d,1,2026-11-07
+1105855019,name_cn,梦幻花园,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=7bc1d4b9453d,kr,7bc1d4b9453d,1,2026-11-07
+1105855019,play_desc,玩三消关卡赚星星，用星星推进剧情并装修花园,direct,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=7bc1d4b9453d,kr,7bc1d4b9453d,1,2026-11-07
+1105855019,subgenre,puzzle.match3,direct,llm,agent-manual,2,Make match-3 combinations,us,9308aacfe211,0,2026-11-03T11:02:23
+1105855019,theme,modern,inferred,llm,agent-manual,2,花园、管家 Austin、邻居——现代生活场景,us,9308aacfe211,0,2026-11-03T11:02:23
+1144557284,descr_cn,"텐텐오락실（TenTen娱乐室）以更全新、更有趣的面貌回归啦！
+快来体验大家聚在一起、短平快畅玩的休闲派对游戏吧。
+
+酒局、MT（迎新旅行）、旅行、休息时间、和朋友聚在一起的场合，
+直接开始、短暂结束的迷你游戏等你来玩。
+短平快的游戏随时为你营造欢乐的氛围！
+
+[游戏特色]
+
+► 轻松创建和进入房间
+
+一键点击即可创建房间，还能通过扫描条形码进入房间。
+把房间链接或房间号分享给朋友，也能一起玩哦！
+
+► 人数无限制的邀请
+
+再多的人聚在一起，也能毫无问题地在同一个房间里畅玩游戏。
+100人、1000人也尽管一起试试吧！
+
+► 种类丰富、玩不腻的游戏
+
+30多款游戏以及持续追加的多样游戏等你来体验！
+既有适合一起玩的游戏，也有适合独自玩的游戏。
+
+► 比拼排名的排行榜系统
+
+排行榜系统焕新啦！
+登上高排名就能获得相应奖励，快去超越朋友的排名吧！
+
+[公告]
+
+텐텐오락실已与酒类品牌签订广告合约，因此被评定为青少年不可用等级。
+特此告知，现已拆分为青少年不可用等级的텐텐오락실与全年龄段可用等级的텐텐패밀리（TenTen Family）。
+
+- 游玩游戏需要连接网络。
+- 游玩游戏需要以游客或SNS账号登录。",\N,\N,\N,\N,\N,\N,\N,0,\N
+1144557284,like_of,休闲派对迷你游戏,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=589de926d110,kr,589de926d110,1,2026-10-31
+1144557284,name_cn,点点游戏厅,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=589de926d110,kr,589de926d110,1,2026-10-31
+1144557284,play_desc,创建房间邀请好友，在30多款短平快小游戏中比拼排名,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=589de926d110,kr,589de926d110,1,2026-10-31
+1174766830,like_of,模拟经营,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=e4c4f858a4ea,cn,e4c4f858a4ea,1,2026-10-24
+1174766830,play_desc,规划建造城市，生产运输资源升级住宅，打造梦想都市,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=e4c4f858a4ea,cn,e4c4f858a4ea,1,2026-10-24
+1176027022,art,2d_cartoon,direct,llm,agent-manual,2,クレイジーなカートゥーンワールド,jp,297aae3fa779,0,2026-11-03T11:02:23
+1176027022,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Candy Crush like（点组消除）,us,80bbd6e2722e,0,\N
+1176027022,play_desc,点掉连在一起的同色方块，连着炸分数更高,direct,llm,agent-manual,1,キューブを爆破し、強力なコンボを作ってレベルをクリア,jp,297aae3fa779,0,2026-11-03T11:02:23
+1176027022,subgenre,puzzle.match3,inferred,llm,agent-manual,2,点击相连同色立方体组消除（キューブを爆破し、コンボを作って），属三消家族的点组变体，不是方块放置,jp,297aae3fa779,0,2026-11-03T11:02:23
+1176027022,theme,animal,direct,llm,agent-manual,2,ネコのCooper、オオカミのWally、クマのBruno,jp,297aae3fa779,0,2026-11-03T11:02:23
+1229016807,like_of,团队竞技MOBA,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=3c52f6f556e2,us,3c52f6f556e2,1,2026-10-24
+1229016807,name_cn,荒野乱斗,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=3c52f6f556e2,us,3c52f6f556e2,1,2026-10-24
+1229016807,play_desc,操控英雄在3v3或5v5竞技场中实时对战，通过收集宝石、进球或淘汰对手达成目标,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=3c52f6f556e2,us,3c52f6f556e2,1,2026-10-24
+1288758206,like_of,生存恐怖+合作探索,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=95e60af8f776,cn,95e60af8f776,1,2026-10-24
+1288758206,name_cn,现象,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=95e60af8f776,cn,95e60af8f776,1,2026-10-24
+1288758206,play_desc,扮演超自然研究者探索地图、使用研究设备对抗生物并搜寻物品,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=95e60af8f776,cn,95e60af8f776,1,2026-10-24
+1300146617,like_of,战术竞技射击,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=7514a11fd4d6,us,7514a11fd4d6,1,2026-11-01
+1300146617,name_cn,Free Fire 火影忍者疾风传联动,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=7514a11fd4d6,us,7514a11fd4d6,1,2026-11-01
+1300146617,play_desc,50人跳伞登岛搜集武器，在缩圈中生存并淘汰对手成为最后一人,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=7514a11fd4d6,us,7514a11fd4d6,1,2026-11-01
+1312031248,descr_cn,"《NARUTO-ナルト- 疾風伝》×《荒野行動》联动第2弹开启！
+佐助与鼬，宇智波兄弟齐聚殿堂实装！参与活动即可获得鼬/卡卡西金框服装及最多100连抽！
+佐助、鼬、带土、斑——以宇智波一族忍者为原型的各类道具登场。
+用你的双眼，见证写轮眼的力量吧。
+
+【前往你喜爱的地方，出发吧！】
+100人的超大战场！跳入荒野的世界，自由探索属于你自己的生存之道
+
+【生存之路上，与意想不到的伙伴相遇吧】
+开心游玩，开心交流
+
+【最棒的友情，就是共同生存】
+与知心的伙伴在荒野中协力，分享战斗的乐趣吧
+
+【帅气的载具，和伙伴一起飞驰吧】
+大家一起飙出终极速度吧
+
+【个性的穿搭，去遇见重要的人吧】
+多样风格的潮流道具，随心所欲地搭配吧
+
+关注
+Twitter: https://twitter.com/GAME_KNIVES_OUT
+客服咨询:knivesout.jp@service.netease.com",\N,\N,\N,\N,\N,\N,\N,0,\N
+1312031248,like_of,战术竞技射击,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=2636fdf2fd23,jp,2636fdf2fd23,1,2026-10-24
+1312031248,name_cn,荒野行动,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=2636fdf2fd23,jp,2636fdf2fd23,1,2026-10-24
+1312031248,play_desc,百人空降荒野大战场，搜刮装备并与队友配合，活到最后吃鸡,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=2636fdf2fd23,jp,2636fdf2fd23,1,2026-10-24
+1330123889,like_of,战术竞技射击,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=6e1704784108,us,6e1704784108,1,2026-10-24
+1330123889,name_cn,绝地求生手游,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=6e1704784108,us,6e1704784108,1,2026-10-24
+1330123889,play_desc,百人空降孤岛搜集枪械物资，在不断缩小的安全区中对抗，活到最后,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=6e1704784108,us,6e1704784108,1,2026-10-24
+1344700142,descr_cn,"现在就在手机上畅玩UNO!™吧！曾经在餐桌上享受的传统卡牌游戏，现在随时随地都能玩！全新规则、世界系列锦标赛、游戏模式等一应俱全。无论在家还是外出，无论你是UNO!™老手还是完全的新手，全家人都能享受UNO!™的乐趣。UNO!™是一款随时随地都充满乐趣、适合家庭、带来美好回忆的卡牌游戏。
+
+准备好了吗？大家一起。UNO!™
+- 畅玩经典卡牌游戏UNO!™，或从多种自定义规则中选择，享受实时对局。
+- 完成锦标赛和活动赢取免费奖励，并在排行榜上争夺第一名。
+- 与朋友或家人组队，在2对2模式中合力取胜。
+- 随时随地与家人或世界各地的朋友保持连接。
+
+特色
+即开即玩的经典游戏
+第一次接触UNO!™，还是想玩你最喜欢的卡牌游戏？点击快速开始，用经典UNO!™规则开启新一局。享受全新的每月奖励和活动吧！
+
+与朋友一起玩
+和朋友或家人一起玩吧！制定你自己的自定义规则，尽情畅玩。UNO!™是一场任何人都能轻松自由参与的适合家庭的派对！
+
+组队游玩
+与朋友或家人组队，享受2对2的对决。互相减少对方的手牌，尽可能",\N,\N,\N,\N,\N,\N,\N,0,\N
+1344700142,like_of,卡牌对战,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=532f19f10d8c,kr,532f19f10d8c,1,2026-10-24
+1344700142,play_desc,出牌匹配颜色或数字，先清空手牌者胜，可组队2v2,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=532f19f10d8c,kr,532f19f10d8c,1,2026-10-24
+1347776121,like_of,足球竞技+球队经营,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=6fb5b6f1ae7d,cn,6fb5b6f1ae7d,1,2026-10-31
+1347776121,play_desc,招募球星组建球队，实时操控比赛并调整阵型战术击败对手,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=6fb5b6f1ae7d,cn,6fb5b6f1ae7d,1,2026-10-31
+1389111413,descr_cn,"欢迎来到最让人上瘾的黑洞游戏！
+
+你能操控黑洞 aggressively 吞噬建筑吗？时间在流逝，滴答，滴答。你能吞噬一切并获胜吗？
+
+进入竞技场，加入与其他黑洞的激烈战斗。用黑洞吞噬视野中的一切，为了吃得更多而扩张它的尺寸！选择你喜欢的黑洞皮肤，成为真正的部落大师。在这座城市证明谁是最强大的黑洞！现在就玩 Hole.io！
+
+隐私对我们非常重要。查看隐私政策：https://www.voodoo.io/privacy
+
+服务条款：https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",\N,\N,\N,\N,\N,\N,\N,0,\N
+1389111413,like_of,吞噬竞技,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=bc22e9e0a3b9,kr,bc22e9e0a3b9,1,2026-10-24
+1389111413,name_cn,黑洞大作战,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=bc22e9e0a3b9,kr,bc22e9e0a3b9,1,2026-10-24
+1389111413,play_desc,操控黑洞吞噬城市建筑与对手，不断变大，限时内吞掉最多者胜,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=bc22e9e0a3b9,kr,bc22e9e0a3b9,1,2026-10-24
+1420003965,descr_cn,"GO FRIEND（够朋友）是一款可以参加世界各地邀请团体战（远程团体战）、招募邀请团体战参加者，还能通过共享地图分享团体战、奖励、宝可梦巢穴等信息的工具。
+
+
+
+主要功能
+◆邀请团体战留言板
+・使用远程团体战通行证，24小时随时参加世界各地的团体战
+・招募邀请团体战的参加者
+・自动优先参加（自动匹配）
+・通过推送通知实时通知状况
+・主办者评价／ guest评价
+・使用奖励插件优先自动匹配
+
+
+
+◆攻略信息的浏览和工具的使用
+・浏览文章
+・使用工具
+　个体值检查器/GO对战联盟相关/克制列表/对战模拟器/交换图片生成器等
+・通过推送通知告知最新信息
+・留言板（国内・海外的好友招募／宝可梦交换／闲聊）
+
+
+
+◆日本国内的共享地图
+・实时显示团体战出现的Boss、招式构成、开始时间、剩余时间
+・显示下次EX团体战信息
+・显示最新任务信息
+・显示巢穴信息
+・登记团体战、田野调查任务、巢穴信息
+・推送通知周边团体战信息、奖励信息
+・图标自定义功能
+・显示筛选功能
+・通过GPS显示当前位置
+・通过谷歌地图进行路线导航
+・将登记信息分享到SNS
+・S2单元格显示功能",\N,\N,\N,\N,\N,\N,\N,0,\N
+1420003965,like_of,辅助工具+组队匹配,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=f38863e6e7a7,jp,f38863e6e7a7,1,2026-11-06
+1420003965,name_cn,GO Friend,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=f38863e6e7a7,jp,f38863e6e7a7,1,2026-11-06
+1420003965,play_desc,通过共享地图和招募板参与全球远程团体战并查询攻略工具,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=f38863e6e7a7,jp,f38863e6e7a7,1,2026-11-06
+1423046460,descr_cn,"与数百万玩家一起加入全球最令人上瘾的.io游戏！在竞技场中四处游走，画线扩张领土，在别人截断你的路线之前占领区域。规则简单，乐趣无穷！
+
+提前警告你：很难只玩一局就停下来。
+
+Paper.io 2好玩的理由：
+∙ 流畅又刺激的街机玩法
+∙ 几秒就能开始的在线多人对战
+∙ 收集100多款独特皮肤
+∙ 每日免费奖励
+∙ 适合短暂休息时间的快速对局
+∙ 一次性占领整张地图，就有秘密惊喜等着你",\N,\N,\N,\N,\N,\N,\N,0,\N
+1423046460,like_of,画线占地,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=4bd0c7fa677b,kr,4bd0c7fa677b,1,2026-10-24
+1423046460,name_cn,纸片大作战2,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=4bd0c7fa677b,kr,4bd0c7fa677b,1,2026-10-24
+1423046460,play_desc,操控方块在竞技场画线圈地，扩大领土并切断对手路径,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=4bd0c7fa677b,kr,4bd0c7fa677b,1,2026-10-24
+1435567000,like_of,废土生存建造,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=60d7f216c328,cn,60d7f216c328,1,2026-10-28
+1435567000,play_desc,在废土大世界采集狩猎造武器，建营地抵御感染者求生,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=60d7f216c328,cn,60d7f216c328,1,2026-10-28
+1441742921,descr_cn,"在爱琳展开的领域展开，跨越次元的超强联动！
+
+■ 更新介绍 ■
+
+▶ 咒术回战角色变身
+“虎杖悠仁”、“伏黑惠”、“钉崎野蔷薇”、“五条悟”、“七海建人”
+变身为咒术回战角色，享受包括领域展开在内的特别战斗吧！
+
+▶ 咒术回战超强活动
+参与活动即赠送全部角色变身道具！
+“特级咒术师”称号以及“行动：黑闪”、“行动：领域展开 无量空处”礼物也不要错过哦。
+
+▶ 咒术回战超强联动道具
+联动限定时装装备“两面宿傩的服装”与“狱门疆制服”以及自定义道具！
+咒术回战式神“玉犬·浑”与“鵺”化身为可爱宠物等你来见。
+
+▶ 咒术回战主题玩法
+敦巴顿以咒术回战世界观全新装扮。
+与咒术回战角色一起在照相馆留下特别回忆吧。
+
+▶ 全新突袭“斯卡斯”
+归来的神马残影斯卡斯！
+与吞噬灵魂的红月一战吧
+
+▶ 纪念传奇1：亡灵之塔（Beta）
+亡灵之塔全新来找冒险家们了。
+运用在纪念传奇中遇到的使魔与各种道具，
+挑战塔的高处吧！
+
+■ 游戏特色 ■
+
+▶ 全新展开的爱琳故事
+Mabinogi IP的故事在Mabinogi Mobile中全新展开。
+从女神的召唤开始的旅程，你",\N,\N,\N,\N,\N,\N,\N,0,\N
+1441742921,like_of,MMORPG+生活养成,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=fb34b45e6cb2,kr,fb34b45e6cb2,1,2026-11-05
+1441742921,name_cn,洛奇 Mobile,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=fb34b45e6cb2,kr,fb34b45e6cb2,1,2026-11-05
+1441742921,play_desc,用升级卡成长并通过符文刻印组合技能战斗，还能钓鱼烹饪采集等生活玩法,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=fb34b45e6cb2,kr,fb34b45e6cb2,1,2026-11-05
+1443446174,descr_cn,"用欢快的节奏捕捉最美好的瞬间，是多么令人兴奋的事啊？把灵魂交给热门歌曲的节拍浪潮吧。
+
+
+通过Magic Tiles 3游戏，你可以演奏流行、说唱、无伴奏合唱、EDM、爵士、器乐等多种类型的音乐。超过1000首歌曲正在等着你。去寻找音乐在你心中画出的彩虹，尽情沉浸在游戏中吧。
+
+
+Magic Tiles 3主要功能：
+
+1.    满足所有音乐品味的迷人、现代且多样的音乐类型！超过1000首歌曲正等待着你的征服。
+2.    精心构建的在线模式：与全世界众多玩家交流吧。还可以邀请朋友/敌人进入房间，互相展开对战。
+3.    每周锦标赛中，令人无法拒绝的奖励正在等着你。
+4.    在乐队模式中，可以用吉他、钢琴等多种额外乐器进行演奏。
+
+游戏规则：
+1.    点击黑色方块
+2.    避开白色方块
+3.    跟上每首歌曲关卡中逐渐加快的速度
+
+用Facebook账号登录，并在多台设备间共享数据吧
+
+来吧，准备好免费畅玩这款将成为最棒挑战的钢琴游戏了吗！
+
+此外，为了改善游戏性能并提供基于用户位置的个性化用户体验，我们请求访问存储空间和位置的权限。
+
+现在就成为真正的钢琴家吧",\N,\N,\N,\N,\N,\N,\N,0,\N
+1443446174,like_of,音乐节奏点击,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=8c1cc429dbb1,kr,8c1cc429dbb1,1,2026-10-24
+1443446174,name_cn,魔法瓷砖3,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=8c1cc429dbb1,kr,8c1cc429dbb1,1,2026-10-24
+1443446174,play_desc,随节奏点击下落的黑块，避开白块，速度逐渐加快,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=8c1cc429dbb1,kr,8c1cc429dbb1,1,2026-10-24
+1452526406,descr_cn,"准备好挑战精彩的填色解谜了吗？
+
+一款会让你惊叹的游戏！
+
+滑动屏幕移动小球，华丽地为迷宫解谜上色。
+
+想要填满谜题，就需要填满每一个方格，解锁更多精彩的 AMAZE!!! 迷宫填色解谜。
+小心！AMAZE!!! 会随着游戏推进、颜色越填越多而变得越来越难！
+迷宫解谜填色乍看简单，但要想涂满所有方格，就得好好规划。
+
+试着把谜题完整填色吧！只要漏掉一个方格，就会永远被困在填色的迷宫里！",\N,\N,\N,\N,\N,\N,\N,0,\N
+1452526406,like_of,迷宫涂色解谜,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=cc6d460684b4,kr,cc6d460684b4,1,2026-11-02
+1452526406,name_cn,AMAZE!!!,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=cc6d460684b4,kr,cc6d460684b4,1,2026-11-02
+1452526406,play_desc,滑小球走遍迷宫每个格子，漏一格就困住,direct,llm,agent-manual,1,화면을 밀어 공을 움직이며 미궁 퍼즐을 화려하게 색칠하세요|사각형 하나라도 빠트리면 색칠의 미궁에 영원히 갇혀버립니다,kr,cc6d460684b4,0,2026-11-02
+1452526406,subgenre,puzzle.brain,direct,llm,agent-manual,2,미궁 퍼즐|모든 사각형을 칠하려면 계획을 잘 세워야 합니다,kr,cc6d460684b4,0,2026-11-02
+1452526406,theme,abstract,inferred,llm,agent-manual,2,迷宫与色块，无角色无叙事,kr,cc6d460684b4,0,2026-11-02
+1453837845,like_of,你画我猜+派对聚会,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=4816b847575e,us,4816b847575e,1,2026-10-25
+1453837845,name_cn,你画我猜 家庭派对游戏,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=4816b847575e,us,4816b847575e,1,2026-10-25
+1453837845,play_desc,手机举到额头显示词语，靠朋友表演或描述提示来猜，猜对下倾跳过上倾,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=4816b847575e,us,4816b847575e,1,2026-10-25
+1453989822,descr_cn,抵达水上滑梯的终点，向第一名发起冲击吧。在竞速中推开其他玩家，尽情享受这款绚丽又充满阳光的水上滑梯游戏！,\N,\N,\N,\N,\N,\N,\N,0,\N
+1453989822,like_of,竞速+推挤,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=cef4c1a4e019,kr,cef4c1a4e019,1,2026-10-25
+1453989822,name_cn,水上乐园大乱斗,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=cef4c1a4e019,kr,cef4c1a4e019,1,2026-10-25
+1453989822,play_desc,在水滑梯上竞速冲向终点，途中把其他玩家推下去，争夺第一名,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=cef4c1a4e019,kr,cef4c1a4e019,1,2026-10-25
+1454663939,like_of,塔防+角色养成,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=9d2d153f860d,cn,9d2d153f860d,1,2026-11-01
+1454663939,play_desc,部署干员防守据点，抵御一波波敌人进攻,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=9d2d153f860d,cn,9d2d153f860d,1,2026-11-01
+1455441206,descr_cn,"Cat Jump 是一款任何人都能轻松上手的简单上瘾街机游戏。
+一键三段跳！简单却不轻松的弹性质感！
+操控可爱的小猫躲避障碍物，跳得更高～跳～跳～跳～试试看吧！
+
+游戏特色
+ - 男女老少都能享受的简单操作方式！
+ - 全凭瞬间反应与操控实力的记录竞争！
+ - 收集可爱小猫的乐趣！
+ - 有助于提升专注力、瞬间反应、操控、手速与视野能力！",\N,\N,\N,\N,\N,\N,\N,0,\N
+1455441206,like_of,跳跃街机,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=75cff6d373bf,kr,75cff6d373bf,1,2026-10-24
+1455441206,name_cn,猫咪跳跃,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=75cff6d373bf,kr,75cff6d373bf,1,2026-10-24
+1455441206,play_desc,单键控制猫咪三段跳，躲避障碍不断向上跳得更高,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=75cff6d373bf,kr,75cff6d373bf,1,2026-10-24
+1478101301,art,3d_stylized,inferred,human,agent-manual,2,截图（cn 第2张，中央为实机棋盘）：棋子为 Q 版大头比例、有立体材质与投影，非手绘描边 → 3D 卡通渲染,\N,\N,1,2026-11-05 12:37:11
+1478101301,like_of,,\N,\N,\N,\N,\N,cn,a4aa82f4da2b,0,\N
+1478101301,play_desc,商店买弈子凑羁绊，摆好棋盘后自动开打,direct,llm,agent-manual,1,商店可直接刷新出2星、3星弈子|自由选择棋盘布局,cn,a4aa82f4da2b,0,2026-11-03T10:56:42
+1478101301,subgenre,strategy.auto_battler,inferred,llm,agent-manual,2,弈子与羁绊体系、随阶段挥洒绘境格——自动战斗，玩家只做赛前布阵与运营,cn,a4aa82f4da2b,0,2026-11-03T10:56:42
+1478101301,theme,fantasy,inferred,llm,agent-manual,2,山海绘卷、剪纸仙灵、灵魂莲华——东方奇幻题材,cn,a4aa82f4da2b,0,2026-11-03T10:56:42
+1478371252,descr_cn,"Play Every Moment, FC 모바일
+
+本次[MAKE YOUR GAME]更新中，收录了可在比赛中途改变战术的比赛计划、更加精细的比赛玩法、为球员增添个性的全新比赛风格，以及全新的梦想舞台。
+仅凭教练的一次判断就能改变比赛走势的FC 모바일，现在就立刻体验吧。
+
+[核心更新介绍]
+1. 比赛计划正式上线
+- 读懂走势，扭转战局！比赛进行中也能根据对手战术立即改变阵型和战术倾向。
+- 从极端进攻到极端防守，用细分为5个阶段的战术倾向，完成属于教练您的专属运营吧。
+
+2. 比赛玩法平衡优化
+- 更精细，更丰富！弧线球、头球、强力射门、任意球等主要射门与定位球的平衡已全新调整。
+- 防守AI与经理模式射门判断得到优化，球员能力值与教练您的判断将更好地反映在比赛中。
+- 通过上调“호날두 춉”以及优化“녹온 드리블”的个人技术，突破的选择也将更加多样。
+
+3. 全新内容更新
+- 比赛风格：同一球员，不同角色！全新追加“锐利直塞”与“死球”，可更加多样地运用球员。
+- 圣地亚哥·伯纳乌：站上梦想舞台！体验全新翻新的伯纳乌与专属开场演出。
+- 自由签约：我的",\N,\N,\N,\N,\N,\N,\N,0,\N
+1478371252,like_of,足球竞技+球队经营,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=77b1268e2a95,kr,77b1268e2a95,1,2026-10-24
+1478371252,name_cn,FC Mobile,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=77b1268e2a95,kr,77b1268e2a95,1,2026-10-24
+1478371252,play_desc,扮演足球教练，实时调整阵型战术并操控球员比赛，打造自己的球队,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=77b1268e2a95,kr,77b1268e2a95,1,2026-10-24
+1479198816,descr_cn,"指挥官，黑暗军团来袭！
+这些暴君将要统治世界！
+连绵不断的战争、散落各地的难民，还有充满希望的世界。谁来解放我们？
+与自由联盟一起，成为对抗邪恶势力的最强指挥官吧！
+
+轻松强化！即刻最强！
+建筑、技能、单位全部可以通过合成来升级。
+合成无需等待时间，只需合成即可立即完成升级！
+
+培养英雄吧！
+培养传说中的英雄，指挥陆军、海军、空军部队进行防守与进攻。
+升级英雄和部队，获取技能和装备，率领三军成为不死之身！
+
+以岛屿为基地发展壮大
+从荒芜的无人岛起步，你将开拓土地、建设基地、训练军队来强化战力。
+不只是兵力，还要布置各种建筑和装饰物，打造时尚而强大的岛屿！
+
+全世界同时开战
+享受多种多样战斗方式的战斗，与伙伴们携手夺取榜首宝座！
+
+-注意-
+Top War 基本免费游玩，但包含道具收费。使用游戏及服务所需的网络连接环境、软件、通信费用等由客户自行承担。
+
+-官方社交账号-
+Twitter：https://twitter.com/TopWar_JP
+Discord：https://discord.gg/topwarbattlegameofficial
+Lobi：https://web.lobi.co/game/topwar",inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ce7e04f6de13,jp,ce7e04f6de13,1,2026-11-07
+1479198816,like_of,合成策略战争,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ce7e04f6de13,jp,ce7e04f6de13,1,2026-11-07
+1479198816,name_cn,Top War,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ce7e04f6de13,jp,ce7e04f6de13,1,2026-11-07
+1479198816,play_desc,合成升级建筑与部队，培养英雄，建设岛屿基地并与其他玩家结盟争霸。,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ce7e04f6de13,jp,ce7e04f6de13,1,2026-11-07
+1480616990,descr_cn,"开始畅玩《리그 오브 레전드: 와일드 리프트》（英雄联盟：狂野裂谷）吧。实力与策略激烈碰撞的Riot Games 5v5 MOBA游戏《리그 오브 레전드》，现在可以在移动端畅享了。在拥有流畅操作与酣畅节奏的狂野裂谷中，与好友组队、选择属于你的英雄，打出精彩操作吧。
+
+压倒性的对局
+用丰富多样的英雄与不断变化的策略掌控峡谷，缔造属于你的传说。完美命中技能、扭转混乱团战的走向，每局游戏都有机会让你拿下精彩的五杀。
+
+与好友同场竞技
+在移动端MOBA游戏狂野裂谷中，通过团队合作实现你梦寐以求的操作。以2人、3人或5人预组队进行匹配对战，攻击敌方水晶枢纽，提升你的段位吧。
+
+选择属于你的英雄
+用巨剑压制对手，沿着冰箭穿越地图的轨迹冻结敌人，以致命魅力诱惑敌人并带来毁灭。无论你想要怎样的传说，总有英雄能助你成就属于自己的传说。
+
+公平的免费游玩
+等待你的是不仅按实力水平、还按预组队规模进行平衡的对战。在狂野裂谷中，所有英雄均可免费获得，为游玩时长或战力强化而付费的情况现在没有，今后也不会有。
+
+若通过商店取消付款，游戏内道具",\N,\N,\N,\N,\N,\N,\N,0,\N
+1480616990,like_of,5v5 MOBA,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=2167ad0cf214,kr,2167ad0cf214,1,2026-10-25
+1480616990,name_cn,英雄联盟手游,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=2167ad0cf214,kr,2167ad0cf214,1,2026-10-25
+1480616990,play_desc,选英雄与队友组队，5v5推塔摧毁敌方水晶取胜,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=2167ad0cf214,kr,2167ad0cf214,1,2026-10-25
+1482155847,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Candy Crush like（三消+装修）,us,8477fc6151db,0,\N
+1482155847,play_desc,打三消消掉障碍，把国王的城堡修回原样,direct,llm,agent-manual,1,장애물을 부수고 강력한 파워 업을 조합해|로얄 캐슬에 과거의 영광과 아름다움을 되찾아주세요,kr,3d771dca44f3,0,2026-11-03T11:02:23
+1482155847,subgenre,puzzle.match3,direct,llm,agent-manual,2,매치 3 게임에 귀여운 장애물과 재미있는 레벨을 더한,kr,3d771dca44f3,0,2026-11-03T11:02:23
+1482155847,theme,fantasy,inferred,llm,agent-manual,2,로버트 왕의 성、로얄 캐슬、왕실의 공간——架空王室,kr,3d771dca44f3,0,2026-11-03T11:02:23
+1489932710,descr_cn,"「ヴァンパイア」「KING」「ロキ」「シャルル」「Tell Your World」等
+从最新热门歌曲到大家熟知的名曲，大量收录并附带3DMV！
+由SEGA×Colorful Palette献上，任何人都能轻松享受的节奏游戏。
+
+■■从最新热门歌曲到大家熟知的名曲，大量收录■■
+フォニイ（作词：ツミキ　作曲：ツミキ）
+千本桜（作词：黒うさ　作曲：黒うさ）
+ドラマツルギー（作词：Eve　作曲：Eve）
+Tell Your World（作词：kz（livetune）　作曲：kz（livetune））
+KING（作词：Kanaria　作曲：Kanaria）
+命に嫌われている（作词：カンザキイオリ　作曲：カンザキイオリ）
+ヴァンパイア（作词：DECO*27　作曲：DECO*27）
+シャルル（作词：バルーン　作曲：バルーン）
+ロキ（作词：みきとP　作曲：みきとP）
+アスノヨゾラ哨戒班（作词：Orangestar　作曲：Orangestar）
+マトリョシカ（作词：ハチ　作曲：ハチ）
+夜に駆ける（作词：Ayase　作曲：Ayase）
+ローリンガール（作词：wowaka　作曲：wowaka）
+ワールドイズマイン（作词：ryo　作曲：ryo）
+グッバイ宣言（作词：Chinozo　作曲：Chinozo）
+其他
+
+■■初音ミク等虚拟歌",\N,\N,\N,\N,\N,\N,\N,0,\N
+1489932710,like_of,音乐节奏+剧情养成,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=a6916696d75c,jp,a6916696d75c,1,2026-10-25
+1489932710,name_cn,世界计划 缤纷舞台！feat. 初音未来,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=a6916696d75c,jp,a6916696d75c,1,2026-10-25
+1489932710,play_desc,跟随音乐节奏点击与滑动音符，推进剧情并观看3D MV,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=a6916696d75c,jp,a6916696d75c,1,2026-10-25
+1491074310,descr_cn,"堆积。消除。重复。TETRIS®，世界上最具标志性的益智游戏，终于登陆移动端，重回你的口袋。来一局轻松的较量，冲击高分，或参加限时活动。同样的标志性方块，全新的游玩风格。
+
+以你自己的风格游玩
+• 滑动消除行列，在步数耗尽前解开关卡谜题。
+• 在经典马拉松模式中，享受无尽沉浸式体验。
+• 离线畅玩TETRIS。随时随地。
+
+目标成为TETRIS大师
+• 攻克数百个精心设计的关卡。每一关都在你喜爱的经典元素上加入了独特变化。
+• 掌握新技巧，跨越更高难度的目标，冲上排行榜。
+• 旋转四格骨牌，策略性地堆叠，每次达成TETRIS消行都感受那份兴奋。
+
+进一步探索
+• 用自定义背景、头像和边框展现个性。
+• 获取金币，兑换奖励和额外步数。
+• 与全球玩家组队，挑战共同目标。
+
+无论5分钟还是5小时，总有再来一局的时间。TETRIS，永恒！
+
+Tetris ® & © 1985~2026 Tetris Holding. 未经授权禁止转载。授权予PLAYSTUDIOS®。
+
+隐私政策： https://www.playstudios.com/privacy-policy/
+
+使用条款： https://w",\N,\N,\N,\N,\N,\N,\N,0,\N
+1491074310,like_of,方块消除解谜,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=e3099701425e,jp,e3099701425e,1,2026-10-24
+1491074310,name_cn,俄罗斯方块,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=e3099701425e,jp,e3099701425e,1,2026-10-24
+1491074310,play_desc,滑动旋转下落方块，拼满整行消除，在步数耗尽前完成关卡或挑战高分,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=e3099701425e,jp,e3099701425e,1,2026-10-24
+1506229470,like_of,,\N,\N,\N,\N,\N,us,9f6639185d11,0,\N
+1506229470,name_cn,FanDuel 赌场,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=9f6639185d11,us,9f6639185d11,1,2026-11-06
+1506229470,play_desc,在线上赌场玩老虎机、二十一点和视频扑克等真钱博彩游戏,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=9f6639185d11,us,9f6639185d11,1,2026-11-06
+1521236603,descr_cn,"合成游戏杰作 Travel Town 终于登陆日本！
+
+让被风暴摧毁的城市重拾美丽！
+
+还有丰富有趣的活动和卡牌！
+
+◆开始游戏
+
+作为旅人的你抵达了一座迷人的海滨城市。然而那里却是被风暴摧残得荒废不堪的城市。
+
+收集金币、道具和钻石，修复房屋和建筑，让城市恢复原本的美丽吧！
+
+◆完成订单◆
+
+• 每天都会收到城市居民发来的合成订单。
+
+• 合成进化分为多个等级。
+
+• 会出现数百个关卡＆500 多个物件。
+
+• 完成订单即可解锁各种道具。
+
+◆升级城市◆
+
+• 使用金币、材料和钻石重建城市吧！
+
+• 材料等可存放在道具箱中。
+
+• 收集笑脸和材料即可购买或升级建筑。
+
+• 升级后可获得能量和宝箱。
+
+立即下载，开始 Travel Town 吧！
+
+
+在官方社交媒体上关注《Travel Town》，获取限定优惠和奖励！
+
+◆官方Twitter: https://twitter.com/TravelTownJapan
+
+◆官方Facebook: facebook.com/TravelTownGame/
+
+◆官方Instagram: instagram.com/traveltowngame/
+
+
+◆使用条款: https://static.moonactive.net/legal/terms",\N,\N,\N,\N,\N,\N,\N,0,\N
+1521236603,like_of,合成+模拟经营,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=48477ed4355d,jp,48477ed4355d,1,2026-10-31
+1521236603,name_cn,旅行小镇,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=48477ed4355d,jp,48477ed4355d,1,2026-10-31
+1521236603,play_desc,合并道具完成居民订单赚金币，再用金币修复并升级海滨小镇建筑,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=48477ed4355d,jp,48477ed4355d,1,2026-10-31
+1523037824,like_of,回合制RPG+探索,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=9c8e64a1cdd8,cn,9c8e64a1cdd8,1,2026-10-31
+1523037824,play_desc,乘星穹列车穿梭各星球，回合制指令战斗，探索世界结识伙伴,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=9c8e64a1cdd8,cn,9c8e64a1cdd8,1,2026-10-31
+1525863146,like_of,街机捕鱼,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=603d7c14f1af,cn,603d7c14f1af,1,2026-10-27
+1525863146,play_desc,发射炮弹打鱼赚金币，升级炮台挑战各类鱼BOSS,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=603d7c14f1af,cn,603d7c14f1af,1,2026-10-27
+1528941310,descr_cn,"危险的僵尸来袭！城市陷入大危机！
+从梦想试炼中醒来的你，成为了肩负责任的战士！
+拥有无限潜力的人类战士啊，与其他幸存者一起拿起武器，讨伐邪恶危险的僵尸吧！
+危险生物的力量依然强大，一步走错就会陷入险境！
+跨越这场危机，活下去吧！
+ 
+核心特色：
+-与1000只以上的怪物同时战斗，消灭它们吧！
+-单手操作征服地图！
+-全新Roguelike游戏技能体验！敬请享受无限组合！
+-全新关卡体验！挑战多重难度！
+
+Twitter:@ダダサバイバー
+联系方式: survivor@habby.com",\N,\N,\N,\N,\N,\N,\N,0,\N
+1528941310,like_of,割草生存 Rogueli,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=4674596c3148,jp,4674596c3148,1,2026-10-24
+1528941310,name_cn,弹弹特攻队,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=4674596c3148,jp,4674596c3148,1,2026-10-24
+1528941310,play_desc,单手操控角色自动射击，在成群僵尸中移动走位并升级技能生存,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=4674596c3148,jp,4674596c3148,1,2026-10-24
+1532699610,like_of,足球竞技+卡牌养成,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=a2c8af3bf9f3,cn,a2c8af3bf9f3,1,2026-11-07
+1532699610,play_desc,组建并操控球队参加足球比赛，通过赛季更新球员数据提升实力,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=a2c8af3bf9f3,cn,a2c8af3bf9f3,1,2026-11-07
+1538487382,like_of,放置增量,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=d5ac999956b4,kr,d5ac999956b4,1,2026-10-25
+1538487382,name_cn,指数放置,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=d5ac999956b4,kr,d5ac999956b4,1,2026-10-25
+1538487382,play_desc,点击方程推进时间，靠指数增长累积金钱，买升级、换变量加速,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=d5ac999956b4,kr,d5ac999956b4,1,2026-10-25
+1541570980,like_of,开放世界武侠MMORPG,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=3422712e2392,cn,3422712e2392,1,2026-10-24
+1541570980,play_desc,在开放世界江湖中探索解谜、自由搭配武学战斗，并经营市井身份。,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=3422712e2392,cn,3422712e2392,1,2026-10-24
+1545088576,descr_cn,"777Real（スリーセブンリアル）
+----------------------------------------
+「777Real」是一款基本游玩免费的智能手机・平板电脑用柏青哥・柏青嫂应用。
+
+----------------------------------------
+上线机型
+----------------------------------------
+■スマスロ北斗の拳
+■パチスロ コードギアス 反逆のルルーシュ3 C.C.&Kallen ver
+■スマスロ バイオハザード:ヴェンデッタ
+■パチスロ傷物語 -始マリノ刻-
+■パチスロ交響詩篇エウレカセブン HI-EVOLUTION ZERO TYPE-ART
+■パチスロ モンスターハンターワールド：アイスボーン™
+■沖ドキ！ＧＯＬＤ
+■パチスロ ファイヤードリフト
+■アナザーゴッドハーデス-解き放たれし槍撃ver.-
+■スマスロ コードギアス 反逆のルルーシュ／復活のルルーシュ
+■SLOT魔法少女まどかマギカ
+■パチスロ モンスターハンター 月下雷鳴
+■パチスロ ガメラ2
+■スマスロ ゴールデンカムイ
+■ロデオ社　パチスロ新鬼武者
+■スマスロ交響詩篇エウレカセブン4 HI-EVOLUTION
+■スマスロ真・北斗無双
+■スマスロ痛いのは嫌なので防御力に極振りしたいと思います…",\N,\N,\N,\N,\N,\N,\N,0,\N
+1545088576,like_of,弹珠机+老虎机,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=96f81dabd9cf,jp,96f81dabd9cf,1,2026-10-29
+1545088576,name_cn,777Real 弹珠机老虎机,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=96f81dabd9cf,jp,96f81dabd9cf,1,2026-10-29
+1545088576,play_desc,在手机上模拟弹珠机与老虎机，转动机型抽奖赢取金币,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=96f81dabd9cf,jp,96f81dabd9cf,1,2026-10-29
+1551614000,like_of,射击竞技,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=a830cc88b7b3,cn,a830cc88b7b3,1,2026-10-24
+1551614000,play_desc,扮演Q版角色持枪组队，在多种模式中与对手对抗取胜,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=a830cc88b7b3,cn,a830cc88b7b3,1,2026-10-24
+1553777064,like_of,聚会投票,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=c6f04c5a347f,us,c6f04c5a347f,1,2026-11-01
+1553777064,name_cn,曝光谁最可能,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=c6f04c5a347f,us,c6f04c5a347f,1,2026-11-01
+1553777064,play_desc,每轮回答谁最可能做某事，大家投票选人后揭晓结果,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=c6f04c5a347f,us,c6f04c5a347f,1,2026-11-01
+1556357398,descr_cn,"让走路变得有趣的App。
+
+有了Pikmin Bloom，无论是稍微散个步还是每天通勤，从今天起都能变成与皮克敏们一起的愉快出游。
+
+新增的“每周挑战”中，现在可以和朋友一起走路了。和家人朋友齐心协力，以每周达成挑战为目标吧。
+__
+
+
+邂逅。能与各种各样的皮克敏相遇。源自各个地点的装饰皮克敏超过150种。请去往各种地方，邂逅各种各样的装饰皮克敏吧。
+
+探索。多走路，更加了解你的城市。试着走走和平时不同的路，说不定能发现新的幼苗或水果。
+
+
+协作。大家一起打碎蘑菇吧。大家一齐派出相性良好的皮克敏，争取高分！
+
+和皮克敏一起走路，走过的地方就会开花。大家一起走，还能让大大的花朵绽放。多走路，让世界开满鲜花吧。
+_______________ 
+
+注意: 
+- 本App基本免费游玩，但也可进行游戏内付费。本App针对智能手机优化，不适合平板电脑。(iPad不在支持范围内)。 
+- 为获取准确的位置信息，请连接网络 (Wi-Fi, 3G, 4G, 5G, LTE) 进行游玩。 
+- 在不具备GPS功能的设备或仅能连接Wi-Fi的设备上运行不予保证。 
+- 为同步步数统计，需要允许访问Apple的HealthKit
+- 兼容性相关信息可能会",\N,\N,\N,\N,\N,\N,\N,0,\N
+1556357398,like_of,步行收集+养成,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=479538e640ca,jp,479538e640ca,1,2026-11-01
+1556357398,name_cn,皮克敏绽放,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=479538e640ca,jp,479538e640ca,1,2026-11-01
+1556357398,play_desc,带着皮克敏走路探索，种花、收集装饰皮克敏并合作打蘑菇,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=479538e640ca,jp,479538e640ca,1,2026-11-01
+1569029742,like_of,开放世界冒险RPG,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=a2f2ba656ce4,cn,a2f2ba656ce4,1,2026-11-04
+1569029742,play_desc,探索开放世界七国，用元素反应战斗，收集角色材料强化队伍，寻回血亲,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=a2f2ba656ce4,cn,a2f2ba656ce4,1,2026-11-04
+1570403558,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Candy Crush like（三消+家装）,cn,7f38a6ddc399,0,\N
+1570403558,play_desc,打三消赚星星，把荒废的花园修起来,direct,llm,agent-manual,1,玩三消关卡，打造美丽花园|重建并探索花园新区域,cn,7f38a6ddc399,0,2026-11-03T11:02:23
+1570403558,subgenre,puzzle.match3,direct,llm,agent-manual,2,玩三消关卡|玩三消游戏，装饰花园,cn,7f38a6ddc399,0,2026-11-03T11:02:23
+1570403558,theme,modern,inferred,llm,agent-manual,2,花园、管家奥斯汀、邻居——现代生活场景,cn,7f38a6ddc399,0,2026-11-03T11:02:23
+1579464667,descr_cn,"【通过睡眠捕捉宝可梦吧！】
+
+在Pokémon Sleep（宝可梦睡眠）的世界里，随着你的入睡，
+与你相同睡眠类型的宝可梦们会聚集而来。
+研究宝可梦们各种各样的睡姿，以完成「睡姿图鉴」为目标吧！
+
+【Pokémon Sleep（宝可梦睡眠）的一天】
+
+■夜晚
+测量、记录、分析睡眠吧！
+只需把智能手机放在枕边入睡即可。
+也可以使用智能手表测量的睡眠数据来游玩。
+
+■早晨
+根据你的睡眠类型和睡眠时间，宝可梦会聚集而来！
+研究聚集而来的宝可梦的睡姿，完成图鉴吧！
+
+■白天
+把卡比兽养大吧！
+从成为伙伴的宝可梦那里获得树果，
+卡比兽就会不断长大。
+卡比兽成长得越多，说不定还能遇到稀有宝可梦的睡姿!?
+
+【捕捉良好的睡眠节奏吧！】
+
+■睡眠数据确认
+昨天睡得怎么样？
+入睡所需的时间、
+睡眠中身体动作的变化、
+打鼾和梦话等，
+都可以确认详细的睡眠数据。
+
+■舒适睡眠的支持
+睡觉时也和宝可梦一起！
+播放宝可梦相关音乐的助眠BGM、
+在睡眠较浅时唤醒你的智能闹钟，
+为舒适睡眠提供支持。
+
+■与智能手表联动
+通过与健康应用联动，
+可以将部分智能手表测量的睡眠数据
+导入Pokémon Sleep进行游玩。
+支持机型请在此确认。
+ht",\N,\N,\N,\N,\N,\N,\N,0,\N
+1579464667,like_of,睡眠记录+收集养成,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=f54573c25d85,jp,f54573c25d85,1,2026-11-04
+1579464667,name_cn,宝可梦睡眠,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=f54573c25d85,jp,f54573c25d85,1,2026-11-04
+1579464667,play_desc,记录睡眠，按睡眠类型收集宝可梦并研究睡姿，用树果喂大卡比兽,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=f54573c25d85,jp,f54573c25d85,1,2026-11-04
+1582427876,like_of,国风田园经营,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=8c258f473df5,cn,8c258f473df5,1,2026-10-28
+1582427876,play_desc,耕作种植、建设田园小家，与萝卜和村民经营山居生活,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=8c258f473df5,cn,8c258f473df5,1,2026-10-28
+1583719180,descr_cn,"超人气《猫咪大战争》衍生应用登场！
+横扫动物们，目标成为传说中的“猫王”！
+
+【只需滚动的简单操作喵！】
+滚动猫咪，把作为敌人的动物们从岛上弹飞喵
+
+【打倒各种各样的动物喵！】
+可爱的动物们会发动各种攻击喵
+
+【用皮肤装扮时尚喵！】
+能获得的皮肤多种多样，让人挑花眼喵
+
+还有，还有！
+完成任务还能获得《猫咪大战争》的奖励！
+猫咪史上最简单＆最轻松的操作……然后迈向传说！？",\N,\N,\N,\N,\N,\N,\N,0,\N
+1583719180,like_of,物理滚球闯关,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=7b208629a89c,jp,7b208629a89c,1,2026-10-26
+1583719180,name_cn,猫咪任务,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=7b208629a89c,jp,7b208629a89c,1,2026-10-26
+1583719180,play_desc,滚动猫咪把岛上的动物撞飞，闯关推进成为猫王,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=7b208629a89c,jp,7b208629a89c,1,2026-10-26
+1585915174,descr_cn,"【为了拯救世界，请成为我的指挥官】
+人类败北了。
+「ラプチャー」（莱彻）的侵略毫无预兆地开始了，无情而压倒性。
+目的不明。不可交涉。
+莱彻宛如人类的天敌，瞬间将地面化为火海。
+面对他们如海啸般接连袭来的攻势，人类迄今构筑的技术毫无意义。
+人类真真切切地只是被蹂躏。
+作为最终手段而开发中的人型兵器虽被寄予希望，
+却仅发挥了微乎其微的效果，未能创造扭转战局的奇迹。
+正是完美的败北。
+人类的地面被莱彻夺走，迁居至地底深处。
+
+此后数十年过去，在人类的新居所「アーク」（方舟）中，少女们醒来了。
+这是被赶入地下的人类汇聚一切技术所诞生的「对莱彻用决战人型兵器」。
+少女们乘上数十年来从未被打开过的、通往地面的电梯。
+人类祈祷了。
+祈祷少女们成为他们的箭。
+成为复仇之刀。
+带着如此痛切愿望的名字，少女们前往地面。
+其名为——ニケ（NIKKE）。
+为人类带来胜利的最后希望。
+
+▶独特而充满魅力的角色们
+战斗中直接使用等身大的角色插画！
+与个性洋溢、充满魅力的NIKKE们一同战斗吧！
+
+▶高品质的图形表现
+采用高品质插画与高度渲染技术。
+此外，还采用了物理演算引擎与唇形同步动作等最先进技术。
+与以往不同的动作",\N,\N,\N,\N,\N,\N,\N,0,\N
+1585915174,like_of,掩体射击+角色养成,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=995cfac7bd4e,jp,995cfac7bd4e,1,2026-10-29
+1585915174,name_cn,胜利女神：妮姬,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=995cfac7bd4e,jp,995cfac7bd4e,1,2026-10-29
+1585915174,play_desc,编队少女枪手掩体射击，用技能与武器击破敌群推进剧情,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=995cfac7bd4e,jp,995cfac7bd4e,1,2026-10-29
+1594193052,descr_cn,"■ Clawtopia - 抓娃娃练习游戏
+现在在家也能用真实抓娃娃机玩抓娃娃了！
+
+■ 新手也OK！
+在30多个免费练习展台积累实力，然后去挑战抽取奖品吧。
+
+■ 推荐给这样的人！
+玩过Toreba或Zzang Games的人
+喜欢《蜡笔小新》《龙珠》等日本动画的人
+
+■ 每天新增新奖品！
+手办、角色周边、生活用品等4000种以上的物品正在等着你。
+
+■ 经验值系统 & 升级奖励！
+越玩等级越高，还能获得奖励。
+
+■ 用智能手机远程操控真正的机器！
+就像在眼前抓娃娃一样的真实感
+只有一点点延迟，能像自己的手一样自由移动！
+
+■ 24小时实时客服支持
+随时都可以咨询！放心享受吧。
+
+现在就在Clawtopia成为抓娃娃高手吧！",\N,\N,\N,\N,\N,\N,\N,0,\N
+1594193052,like_of,远程抓娃娃,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=a4d8ada1495d,kr,a4d8ada1495d,1,2026-11-05
+1594193052,name_cn,抓娃娃乌托邦,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=a4d8ada1495d,kr,a4d8ada1495d,1,2026-11-05
+1594193052,play_desc,用手机远程操控真实抓娃娃机，在30多个免费练习台练手后挑战抓取奖品,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=a4d8ada1495d,kr,a4d8ada1495d,1,2026-11-05
+1598249037,like_of,开放世界竞速,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=7135765a4407,cn,7135765a4407,1,2026-10-25
+1598249037,play_desc,在开放世界自由飙车探索，参与40人热力追踪对抗，改装赛车并自建赛道,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=7135765a4407,cn,7135765a4407,1,2026-10-25
+1606549505,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Royal Match like,us,6e243ecb26e2,1,\N
+1606549505,play_desc,打三消关卡攒金币，一砖一瓦建起王国,direct,llm,agent-manual,1,매치 3 퍼즐을 풀어 새로운 땅을 탐험|퍼즐을 풀며 동전을 획득하고,kr,0ecf5a980279,0,2026-11-03T11:02:23
+1606549505,subgenre,puzzle.match3,direct,llm,agent-manual,2,매치 3 퍼즐을 마스터하세요|매치 3 퍼즐을 풀어,kr,0ecf5a980279,0,2026-11-03T11:02:23
+1606549505,theme,fantasy,inferred,llm,agent-manual,2,전설적인 왕국、마법사、어둠의 왕——架空王国设定,kr,0ecf5a980279,0,2026-11-03T11:02:23
+1609347000,like_of,塔防+经营,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=b661f2acca6d,cn,b661f2acca6d,1,2026-10-25
+1609347000,play_desc,在宿舍地板上建炮台发展经济，抵御猎梦者至天亮,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=b661f2acca6d,cn,b661f2acca6d,1,2026-10-25
+1612426573,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Hay Day like（农场经营）,cn,b36a4f4305ea,0,\N
+1612426573,play_desc,种地建镇，顺手收集卡牌、跑赛季,inferred,llm,agent-manual,1,该条描述是版本更新公告（卡牌收藏、赛季冒险、新三消元素），未介绍核心循环；依名称与更新内容推为建镇经营,cn,b36a4f4305ea,1,2026-11-03T11:02:23
+1612426573,subgenre,simulation.management,inferred,llm,agent-manual,2,描述以更新内容为主（小镇建筑：陶艺工作室、赛季、卡牌），主循环判断依赖系列常识而非本条原文,cn,b36a4f4305ea,1,2026-11-03T11:02:23
+1612426573,theme,modern,inferred,llm,agent-manual,2,小镇、赛舟会、希腊与夏威夷旅行——现代生活场景,cn,b36a4f4305ea,0,2026-11-03T11:02:23
+1614798032,art,unclear,none,llm,agent-manual,2,描述仅 183 字符，全篇写玩法与随机事件，无画面信息,cn,2ab35380d34b,1,2026-11-03T10:56:42
+1614798032,like_of,,\N,\N,\N,\N,\N,cn,2ab35380d34b,0,\N
+1614798032,play_desc,六人一局，选棋手养成王牌英雄，靠天赋与效果牌对打,direct,llm,agent-manual,1,6名玩家选择棋手进入万象大赛|拍卖、天赋、效果牌,cn,2ab35380d34b,0,2026-11-03T10:56:42
+1614798032,subgenre,strategy.auto_battler,direct,llm,agent-manual,2,6名玩家选择棋手进入万象大赛，养成自己的王牌英雄,cn,2ab35380d34b,0,2026-11-03T10:56:42
+1614798032,theme,fantasy,inferred,llm,agent-manual,2,延续《王者荣耀》英雄阵容——沿用同一架空世界观,cn,2ab35380d34b,0,2026-11-03T10:56:42
+1615755735,like_of,开放世界太空探索,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=ed7c67ef540f,us,ed7c67ef540f,1,2026-10-29
+1615755735,name_cn,无人深空,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=ed7c67ef540f,us,ed7c67ef540f,1,2026-10-29
+1615755735,play_desc,驾驶飞船穿梭星系，降落各星球探索采集、交易战斗并生存，最终驶向宇宙中心。,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=ed7c67ef540f,us,ed7c67ef540f,1,2026-10-29
+1617391485,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Block Puzzle like（放置消除）,us,4911ef806a45,1,\N
+1617391485,play_desc,把三块一组的方块摆进 8x8 格子，凑满整行整列就炸掉,direct,human,agent-manual,1,8×8 보드에 색색의 블록을 맞추고 | 가로줄이나 세로줄을 완성하고,kr,dce8d24996ad,0,2026-11-05 12:37:11
+1617391485,subgenre,puzzle.block,direct,human,agent-manual,2,8×8 보드에 색색의 블록을 맞추고 | 가로줄이나 세로줄을 완성하고,kr,dce8d24996ad,0,2026-11-05 12:37:11
+1617391485,theme,abstract,inferred,llm,agent-manual,2,纯方块与色块爆炸，无角色无叙事,kr,dce8d24996ad,0,2026-11-03T11:02:23
+1618911882,like_of,3D恋爱互动,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=8af17fe764a0,cn,8af17fe764a0,1,2026-11-07
+1618911882,play_desc,捏脸化身深空猎人，与男主并肩战斗、约会互动、布置家园,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=8af17fe764a0,cn,8af17fe764a0,1,2026-11-07
+1620305888,descr_cn,"这是一款为移动端打造的节奏明快的横版Roguelike动作游戏。
+
+组合技能与遗物，每次打造全新构筑，熟悉个性鲜明的英雄与武器吧。掌握敌人的攻击模式，突破充满挑战的关卡与Boss。
+
+打造专属构筑
+自由组合技能与遗物，完成你想要的战斗风格。尝试全新组合，并根据每次变化的情势调整策略。
+
+快速而精准的2D战斗
+享受以细腻像素画风呈现的横版动作体验。躲避攻击，在精准时机释放技能，击败强大的Boss。
+
+丰富多样的英雄与武器
+收集并培养战斗方式各不相同的英雄吧。组合多种武器，找到适合自己的玩法。
+
+充满挑战的关卡与Boss
+挑战丰富多样的关卡、潜伏的敌人与棘手的Boss战吧。熟悉攻击模式，向地牢深处推进。
+
+英雄装扮
+收集宠物与服装，把喜欢的英雄装扮成你想要的样子吧。
+
+制定策略、磨炼实力，深入Dungeon Slasher（地牢斩击者）的深处吧。",\N,\N,\N,\N,\N,\N,\N,0,\N
+1620305888,like_of,横版动作+肉鸽,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=a03e0b87d866,kr,a03e0b87d866,1,2026-10-27
+1620305888,name_cn,地下城斩击者：Roguelike RPG,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=a03e0b87d866,kr,a03e0b87d866,1,2026-10-27
+1620305888,play_desc,横版动作闯关，组合技能与遗物构筑流派，击败Boss深入地下城,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=a03e0b87d866,kr,a03e0b87d866,1,2026-10-27
+1623318294,like_of,,\N,\N,\N,\N,\N,us,d221efdcfab4,0,\N
+1623318294,play_desc,合成食材与家具，边翻新餐厅边查清岛上的秘密,direct,llm,agent-manual,1,"군침 도는 요리들을 합성하고, 퀸의 레스토랑을 복원하고 꾸며서|감춰진 비밀",kr,9d271acc279d,0,2026-11-03T11:02:23
+1623318294,subgenre,simulation.merge,direct,llm,agent-manual,2,요리들을 합성하고,kr,9d271acc279d,0,2026-11-03T11:02:23
+1623318294,theme,modern,inferred,llm,agent-manual,2,브림웨이브 섬、레스토랑、이혼——现代海岛生活剧,kr,9d271acc279d,0,2026-11-03T11:02:23
+1632344522,like_of,派对竞技+社交,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=e31a34082dc6,cn,e31a34082dc6,1,2026-11-07
+1632344522,play_desc,化身星宝参与闯关、推理、团战等派对玩法，在广场与农场社交互动,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=e31a34082dc6,cn,e31a34082dc6,1,2026-11-07
+1636072966,like_of,足球生涯模拟,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=83bc335d565c,kr,83bc335d565c,1,2026-10-29
+1636072966,name_cn,迷你足球明星2027,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=83bc335d565c,kr,83bc335d565c,1,2026-10-29
+1636072966,play_desc,拖拽点击操控球员完成射门传球，从青训踢到国家队夺冠的足球生涯。,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=83bc335d565c,kr,83bc335d565c,1,2026-10-29
+1644374326,play_desc,从叠起来的牌堆里凑三张相同的消掉，通关率 0.1%,direct,llm,agent-manual,1,超火的正版消除游戏|仅有 0.1% 的通关概率|肉鸽式的消除游戏,cn,86bd4b0fd158,0,2026-11-03T11:02:23
+1644374326,subgenre,puzzle.match3,inferred,llm,agent-manual,2,三张同图案凑齐即消除（消除游戏、肉鸽式的消除游戏）；难度来自堆叠遮挡与道具限次，但主机制仍是匹配消除,cn,86bd4b0fd158,0,2026-11-03T11:02:23
+1644374326,theme,abstract,inferred,llm,agent-manual,2,羊与图案牌堆，无连贯叙事设定,cn,86bd4b0fd158,0,2026-11-03T11:02:23
+1659387585,like_of,放置经营,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=a95a4ce24bbb,us,a95a4ce24bbb,1,2026-11-02
+1659387585,name_cn,水力发电大亨,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=a95a4ce24bbb,us,a95a4ce24bbb,1,2026-11-02
+1659387585,play_desc,建造水轮与水坝发电，扩张河道、研究科技并自动化生产，把村庄发展成未来水城。,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=a95a4ce24bbb,us,a95a4ce24bbb,1,2026-11-02
+1665337957,like_of,街机捕鱼,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=68dc5a25f247,cn,68dc5a25f247,1,2026-10-30
+1665337957,play_desc,发射炮弹捕鱼，升级炮台提高倍率，赢取金币奖励,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=68dc5a25f247,cn,68dc5a25f247,1,2026-10-30
+1668807323,descr_cn,"新服开启，猎人们的全新成长现在开始！
+
+第11次转职，“黑天魔帝”降临
+天魔新教的绝对君主，以黑色魔气与毁灭之力统治战场。
+
+进入觉醒状态的《培养猎人》大作战！
+在由不明原因的红色传送门引发的血战中生存到最后。
+
+如果是养成类RPG游戏，这些总该有吧！
+
+▶ 融入世界观的地下城
+- 穿梭于「过去、现代、武林、异世界」的游玩体验
+- 融入世界观的动画与华丽特效，沉浸感up！
+▶ 转职系统（试炼之塔）
+- 击败异世界人物吸收力量并变强的系统
+- 狂战士、剑圣、剑术大师、奥拉大师、次元骑士、暗黑咒术师，获取各职业专属技能吧
+▶ 放置、丰厚奖励、快速成长，三合一！
+- 放置型RPG的基本。即使放着不管，也能凭借丰厚积累的资源快速成长
+- 今天的属性和明天的属性截然不同，乐趣十足！！超高速升级，毫无无聊空隙的游玩体验
+▶ 其他
+- 一起更快变强的猎人联合公会系统
+- 随心装扮的多种时装
+- 每次召唤都会变强的神兽融合系统
+- 强者猎人的竞技场，PVP模式！
+- 可爱却强大？！用玩具卡再升一级！
+- 每次成长都会解锁的猎人日志，无止境的锻炼！
+除此之外，还有RPG必备的多种内容",\N,\N,\N,\N,\N,\N,\N,0,\N
+1668807323,like_of,放置RPG,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=f3521e78e7d1,kr,f3521e78e7d1,1,2026-10-29
+1668807323,name_cn,养猎人：放置型RPG,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=f3521e78e7d1,kr,f3521e78e7d1,1,2026-10-29
+1668807323,play_desc,放置自动战斗刷资源升级，转职吸能变强并挑战PVP,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=f3521e78e7d1,kr,f3521e78e7d1,1,2026-10-29
+446324234,art,unclear,none,llm,agent-manual,2,描述只有玩法与运营文案，无任何渲染形态信息（仅提到时装系统，不足以判断卡通风或写实）,cn,801a7cd7aa4f,1,2026-11-03T10:56:42
+446324234,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=QQ 游戏大厅 like（一站式棋牌平台）,cn,801a7cd7aa4f,1,\N
+446324234,play_desc,斗地主/掼蛋/跑得快等地方牌局，按赛季打排位上分,direct,llm,agent-manual,1,集结斗地主、510K、掼蛋等经典棋牌|赛季排位竞技,cn,801a7cd7aa4f,0,2026-11-03T10:56:42
+446324234,subgenre,card_battle.traditional,direct,llm,agent-manual,2,汇聚跑得快、升级、锄大地等地方特色棋牌,cn,801a7cd7aa4f,0,2026-11-03T10:56:42
+446324234,theme,modern,inferred,llm,agent-manual,2,特色时装随心搭|解压农场家园,cn,801a7cd7aa4f,0,2026-11-03T10:56:42
+529479190,like_of,策略建造+部落对战,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=2a3463e67817,us,2a3463e67817,1,2026-10-30
+529479190,name_cn,部落冲突,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=2a3463e67817,us,2a3463e67817,1,2026-10-30
+529479190,play_desc,建村庄造兵，加入部落打部落战，掠夺资源升级防御,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=2a3463e67817,us,2a3463e67817,1,2026-10-30
+529996768,descr_cn,"在BINGO BLITZ中环游世界
+加入Bingo Blitz的行列吧，这是一款最棒的自由宾果游戏与老虎机应用，带你一边玩一边游遍世界各地。踏上宾果之旅，享受实时多人宾果游戏。玩宾果老虎机游戏，领取每日金币、奖励、免费红利和无尽乐趣！
+
+多人游戏
+与好友和其他宾果玩家一起参加在线直播宾果游戏。连接Facebook账号畅玩社交游戏，收集宾果红利。与来自世界各地的宾果玩家聊天，用好友赠送的点数互送免费礼物！
+
+成为BINGO BLITZ的VIP精英会员
+- 	首次红利100点数
+- 	每月150点数（限时）
+- 	抢先体验新内容
+- 	会员专属活动
+- 	更多老虎机游戏
+- 	更多旋转次数
+- 	特别每日锦标赛
+- 	12项月度强化
+- 	获得状态点数
+- 	免费宾果卡
+- 	Playtika奖励福利
+
+我们期待您的意见与感想！请通过以下链接发送给我们。
+https://www.bingoblitz.com/support/.
+Bingo Blitz面向21岁及以上人群，不提供“真钱”赌博，也不提供基于游戏玩法赢取真钱或真实奖品的机会。本游戏中的游玩",\N,\N,\N,\N,\N,\N,\N,0,\N
+529996768,like_of,多人宾果,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=b97776624ada,jp,b97776624ada,1,2026-10-30
+529996768,name_cn,宾果闪电战,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=b97776624ada,jp,b97776624ada,1,2026-10-30
+529996768,play_desc,抽取数字填满宾果卡连线获胜，边玩边环游世界收集奖励,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=b97776624ada,jp,b97776624ada,1,2026-10-30
+534453594,like_of,塔防,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=093139a05972,cn,093139a05972,1,2026-11-06
+534453594,play_desc,布置防御塔阻止怪物吃掉萝卜，收集宝物并孵化怪物蛋解锁隐藏地图,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=093139a05972,cn,093139a05972,1,2026-11-06
+547145938,descr_cn,"《猫咪大战争》全球累计下载量突破1亿2000万！
+全世界超人气！任何人都能轻松上手！！
+猫咪对战游戏！！
+“恶心可爱猫咪”正在侵略日本、未来，
+甚至直到宇宙尽头！
+以前玩过的人也别错过重新开始的机会！！
+
+◆规则简单！单纯对战！◆
+点击喜欢的猫咪出击！！
+用一击必杀的“猫咪炮”实现大逆转！！
+攻陷敌方城堡即可获胜！！
+遇到无法通关的关卡，
+上网搜一下基本都能找到攻略法！！
+
+◆按自己的节奏悠闲享受◆
+这款游戏只属于你和猫咪！！
+没有来路不明的好友！！
+按你自己的节奏，和猫咪一起推进侵略吧！！
+
+◆恶心、可爱、又美丽◆
+超乎你想象的猫咪们登场！！
+见证猫咪们出乎意料的进化吧！！
+还能窥探猫咪世界的
+猫咪图鉴也务必查看！！
+
+◆便利功能陆续追加！◆
+保存已通关关卡的编队
+统率力恢复道具“领导力”
+僵尸来袭通知功能
+游击关卡通知功能
+以前玩过的人也欢迎！！！
+业界首创！？可从日本篇3章通关状态开始的
+“重新开始包”已在游戏开始时导入！
+
+*《猫咪大战争》可免费游玩到最后，但部分内容为付费内容。
+Presented by PONOS",\N,\N,\N,\N,\N,\N,\N,0,\N
+547145938,like_of,塔防+策略,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=fcc49bc7e616,jp,fcc49bc7e616,1,2026-10-24
+547145938,name_cn,猫咪大战争,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=fcc49bc7e616,jp,fcc49bc7e616,1,2026-10-24
+547145938,play_desc,点击猫咪出兵推进，用猫炮逆转，攻破敌方城堡过关,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=fcc49bc7e616,jp,fcc49bc7e616,1,2026-10-24
+553834731,descr_cn,"风靡全球无数玩家的传奇益智游戏——Candy Crush Saga，今天就來開始玩吧。
+
+这款充满海量关卡的甜蜜三消益智游戏，可是世界上最受欢迎的移动游戏之一哦！
+
+交换并匹配糖果，在甜蜜的益智冒险中尽情享受成功的喜悦吧！发挥你的敏捷反应，巧妙制造匹配，尽情享受甜蜜彩虹糖果的连续匹配与连击！
+
+匹配3个以上的糖果，巧妙使用道具，攻克重重难关吧！击碎巧克力，在海量关卡中收集甜蜜糖果。保证让你欲罢不能！
+
+Candy Crush Saga 特色：
+
+ 停不下来的无限乐趣
+挑战糖果王国中的海量关卡。每两周新增全新关卡，为你带来停不下来的快乐！
+
+ 多种获取奖励的方式
+每天转动每日道具转盘领取甜蜜奖励，参与限时挑战，赢取助你推进关卡的道具！
+
+ 甜蜜满满的挑战
+达成分数、清除果冻、收集食材、订单模式等，趣味十足的甜蜜游戏模式应有尽有。
+
+ 独自一人或与好友同乐
+登上排行榜活动的顶峰，与好友或对手展开分数对决！
+
+无论何时何地，离线或在线都能畅玩适合所有人、难度多样的关卡。
+连接网络或WiFi即可轻松同步设备",\N,\N,\N,\N,\N,\N,\N,0,\N
+553834731,like_of,三消解谜,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=958c41ca954e,kr,958c41ca954e,1,2026-10-27
+553834731,name_cn,糖果传奇,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=958c41ca954e,kr,958c41ca954e,1,2026-10-27
+553834731,play_desc,交换相邻糖果凑三连消除，完成收集、清障等关卡目标,direct,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=958c41ca954e,kr,958c41ca954e,1,2026-10-27
+553834731,subgenre,puzzle.match3,direct,llm,agent-manual,2,delicious match-3 puzzles|Classic Match-3 Gameplay,us,d7f527ba3a46,0,2026-10-27
+553834731,theme,abstract,inferred,llm,agent-manual,2,糖果世界，无角色叙事与连贯设定,us,d7f527ba3a46,0,2026-10-27
+638689075,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Hay Day like（农场经营）,us,a130f4c5f96a,0,\N
+638689075,play_desc,种地建厂把小镇越建越大，卡住时打一局三消,direct,llm,agent-manual,1,직접 시장이 되어 나만의 도시를 건설하고 농장을 운영하는|매치3 퍼즐로 휴식을 취하고,kr,cd9fb3cb0d0d,0,2026-11-03T11:02:23
+638689075,subgenre,simulation.management,direct,llm,agent-manual,2,도시를 건설하고 농장을 운영하는 흥미진진한 시뮬레이션 게임,kr,cd9fb3cb0d0d,0,2026-11-03T11:02:23
+638689075,theme,modern,inferred,llm,agent-manual,2,现代小镇：집、공장、공공건물、농작물,kr,cd9fb3cb0d0d,0,2026-11-03T11:02:23
+6444274471,descr_cn,"하루가 다르게 황폐해지는 세상, 생존의 열쇠는 전략입니다!
+
+나만의 쉘터를 짓고, 가디언들과 힘을 합쳐 황무지의 경쟁자들을 제치고 살아남으세요.
+
+▶ 뉴포리아에서 나만의 쉘터를 건설하세요
+정체불명의 재앙으로 대륙이 무너지고, 생존자들은 피난처를 찾아 나섰습니다.
+놀라움이 가득한 신비로운 황무지에 나만의 쉘터를 세우고 자유롭게 꾸며보세요.
+자원을 관리하고 시설을 업그레이드해 쉘터를 이상적인 생존 기지로 발전시키고, 무너진 세상의 비밀을 밝혀내세요.
+뉴포리아는 풍부한 스토리와 탐험, 성장의 재미에 독특한 매력을 더한 전략 게임입니다.
+
+▶ 개성 넘치는 가디언들을 만나보세요
+한때 평범한 사람이었던 이들은 이제 엉뚱하고 사랑스러운 모습의 가디언으로 변했습니다.
+각 가디언은 특별한 능력과 자신만의 이야기를 지니고 있습니다.
+가디언들을 영입해 쉘터를 지키고, 뉴포리아 곳곳을 함께 모험하세요.
+
+▶ 무너진 세계를 탐험하세요
+기묘한 생명체와 숨겨진 이야기가 기다리는 폐허를 누비세요.
+수수께끼를 풀고 유물을 수집하며 퀘스트를 완수해 더욱 강해지세요.
+어둠의 군주에 얽힌 진실을 밝혀내고, 당신만의 방식으로 여정을 만들",\N,\N,\N,\N,\N,\N,\N,0,\N
+6444274471,like_of,生存建造+策略对战,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=371cc0593d6e,kr,371cc0593d6e,1,2026-11-04
+6444274471,name_cn,新福里亚：生存,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=371cc0593d6e,kr,371cc0593d6e,1,2026-11-04
+6444274471,play_desc,建避难所、招募守护者、管理资源升级设施，探索废土并实时PvP争夺生存,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=371cc0593d6e,kr,371cc0593d6e,1,2026-11-04
+6444520814,descr_cn,"《怪物猎人Outlanders》是获得CAPCOM正式授权、由TiMi Studio Group开发的《怪物猎人》系列最新作。在继承系列标志性武器种类与狩猎体验的同时，全新的世界观、冒险者、随从猫，以及本作原创的新怪物将悉数登场。
+
+【在手机上亲身体验！全新狩猎与探索的极致！】
+
+①本作原创古龙“ルガ・エアルダ”与新生生态“融光种”登场！
+全身笼罩着耀眼光辉的古龙“ルガ・エアルダ”来袭。它的身姿，简直就像天空中闪耀的太阳！
+此外，受环境影响而发生变异的“融光种”怪物们，将带来全新的冒险与挑战！
+
+②系列代表性武器种类云集×原创冒险者带来的全新派生动作！
+大剑、太刀、双剑、大锤、长枪、充能斧、重弩、弓——系列代表性的8种武器种类登场。后续更新中武器种类将陆续追加！各武器种类与个性丰富的冒险者相结合，在继承狩猎精髓的同时，施展出全新动作！
+
+③随时随地，用手机与伙伴一同狩猎！
+既可以独自探索广阔的世界，也可以召集伙伴组成4人小队。无论何时、无论身在何处，只要与伙伴在一起，就能迎战任何强大的怪物！
+
+④与随从一起，迈向狩猎、探索与制作！
+“随从艾露猫”“随从鲁塔孔”“随从梅德利”——3只个性丰富的随从将与冒险者一同挑战狩猎。通过丰富多彩的活动与事件，冒险的乐趣将进一步扩展",\N,\N,\N,\N,\N,\N,\N,0,\N
+6444520814,like_of,共斗狩猎动作,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=b7a892ae477c,jp,b7a892ae477c,1,2026-10-28
+6444520814,name_cn,怪物猎人：旅人,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=b7a892ae477c,jp,b7a892ae477c,1,2026-10-28
+6444520814,play_desc,选武器与伙伴组队狩猎怪物，探索世界并收集素材打造装备,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=b7a892ae477c,jp,b7a892ae477c,1,2026-10-28
+6444717468,like_of,开箱养成+放置战斗,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=f533f9dee789,cn,f533f9dee789,1,2026-10-26
+6444717468,play_desc,点击开宝箱收集装备，在角斗场战斗成为王者,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=f533f9dee789,cn,f533f9dee789,1,2026-10-26
+6445879695,like_of,麻将+卡牌,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=8fcc0350c2ee,cn,8fcc0350c2ee,1,2026-11-03
+6445879695,play_desc,在线匹配或约好友打广西各地麻将，点击拖动出牌，赢牌升场次,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=8fcc0350c2ee,cn,8fcc0350c2ee,1,2026-11-03
+6445906110,descr_cn,"真实狩猎解禁！
+
+- 现实世界中突然出现的怪物们！
+探索现实世界收集素材，迎战从《怪物猎人》世界中突然现身的「リオレウス」（火龙）和「ディアブロス」（角龙）等强大怪物！
+
+- 浓缩的怪物猎人体验！
+单手即可操作的简单玩法，同时保留了怪物猎人特有的动作性与与怪物之间紧张刺激的博弈！面对以充满临场感的画面描绘的强大怪物们，展现你磨练出的狩猎技巧吧！
+
+- AR相机功能！
+用AR相机，将怪物真实地拍摄下来吧！
+
+- 75秒内狩猎大型怪物！
+《怪物猎人Now》中大型怪物的狩猎时间为75秒！猎人需要在有限的时间内做出准确判断。熟练的猎人还能破坏部位。现在，尽情狩猎吧！
+
+- 生产、强化装备吧！
+将身边散布的采集点获得的矿石、骨头、植物等采集素材，与狩猎怪物获得的怪物素材组合起来，就能生产并强化新装备。组合不同装备的属性与技能，去挑战更强大的怪物吧。通过我的套装功能还能轻松切换装备。
+
+- 与周围的猎人们组队狩猎！
+独自一人难以对付的怪物，和伙伴一起就能迎战！《怪物猎人Now》中可与附近的猎人最多4人进行多人游玩。既可与在场的人一起，当然也可以和朋友组队去狩猎。大家齐心协力，来一场狩猎吧！
+
+- 帮助你的，「",\N,\N,\N,\N,\N,\N,\N,0,\N
+6445906110,like_of,位置探索+动作狩猎,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=affc2f90ad87,jp,affc2f90ad87,1,2026-10-28
+6445906110,name_cn,怪物猎人Now,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=affc2f90ad87,jp,affc2f90ad87,1,2026-10-28
+6445906110,play_desc,在现实地图上探索采集素材，限时75秒单手狩猎大型怪物，制作装备并组队讨伐,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=affc2f90ad87,jp,affc2f90ad87,1,2026-10-28
+6446265751,descr_cn,"被僵尸覆盖的世界！需要拯救世界的英雄！
+拥有强大力量的你！成为拯救世界的英雄吧！
+
+游戏特色
+- 用3种武器享受的时尚动作
+：自由使用剑术、射击、魔法狩猎怪物的爽快动作
+- 任何人都能轻松享受的无限放置动作
+：没有复杂的操作，轻松有趣地培养自己的角色
+- 赏心悦目的各种服装和装备套装
+：用服装和套装装备进行更强大、更华丽的游戏
+- 离线成长
+：即使关闭游戏也能获得资源并刷取物品的放置系统
+
+
+[官方社区]
+游戏休息室：https://m.site.naver.com/1cJxf
+
+※ 最低配置：RAM 4GB
+
+客服邮箱：cs_help@onbuff.com",\N,\N,\N,\N,\N,\N,\N,0,\N
+6446265751,like_of,放置动作RPG,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=8f935139908f,kr,8f935139908f,1,2026-11-02
+6446265751,name_cn,暗黑杀手X枪鸟2,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=8f935139908f,kr,8f935139908f,1,2026-11-02
+6446265751,play_desc,用剑术、射击与魔法自动战斗刷怪，离线也能挂机攒资源养角色,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=8f935139908f,kr,8f935139908f,1,2026-11-02
+6448104157,play_desc,20 多个离线小游戏合集，2048、扫雷、猜字都有,direct,llm,agent-manual,1,20개 이상의 독특한 미니게임으로 가득 찬|2048과 2248과 같은 숫자 게임|지뢰찾기,kr,4342d024c78e,0,2026-11-03T11:02:23
+6448104157,subgenre,other.unknown_genre,direct,llm,agent-manual,2,20개 이상의 독특한 미니게임,kr,4342d024c78e,0,2026-11-03T11:02:23
+6448104157,theme,abstract,inferred,llm,agent-manual,2,小游戏合集，各玩法独立，无统一设定,kr,4342d024c78e,0,2026-11-03T11:02:23
+6448746491,descr_cn,"问卷调查、问答节目、视频参与功能一应俱全！
+为广播·活动的在线观众打造的双向沟通平台，땡기지+（Thankage+）
+
+◇ 用땡기지+就能实现。1. 可与无线台、企业内部广播、YouTube、网络直播联动进行活动直播
+2. 同时最多可接入10万人
+3. 利用땡기지톡进行视频参与及观看
+4. 提供用户社区服务
+
+◇ 100%玩转땡기지+的方法
+1. 来参与实时直播吧
+-来参与利用땡기지플러스的实时直播·活动吧
+-成为在线观众，随时随地通过手机享受生动的直播吧
+-也来参与直播·活动准备的问卷调查，参与问答和活动吧 -还有面向参与人员的抽奖活动，抓住中奖机会吧
+2. 来用用땡기지톡吧
+-比聊天更生动！在直播·活动现场展示自己并直接沟通吧
+-与直播·活动一同出演，更近距离感受现场的热烈气氛吧
+3. 打造属于你自己的问答秀、属于你自己的内容吧
+-创建属于你自己的问答活动，向接入的人出题吧
+-用选择题、主观题、OX问答等多种问答类型打造属于你自己的问答秀吧
+
+◇ 땡기지+，正在这样被使用
+-EBS奖学金问答、EBS直播放学后Dundun、KBS Quiz on Korea等电视节目中用于实时观众参与 -教育机构及",\N,\N,\N,\N,\N,\N,\N,0,\N
+6448746491,like_of,互动直播答题,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=91cbce321965,kr,91cbce321965,1,2026-10-24
+6448746491,name_cn,Thankage+ 互动问答直播平台,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=91cbce321965,kr,91cbce321965,1,2026-10-24
+6448746491,play_desc,观看直播时参与问卷、答题和视频连线互动，赢取奖品,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=91cbce321965,kr,91cbce321965,1,2026-10-24
+6448847085,like_of,音乐节奏,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=8951e484e046,cn,8951e484e046,1,2026-10-24
+6448847085,play_desc,跟着节奏点击下落的黑键，别踩白块，挑战手速与反应极限。,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=8951e484e046,cn,8951e484e046,1,2026-10-24
+6449094229,like_of,,\N,\N,\N,\N,\N,us,281baab5e47e,0,\N
+6449094229,play_desc,从 3D 场景里凑出三个相同物品，槽位满了就输,direct,llm,agent-manual,1,"Connect identical items, sort tiles, and clear the board|keep sorting and matching objects until every item is cleared",us,281baab5e47e,0,2026-11-03T11:02:23
+6449094229,subgenre,puzzle.match3,inferred,llm,agent-manual,2,match 3D（凑三件消除）属三消家族的空间版，不是分拣或方块放置；故记 match3,us,281baab5e47e,0,2026-11-03T11:02:23
+6449094229,theme,abstract,inferred,llm,agent-manual,2,物品堆与工厂，无角色无叙事,us,281baab5e47e,0,2026-11-03T11:02:23
+6449651527,like_of,组队匹配工具,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=2b8a553e1309,kr,2b8a553e1309,1,2026-11-06
+6449651527,name_cn,突袭广场,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=2b8a553e1309,kr,2b8a553e1309,1,2026-11-06
+6449651527,play_desc,选头目并提交训练家码，由房主加好友后邀请你进远程团体战,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=2b8a553e1309,kr,2b8a553e1309,1,2026-11-06
+6450537255,descr_cn,"Aimy（アイミー）是一款可以享受虚拟形象捏脸＆换装以及AI聊天的应用游戏。
+
+从发型、五官、妆容到性格、说话方式都能细致自定义，打造只属于你自己的虚拟形象捏脸・角色创建，而捏脸・角色创建好的虚拟形象，还可以自由换装（きせかえ）。
+换装（きせかえ）道具全部由专业插画师设计・全新绘制。
+
+通过AI聊天，你可以与用捏脸和换装（きせかえ）打造出的只属于你自己的虚拟形象交谈。AI聊天支持全语音，可以设置喜欢的声音来朗读AI聊天的内容。此外，不只是AI聊天，还可以进行通话。
+
+在享受每日换装（きせかえ）和捏脸・角色创建的同时，通过AI聊天创造回忆，这是一款能让你与仿佛“只属于你的VTuber”般的存在共度时光的应用。
+
+《Aimy的特征》
+■ 100亿种以上的捏脸・角色创建
+眼睛、鼻子、嘴巴、妆容、发型等，自由组合各个部件，捏出你喜欢的外形。
+
+■ 决定性格和声音后进行AI聊天
+设置喜欢的性格、语气、声音，通过AI聊天，体验仿佛与只属于你的Aimy同居一般的感觉。根据设置不同，还可以变更为爱撒娇、傲娇、大姐姐等各种性格。
+
+■ 便服・制服・Cosplay等自由换装（きせかえ）
+每天都能享受不同的风格！可爱・帅气・个性的换装（きせかえ）道具应有尽有。
+
+■ 虚拟形象",\N,\N,\N,\N,\N,\N,\N,0,\N
+6450537255,like_of,捏脸换装+AI聊天,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ae6700c7d491,jp,ae6700c7d491,1,2026-11-01
+6450537255,name_cn,Aimy,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ae6700c7d491,jp,ae6700c7d491,1,2026-11-01
+6450537255,play_desc,捏脸换装打造专属虚拟形象，与AI角色聊天通话培养感情,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ae6700c7d491,jp,ae6700c7d491,1,2026-11-01
+6450693428,like_of,开放世界动作RPG,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=e44f3237dbf8,cn,e44f3237dbf8,1,2026-11-01
+6450693428,play_desc,在开放世界高速跑酷探索，用闪避与协战打出流畅动作战斗，找回记忆。,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=e44f3237dbf8,cn,e44f3237dbf8,1,2026-11-01
+6450834358,like_of,生活模拟+经营,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=e509c3fe45a2,us,e509c3fe45a2,1,2026-10-31
+6450834358,name_cn,周日城市：生活模拟器,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=e509c3fe45a2,us,e509c3fe45a2,1,2026-10-31
+6450834358,play_desc,从快递员做起，打工赚钱、开店铺、赛车交友，逐步成为富豪。,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=e509c3fe45a2,us,e509c3fe45a2,1,2026-10-31
+6453700466,descr_cn,"传统的大鱼吃小鱼以全新面貌回归了！
+体验传统玩法，享受全新游戏体验，加入这场海洋冒险吧！
+在广阔的大海中，你只是一条微不足道的小鱼苗。为了生存，你必须不断进食。不断变大，解锁惊人能力，吞食各种海洋生物，最终成为这片海域的顶级掠食者！
+每片水域都隐藏着独特的海洋生物资源。每种鱼类都有专属技能，为你带来前所未有的游戏体验。从凶猛鲨鱼到活泼海豚，从悠闲海龟到美丽海马，还有警惕性极强的章鱼……目前游戏中有100余种生物可供选择，神秘的大涌洞中隐藏着等待被发现的古代生物！
+每片水域都设有专属“大秘宝”，赋予鱼类特殊能力。此外，游戏还提供图鉴功能，让你收集并查看每种鱼的生活习性，深入了解海洋世界的神秘之处。
+加入这场刺激的海洋生存挑战，成为海洋的最终统治者吧！
+========请关注我们========
+加入Facebook粉丝群，获取最新消息和限时活动专属礼物！
+
+※官方粉丝群：https://www.facebook.com/profi",inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=1b82bd02bb4c,kr,1b82bd02bb4c,1,2026-11-07
+6453700466,like_of,吞噬进化+生存,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=1b82bd02bb4c,kr,1b82bd02bb4c,1,2026-11-07
+6453700466,name_cn,吞噬进化大作战,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=1b82bd02bb4c,kr,1b82bd02bb4c,1,2026-11-07
+6453700466,play_desc,操控小鱼不断吞食成长，解锁技能，成为海域顶级掠食者,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=1b82bd02bb4c,kr,1b82bd02bb4c,1,2026-11-07
+6459058008,like_of,三消解谜,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=be41623b2289,cn,be41623b2289,1,2026-10-31
+6459058008,name_cn,方块爆破,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=be41623b2289,cn,be41623b2289,1,2026-10-31
+6459058008,play_desc,点击匹配三个同色方块，在限时内完成每关目标,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=be41623b2289,cn,be41623b2289,1,2026-10-31
+6468988672,like_of,5v5 MOBA 竞技,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=ee26736cbedd,cn,ee26736cbedd,1,2026-10-24
+6468988672,play_desc,5v5三路推塔，选英雄与队友配合，摧毁敌方水晶取胜,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=ee26736cbedd,cn,ee26736cbedd,1,2026-10-24
+6471045672,like_of,,\N,\N,\N,\N,\N,us,efd492009459,0,\N
+6471045672,play_desc,把食材两两合成新菜，一路解锁各地菜系,direct,llm,agent-manual,1,재료들을 합쳐보세요|가정용 주방 재료를 드래그하고 합성하여,kr,5e7102debd63,0,2026-11-03T11:02:23
+6471045672,subgenre,simulation.merge,direct,llm,agent-manual,2,재료 합성|500가지 이상의 독특한 재료를 합성하세요,kr,5e7102debd63,0,2026-11-03T11:02:23
+6471045672,theme,modern,inferred,llm,agent-manual,2,전 세계를 여행、도시 시장、정원 공원——现代世界美食旅行,kr,5e7102debd63,0,2026-11-03T11:02:23
+6473058122,like_of,你画我猜+派对聚会,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=c9b7e6551b02,us,c9b7e6551b02,1,2026-10-25
+6473058122,name_cn,猜词派对,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=c9b7e6551b02,us,c9b7e6551b02,1,2026-10-25
+6473058122,play_desc,一人背对屏幕猜词，朋友用动作或描述提示，倾斜手机计分,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=c9b7e6551b02,us,c9b7e6551b02,1,2026-10-25
+6473152241,descr_cn,"如果在限定时间内把超市里的东西全部买到手，那会是什么感觉？那个如梦般的瞬间，现在就在这里实现了！
+
+《Goods Master 3D: 分拣大师 收纳游戏》能让你在3D体验中分拣蔬菜、水果、饮料、零食、玩具等丰富多样的物品。
+
+欢迎来到《Goods Master 3D: 分拣大师 收纳游戏》！这款三消分拣游戏会让你深深着迷，乐趣无穷，玩上几个小时都停不下来！来吧，现在就挑战一下，尽情享受吧！
+
+玩法：
+1. 将相同的商品三个排在一起，放到货架上，即可过关。
+2. 清掉眼前的商品后，后面的商品就会显示出来。
+3. 持续进行，直到清掉所有商品、把货架清空为止。
+注意：在限定时间内完成游戏，把所有商品按类别整理好，就能赢得这场3D消除游戏。
+
+游戏特色：
+免费游玩：完全免费，无限制自由畅玩。
+无需Wi-Fi：没有网络限制，随时随地都能玩。
+游戏场景：逼真的商品表现，让你仿佛在享受真实的购物体验。
+脑力训练：玩法简单，难度却很高。
+幸运抽奖：有机会获得道具和大量金币！
+
+《Goods Master 3D: 分拣大师 收纳游戏》提供从简单到复杂的各种难度，刺激你的大脑和反应能力。来考验一下自己的游戏技巧和智慧吧",inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=1cf7a2719df9,jp,1cf7a2719df9,1,2026-11-06
+6473152241,like_of,三消+收纳,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=1cf7a2719df9,jp,1cf7a2719df9,1,2026-11-06
+6473152241,name_cn,三消收纳大师 3D,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=1cf7a2719df9,jp,1cf7a2719df9,1,2026-11-06
+6473152241,play_desc,限时把货架上的商品三个一组配对消除，清空全部货架过关,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=1cf7a2719df9,jp,1cf7a2719df9,1,2026-11-06
+6474293468,like_of,射击Roguelike,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=6bcd833b641c,cn,6bcd833b641c,1,2026-10-28
+6474293468,play_desc,扮演先锋官守防线，随机搭配技能与枪械，割草清剿尸潮,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=6bcd833b641c,cn,6bcd833b641c,1,2026-10-28
+6476597728,descr_cn,"【踏入吧，置身扑克的正中央。与AI一同变强，众人汇聚的扑克世界】
+DeNA与引领日本扑克热潮的职业扑克玩家「世界のヨコサワ」所率领的POKER ROOM公司强强联手，为您提供在感受扑克（德州扑克）正宗氛围的同时沉浸其中的体验。
+
+＼10月30日(周五) 新功能登场！／
+与全国玩家争夺顶点的超大型锦标赛【CHAMPIONSHIP】＆与好友轻松对战的【FRIEND GAME】全新登场！
+用备受瞩目的新功能体验扑克带来的更多狂热吧！
+
+从新手到高手，AI全程助力提升的扑克应用！
+即使不懂扑克规则，【AI向导】也会辅助您进行游戏！实时提示最优操作！
+需要临时离开时，可与学习了您打法的【伙伴AI】交接！让您安心继续游戏！
+对局结束后查看【AI复盘】！确认过往对局的AI评价及对手手牌公开情况，以更进一步为目标吧！
+此外还可获取【丰富的收藏道具】，自定义专属于您的个人资料卡！
+与AI一起，开启全新的扑克生活吧！
+
+
+
+1. 追求临场感与舒适体验的正宗扑克体验！
+-根据玩法选择的多样对战模式
+・CHAMPIONSHIP（锦标赛）：全国玩家集结、争夺顶点的超大型锦标赛！
+・排位赛：玩家之间比拼扑克实力、以更高段位为目标的真正",\N,\N,\N,\N,\N,\N,\N,0,\N
+6476597728,like_of,德州扑克+AI辅助,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=b6dec129af83,jp,b6dec129af83,1,2026-10-30
+6476597728,name_cn,边缘扑克,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=b6dec129af83,jp,b6dec129af83,1,2026-10-30
+6476597728,play_desc,与全国玩家进行德州扑克对战，AI实时提示最优操作并复盘牌局，提升牌技冲击高段位。,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=b6dec129af83,jp,b6dec129af83,1,2026-10-30
+6478063606,descr_cn,"Color Block 是一款只需放置方块、消除行列的简单方块益智游戏。
+从通勤路上的小小消遣，到静下心来动脑的脑力训练，这是一款能根据当天心情自由游玩的免费益智游戏。
+
+■ 规则简单，深度十足
+在 8×8 的网格上，将出现的方块拖放放置。
+纵向或横向的 1 列全部填满后，该列就会消除并计分。
+要记住的只有这些。即使不读教程，从第一分钟起就能玩。
+
+不过，方块不能旋转。正因如此，「放在哪里」的每一步才更见功力。一边观察空格的形状，一边为下一个方块预留放置位置。
+这种博弈感，将一款普通的益智游戏变成了轻松的脑力训练。
+
+■ 连击衔接的瞬间令人舒畅
+在 3 步以内连续消除行列，连击就会延续，分数加速增长。
+将经典的“方块爆破”体验以现代风格升级，方块消除瞬间的色彩与动画也打磨得令人舒畅。
+精心策划的连锁成功触发时的爽快感，正是这款方块益智游戏最大的魅力。
+
+■ 1 分钟也好，1 小时也好
+没有时间限制。既适合等电梯时几十秒的消遣，也适合睡前慢慢思考的时光。
+想停的时候就能停下，因此能与碎片时间完美契合。
+
+■ 不让它止步于「坚持不下去」
+经常听到有人说脑力训练很难坚持。
+Color Block 是一款比拼分数的游戏，所以即便没有那个打算，也能自然而然地持续下去。
+因为同时运用空间认知与预判能力，1 天 5",\N,\N,\N,\N,\N,\N,\N,0,\N
+6478063606,like_of,方块消除益智,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=20d353d79afe,jp,20d353d79afe,1,2026-10-25
+6478063606,name_cn,彩色方块 连击爆破,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=20d353d79afe,jp,20d353d79afe,1,2026-10-25
+6478063606,play_desc,在8×8网格拖放方块填满整行整列消除得分，3步内连续消除触发连击,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=20d353d79afe,jp,20d353d79afe,1,2026-10-25
+6478492012,like_of,生存策略+放置,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=200cc350a14a,cn,200cc350a14a,1,2026-10-26
+6478492012,play_desc,当镇长分配幸存者采集资源、升级熔炉、招募英雄并结盟争夺冰原物资,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=200cc350a14a,cn,200cc350a14a,1,2026-10-26
+6478654994,like_of,精灵收集+开放世界,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=a5a00427776a,cn,a5a00427776a,1,2026-10-24
+6478654994,play_desc,在开放世界捕捉400多种精灵，组队探索并对战养成,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=a5a00427776a,cn,a5a00427776a,1,2026-10-24
+6479696944,art,3d_realistic,direct,llm,agent-manual,2,场景均为高清的3D建模，主机级逼真画质,cn,ade9c03d338d,0,2026-11-03T10:56:42
+6479696944,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Fishing Clash like（休闲钓鱼）,cn,ade9c03d338d,0,\N
+6479696944,play_desc,抛竿后按张力收线、QTE 摆杆，把鱼拉上岸,direct,llm,agent-manual,1,刺鱼、收线张力控制、QTE摆杆,cn,ade9c03d338d,0,2026-11-03T10:56:42
+6479696944,subgenre,sports.arcade,inferred,llm,agent-manual,2,刺鱼、收线张力控制、QTE摆杆、暴气——过程被抽象成张力条博弈与爆发按钮，未出现鱼种习性、水层、季节、装备物理这类真实钓鱼规则；画面写实但机制是街机化处理，故判 arcade 不判 realistic,cn,ade9c03d338d,0,2026-11-03T10:56:42
+6479696944,theme,modern,inferred,llm,agent-manual,2,西沙群岛的热带风情、坎贝尔河的森林秘境、亚马逊河的热带雨林、白令海渔场——真实地理,cn,ade9c03d338d,0,2026-11-03T10:56:42
+6480134807,like_of,回合制RPG+解谜,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=11d9653c4b21,us,11d9653c4b21,1,2026-11-07
+6480134807,name_cn,温蒂冒险：四角石传说,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=11d9653c4b21,us,11d9653c4b21,1,2026-11-07
+6480134807,play_desc,在五个美食区域探索，回合制战斗击败无味敌人，解谜并收集可兑换真实食物的奖励,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=11d9653c4b21,us,11d9653c4b21,1,2026-11-07
+6482849843,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Candy Crush like（三消+分类）,us,3ff083f8fe25,0,\N
+6482849843,play_desc,交换三个相同货物消掉，边清盘边做分类,direct,llm,agent-manual,1,Swap and match 3 or more identical goods to clear them from the board,us,3ff083f8fe25,0,2026-11-03T11:02:23
+6482849843,subgenre,puzzle.match3,direct,llm,agent-manual,2,unique twist on the classic match 3 genre|match 3 or more identical goods,us,3ff083f8fe25,0,2026-11-03T11:02:23
+6482849843,theme,abstract,inferred,llm,agent-manual,2,货物图标与棋盘，无角色无叙事,us,3ff083f8fe25,0,2026-11-03T11:02:23
+6498883328,like_of,三消+连连看,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=0eea5239acb1,us,0eea5239acb1,1,2026-11-03
+6498883328,name_cn,瓷砖探险家,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=0eea5239acb1,us,0eea5239acb1,1,2026-11-03
+6498883328,play_desc,从牌堆选牌凑三张相同消除，清空盘面过关,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=0eea5239acb1,us,0eea5239acb1,1,2026-11-03
+6499209744,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Water Sort Puzzle like,us,ca2a7a385aaa,1,\N
+6499209744,play_desc,把水从一个瓶子倒进另一个，直到每瓶只剩一种颜色,direct,llm,agent-manual,1,병을 탭하여 선택하고 다른 병에 물을 따르세요|병마다 한 가지 색상만 있도록 물을 정리하세요,kr,8d54aa86153d,0,2026-11-03T11:02:23
+6499209744,subgenre,puzzle.sort,direct,llm,agent-manual,2,병마다 한 가지 색상만 있도록 물을 정리하세요,kr,8d54aa86153d,0,2026-11-03T11:02:23
+6499209744,theme,fantasy,inferred,llm,agent-manual,2,마법의 정렬、마법사 장비、마법 도구——用魔法包装的倒水，但魔法只在文案层，无剧情,kr,8d54aa86153d,0,2026-11-03T11:02:23
+6499426853,like_of,开放世界动作RPG,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=c4506a65aabc,cn,c4506a65aabc,1,2026-10-24
+6499426853,play_desc,作为元流之子探索王者大陆，结识英雄组队进行多人战斗,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=c4506a65aabc,cn,c4506a65aabc,1,2026-10-24
+6499562253,descr_cn,"■ 收集与交配龙的无尽乐趣
+超乎想象的“交配”系统：组合龙，发现只有通过你的选择才会诞生的神秘稀有龙。
+可爱爆棚！像素龙收集：收集众多以复古感性精心打造的龙，体验完成专属图鉴的乐趣。
+无限扩展的阵容：通过定期更新追加的数千种龙，激发你的收集欲。
+
+■ 装饰属于我的龙之村
+生机勃勃的村庄：建造建筑、布置栖息地，建设让龙们尽情奔跑玩耍的美丽村庄。
+温暖的互动与治愈：给龙喂食、抚摸它们并进行交流。光是看着龙们聚在篝火前的日常，就已经很治愈了。
+
+■ 策略十足的实时PvP竞技场
+超越单纯收集的智谋对决：通过龙的属性相性、技能组合与布阵，与全世界的驯龙师实时一决高下。
+你的策略在此得到证明：登上竞技场之巅，赢得最强驯龙师的荣誉。
+
+■ 共同挑战的强大Boss raid
+与公会成员一起的协同战斗：挑战巨大Boss“Dragon Slayer”，获取压倒性的奖励与战利品。
+你能体验到比起独自一人，与同伴一起时更强大的成长。
+
+■ 沉浸感十足的冒险与故事
+庞大世界观的探索：与高品质插画一同展开的趣味十",inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=b5753c4e8ddf,kr,b5753c4e8ddf,1,2026-11-06
+6499562253,like_of,收集养成+经营对战,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=b5753c4e8ddf,kr,b5753c4e8ddf,1,2026-11-06
+6499562253,name_cn,龙之村庄3,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=b5753c4e8ddf,kr,b5753c4e8ddf,1,2026-11-06
+6499562253,play_desc,收集并交配龙，建造装饰龙之村庄，养成后组队实时PvP与公会Boss战,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=b5753c4e8ddf,kr,b5753c4e8ddf,1,2026-11-06
+6502749617,like_of,生存建造对抗,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=deb3af2ac0a5,cn,deb3af2ac0a5,1,2026-10-25
+6502749617,play_desc,徒手采集资源、锻造武器、搭建庇护所，在孤岛对抗饥饿野兽与对手求生,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=deb3af2ac0a5,cn,deb3af2ac0a5,1,2026-10-25
+6503697761,descr_cn,"隆重介绍 Playtest Pro。这是一个理想的平台，让你分享自己的意见，帮助每天使用的产品和服务变得更好。无论你是热爱反馈的人，还是想发出自己声音的人，Playtest Pro 都会为你提供一个包容且互动性强的环境，让你的意见真正受到重视。
+
+借助直观的界面，你可以轻松浏览来自不同行业的广泛话题。从科技、时尚到食品，Playtest Pro 始终为你准备着符合你兴趣的机会。我们相信，每个人独特的视角和经验都值得被倾听。
+
+加入 Playtest Pro，你将成为连接消费者与企业及组织的反馈闭环中重要的一员。你的意见会直接影响企业的决策，并有助于改进产品、服务以及整体客户体验。
+
+现在就加入 Playtest Pro，为塑造你每天接触的产品和服务的未来贡献力量吧。你宝贵的反馈将创造一个让每个人的声音都能被听见的世界。让我们一起带来改变，共同塑造明天的产品与服务。",\N,\N,\N,\N,\N,\N,\N,0,\N
+6503697761,like_of,问卷调研,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=c3816ed3df3c,jp,c3816ed3df3c,1,2026-11-03
+6503697761,name_cn,BestPlay 用户测试专业版,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=c3816ed3df3c,jp,c3816ed3df3c,1,2026-11-03
+6503697761,play_desc,浏览各行业话题并提交反馈意见，帮助改进产品与服务,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=c3816ed3df3c,jp,c3816ed3df3c,1,2026-11-03
+6504324535,like_of,模拟经营,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=d95cfaf2b06d,cn,d95cfaf2b06d,1,2026-10-29
+6504324535,play_desc,经营杂货店等怀旧店铺赚取收益，逐步扩张成为乡镇首富,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=d95cfaf2b06d,cn,d95cfaf2b06d,1,2026-10-29
+654897098,art,unclear,none,human,agent-manual,2,4 张商店截图均为运营活动界面（萌趣市集 / 闯关免单 / 星光大转盘），未出现核心三消棋盘，无法判断主视觉渲染形态,\N,\N,1,2026-11-05 12:37:11
+654897098,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Candy Crush like（三消）,cn,95919df44c04,0,\N
+654897098,play_desc,把三个相同小动物连成一行或一列消掉,direct,llm,agent-manual,1,将三个相同的小动物旗子连成一行或一列，即可完成一次消除,cn,95919df44c04,0,2026-11-03T11:02:23
+654897098,subgenre,puzzle.match3,direct,llm,agent-manual,2,将三个相同的小动物旗子连成一行或一列，即可完成一次消除,cn,95919df44c04,0,2026-11-03T11:02:23
+654897098,theme,animal,direct,llm,agent-manual,2,喵星星、黄豆豆、琦琦熊、果果兔,cn,95919df44c04,0,2026-11-03T11:02:23
+6560107504,like_of,现实定位捉迷藏,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=5e7f53aab0c4,us,5e7f53aab0c4,1,2026-10-24
+6560107504,name_cn,追逃游戏：捉迷藏,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=5e7f53aab0c4,us,5e7f53aab0c4,1,2026-10-24
+6560107504,play_desc,设定区域与规则，用地图定位和海拔数据追踪玩家，组织线下捉迷藏与追逃游戏,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=5e7f53aab0c4,us,5e7f53aab0c4,1,2026-10-24
+6618142292,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Travel Town like（合成+烹饪）,jp,e810d2aeefab,0,\N
+6618142292,play_desc,合成食材解锁菜谱，把餐厅越开越大,direct,llm,agent-manual,1,"식재료를 합성하고, 새로운 레시피를 해제하여",kr,8a56b58cf983,0,2026-11-03T11:02:23
+6618142292,subgenre,simulation.merge,direct,llm,agent-manual,2,식재료를 합성하고|기본 식재료로 조리해,kr,8a56b58cf983,0,2026-11-03T11:02:23
+6618142292,theme,modern,inferred,llm,agent-manual,2,레스토랑、셰프、에피타이저부터 디저트까지——现代餐饮,kr,8a56b58cf983,0,2026-11-03T11:02:23
+6642698438,descr_cn,"欢迎来到《ウッドパズル：Screw ネジ外すゲーム - 人気 脳トレ》！
+通过简单操作即可轻松上手的《ウッドパズル：Screw ネジ外すゲーム》，是一款结合螺母与螺栓、一边动脑一边拧下螺丝的正宗解谜游戏。关卡越往后难度越高，挑战性十足！激活大脑，享受拧螺丝的刺激吧！通关关卡即可解锁新道具和螺丝谜题，更深入的游戏体验等着你！
+
+◤◢◤◢◤◢◤◢◤◢◤◢◤◢
+               游戏特色
+◤◢◤◢◤◢◤◢◤◢◤◢◤◢
+
+▼任何人都能享受的简单操作！螺丝·插销谜题！
+   操作简单，马上就能开始玩！
+
+▼动脑享受乐趣！
+   最适合脑力训练！拧下各种螺丝，连接螺母与螺栓，激活思维吧！
+
+▼基本游玩免费！
+   免费畅玩，轻松挑战！
+
+▼从新手到高手都能享受的螺丝谜题！
+   从简单关卡开始，难度逐步提升，让人越玩越上瘾！
+
+▼讲究策略地推进吧！
+   类似逻辑谜题？需要一边思考先拧下哪颗螺丝、按什么顺序推进，一边进行策略性思考！
+
+▼用道具顺利通关！
+   使用道具，难题也能轻松通关！高难度的螺丝谜题也来通关吧！
+
+□■丰富多样的关卡带来全新挑战！■□
+
+◆ 各种难度的关卡等着你！每次通关都有新的挑战在等你！
+◆ 不断升级，螺丝谜题也在进化",\N,\N,\N,\N,\N,\N,\N,0,\N
+6642698438,like_of,螺丝解谜+颜色配对,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=b13c65cc20ee,jp,b13c65cc20ee,1,2026-10-24
+6642698438,name_cn,木块拼图：螺丝拆卸游戏,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=b13c65cc20ee,jp,b13c65cc20ee,1,2026-10-24
+6642698438,play_desc,按顺序拧下螺丝，将同色螺丝配对填满盒子过关,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=b13c65cc20ee,jp,b13c65cc20ee,1,2026-10-24
+6670441558,like_of,末日生存经营,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=ab1467770c62,us,ab1467770c62,1,2026-11-01
+6670441558,name_cn,暗黑战争：生存,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=ab1467770c62,us,ab1467770c62,1,2026-11-01
+6670441558,play_desc,在末日废土中建造避难所、招募幸存者、采集资源并抵御僵尸，重建文明。,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=ab1467770c62,us,ab1467770c62,1,2026-11-01
+6670789598,like_of,脑洞解谜,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=70d0e143b3f2,kr,70d0e143b3f2,1,2026-10-25
+6670789598,name_cn,脑力谜题：烧脑奇旅,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=70d0e143b3f2,kr,70d0e143b3f2,1,2026-10-25
+6670789598,play_desc,跟随剧情选道具解谜过关，用反常识思路找解法,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=70d0e143b3f2,kr,70d0e143b3f2,1,2026-10-25
+6736896540,descr_cn,"看到大家不再来玩、变得荒废的购物小镇，Hello Kitty 和 Kuromi 感到十分伤心。
+这里已经不再是为大家打造的梦想空间了。
+但是，绝不能就这样放弃！和可爱的三丽鸥角色们一起合成拼图，打造特别的购物小镇吧。
+让购物小镇重新找回闪闪发光的梦想与笑容！和三丽鸥角色们在一起，就没有不可能的事
+
+《Hello Kitty My Dream Store》的特色：
+ 
+◎ 可爱与可爱相合成
+ - 合成拼图后，更可爱的三丽鸥拼图就会登场！
+ - 不断完成合成任务，享受更多三丽鸥角色和拼图吧！
+ 
+◎ 修复并扩展购物小镇
+ - 帮助 Hello Kitty 和 Kuromi 修复荒废的购物小镇，建造各种各样的商店吧！
+ - 描绘重拾梦想与希望购物小镇之旅的暖心故事！
+ 
+◎ 定制并经营只属于自己的商店
+ - 以三丽鸥人气角色为主题，定制并扩展只属于自己的可爱商店吧！
+ - 用500多种充满个性的装饰来定制商店，用主题和服装展现独一无二的风格吧！
+ 
+◎ 收集与培养的乐趣
+ - 收集30多种三丽鸥角色，把他们培养成最棒的店长和店员吧！
+ - 收集角色完成图鉴，还能获得特别奖励！
+
+【官方SNS账号】
+▶ Facebook",\N,\N,\N,\N,\N,\N,\N,0,\N
+6736896540,like_of,合成经营,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=cea2705d7dc2,jp,cea2705d7dc2,1,2026-10-24
+6736896540,name_cn,Hello Kitty 我的梦想商店,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=cea2705d7dc2,jp,cea2705d7dc2,1,2026-10-24
+6736896540,play_desc,合并三丽鸥拼图块，把废弃的购物城修回来,direct,llm,agent-manual,1,可愛いサンリオキャラクターズとパズルをマージして、特別なショッピングタウンを作りましょう|マージミッションをクリア,jp,cea2705d7dc2,0,2026-10-24
+6736896540,subgenre,simulation.merge,direct,llm,agent-manual,2,パズルをマージすると|マージミッションをクリアし続けて,jp,cea2705d7dc2,0,2026-10-24
+6736896540,theme,other,inferred,llm,agent-manual,2,ハローキティ、クロミ、サンリオキャラクターズ——多 IP 角色集合，非单一题材,jp,cea2705d7dc2,0,2026-10-24
+6737022506,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Screw Jam like（螺丝解谜）,jp,03fb5bcc7b34,0,\N
+6737022506,play_desc,拧下螺丝清空木板，颜色对上才能拔,direct,llm,agent-manual,1,모든 나사를 정교하게 나열하고 돌려 판자를 깨끗하게 정리하세요|색상이 매치되는 나사를 클릭하여 제거,kr,c8c05bfec6bc,0,2026-11-03T11:02:23
+6737022506,subgenre,puzzle.brain,inferred,llm,agent-manual,2,描述强调 지략 게임、두뇌를 풀가동、난이도 설계——顺序与结构拆解是主循环，颜色只是匹配门槛，故与另两条螺丝游戏一致记 brain,kr,c8c05bfec6bc,1,2026-11-03T11:02:23
+6737022506,theme,abstract,inferred,llm,agent-manual,2,螺丝与木板，无角色无叙事,kr,c8c05bfec6bc,0,2026-11-03T11:02:23
+6737850281,descr_cn,"大韩民国合成游戏第1名！欢迎来到Hello Town^^
+完全不用担心广告，也不用担心网络连接！
+通过合成帮助新员工智秀走向成功与成长！
+
+成功入职房地产企业的新员工智秀，怀揣着满满的梦想第一天上班，却对破旧老朽的建筑大失所望。智秀通过公司的任务，让新店铺入驻老旧建筑，帮助进行翻新与运营，将其打造成充满活力的商街。
+
+通过合成（merge）创造收益、进行翻新，完成最棒的商街建筑吧！帮助新员工智秀把公司打造成一流企业，最终登上下一任经营层的位置吧！
+
+在享受合成（merge）益智游戏的过程中，还能更出色地扩建建筑！
+
+游戏特色：
+
+通过合成（merge）、合并来完成客人们的订单吧！
+   - 合成面包、咖啡、水果！将相同物品合并，转换成更高等级的物品。
+   - 通过合成完成客人们各种各样的订单，获取奖励！
+
+修理破旧老朽的店铺吧！
+   - 用攒下的钱装饰店铺！
+   - 还可以养猫。
+   - 完成装饰任务并升级吧！
+
+开设新店铺吧！
+  - 装饰新店铺，迎接更多客人。
+  - 雇佣经理提升收益，扩建建筑吧！
+
+与全世界的人一起竞争",\N,\N,\N,\N,\N,\N,\N,0,\N
+6737850281,like_of,合成+模拟经营,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=e3bdf575fa09,kr,e3bdf575fa09,1,2026-11-06
+6737850281,name_cn,你好小镇：新员工合成成功记,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=e3bdf575fa09,kr,e3bdf575fa09,1,2026-11-06
+6737850281,play_desc,合并相同物品完成顾客订单赚取资金，装修并扩建店铺以打造顶级商场,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=e3bdf575fa09,kr,e3bdf575fa09,1,2026-11-06
+6737874398,like_of,,\N,\N,\N,\N,\N,jp,3a960389914a,0,\N
+6737874398,play_desc,合成化妆品与服装完成订单，边看恋爱剧情,direct,llm,agent-manual,1,"화장품, 주얼리, 의상, 액세서리 등 다양한 패션 아이템을 합쳐 고객의 주문을 완성하세요",kr,96cc1333ac3c,0,2026-11-03T11:02:23
+6737874398,subgenre,simulation.merge,direct,llm,agent-manual,2,아이템을 합치고|다양한 패션 아이템을 합쳐,kr,96cc1333ac3c,0,2026-11-03T11:02:23
+6737874398,theme,modern,direct,llm,agent-manual,2,패션 아이템|미스터리한 CEO|결혼을 제안,kr,96cc1333ac3c,0,2026-11-03T11:02:23
+6738109752,like_of,生存经营+探索,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=91e836eca122,us,91e836eca122,1,2026-11-02
+6738109752,name_cn,地块生存,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=91e836eca122,us,91e836eca122,1,2026-11-02
+6738109752,play_desc,探索荒野地块收集资源，建造升级庇护所并分配幸存者工作以维持生存,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=91e836eca122,us,91e836eca122,1,2026-11-02
+6738163891,like_of,吸血鬼题材 MMORPG,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=62cb4b508873,us,62cb4b508873,1,2026-10-27
+6738163891,name_cn,吸血鬼,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=62cb4b508873,us,62cb4b508873,1,2026-10-27
+6738163891,play_desc,扮演吸血鬼在战场厮杀，通过刷资源与制作交易不断变强并争夺势力,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=62cb4b508873,us,62cb4b508873,1,2026-10-27
+6738576262,descr_cn,"Detective Difference: Spot Fun - 随时随地锐利你的双眼，测试你的智力！尽情享受找不同的乐趣吧！发现隐藏差异的世界！
+
+从童年的怀旧到现代艺术，Detective Difference: Spot Fun 提供多种主题和风格，能与各种背景的玩家产生共鸣。每张图片都有独特的故事，每当你找到一处差异，你的观察力技巧就能再提升一步。
+
+成为名侦探，踏上发现隐藏差异的刺激之旅吧！**„Detective Difference: Spot Fun“** 是完美适合喜欢谜题、拥有找不同锐利双眼之人的“找不同”益智游戏。
+
+为什么会喜欢 Detective Difference: Spot Fun？
+
+无穷乐趣的关卡：数百个精心设计的场景，带来解决差异的精彩益智挑战，源源不断！
+多样主题与设定：可在超过 2,000 张精美图片中找不同。探索电影场景、电视节目、名人、温馨家居，甚至魔法世界等多种情境吧。
+高品质画面：尽情享受色彩鲜活、细节精致的美丽图片。
+提示功能：在困难的地方卡住了吗？不再",\N,\N,\N,\N,\N,\N,\N,0,\N
+6738576262,like_of,找不同,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=ec98b30c9611,kr,ec98b30c9611,1,2026-10-27
+6738576262,name_cn,侦探找茬,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=ec98b30c9611,kr,ec98b30c9611,1,2026-10-27
+6738576262,play_desc,在两幅图里逐处找出不同的地方,direct,llm,agent-manual,1,차이를 찾는 즐거움|‘차이 찾기’ 퍼즐 게임,kr,ec98b30c9611,0,2026-10-27
+6738576262,subgenre,puzzle.hidden,inferred,llm,agent-manual,2,找不同与寻物同属「观察力」类但没有专门值；描述写 차이 찾기（找不同）且需观察细节，归 puzzle.hidden 并在 note 说明是找不同而非寻物,kr,ec98b30c9611,0,2026-10-27
+6738576262,theme,other,inferred,llm,agent-manual,2,영화 장면、TV 프로그램、유명인、마법의 세계——2000 张图像题材混杂，无统一设定,kr,ec98b30c9611,0,2026-10-27
+6739069151,like_of,拼字对战,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=f185d0f0991e,us,f185d0f0991e,1,2026-11-03
+6739069151,name_cn,填字对决,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=f185d0f0991e,us,f185d0f0991e,1,2026-11-03
+6739069151,play_desc,抽字母在网格上拼词，实时对战比对手得分高,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=f185d0f0991e,us,f185d0f0991e,1,2026-11-03
+6739907881,descr_cn,"轻轻一弹，畅快一局！〈炮击小队〉是一款可爱又欢乐的休闲炮击游戏！与好友组队，施展华丽技能，一发扭转胜负！刺激的公会战与个性十足的时装正在等你！
+【游戏特色】
+操作简单，策略深厚
+简单的拖拽射击，谁都能轻松上手！但角度、风向乃至技能组合都需要缜密的策略。来考验你的策略与实力吧！
+与好友一起，欢乐团队作战
+快速组队匹配与多样模式，随时畅享欢乐一局！与好友默契配合击败强敌！友情才是最强大的武器！
+赛季竞争，争夺弹王
+在刺激的排名赛季中证明你的实力！加入公会参与公会战，与全服玩家同台竞技，赢取最强**“弹王”**的荣耀！
+丰富时装，可爱出击
+收集数百种个性十足又可爱的时装与武器皮肤！从帅气的科幻风格到俏皮的动物风格，打造属于你的英雄！
+华丽技能，逆转的一发
+活用各种英雄技能与道具！在恰当时机使用冰冻、火焰、追踪弹等强力技能，仅凭一发就能扭转战局！
+炮击小队，全体集合！刺激又欢乐的一局现在开始！
+立即下载，畅享最棒的一局！",\N,\N,\N,\N,\N,\N,\N,0,\N
+6739907881,like_of,回合制弹射对战,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=664c9af49056,kr,664c9af49056,1,2026-10-29
+6739907881,name_cn,炮击小队：回合制PvP,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=664c9af49056,kr,664c9af49056,1,2026-10-29
+6739907881,play_desc,拖拽瞄准发射炮弹，结合角度、风向与技能，回合制击败对手,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=664c9af49056,kr,664c9af49056,1,2026-10-29
+6740043080,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Screw Jam like（螺丝解谜）,us,fa3835917efe,0,\N
+6740043080,play_desc,找同色螺丝拧下来放进对应盒子，顺序错了会卡住,direct,llm,agent-manual,1,같은 색의 나사를 찾아 올바른 상자로 이동시키세요|나사를 움직이는 순서에 주의하세요,kr,59363d5f5491,0,2026-11-03T11:02:23
+6740043080,subgenre,puzzle.sort,inferred,human,agent-manual,2,人工抽检修正（原值 puzzle.brain）：描述明示「같은 색의 나사를 찾아 올바른 상자로 이동」——同色入盒分拣是主循环，顺序规划是次级约束；按边界规则「分拣归位记 puzzle.sort」应改 sort,kr,59363d5f5491,0,2026-11-05T07:05:48
+6740043080,theme,abstract,inferred,llm,agent-manual,2,螺丝、盒子、3D 结构，无角色无叙事,kr,59363d5f5491,0,2026-11-03T11:02:23
+6740618570,descr_cn,"你准备好从混沌中生存下来，成为终极英雄了吗？
+
+在XP Hero中，一个充满怪物、黑暗与无尽危险的神秘世界正等待着你。你的英雄被困在这个无法回头、危机四伏的世界里，必须在每一场战斗、每一次挑战和每一个新威胁中战斗、生存，并变得更强。现在就挑战这款动作RPG吧——在无尽的危险中，只有最强者才能存活。
+
+- 特色
+
+▶ 对抗强敌
+危险无处不在，所有敌人都已准备好发动攻击。跳进充满怪物、陷阱和快速涌来的威胁的激烈战斗关卡吧。你的英雄必须突破每一波攻势、生存下来、消灭所有敌人，才能继续前进。在这款黑暗生存游戏中，每一场战斗都至关重要。
+
+▶ 解锁强力武器与战斗风格
+为英雄装备强力武器，寻找最佳战斗方式。从剑到枪，每件装备都会改变战斗节奏，带来全新游玩体验。在恰当时机使用技能，适应各种敌人模式，打造属于你自己的战斗风格。战斗越多，英雄就越强。
+
+▶ 探索神秘世界
+探索废墟之地、黑暗地牢和废弃战场，体验危险的奇幻世界。每个地区都会带来新的挑战、更强的敌人和更丰厚的奖励",\N,\N,\N,\N,\N,\N,\N,0,\N
+6740618570,like_of,动作生存RPG,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=c95c5fbdf099,kr,c95c5fbdf099,1,2026-11-05
+6740618570,name_cn,XP英雄,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=c95c5fbdf099,kr,c95c5fbdf099,1,2026-11-05
+6740618570,play_desc,操控英雄在怪物与陷阱的波次中战斗生存，解锁武器技能并升级，击败首领推进探索,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=c95c5fbdf099,kr,c95c5fbdf099,1,2026-11-05
+6742597160,art,3d_stylized,inferred,human,agent-manual,2,人工抽检修正（2026-11-05）：PVZ3 已改用 Q 版 3D 渲染，不再是 1/2 代的 2D 卡通,cn,962869ac62ef,0,2026-11-05T07:05:48
+6742597160,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=PvZ like（塔防）,cn,962869ac62ef,1,\N
+6742597160,play_desc,种植物挡僵尸，靠元素搭配和植物进阶打,direct,llm,agent-manual,1,延续了广受喜爱的经典塔防玩法|创新引入“元素系统”|全新的植物培养系统,cn,962869ac62ef,0,2026-11-03T11:02:23
+6742597160,subgenre,strategy.tower_defense,direct,llm,agent-manual,2,延续了广受喜爱的经典塔防玩法,cn,962869ac62ef,0,2026-11-03T11:02:23
+6742597160,theme,modern,inferred,llm,agent-manual,2,戴夫、庭院、僵尸入侵——现代美式郊区场景；僵尸属超自然侵入，但基底是现代生活,cn,962869ac62ef,0,2026-11-03T11:02:23
+6742809194,descr_cn,"成为精英特种部队的狙击手，并成为军团最高司令官，体验战术射击与实时战略完美结合的战斗吧。
+
+用一发子弹扭转战局！
+• 逆转战局：狙击高价值目标，瓦解敌人的防线。一发子弹就能改变战场的命运。
+• 海量重火力：除狙击枪外，还能动用重机枪、火箭炮，甚至坦克，突破极限任务。
+• 压倒性的打击感：流畅直观的操作，击杀敌人时展开的慢动作带来爽快的手感。成功爆头，感受强烈的打击感吧。
+
+步步为营推进，收复城市！
+• 清剿与重建：执行紧张刺激的射击任务，清剿街道与区域的敌人，收复土地。
+• 解锁基地：修复夺回的城市设施，通过战术胜利打造强大军事帝国的基础。
+• 从突袭到总司令：一次突袭就是全面反击的火种。那发改变一切的子弹，不过是你蜕变为总司令的第一步。
+
+集结兵力，培养最精锐部队！
+• 招募军官：从身经百战的老兵到致命的女特工，招募各种军官，组建最强阵容吧。
+• 尖端武器：指挥战斗机、主战坦克、无人机编队，掌握现代战场的主导权吧。
+• 培养最精锐部队：不断招募并培养士兵吧。",\N,\N,\N,\N,\N,\N,\N,0,\N
+6742809194,like_of,狙击+策略经营,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=d79255007bdf,kr,d79255007bdf,1,2026-10-29
+6742809194,name_cn,战争线：狙击手,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=d79255007bdf,kr,d79255007bdf,1,2026-10-29
+6742809194,play_desc,狙击关键目标并指挥部队清剿街区、重建基地、扩张联盟称霸世界地图,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=d79255007bdf,kr,d79255007bdf,1,2026-10-29
+6742937695,descr_cn,"【免费3000连抽，获取豪华福利！】
+ペタペタペンギン団（企鹅团），预约数突破100万！现在下载即可免费抽取3000连抽！还将赠送地区限定皮肤“剑魂”（ケンタマ）以及精英藏品“严冬的悲伤”！
+
+【刺激满点的简单操作】
+只需点击“召唤”，英雄便会接连登场！大量召唤，合成神话级英雄吧！亲手打造最强队伍。
+
+【用聊天功能热闹起来的团队战】
+与伙伴协力挑战最终BOSS！共享战力互相帮助，一边通过游戏内聊天沟通，一边享受策略性战斗。
+
+【8人对决的大逃杀】
+参加大逃杀模式中的热血战斗吧！在混沌的战场上，只有存活到最后的队伍才能成为胜者，获得丰厚奖励。
+
+【神话级英雄的收集与合成】
+用丰富多彩的英雄充实你的收藏吧！熟练运用神圣、火焰、自然等各属性的特色技能，合成天使、魅魔、雪娘等各种角色，以最强阵容争取胜利！
+
+【相关信息】
+官方X
+https://x.com/PGFightJP",\N,\N,\N,\N,\N,\N,\N,0,\N
+6742937695,like_of,合成放置+团队对战,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=cf902259e0d8,jp,cf902259e0d8,1,2026-10-24
+6742937695,name_cn,企鹅军团,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=cf902259e0d8,jp,cf902259e0d8,1,2026-10-24
+6742937695,play_desc,点击召唤英雄并合成升级，组队打Boss和8人混战,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=cf902259e0d8,jp,cf902259e0d8,1,2026-10-24
+6743064514,descr_cn,"你的选择将改变国家！
+
+
+你将作为日本总理大臣，做出各种政策选择，以建设理想的国家为目标。
+做出正确的选择，人口、金钱、头脑就会增加，国家将繁荣昌盛。
+然而，一旦做出错误的选择，这些资源就会减少，甚至可能危及国家的存续……。
+
+增加人口与敌人战斗，增加金钱扩张领地，增加头脑强化军事吧！
+与他国加深友好，还能缔结和平条约成为伙伴……！？
+是和平还是战争，用你的战术打造更好的国家吧。
+
+来吧，用你的判断力建设理想的国家吧！
+
+※本游戏为虚构内容。
+ 登场的人物、政党、政策、阴谋论等均为虚构。
+若与现实中某人相似，那一定是你多心了。
+
+＊本应用的语音使用了音读先生。
+https://ondoku3.com/ja/",\N,\N,\N,\N,\N,\N,\N,0,\N
+6743064514,like_of,选择模拟经营,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=3bfe03f2aee3,jp,3bfe03f2aee3,1,2026-10-24
+6743064514,name_cn,征服日本 趣味选择游戏,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=3bfe03f2aee3,jp,3bfe03f2aee3,1,2026-10-24
+6743064514,play_desc,扮演日本首相选择政策，增减人口金钱头脑资源，扩张领土或结盟，打造理想国家,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=3bfe03f2aee3,jp,3bfe03f2aee3,1,2026-10-24
+6743385713,descr_cn,"欢迎来到毛线冒险！
+快跳进这款新感觉休闲3D益智游戏！可爱的毛线、爱捣蛋的龙、令人兴奋的救援大戏正等着你！
+五颜六色的调皮龙大肆捣乱！你要去救那些受困的小猫！解开谜题、开辟道路，成为最强的屠龙者！
+
+成为屠龙者的方法：
+选大炮！点击正确的颜色！让龙知道谁才是老大！
+瞄准龙！击穿同色方块，拖慢龙的动作！
+救出小猫！击退龙，守住猫！你就是英雄！
+
+游戏特色：
+满满兴奋感！节奏明快超好玩！
+轻松上手！操作简单，游玩顺畅！
+爽快感！化解危机的成就感！
+越来越有挑战！烧脑关卡不断增加！
+全新冒险！救援大戏还在继续！
+
+立刻下载，开启五彩缤纷的冒险吧！来吧，开始解谜吧！",\N,\N,\N,\N,\N,\N,\N,0,\N
+6743385713,like_of,颜色射击解谜,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=e1d12a78269c,jp,e1d12a78269c,1,2026-10-27
+6743385713,name_cn,毛线冲击,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=e1d12a78269c,jp,e1d12a78269c,1,2026-10-27
+6743385713,play_desc,选炮台点同色方块射击，阻止龙前进并救出小猫,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=e1d12a78269c,jp,e1d12a78269c,1,2026-10-27
+6743738094,descr_cn,"最舒适惬意的贴纸装饰游戏
+
+在充满压力的生活中，抽出时间稍作休息非常重要。还有什么比可爱又讨喜的贴纸小屋装饰游戏更好的治愈方式呢？这款融合了装饰游戏与贴纸书的可爱游戏，让你撕下贴纸、贴到正确的位置，完成每一页，把压力统统赶走。这款充满魅力动物角色和房间装饰元素的终极治愈系小屋装饰游戏，一定会让你暂时忘却所有烦恼！
+
+把贴纸贴上去吧
+
+撕下来、贴上去，再撕下来、再贴上去！在这款满是可爱猫咪、DIY小屋装饰饰品和贴纸的治愈系猫咪游戏里，要做的就是这么简单！无论年龄和水平，人人都能享受这款轻松的治愈系贴纸书装饰游戏，穿梭于各种房间和场所，尽情发挥你的小屋装饰品味。可爱的房间装饰元素和动画会让你的心情平静下来。得益于猫咪游戏简单的玩法和悠闲的游戏节奏，哪怕只玩一个关卡，你的心也会变得非常平静。
+
+最棒的特点：
+
+可爱猫咪等等：每个关卡就像贴纸书的一页。在这款猫咪游戏中，把所有贴纸贴到该在的位置，帮助小动物朋友们过上最棒的生活——在咖啡馆消磨时光，或是和朋友们聚在一起！在这款小屋装饰游戏中，尽情欣赏房间装饰物品逐渐填满空间的样子吧",\N,\N,\N,\N,\N,\N,\N,0,\N
+6743738094,like_of,贴纸拼贴+房间装饰,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=6bf91fa9e973,kr,6bf91fa9e973,1,2026-10-25
+6743738094,name_cn,我的贴纸房间,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=6bf91fa9e973,kr,6bf91fa9e973,1,2026-10-25
+6743738094,play_desc,把贴纸拖到对应位置贴好，完成每页房间与动物场景,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=6bf91fa9e973,kr,6bf91fa9e973,1,2026-10-25
+6744011639,descr_cn,"BRAVE FRONTIER LEGION 1周年!!
+参加军团战即可获得最多1000连召唤奖励!!
+
+那股力量，是自古传承的召唤之术。
+唤醒沉睡于异界的英雄与诸神之魂者——「召唤师」。
+你继承了这份力量，踏入『BRAVE FRONTIER LEGION』的宏大世界。
+统率无数单位，组建最强军团，投身壮阔战斗的共斗对战RPG，此刻拉开帷幕。
+
+◆与单位的邂逅，以及共同前行的故事
+个性与能力各异的单位们，会回应你的呼唤现身。
+越培养力量越强，姿态也愈发美丽、凛然进化。
+与喜爱的单位们一起，打造只属于自己的理想编成，这一过程正是冒险本身。
+无论是系列粉丝，还是初次接触这个世界的你，人人都能沉醉其中的故事，就此开始。
+
+◆一根手指即可展开的超绝华丽战斗
+操作简单，战斗迅捷。
+震撼的技能演出与单位们华丽的动作点缀战场。
+在每日间隙中，随时随地享受冒险的延续，也是这个世界的魅力之一。
+
+◆以羁绊与战略挑战的军团战
+最多10人 vs 10人展开的共斗战。
+与伙伴的协作、巧妙的战术，以及那一瞬间的判断将把胜利拉向手中。
+通过聊天和表情贴纸交流心意，一起向着顶峰迈进吧。
+
+◆与伙伴共同编织的另一段故事
+与军团的伙伴们交谈，齐心协力挑战，有时在闲聊中相视而笑——
+这样的日常积累，会让世界更加广阔、更加深邃",\N,\N,\N,\N,\N,\N,\N,0,\N
+6744011639,like_of,共斗对战RPG,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=2a4cb867c274,jp,2a4cb867c274,1,2026-10-27
+6744011639,name_cn,勇者前线 军团,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=2a4cb867c274,jp,2a4cb867c274,1,2026-10-27
+6744011639,play_desc,收集召唤英雄组建军团，编队养成后参加10v10共斗对战,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=2a4cb867c274,jp,2a4cb867c274,1,2026-10-27
+6745120053,like_of,聚会推理+语言猜词,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=e0da6d91f0d7,us,e0da6d91f0d7,1,2026-10-24
+6745120053,name_cn,谁是卧底 派对版,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=e0da6d91f0d7,us,e0da6d91f0d7,1,2026-10-24
+6745120053,play_desc,每人拿到秘密词，卧底只拿到身份提示，轮流用一句话给线索并投票找出卧底,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=e0da6d91f0d7,us,e0da6d91f0d7,1,2026-10-24
+6745768019,like_of,收纳整理,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=da414b9e9dcd,cn,da414b9e9dcd,1,2026-10-28
+6745768019,play_desc,拖拽散落物品归位到合适位置，整理布置房间并解锁角色故事,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=da414b9e9dcd,cn,da414b9e9dcd,1,2026-10-28
+6746743297,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Traffic Jam 3D like（停车场解谜）,us,93f9656ffda0,0,\N
+6746743297,play_desc,拖动巴士腾出空位，把乘客送到对应的车上,direct,llm,agent-manual,1,버스를 터치하고 드래그하여 공간을 만드세요|승객을 올바른 버스에 연결하고 탑승시키세요,kr,c0c78de44e1c,0,2026-11-03T11:02:23
+6746743297,subgenre,puzzle.brain,inferred,llm,agent-manual,2,核心是挪车腾出通路（경로를 계획），属路径规划型逻辑解谜；「乘客配车」是附加层，不是主循环，故不记 puzzle.sort,kr,c0c78de44e1c,0,2026-11-03T11:02:23
+6746743297,theme,modern,inferred,llm,agent-manual,2,버스、교통 체증、주차장——现代城市交通场景,kr,c0c78de44e1c,0,2026-11-03T11:02:23
+6746925059,like_of,棋牌合集,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=15d76a1826c3,cn,15d76a1826c3,1,2026-10-28
+6746925059,play_desc,参与斗地主与麻将等真人牌局，靠出牌与胡牌赢下对局,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=15d76a1826c3,cn,15d76a1826c3,1,2026-10-28
+6747028173,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Hole.io like（黑洞吞噬）,us,33d1ae257077,0,\N
+6747028173,play_desc,拖着黑洞吸走场上所有东西，越吸越大,direct,llm,agent-manual,1,スワイプでブラックホールを動かして、収集を始めましょう|集めるほどブラックホールは大きくなり,jp,24890b70dae4,0,2026-11-03T11:02:23
+6747028173,subgenre,puzzle.physics,inferred,llm,agent-manual,2,吸力吞噬 + 体积增长 + 限时清场，核心是物理吸入而非匹配或排序,jp,24890b70dae4,0,2026-11-03T11:02:23
+6747028173,theme,abstract,inferred,llm,agent-manual,2,黑洞与漂浮物件，无角色叙事,jp,24890b70dae4,0,2026-11-03T11:02:23
+6747033069,like_of,节奏反应射击,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=4ed5ef129626,us,4ed5ef129626,1,2026-10-25
+6747033069,name_cn,射击与躲藏,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=4ed5ef129626,us,4ed5ef129626,1,2026-10-25
+6747033069,play_desc,探身开枪后立刻缩回掩体，把握时机击败敌人过关,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=4ed5ef129626,us,4ed5ef129626,1,2026-10-25
+6747063674,descr_cn,"这次我们在继承前作幽默叙事与烧脑设计的基础上，为你带来更加丰富、充满惊喜的解谜体验。
+
+在这款全新续作中，你将跟随古怪的故事线，巧妙利用线索与互动元素，突破一系列奇妙却精心设计的关卡。
+
+每一个场景都充满精心设计的谜题、不拘常理的逻辑和意想不到的转折，让你体验到打破固有观念的思考方式，以及推理与创造力绝妙融合的乐趣。
+
+完全不需要复杂的系统。只需点击、滑动、探索！作为一款有趣又易上手的脑力训练游戏，任何人都能乐在其中。卡关了也不用担心。可靠的“脑力伙伴”会给出充满趣味的提示，助你激发新思路，帮你继续前进。
+
+游戏特色
+
+更宏大、更离奇的故事——流行笑料与巧妙转折交织的荒诞剧情，激发欢笑与狂想的创造力！
+
+转换思路——这些谜题并非表面看起来那样……反转逻辑，找出意想不到的解法吧。
+
+简单又有趣的操作——点击、拖拽、解谜。零学习成本。立刻投入游玩。
+
+无限提示——卡住了？需要多少有用提示就能获得多少。
+
+来吧，挑战你想象力的极限！运用创造力与机智，征服这场荒诞又愉快的解谜冒险，感受揭晓谜题瞬间的刺激。
+
+这仅仅是开始！还有更多关卡和离谱的故事",\N,\N,\N,\N,\N,\N,\N,0,\N
+6747063674,like_of,解谜冒险,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=0f98b2a617e2,jp,0f98b2a617e2,1,2026-10-24
+6747063674,name_cn,脑力谜题2：逻辑反转,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=0f98b2a617e2,jp,0f98b2a617e2,1,2026-10-24
+6747063674,play_desc,点击滑动探索场景，用反常识逻辑解开荒诞谜题闯关,direct,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=0f98b2a617e2,jp,0f98b2a617e2,1,2026-10-24
+6747063674,subgenre,puzzle.brain,direct,llm,agent-manual,2,관례를 따르지 않는 논리|논리를 뒤집어,kr,1f289c5daf55,0,2026-10-24
+6747063674,theme,other,inferred,llm,agent-manual,2,每个关卡是独立荒诞场景（터무니없는 시나리오），无统一世界观，故记 other 不记 abstract,kr,1f289c5daf55,0,2026-10-24
+6747328897,descr_cn,"沉浸于人气漫画·动画《BLEACH（死神）》世界的3D动作战斗游戏。
+这是一款可以体验《BLEACH（死神）》动画《千年血战篇》之后原创剧情的游戏。
+
+新角色、只属于你自己的「斩魄刀」、必杀技——
+在您的手机上畅享《BLEACH（死神）》的世界。
+
+
+【《BLEACH（死神）》久保带人老师角色设计】
+
+在《周刊少年Jump》连载、在世界范围内拥有根深蒂固人气的《BLEACH（死神）》
+由久保带人老师设计的新角色，将作为主角与伙伴登场。
+与唯有在此才能相遇的角色，共同编织只属于你的故事吧。
+
+
+【描绘《千年血战篇》之后的原创剧情】
+
+以全语音体验描绘《BLEACH 千年血战篇》续篇的官方原创剧情。
+化身死神，与伙伴一同斩开未曾得见的故事——
+
+
+【只属于你的原创「斩魄刀」】
+
+《BLEACH（死神）》不可或缺的「斩魄刀」可随心所欲地自定义。
+用只属于你的「斩魄刀」推进故事吧。
+
+
+【简单操作，华丽炫目的动作游戏】
+
+以1次点击的简单操作，展开宏大的动作战斗。
+极具震撼力的战斗音效，将提升战斗的临场感。
+尽情享受《BLEACH（死神）》独有的高速爽快战斗吧。
+
+
+【以精美3D画面呈现的多样角色】
+
+《BLEACH（死神）》的角色被动态描绘的动作游戏。
+竖屏3D游戏，让角色",\N,\N,\N,\N,\N,\N,\N,0,\N
+6747328897,like_of,3D动作战斗,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=d43909f3423b,jp,d43909f3423b,1,2026-10-28
+6747328897,name_cn,死神 镜界巅峰,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=d43909f3423b,jp,d43909f3423b,1,2026-10-28
+6747328897,play_desc,扮演死神单指操作高速连击，推进原创剧情并自定义斩魄刀,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=d43909f3423b,jp,d43909f3423b,1,2026-10-28
+6747492600,like_of,麻将连连看,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=9368e5428ef6,jp,9368e5428ef6,1,2026-11-07
+6747492600,name_cn,麻将爆破,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=9368e5428ef6,jp,9368e5428ef6,1,2026-11-07
+6747492600,play_desc,点击两张相同的麻将牌，只要左右任一侧空出即可配对消除，清空盘面过关。,direct,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=9368e5428ef6,jp,9368e5428ef6,1,2026-11-07
+6747492600,subgenre,puzzle.brain,inferred,llm,agent-manual,2,虽然牌面是麻将，但玩法是单人配对消除（mahjong solitaire），不是四人牌局；故记 puzzle.brain 不记 card_battle.traditional——后者指传统牌局,us,1fe6d1384877,0,2026-11-03T11:02:23
+6747492600,theme,abstract,inferred,llm,agent-manual,2,麻将牌面与传统纹样，但无角色、无叙事设定,us,1fe6d1384877,0,2026-11-03T11:02:23
+6748397500,art,minimalist,direct,llm,agent-manual,2,ミニマルで美しいデザイン|余計な要素を排除したクリーンなビジュアル,jp,c9d2cb087354,0,2026-11-03T11:02:23
+6748397500,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Amaze GO! like（箭头解谜）,us,d9b71023c3e0,0,\N
+6748397500,play_desc,按正确顺序拔掉箭头，一步错就全盘崩,direct,llm,agent-manual,1,矢印を正しい順番で抜き取り、衝突を起こさずにステージをクリアすること|1手でも間違えると、すべてが崩れてしまいます,jp,c9d2cb087354,0,2026-11-03T11:02:23
+6748397500,subgenre,puzzle.brain,direct,llm,agent-manual,2,シンプルで美しいデザインのロジックパズルゲーム,jp,c9d2cb087354,0,2026-11-03T11:02:23
+6748397500,theme,abstract,inferred,llm,agent-manual,2,箭头与迷宫，无角色无叙事,jp,c9d2cb087354,0,2026-11-03T11:02:23
+6748527570,like_of,塔防+模拟经营,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=7de679457a9b,cn,7de679457a9b,1,2026-11-02
+6748527570,play_desc,建塔防叛军、分配居民维持城镇运转，并研发科技争夺资源,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=7de679457a9b,cn,7de679457a9b,1,2026-11-02
+6748950306,descr_cn,"Solitaire 是一款将经典纸牌接龙游戏机制与现代单词拼图相结合的独特游戏，提供同时考验词汇量、逻辑力和策略的全新免费拼图体验。
+
+进入单词接龙的世界吧。这里不使用传统纸牌，而是使用单词卡和类别卡。每个关卡都从部分填充的棋盘开始，你需要先放置类别卡，然后将相关的单词卡整理到正确的类别中。这是一款结合单词联想与类别拼图的健脑型游戏。
+
+当你需要让大脑休息时，这款免费离线单词游戏非常适合喜欢单词拼图、联想游戏和免费纸牌接龙的玩家。每一步都至关重要，因此你需要分析棋盘、提前思考，并在有限的移动次数内准确分类单词。
+
+策略决定胜负。将所有单词整理到正确的类别中，并明智地使用移动次数，你就能获胜。如果移动次数不足或没有可放置的卡牌，你就会失败。
+
+享受免费拼图、刺激大脑，随时随地无需 WiFi 轻松畅玩。
+
+这款游戏是喜欢单词联想、单词拼图和纸牌接龙游戏的玩家的理想选择。立即下载，开启旅程吧。
+
+使用条款：https://hitappsgames.com/terms/
+
+隐私政策：https://hitappsgames.com/privac",\N,\N,\N,\N,\N,\N,\N,0,\N
+6748950306,like_of,单词分类接龙,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=315e3924f2db,kr,315e3924f2db,1,2026-11-04
+6748950306,name_cn,纸牌联想之旅,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=315e3924f2db,kr,315e3924f2db,1,2026-11-04
+6748950306,play_desc,在有限步数内把单词卡按类别归位，全部整理正确即过关。,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=315e3924f2db,kr,315e3924f2db,1,2026-11-04
+6749109526,descr_cn,"邪恶的虚空撕裂了大陆，亡灵瘟疫吞噬了文明的最后残迹！在这场双重末日中，唯有真正的勇士才能重建王国！
+
+要想在这场大灾祸中幸存下来，你必须同时掌握战略指挥与生存本能！
+
+给冠军们的提示：真正的力量不在于武力，而在于与同伴们缔结牢不可破的羁绊。明智地召集同伴吧——他们的血统才是胜利的关键。
+
+主要特色：
+
+- 拥有多样选择的全新关卡体验
+- 单手游玩，统治大陆！
+- 揭开谜团，体验丰富多样的策略玩法
+- 收集并匹配，解开虚空的谜团
+- 强化力量并与其他玩家结盟，获得最大限度的支援！",\N,\N,\N,\N,\N,\N,\N,0,\N
+6749109526,like_of,收集匹配+策略,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=0eef6e0d028c,kr,0eef6e0d028c,1,2026-10-28
+6749109526,name_cn,X 冲突,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=0eef6e0d028c,kr,0eef6e0d028c,1,2026-10-28
+6749109526,play_desc,收集并匹配英雄，组建联盟，重建王国,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=0eef6e0d028c,kr,0eef6e0d028c,1,2026-10-28
+6749109552,descr_cn,"邪恶的虚无撕裂大陆，亡灵瘟疫吞噬文明最后的残渣！在这双重末日之下，唯有真正配得上的人才能重建王国！
+
+要在这场大灾厄中生存下来，必须同时精通战略指挥与生存本能！
+
+给冠军们的忠告：真正的力量不在于臂力，而在于与伙伴建立不屈的羁绊。明智地召集伙伴吧——他们的血统才是通往胜利的关键。
+
+瞩目特色：
+
+- 拥有多种选择的全新关卡体验
+- 单手操作征服大陆！
+- 解开谜团，体验丰富多样的策略玩法
+- 通过收集与匹配揭开虚无之谜
+- 强化力量，与他人结盟以获得最大支援！",inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=983202561c2c,jp,983202561c2c,1,2026-11-07
+6749109552,like_of,收集匹配+策略闯关,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=983202561c2c,jp,983202561c2c,1,2026-11-07
+6749109552,name_cn,X-Clash：生存,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=983202561c2c,jp,983202561c2c,1,2026-11-07
+6749109552,play_desc,收集并匹配英雄组建联盟，单手操作闯关解谜，重建王国,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=983202561c2c,jp,983202561c2c,1,2026-11-07
+6749300334,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Screw Jam like（螺丝解谜）,jp,38d77454669d,0,\N
+6749300334,play_desc,旋转结构找同色螺丝，拧下来放进对应盒子,direct,llm,agent-manual,1,"같은 색상의 나사를 제거하여 해당 박스에 넣으세요|360°로 회전하여 나사, 핀, 볼트를",kr,422d3d642f5f,0,2026-11-03T11:02:23
+6749300334,subgenre,puzzle.sort,inferred,human,agent-manual,2,人工抽检修正（原值 puzzle.brain）：同上：「같은 색상의 나사를 제거하여 해당 박스에 넣으세요」明示入盒分拣，与 water sort 同构，应记 sort 而非 brain,kr,422d3d642f5f,0,2026-11-05T07:05:48
+6749300334,theme,abstract,inferred,llm,agent-manual,2,비행기부터 아늑한 집까지 多种模型，无统一世界观,kr,422d3d642f5f,0,2026-11-03T11:02:23
+6751056652,art,pixel,direct,llm,agent-manual,2,pixel cubes of its own color,us,b5a955e21406,0,2026-11-03T11:02:23
+6751056652,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Colony Flow like（放角色分拣）,us,b5a955e21406,1,\N
+6751056652,play_desc,派猪上输送带，朝同色像素块打光弹药,direct,llm,agent-manual,1,Tap to send a pig onto the conveyor so it rains balls onto pixel cubes of its own color|The number above its head is its ammo,us,b5a955e21406,0,2026-11-03T11:02:23
+6751056652,subgenre,puzzle.brain,inferred,human,agent-manual,2,人工抽检修正（原值 puzzle.sort）：核心是为防传送带卡住而做的部署顺序+5槽位队列管理（与 Bus 解谜同构：颜色匹配只是门槛，不是分拣归位），应记 brain 而非 sort,us,b5a955e21406,0,2026-11-05T07:05:48
+6751056652,theme,abstract,inferred,llm,agent-manual,2,猪、球、像素块，无角色设定与叙事,us,b5a955e21406,0,2026-11-03T11:02:23
+6751308308,descr_cn,"倒水、配色，在 Travel Sort 中轻松畅玩！
+
+把五颜六色的水在不同瓶子间倒来倒去，让每个瓶子只留下一种颜色。规则简单，但随着隐藏的色彩分层、新的瓶子布局和各种障碍的出现，谜题会变得越来越有趣、越来越有策略性。
+
+没有计时器，你可以一步一步慢慢思考，按自己的节奏游玩。伴随着柔和的水流效果、鲜明的色彩和舒适的 ASMR 风格音效，享受令人满足的水排序谜题吧。
+
+Travel Sort 特色
+
+- 轻松上手：倒水、配同色，让每个瓶子都变成单一颜色。
+- 数千个关卡：挑战越来越棘手的各种难题。
+- 舒适 ASMR：每次倒水都能享受令人满足的音效。
+- 实用道具：遇到困难时使用撤销、洗牌、额外瓶子。
+- 没有计时器：不必匆忙，一步一步思考，按自己的节奏游玩。
+- 离线游玩：没有 Wi-Fi 也能玩基础谜题关卡。
+
+倒水、配色、排序，在 Travel Sort 中享受轻松的谜题时光吧！",\N,\N,\N,\N,\N,\N,\N,0,\N
+6751308308,like_of,水排序解谜,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=b253a66e2eb7,kr,b253a66e2eb7,1,2026-11-06
+6751308308,name_cn,旅行排序,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=b253a66e2eb7,kr,b253a66e2eb7,1,2026-11-06
+6751308308,play_desc,把彩色液体在瓶子间倒来倒去，让每个瓶子只留一种颜色。,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=b253a66e2eb7,kr,b253a66e2eb7,1,2026-11-06
+6752386103,descr_cn,"Skewer Jam: Food Games 是一款为美食爱好者打造的动感美食益智冒险游戏！
+
+在这款串烧益智游戏中，你可以享受滋滋作响的料理分类挑战、三消游戏机制以及欢乐的BBQ烧烤体验。无论你是想休闲娱乐，还是立志成为真正的串烧大师，Skewer Jam 都是考验你益智技巧的最佳游戏。
+
+选择 Skewer Jam 的理由
+
+智能料理分类玩法：搭配爽快的益智操作一起享受！
+
+三消连击：消除配对，赢取丰厚奖励！
+
+新鲜益智元素：每一关都有全新机关登场！
+
+身临其境的BBQ体验：探索正宗烧烤＆料理游戏的世界！
+
+加速器＆强化道具：高难度美食益智也能一口气通关！
+
+Skewer Jam 的玩法
+
+分类＆配对 – 将料理整齐整理，做出完美的串烧盒。
+
+解开益智 – 动脑筋，清除烤架上的障碍物！
+
+三消的爽快感 – 连起3个，引发滋滋爆裂的连锁反应！
+
+成为串烧大师 – 用BBQ分类益智来脑力训练＆提升技巧！
+
+攻克关卡 – 运用策略、时机与灵感，抓住胜利！
+
+串烧益智、令人垂涎的料理分类，以及白热化的三消动作融合在一起的 Skewer Jam: Food Games，兼具乐趣与策略性。喜欢美食游戏和烧烤益智的玩家、想精通BBQ三消的玩家",\N,\N,\N,\N,\N,\N,\N,0,\N
+6752386103,like_of,三消+分类整理,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=c5b0ced763ab,jp,c5b0ced763ab,1,2026-10-30
+6752386103,name_cn,烤串果酱,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=c5b0ced763ab,jp,c5b0ced763ab,1,2026-10-30
+6752386103,play_desc,分类整理烤串食材，完成三消关卡解锁烧烤奖励,direct,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=c5b0ced763ab,jp,c5b0ced763ab,1,2026-10-30
+6752386103,subgenre,puzzle.sort,inferred,llm,agent-manual,2,主循环是排序（음식 정렬、차곡차곡 정리），三连只是消除反馈；故记 sort 不记 match3,kr,4663e9f2841e,0,2026-10-30
+6752386103,theme,abstract,inferred,llm,agent-manual,2,食物串与烤架，无角色无叙事,kr,4663e9f2841e,0,2026-10-30
+6752672568,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Sokoban like（推箱）,us,29913edf7f72,1,\N
+6752672568,play_desc,推着方块穿过移动电梯，把它们送到对应的门里,direct,llm,agent-manual,1,블록을 알맞은 문까지 밀어서|움직이는 엘리베이터와 블록 생성기,kr,38d6546cade3,0,2026-11-03T11:02:23
+6752672568,subgenre,puzzle.brain,inferred,llm,agent-manual,2,核心动词是「밀어」（推）不是「분류」（分类）：수를 계획하고 빠르게 판단하며 空间管理——是路径规划型逻辑解谜，不记 puzzle.sort/puzzle.block,kr,38d6546cade3,0,2026-11-03T11:02:23
+6752672568,theme,abstract,inferred,llm,agent-manual,2,彩色方块与电梯机关，无角色、无叙事设定,kr,38d6546cade3,0,2026-11-03T11:02:23
+6752849675,like_of,放置经营,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=e8e8ba22f96e,kr,e8e8ba22f96e,1,2026-11-02
+6752849675,name_cn,超市大亨帝国,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=e8e8ba22f96e,kr,e8e8ba22f96e,1,2026-11-02
+6752849675,play_desc,点击升级货架与价格，扩张超市并掷骰完成棋盘挑战，离线也能持续赚钱。,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=e8e8ba22f96e,kr,e8e8ba22f96e,1,2026-11-02
+6752886832,descr_cn,"酒店翻新＆经营！
+
+前酒店员工艾莉莎继承了祖母留下的神秘遗产……「Estate Hotel」……
+与个性丰富的伙伴们齐心协力，目标是成为一流酒店！
+让我们一起见证她们的冒险吧！
+
+▼魅力十足的合成道具
+为客人提供暖心的服务、精致的料理、诱人的饮品和五彩缤纷的纪念品。随着游戏推进，可制作的道具也会不断增加！不断合成，立志成为一流的酒店经理吧！
+
+▼翻新酒店
+购买新的土地后，翻新老旧建筑，让它脱胎换骨成个性十足、如梦似幻的酒店。世界各地、跨越时代的不同风格任你选择！
+
+▼建立丰富的人际关系
+与来自世界各地的客人相遇，倾听他们的故事，分享人生中的欢乐篇章。旅途中还会有浪漫邂逅？还有众多隐藏的惊喜在等着你！
+
+本游戏包含随机道具购买／奖励宝箱等可选的应用内购买项目
+
+现在就加入，开启打造理想酒店品牌的戏剧性旅程吧！",\N,\N,\N,\N,\N,\N,\N,0,\N
+6752886832,like_of,合成+模拟经营,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=b568fc5c59dc,jp,b568fc5c59dc,1,2026-10-31
+6752886832,name_cn,酒店遗产,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=b568fc5c59dc,jp,b568fc5c59dc,1,2026-10-31
+6752886832,play_desc,合并物品产出服务与餐点，翻新并经营酒店，打造一流品牌,direct,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=b568fc5c59dc,jp,b568fc5c59dc,1,2026-10-31
+6752886832,subgenre,simulation.merge,direct,llm,agent-manual,2,호텔 레거시에서 합성하고 리모델링하세요,kr,ade73812f721,0,2026-10-31
+6752886832,theme,modern,inferred,llm,agent-manual,2,호텔、동료、손님——现代酒店经营场景,kr,ade73812f721,0,2026-10-31
+6754059516,descr_cn,"欢迎来到Bus Crowd。这是一款色彩缤纷的巴士解谜游戏，融合了交通拥堵策略、乘客配对与巧妙的停车选择。
+
+拥挤的车站里挤满了等待上车的乘客。颜色和座位数各不相同的巴士正蓄势待发。观察人流，选择正确的车辆，将其移动到空闲的停车位并让乘客上车吧。坐满所有座位后，该停车位就会释放。请避免停车区域堵塞，让每辆巴士都能顺畅移动。
+
+玩法
+- 匹配颜色与座位：空巴士会进入上车位，载上同色的乘客。每辆车的定员不同，移动前请先比较乘客数量。
+- 遵循箭头方向：将巴士从车站移动到停车位。每辆车只能沿箭头方向前进，因此需要仔细观察被堵住的道路。
+- 坐满后腾出车位：满载的车辆会出发，为下一次移动腾出停车位。不要让未坐满的巴士停放太久。
+- 用策略解开拥堵：运用颜色分类逻辑、巴士顺序和停车计划来攻克每个交通谜题。
+- 卡住时使用道具：借助便利的道具调整巴士、引导乘客、开辟道路，突破困难的堵塞。
+
+游戏特色
+- 巴士拥堵解谜的乐趣：融合颜色配对、乘客上车、停车位与交通拥堵抉择，上手容易、解开时畅快淋漓的挑战。
+- 巴士出发挑战：观察箭头方向，从拥挤的布局中开出正确的车辆，享受停滞的车站重新运转的瞬间。
+- 巴士脱出的瞬间：让巴士坐满、打通通道，在满载车辆接连出发之中打造巧妙的脱出解法。
+- 交通脱出挑战：车流拥堵风",\N,\N,\N,\N,\N,\N,\N,0,\N
+6754059516,like_of,停车解谜+颜色匹配,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ac2b747178f7,jp,ac2b747178f7,1,2026-10-25
+6754059516,name_cn,巴士人群：堵车脱出解谜,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ac2b747178f7,jp,ac2b747178f7,1,2026-10-25
+6754059516,play_desc,按箭头方向移动巴士到停车位，载上同色乘客，坐满即发车腾出车位。,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ac2b747178f7,jp,ac2b747178f7,1,2026-10-25
+6754370732,play_desc,听每个人说完证词，判断谁是犯人、谁是好人,direct,llm,agent-manual,1,사건 해결의 열쇠는 참고인들의 증언입니다|무고한 사람과 범인을 가려낼 수 있습니다,kr,53a3d35e8222,0,2026-11-03T11:02:23
+6754370732,subgenre,puzzle.brain,inferred,llm,agent-manual,2,玩法是读证词做排除法（아무도 거짓말을 하지 않는 이 세계에서 증언을 바탕으로 무고한 사람과 범인을 가려낸다）——纯逻辑推理；原描述未出现「논리 퍼즐」字样，该词只在标题里,kr,53a3d35e8222,0,2026-11-03T11:02:23
+6754370732,theme,modern,inferred,llm,agent-manual,2,경찰서、순찰、체포——现代警察办案场景,kr,53a3d35e8222,0,2026-11-03T11:02:23
+6754558455,play_desc,放弹珠上环形传送带，按颜色分进对应托盘,direct,llm,agent-manual,1,タイミングよくビー玉を落とし、動き続けるコンベアに乗せて|円形コンベアに乗って同じ色のトレイへ運ばれていきます,jp,e2bb05c8e03a,0,2026-11-03T11:02:23
+6754558455,subgenre,puzzle.sort,direct,llm,agent-manual,2,定番の仕分けパズル|同じ色のトレイへ運ばれていきます,jp,e2bb05c8e03a,0,2026-11-03T11:02:23
+6754558455,theme,abstract,inferred,llm,agent-manual,2,弹珠与传送带，无角色无叙事,jp,e2bb05c8e03a,0,2026-11-03T11:02:23
+6754900673,like_of,拼图+卡牌滑动,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=4ccde93dd251,jp,4ccde93dd251,1,2026-10-27
+6754900673,name_cn,拼图卡牌纸牌,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=4ccde93dd251,jp,4ccde93dd251,1,2026-10-27
+6754900673,play_desc,滑动拼图卡补齐画面，翻面找线索,direct,llm,agent-manual,1,"flip, slide, match, and snap puzzle cards to reveal breathtaking HD images|Slide cards into place",us,4ccde93dd251,0,2026-10-27
+6754900673,subgenre,puzzle.block,direct,llm,agent-manual,2,The HD Jigsaw Puzzle & Solitaire Card Game|classic jigsaw satisfaction,us,4ccde93dd251,0,2026-10-27
+6754900673,theme,abstract,inferred,llm,agent-manual,2,拼图画面每关独立，无统一世界观,us,4ccde93dd251,0,2026-10-27
+6755183085,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Goods Sort like（排序）,us,ad3e755a2658,1,\N
+6755183085,play_desc,让线轴在传送带上收集同色针脚，织完整个图案,direct,llm,agent-manual,1,Bobbins move onto the conveyor and collect stitches of their own color|Complete each knitted pattern,us,ad3e755a2658,0,2026-11-03T11:02:23
+6755183085,subgenre,puzzle.sort,direct,llm,agent-manual,2,collect stitches of their own color|Color-Based,us,ad3e755a2658,0,2026-11-03T11:02:23
+6755183085,theme,abstract,inferred,llm,agent-manual,2,线轴与编织图案，无角色无叙事,us,ad3e755a2658,0,2026-11-03T11:02:23
+6755455500,like_of,,\N,\N,\N,\N,\N,us,7707fbfde256,0,\N
+6755455500,play_desc,合成面料做出礼服，在好莱坞剧情里往上爬,direct,llm,agent-manual,1,평범한 원단과 옷을 합성해 눈부신 드레스와 액세서리로 재탄생시키세요,kr,fea2301896e2,0,2026-11-03T11:02:23
+6755455500,subgenre,simulation.merge,direct,llm,agent-manual,2,머지 & 스타일링|평범한 원단과 옷을 합성해,kr,fea2301896e2,0,2026-11-03T11:02:23
+6755455500,theme,modern,direct,llm,agent-manual,2,할리우드|파파라치|레드 카펫,kr,fea2301896e2,0,2026-11-03T11:02:23
+6755482314,like_of,解谜逃脱,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=9199b049de76,kr,9199b049de76,1,2026-11-07
+6755482314,name_cn,箭头谜题,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=9199b049de76,kr,9199b049de76,1,2026-11-07
+6755482314,play_desc,按正确顺序点击箭头，让它们沿指向方向离开棋盘，清空整个网格。,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=9199b049de76,kr,9199b049de76,1,2026-11-07
+6755509102,descr_cn,"刺激的单词分类休闲益智游戏上线了！游戏玩法非常简单，1秒就能掌握。拖动相应单词，准确分类到指定区域，解锁关卡时能感受到巨大的成就感！简单直观的指尖操作，带来持续不断的愉悦体验。
+
+核心规则简单明了，没有复杂的操作门槛，但顺利通关并不容易！需要在有限的移动次数内制定计划，慎重考虑每一步。每一次选择都在考验你的策略布局和快速反应能力。移动次数用尽就会挑战失败，极大地考验你的策略与临场应变！
+
+关卡经过精心设计，轻松又好玩！无论是通勤路上、午休时间，还是睡前休息时刻，随时打开游戏就能开启愉快的挑战。排队等待的时间不再无聊，闲暇时光也会更加充实！
+
+在拖动单词、快速分类的过程中，不仅能提升逻辑思维能力、强化分类认知能力，还能提高快速决策能力。边玩边锻炼大脑，将娱乐与学习完美结合。无论你是益智游戏新手，还是追求挑战的玩家，都能在这款游戏中找到乐趣！别再犹豫，最棒的",\N,\N,\N,\N,\N,\N,\N,0,\N
+6755509102,like_of,单词分类解谜,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=15bed9619a37,kr,15bed9619a37,1,2026-10-26
+6755509102,name_cn,单词联想单词接龙猜词拼图游戏,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=15bed9619a37,kr,15bed9619a37,1,2026-10-26
+6755509102,play_desc,在有限步数内把单词拖到指定分类区，正确归类即可过关,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=15bed9619a37,kr,15bed9619a37,1,2026-10-26
+6755585789,descr_cn,"背包里的像素道具合成与组合的像素背包养成游戏！
+把道具放进背包，策略性地合成，完成强力组合。
+
+装备流勇者游玩小贴士！
+要想在战斗中获胜，装备摆放非常重要！
+不要偷懒不养宠物。宠物会发挥大作用的。
+想提升装备流，史诗道具必不可少！千万别错过传说角色专属的史诗道具。
+
+[合成与组合是核心的像素游戏]
+装备流勇者的战斗可不简单。
+不是单纯地装备道具，而是通过合成把它成长为上阶装备，
+还要策略性地组合各种道具来制造协同效应。
+1. 合成道具使其进化为史诗等级
+2. 攻击力与防御力随摆放方式而变化
+3. 战斗风格随协同组合而彻底改变
+在这个像素世界里，合成与组合就是战斗力。
+
+[策略鲜活的自动战斗RPG]
+装备流勇者虽然是基于自动战斗的自动战斗游戏，
+但战斗结果完全取决于你的组合策略。
+1. 防御力与攻击协同效应随道具摆放方式而变化
+2. 契合职业特性的道具组合
+3. 类Roguelike方式的选择与挑战
+提供的不是单纯的像素游戏，而是有深度的策略RPG体验。
+
+[养成与装备收集的乐趣]
+装备流勇者是结合了养成要素的像素RPG。
+1. 通过合成史诗道具实现成长",\N,\N,\N,\N,\N,\N,\N,0,\N
+6755585789,like_of,合成+放置战斗,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=92638c05bdf6,kr,92638c05bdf6,1,2026-10-26
+6755585789,name_cn,作弊勇者 背包攻略RPG,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=92638c05bdf6,kr,92638c05bdf6,1,2026-10-26
+6755585789,play_desc,在背包格子里合并像素装备提升战力，搭配宠物与职业组合自动战斗闯关,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=92638c05bdf6,kr,92638c05bdf6,1,2026-10-26
+6756185760,play_desc,在场景图里逐个找出藏起来的物品,direct,llm,agent-manual,1,숨은 물건 찾기 게임|숨겨진 아이템을 하나씩 찾아가며,kr,de64bf991f75,0,2026-11-03T11:02:23
+6756185760,subgenre,puzzle.hidden,direct,llm,agent-manual,2,Search It – Hidden Objects는 관찰력을 시험하면서 편안하게 즐길 수 있는 숨은 물건 찾기 게임,kr,de64bf991f75,0,2026-11-03T11:02:23
+6756185760,theme,modern,inferred,llm,agent-manual,2,아름답게 디자인된 장면——写实生活场景，具体题材未写明,kr,de64bf991f75,0,2026-11-03T11:02:23
+6756288168,like_of,烹饪模拟,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=6fbeab79c83e,kr,6fbeab79c83e,1,2026-10-24
+6756288168,name_cn,烹饪日记：完美一餐,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=6fbeab79c83e,kr,6fbeab79c83e,1,2026-10-24
+6756288168,play_desc,切配食材、搅拌混合并摆盘调味，把原料做成一道道治愈料理,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=6fbeab79c83e,kr,6fbeab79c83e,1,2026-10-24
+6756482832,art,minimalist,inferred,llm,agent-manual,2,깔끔하고 미니멀한 스타일——原文说的是 interface（界面），推及美术风格需看截图确认,kr,f6e49e3462b8,1,2026-11-03T11:02:23
+6756482832,like_of,,\N,\N,\N,\N,\N,us,1911cbd90781,0,\N
+6756482832,play_desc,一关一个脑筋急转弯，按常识想就会卡住,direct,llm,agent-manual,1,논리 함정|현기증 나는 시각 퍼즐부터 빠른 반사 신경 도전,kr,f6e49e3462b8,0,2026-11-03T11:02:23
+6756482832,subgenre,puzzle.brain,direct,llm,agent-manual,2,논리 함정|두뇌 녹이는 논리 함정까지,kr,f6e49e3462b8,0,2026-11-03T11:02:23
+6756482832,theme,abstract,inferred,llm,agent-manual,2,关卡为独立谜题集，无统一世界观,kr,f6e49e3462b8,0,2026-11-03T11:02:23
+6756866602,like_of,开放世界动作,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=ad5767f9dbac,cn,ad5767f9dbac,1,2026-11-05
+6756866602,name_cn,巅峰之上,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=ad5767f9dbac,cn,ad5767f9dbac,1,2026-11-05
+6756866602,play_desc,在开放城市中飞行、使用超能力战斗并摧毁建筑，选择救人或杀戮以改变声望,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=ad5767f9dbac,cn,ad5767f9dbac,1,2026-11-05
+6756989323,like_of,模拟经营+塔防,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=660db7b5286f,us,660db7b5286f,1,2026-10-31
+6756989323,name_cn,最后的避难所：瘟疫,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=660db7b5286f,us,660db7b5286f,1,2026-10-31
+6756989323,play_desc,扮演瘟疫医生经营避难所，治疗病患、招募英雄抵御鼠群并重建城镇,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=660db7b5286f,us,660db7b5286f,1,2026-10-31
+6757140488,play_desc,拉动彩色沙子填满坑洞，沙流按物理自动堆积,direct,llm,agent-manual,1,colorful sand flows with real physics|By pulling the correct colored sand toward the matching pits,us,6b1c061ba3ba,0,2026-11-03T11:02:23
+6757140488,subgenre,puzzle.physics,direct,llm,agent-manual,2,colorful sand flows with real physics and every move shapes the board|dynamic sand physics,us,6b1c061ba3ba,0,2026-11-03T11:02:23
+6757140488,theme,abstract,inferred,llm,agent-manual,2,彩色沙与几何坑洞，无角色无叙事,us,6b1c061ba3ba,0,2026-11-03T11:02:23
+6757154335,like_of,3D方块消除,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=53f3b4270da4,us,53f3b4270da4,1,2026-10-29
+6757154335,name_cn,方块乐园解谜,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=53f3b4270da4,us,53f3b4270da4,1,2026-10-29
+6757154335,play_desc,瞄准同色光柱打碎 3D 方块塔,direct,llm,agent-manual,1,Aim color matched blasters at cube structures and watch them crumble piece by piece,us,53f3b4270da4,0,2026-10-29
+6757154335,subgenre,puzzle.physics,inferred,llm,agent-manual,2,3D block puzzle + 瞄准发射 + 逐块崩塌（watch them crumble piece by piece）——投射与结构破坏是主循环,us,53f3b4270da4,0,2026-10-29
+6757154335,theme,abstract,inferred,llm,agent-manual,2,方块世界，无角色无叙事,us,53f3b4270da4,0,2026-10-29
+6757172630,art,unclear,none,llm,agent-manual,2,描述仅 116 字符，通篇写世界观与玩法，无画面信息,cn,545ab9c85248,1,2026-11-03T10:56:42
+6757172630,like_of,,\N,\N,\N,\N,\N,cn,545ab9c85248,0,\N
+6757172630,play_desc,海上漂着捞物资、收难民，在船上盖避难所,direct,llm,agent-manual,1,搜集残存物资，接纳四方的接纳者，并亲手在波涛之上建立起繁荣的避难所,cn,545ab9c85248,0,2026-11-03T10:56:42
+6757172630,subgenre,simulation.survival,direct,llm,agent-manual,2,沉浸式海上末日模拟生存手游,cn,545ab9c85248,0,2026-11-03T10:56:42
+6757172630,theme,scifi,inferred,llm,agent-manual,2,环境崩坏，陆地被淹没的未来——近未来灾变，归 scifi 而非 modern 是我的判断,cn,545ab9c85248,1,2026-11-03T10:56:42
+6757350661,descr_cn,"这里是笼罩在犯罪阴影下的世界。帮派横行、毒品泛滥、暗杀组织肆虐，市民们在不安中惶恐度日。
+
+成为新任警察署长，从简单的事情一步步做起，在守护城市的同时战略性地强化自己的警察署吧！
+名声是一点一滴积累起来的。扩建警署空间、设立新部门、优化办公流程、招募精锐警官、配备顶级装备，应对日益复杂的案件。
+能否将小小的警察署发展成人人向往的巨型警察总部，全看你的了！
+
+1. 设计与建设警察署
+从零开始筑起正义之城。自由布局审讯室、拘留所、装备室等设施，最大化侦查效率！一点一滴的努力积累，将为这座城市找回秩序。
+
+2. 训练警官＆强化装备
+集结精锐警官组建最强部队，粉碎犯罪组织的阴谋。将资源投入最新武器和车辆，就能迎战日益升级的威胁！
+
+3. 战略性地侦查案件
+是施压，还是交易？针对每名嫌疑人切换审讯方针，套出真相。案件越大，对手也越凶恶……投入特警部队，将臭名昭著的罪犯逼入绝境！
+
+4. 管理罪犯
+逮捕的罪犯越多，政府拨给的预算也越多，但管理难度也随之增加。按危险度对罪犯分类，分配到合适的牢房，勤于巡逻，将越狱防患于未然。
+
+5. 镇压暴动
+粗劣的伙食、狭小的牢房、松懈的监管——细微的不满，终将演变成激烈的暴动。声誉与预算",\N,\N,\N,\N,\N,\N,\N,0,\N
+6757350661,like_of,模拟经营+策略,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ac4bf2539530,jp,ac4bf2539530,1,2026-10-24
+6757350661,name_cn,警察局长,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ac4bf2539530,jp,ac4bf2539530,1,2026-10-24
+6757350661,play_desc,建设警察局、招募训练警员、调查案件并管理囚犯，维持治安与预算平衡。,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ac4bf2539530,jp,ac4bf2539530,1,2026-10-24
+6758080238,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Brain Out like（整蛊解谜）,jp,629a79915d2e,0,\N
+6758080238,play_desc,挪动画面里的物品改变插画，解开整蛊谜题,direct,llm,agent-manual,1,アイテムを動かしてイラストを変化させる、いじわる謎解きゲーム,jp,629a79915d2e,0,2026-11-03T11:02:23
+6758080238,subgenre,puzzle.brain,direct,llm,agent-manual,2,いじわる謎解きゲーム|ひらめき力、試してみる？,jp,629a79915d2e,0,2026-11-03T11:02:23
+6758080238,theme,modern,inferred,llm,agent-manual,2,夫を振り向かせたい女性を助けたり——现代生活情境的搞怪短剧,jp,629a79915d2e,0,2026-11-03T11:02:23
+6758203659,like_of,立体节奏音游,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=2d3b7306ecfe,cn,2d3b7306ecfe,1,2026-11-03
+6758203659,play_desc,跟随音乐节奏点击、滑动和长按屏幕上的立体轨道音符，挑战不同难度曲目,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=2d3b7306ecfe,cn,2d3b7306ecfe,1,2026-11-03
+6758326278,art,minimalist,inferred,llm,agent-manual,2,"Simple arrow mechanics, zero visual noise|clean interface——原文指视觉噪音低，推及美术风格需看截图",us,d55edea42d68,1,2026-11-03T11:02:23
+6758326278,play_desc,按顺序抽走箭头，每条都得找到自己的通道,direct,llm,agent-manual,1,Pick up an arrow. Find its lane. Repeat until the grid is yours|choose the right order,us,d55edea42d68,0,2026-11-03T11:02:23
+6758326278,subgenre,puzzle.brain,direct,llm,agent-manual,2,A clean arrow puzzle game|what you need to do is to choose the right order,us,d55edea42d68,0,2026-11-03T11:02:23
+6758326278,theme,abstract,inferred,llm,agent-manual,2,箭头与网格，无角色无叙事,us,d55edea42d68,0,2026-11-03T11:02:23
+6758330501,like_of,方块消除,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=b00bff503f85,cn,b00bff503f85,1,2026-10-24
+6758330501,play_desc,拖方块填满棋盘，凑满一行一列就消掉,direct,llm,agent-manual,1,拖动方块填充棋盘，满行|满列即可一键消除,cn,b00bff503f85,0,2026-10-24
+6758330501,subgenre,puzzle.block,direct,llm,agent-manual,2,拖动方块填充棋盘，满行|满列即可一键消除,cn,b00bff503f85,0,2026-10-24
+6758330501,theme,abstract,inferred,llm,agent-manual,2,纯方块与棋盘，无角色无叙事,cn,b00bff503f85,0,2026-10-24
+6758332966,descr_cn,"进入人气漫画・动画《BLEACH》世界的3D动作对战游戏。
+这是一款可以享受从《BLEACH》动画《千年血战篇》延续而来的原创故事的游戏。
+
+新角色、属于自己的《斩魄刀》，还有必杀技——
+把《BLEACH》的世界装进你的智能手机。
+
+【《BLEACH》原作者久保带人老师的角色设计】
+在《周刊少年Jump》上连载、在世界范围内广受欢迎的《BLEACH》。
+久保带人老师的新角色设计将作为主角与同伴登场。
+来创造只有在这里才能遇见的角色与你的故事吧。
+
+【描绘《千年血战篇》之后的原创故事】
+以全语音体验描绘《BLEACH 千年血战篇》续篇的官方原创故事。
+成为死神，与同伴一起开拓尚未看到的故事吧——
+
+【只属于你的原创《斩魄刀》】
+《BLEACH》中不可或缺的《斩魄刀》可尽情自定义。
+用只属于你的《斩魄刀》推进故事吧。
+
+【操作简单，却极为华丽动作游戏】
+通过一键即可完成的简单操作，展开宏大的动作对战。
+充满魄力的战斗音效提升战斗的沉浸感。
+尽情享受《BLEACH》独有的高速爽快战斗吧。
+
+【美丽3D画面呈现魅力十足、丰富多样的角色】
+《BLEACH》的角色以充满动感的方式呈现的动作游戏。",\N,\N,\N,\N,\N,\N,\N,0,\N
+6758332966,like_of,3D动作战斗,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=689e51e3fff5,kr,689e51e3fff5,1,2026-10-28
+6758332966,name_cn,死神 Mirrors High,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=689e51e3fff5,kr,689e51e3fff5,1,2026-10-28
+6758332966,play_desc,扮演死神与伙伴组队，一键触控释放华丽连招，推进原创剧情并自定义斩魄刀,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=689e51e3fff5,kr,689e51e3fff5,1,2026-10-28
+6758488812,descr_cn,"要不要开始一场「美味」的脑力训练？
+欢迎来到《火鍋マスター：フードパズル》（火锅大师：美食拼图）。
+
+远离日常的喧嚣，走进咕嘟咕嘟沸腾的火锅温暖世界。望着热气腾腾的锅，把食材三个一组凑齐分类，享受收拾得干干净净的舒爽快感。
+
+铺满整个画面的亚洲火锅料理。霜降牛肉、爽脆的小油菜、弹嫩的虾、手工鱼丸等，各式各样的食材在锅里等着你。把这份美味的喧闹，整理得清清爽爽吧。
+
+【玩法】
+
+• 观察并凑齐：从沸腾的汤底中，找出三个相同的食材。
+• 点击分类：把相同食材集中到对应的盘子里，清理锅中的内容。
+• 管理放置区：动脑筋使用有限的空位，注意别让它堆满。
+• 通关关卡：整理好所有食材，解锁新的食谱和锅具设计。
+
+【游戏特色】
+
+• 精美的3D表现：精心制作的食材与热气演出，呈现火锅特有的温暖感。
+• 舒适的ASMR：一边享受汤汁沸腾的声音、盘子相碰的声音，一边放松身心。
+• 恰到好处的脑力训练：操作简单，却考验观察力与空位运用的深奥拼图。
+• 丰富多样的火锅主题：从刺激的四川风味汤底，到口味温和的药膳锅，都能尽情享受。
+• 按自己的节奏游玩：没有时间限制，也没有对战。可以在喜欢的时机慢慢挑战。
+
+无论是短暂的等待时间，还是睡前的放松时光，都非常适合。一边享受逻辑乐趣，一边品味令人食欲大开的火锅世界吧。
+
+现在就下载《火鍋マスター：フー",\N,\N,\N,\N,\N,\N,\N,0,\N
+6758488812,like_of,三消分拣,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=19440ac8d2e1,jp,19440ac8d2e1,1,2026-10-27
+6758488812,name_cn,火锅大师：美食拼图,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=19440ac8d2e1,jp,19440ac8d2e1,1,2026-10-27
+6758488812,play_desc,从火锅中找出三个相同食材，点击分拣到对应餐盘，管理有限空位清空锅底过关。,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=19440ac8d2e1,jp,19440ac8d2e1,1,2026-10-27
+6759081967,art,pixel,direct,llm,agent-manual,2,픽셀 아트 퍼즐|픽셀 아트 걸작,kr,cad0a5db95c3,0,2026-11-03T11:02:23
+6759081967,play_desc,把同色宝石排到一组，逐渐拼出一幅像素画,direct,llm,agent-manual,1,반짝이는 보석들을 탭하고 같은 색상 그룹으로 배열|숨겨진 픽셀 아트 디자인이 서서히 생명을 얻는,kr,cad0a5db95c3,0,2026-11-03T11:02:23
+6759081967,subgenre,puzzle.sort,direct,llm,agent-manual,2,색상별로 쉽게 정렬하기|단순하고 즐거운 분류 행동,kr,cad0a5db95c3,0,2026-11-03T11:02:23
+6759081967,theme,abstract,inferred,llm,agent-manual,2,宝石与像素画，无角色无叙事,kr,cad0a5db95c3,0,2026-11-03T11:02:23
+6759763476,like_of,,\N,\N,\N,\N,\N,us,73f585e2785f,0,\N
+6759763476,play_desc,挪动巴士解开堵车，顺路把乘客接上车,direct,llm,agent-manual,1,"버스를 움직이고, 주차하고, 승객을 모으세요",kr,726aa1fa555d,0,2026-11-03T11:02:23
+6759763476,subgenre,puzzle.brain,inferred,llm,agent-manual,2,主循环是挪车解堵（주차장의 혼잡을 해결），颜色分拣与载客是附加层；故记 brain 不记 sort,kr,726aa1fa555d,0,2026-11-03T11:02:23
+6759763476,theme,modern,inferred,llm,agent-manual,2,주차장、버스——现代城市,kr,726aa1fa555d,0,2026-11-03T11:02:23
+6759788962,like_of,塔防+城堡建造,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=9b098f5c3293,us,9b098f5c3293,1,2026-11-06
+6759788962,name_cn,领主突袭,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=9b098f5c3293,us,9b098f5c3293,1,2026-11-06
+6759788962,play_desc,重建要塞、采集资源、升级防御塔并招募英雄，抵御一波波攻城并争夺王座,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=9b098f5c3293,us,9b098f5c3293,1,2026-11-06
+6759997224,descr_cn,"你是小镇小派出所里的一名巡警。
+从日常巡逻到现场侦查！
+为了守护小镇的和平，揪出潜伏在普通人当中的罪犯并逮捕他们！
+
+▼玩法
+・在小镇里巡逻吧
+・遇到居民就向他们提问吧
+・一边提问一边仔细观察，决定是否逮捕吧
+・逮捕罪犯后，罪犯会当场消失并被送进监狱！
+・偶尔发生的凶恶案件也要在现场抓住犯人！
+・逮捕的罪犯越多，就越能升职！
+
+▼推荐给这样的人
+・喜欢推理游戏的人
+・想考验自己观察力的人
+・想守护小镇和平的正义之士
+・喜欢轻松、节奏明快游戏的人
+
+关卡追加预定！",\N,\N,\N,\N,\N,\N,\N,0,\N
+6759997224,like_of,推理观察,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=15f3481e6f90,kr,15f3481e6f90,1,2026-10-24
+6759997224,name_cn,巡回中！即逮捕！,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=15f3481e6f90,kr,15f3481e6f90,1,2026-10-24
+6759997224,play_desc,扮演巡警在村中巡逻盘问居民，观察找出隐藏的罪犯并逮捕升职,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=15f3481e6f90,kr,15f3481e6f90,1,2026-10-24
+6760274605,descr_cn,"实现梦想的Spark Rider养成ADV
+
+– WORLD –
+
+大家怦然心动的内心化作名为「闪耀」的光之粒子翩翩起舞，
+充满不可思议光辉的岛屿——Sparkle群岛・Luminastear。
+
+因为一个意想不到的契机，你被委任制作在全世界备受喜爱的Luminastear舞台活动「Spark Ride」。
+
+在那里邂逅的，是各自心怀梦想的Spark Rider们。
+与他们心灵相通、一同烦恼、一同欢笑，一步步奔上通往梦想的阶梯。
+而在那前方等待着的，是还未有人见过的景色。
+
+– SYSTEM –
+
+◆制作
+作为Conductor，激发Spark Rider们的能力吧！
+可爱十足的演出与BGM、享受每个舞台机关的三消益智游戏。
+与Spark Rider一同通关益智游戏，即可提升等级、获得在Spark Ride中大显身手的技能。
+为了Spark Ride，好好训练Spark Rider们吧！
+
+◆Spark Ride
+与Spark Rider们一起，让梦想的舞台取得成功吧！
+Spark Rider们闪耀的舞台「Spark Ride」。
+运用在制作中获得的技能，与他们一同以第一名目标吧。
+
+◆拍下Spark Rider们闪耀的身姿吧！
+在Spark Ride中，作为Conductor可以拍下他们的身姿，留下记录。
+此外，还可以在拍摄的照片上贴上装饰贴纸，制作只属于自己的独一无二的一张。",\N,\N,\N,\N,\N,\N,\N,0,\N
+6760274605,like_of,三消+养成+偶像企划,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=d648ec256d4b,jp,d648ec256d4b,1,2026-11-04
+6760274605,name_cn,迪士尼 闪耀链接之星,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=d648ec256d4b,jp,d648ec256d4b,1,2026-11-04
+6760274605,play_desc,扮演制作人，通过三消关卡培养角色并赢下舞台竞演,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=d648ec256d4b,jp,d648ec256d4b,1,2026-11-04
+6760377931,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Mahjong Solitaire like（麻将接龙）,us,f9dd8376629d,0,\N
+6760377931,play_desc,跟人比谁先配对清空麻将牌，赢真钱,direct,llm,agent-manual,1,"Match Tiles, Challenge Players, Win Real Cash",us,f9dd8376629d,0,2026-11-03T11:02:23
+6760377931,subgenre,puzzle.brain,inferred,llm,agent-manual,2,核心是 tile matching（配对清牌），竞技与真钱是外层；非四人牌局，故记 brain 不记 card_battle.traditional,us,f9dd8376629d,0,2026-11-03T11:02:23
+6760377931,theme,abstract,inferred,llm,agent-manual,2,麻将牌面，无角色与叙事设定,us,f9dd8376629d,0,2026-11-03T11:02:23
+6760389476,descr_cn,"欢迎来到魅力十足、让人上瘾的益智冒险！你的使命是清空拥挤不堪的停车场。点击把车开出来，接上同色的等候乘客，消除队列。
+
+规划好每一步！车子只会朝箭头方向前进，必须不受其他车辆阻挡才能通行。策略思考是解开混乱交通的关键。清空所需车辆以及对应的所有乘客队列即可通关，解锁下一个挑战！但要注意——如果停车场完全堵死，谁也接不到队首的乘客，游戏就结束了。
+
+特色
+色彩缤纷的可爱风格：鲜艳的色彩、可爱的车子、迷人的乘客们。在清爽简洁的画面中尽情享受。
+锻炼大脑：乐趣与脑力训练兼得。在每个关卡中锻炼观察力、逻辑思维和空间规划能力。
+逐渐变难的谜题：从容易记住的布局开始，逐步迈向绞尽脑汁的难关。越往后车子越多，颜色组合也越复杂，考验你的策略。
+提升专注力与判断力：在限时刺激挑战中，锻炼压力之下的专注与瞬间判断。最适合保持头脑清醒！
+准备好解开终极停车谜题、成为交通流大师了吗？立即下载，开启一场对大脑有益的旅程吧！",\N,\N,\N,\N,\N,\N,\N,0,\N
+6760389476,like_of,停车场解谜,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=d79226fbf12e,jp,d79226fbf12e,1,2026-10-30
+6760389476,name_cn,色彩拼图大堵塞 巴士游戏 汽车堵塞,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=d79226fbf12e,jp,d79226fbf12e,1,2026-10-30
+6760389476,play_desc,点车出库接走同色乘客，车只能朝箭头方向开,direct,llm,agent-manual,1,タップして車を出し、同じ色の待ち客を乗せて列を消していこう|車は矢印の向きに進むだけで,jp,d79226fbf12e,0,2026-10-30
+6760389476,subgenre,puzzle.brain,inferred,llm,agent-manual,2,核心是解堵与路径规划（戦略的思考が、混乱した交通を解きほぐす鍵だ），接同色客是附加层；与另两条巴士解谜一致记 brain,jp,d79226fbf12e,0,2026-10-30
+6760389476,theme,modern,inferred,llm,agent-manual,2,駐車場、車、乗客——现代城市交通,jp,d79226fbf12e,0,2026-10-30
+6760530627,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Mahjong Solitaire like（麻将接龙）,us,71d83f11c4da,0,\N
+6760530627,play_desc,跟对手比谁先把麻将牌配对清空，赢真钱,direct,llm,agent-manual,1,"clear tiles faster, and compete in tournaments for real cash prizes",us,71d83f11c4da,0,2026-11-03T11:02:23
+6760530627,subgenre,puzzle.brain,inferred,llm,agent-manual,2,玩法是单人式配对清牌（tile matching），竞赛与真钱是外层；不是四人牌局，故记 brain 不记 card_battle.traditional,us,71d83f11c4da,0,2026-11-03T11:02:23
+6760530627,theme,abstract,inferred,llm,agent-manual,2,麻将牌面，无角色与叙事设定,us,71d83f11c4da,0,2026-11-03T11:02:23
+6760998152,descr_cn,"Family Farm Merge：回归自然的合成冒险！
+
+欢迎来到《Family Farm Merge》。这是一款以经典名作《Family Farm》系列为基础打造的全新合成游戏。在这里，令人怀念的农场温情与轻松上瘾的合成玩法融为一体。你不仅仅是在经营农场，更是在帮助整个山谷重拾色彩与生机。
+厌倦了都市喧嚣与忙碌的艾拉，回到了童年回忆之地——微风山谷。然而，她发现的农场早已不是记忆中的模样。风车停转，花朵褪色，大地仿佛沉沉睡去。就在这时，艾拉发现了一只神奇的金色沙漏，人与自然之间古老的约定开始苏醒……
+来吧，接下来轮到你了。让山谷苏醒过来吧。
+
+本游戏包含随机道具购买及抽卡等可选游戏内付费内容。
+
+合成与重建
+- 拖动合成，解锁数百种作物、花卉与农场道具吧。
+- 从褪色被遗忘的农场开始，将它复兴为明亮而充满活力的乐园吧。
+- 持续合成，发现隐藏的资源与奇迹工具吧。
+
+经典农场生活，全新乐趣
+- 以全新形式体验《Family Farm》熟悉的魅力。
+- 饲养动物、收获作物、制作商品，品味田园生活的质朴喜悦吧。
+- 借助合成系统，农活比以往更简单顺畅，更加轻松惬意地享受",\N,\N,\N,\N,\N,\N,\N,0,\N
+6760998152,like_of,合成经营,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=dcbbabadacc6,jp,dcbbabadacc6,1,2026-10-31
+6760998152,name_cn,家庭农场合并,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=dcbbabadacc6,jp,dcbbabadacc6,1,2026-10-31
+6760998152,play_desc,拖拽合并作物与农场物品，解锁资源，重建荒废农场,direct,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=dcbbabadacc6,jp,dcbbabadacc6,1,2026-10-31
+6760998152,subgenre,simulation.merge,direct,llm,agent-manual,2,힐링 합성 게임|드래그하고 합성해,kr,e84ce4d7cf97,0,2026-10-31
+6760998152,theme,modern,inferred,llm,agent-manual,2,농장、계곡、도시의 소음——现代乡村背景,kr,e84ce4d7cf97,0,2026-10-31
+6761253603,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Amaze GO! like（箭头解谜）,kr,336aba4082ca,0,\N
+6761253603,play_desc,解箭头谜题救出被藤蔓缠住的猫，顺便收集,direct,llm,agent-manual,1,엉킨 화살표를 풀어 덩굴에 묶인 고양이들을 구해주세요|화살표를 순서대로 톡톡 터치하여,kr,336aba4082ca,0,2026-11-03T11:02:23
+6761253603,subgenre,puzzle.brain,direct,llm,agent-manual,2,화살표 퍼즐을 풀고|마음이 편안해지는 화살표 퍼즐,kr,336aba4082ca,0,2026-11-03T11:02:23
+6761253603,theme,animal,direct,llm,agent-manual,2,"고양이 마을|치즈태비, 멋쟁이 턱시도, 우아한 러시안 블루",kr,336aba4082ca,0,2026-11-03T11:02:23
+6761421604,descr_cn,"“那家伙等了100年。”
+
+大陆各处正逐渐化为地下城的世界，斯托尼亚。
+地下城支援者“米卡”在100年前远征队全军覆没的
+废墟大教堂中，与沉睡着的“它”正面相遇。
+
+------------------------------
+[游戏介绍]
+
+■ 一格一格亲自步行的未知网格地下城
+打开门之前谁也不知道。
+是宝箱，是宝箱怪？还是致命的陷阱？
+每移动一格，粮食都会减少。是翻遍每个角落拿走奖励，还是节省粮食为Boss战做准备，每一层你的选择都将改变地下城的命运。
+
+■ 为突破地下城而生的完美背包构筑
+地下城支援者米卡的真正职责，就是把“最强背包”交到勇者手中！
+靠运气的掉落到此为止！在每层商店只挑选你想要的装备吧。
+在有限的背包空间里像拼图一样塞进去，合成相同武器打造传说装备，完成只属于你的最强背包。
+
+■ 迎战最终Boss的米卡与4人远征队
+中立、秩序、混沌——用克制瓦解敌人的机制！
+读懂怪物并组建好队伍后，战斗会自动进行。
+在10层Boss面前，确认你搭配的背包中武器们在冷却时间到时倾泻而出的压倒性火力吧！
+
+■ 深不见底的无尽地下城内容
+消除重复刷取疲劳感的舒适放置奖励系统！
+只靠纯粹背包脑力决胜负的PvP“血之竞技场”。
+所有",\N,\N,\N,\N,\N,\N,\N,0,\N
+6761421604,like_of,地牢探索+背包构筑,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=b6b800f81a9e,kr,b6b800f81a9e,1,2026-10-26
+6761421604,name_cn,米卡：地牢背包客,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=b6b800f81a9e,kr,b6b800f81a9e,1,2026-10-26
+6761421604,play_desc,逐格探索地牢，管理粮食与背包空间，合成装备并组建四人队伍击败楼层Boss,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=b6b800f81a9e,kr,b6b800f81a9e,1,2026-10-26
+6761477956,like_of,滑动解谜,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=287de7a11a50,jp,287de7a11a50,1,2026-10-26
+6761477956,name_cn,路径流动：迷宫解谜,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=287de7a11a50,jp,287de7a11a50,1,2026-10-26
+6761477956,play_desc,滑动方块连接箭头方向，为每个方块找到正确路径并逃出网格。,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=287de7a11a50,jp,287de7a11a50,1,2026-10-26
+6761757565,art,pixel,direct,llm,agent-manual,2,きらめくピクセルアートが姿を現す,jp,3f06b7bd1455,0,2026-10-27
+6761757565,descr_cn,"Colorever 是一款轻松惬意的宝石排列益智游戏，每次点击都会让闪耀的像素艺术逐渐显现。
+
+点击宝石，相连的同色宝石组便会闪闪发光地一块块滑向目的地，最终完成绚丽的宝石艺术画。没有计时器。没有体力系统。没有游戏结束画面。只有你、宝石，以及一定能解开的宁静谜题。
+
+玩法
+
+• 点击宝石移动整组。同色相连的宝石会被一起拾起，逐一飞向对应的位置。
+• 读懂棋盘。每个位置都显示着等待的宝石颜色。将宝石与位置匹配，伴随舒适的咔嗒声严丝合缝地嵌入。
+• 善用托盘。宽敞的双列托盘可临时存放暂不放置的宝石。排列始终充满策略，与烦躁无缘。
+• 完成画作。放下最后一颗宝石时，整幅像素艺术将光芒四射，并保存至画廊。
+
+备受喜爱的理由
+
+• 真正的放松。没有倒计时、没有体力系统、没有压力。休息时玩一关，沉迷时玩二十关，全凭自由。
+• 舒爽的排列体验。移动色彩，整理图案，享受宝石一颗颗归于秩序的喜悦。
+• 必定可解。每个关卡都有解，卡住只是暂时的。
+• 平缓的学习曲线。最初的谜题无需说明即可上手。后期的棋盘更宽广、更具层次，值得细细思考。
+• 便利的助手。托盘扩展、撤销一步、提示，以及能自动整理简单宝石的智能点击。",\N,\N,\N,\N,\N,\N,\N,0,\N
+6761757565,like_of,宝石排序解谜,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=3f06b7bd1455,jp,3f06b7bd1455,1,2026-10-27
+6761757565,name_cn,彩绘宝石艺术拼图,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=3f06b7bd1455,jp,3f06b7bd1455,1,2026-10-27
+6761757565,play_desc,点同色连成的宝石组，让它们滑进对应位置拼成画,direct,llm,agent-manual,1,ジェムをタップすると、つながったグループが|同じ色でつながったジェムがまとめて拾われ,jp,3f06b7bd1455,0,2026-10-27
+6761757565,subgenre,puzzle.sort,direct,llm,agent-manual,2,リラックス系ジェム並べ替えパズル|ジェムとスペースを合わせると,jp,3f06b7bd1455,0,2026-10-27
+6761757565,theme,abstract,inferred,llm,agent-manual,2,宝石与像素画，无角色无叙事,us,e3e470e7c408,0,2026-10-27
+6761760135,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=数独 like（数独+扫雷）,us,9b53f11e1d07,1,\N
+6761760135,play_desc,把猫放进格子，同行同列不能有猫，对角线也不行,direct,llm,agent-manual,1,"같은 가로줄이나 세로줄에 함께 있을 수 없고, 대각선으로라도 서로 닿아서는 안 됩니다",kr,216c407d7919,0,2026-11-03T11:02:23
+6761760135,subgenre,puzzle.brain,direct,llm,agent-manual,2,순수 논리 퍼즐 게임|구역마다 고양이는 딱 한 마리만 배치,kr,216c407d7919,0,2026-11-03T11:02:23
+6761760135,theme,animal,direct,llm,agent-manual,2,도도한 아기 고양이들,kr,216c407d7919,0,2026-11-03T11:02:23
+6761893238,descr_cn,"欢迎来到Top Force！这是一款轻松上手、爽快感十足的军事策略游戏！
+在前线建造军事基地，武装士兵，在提供支援的同时击破敌人吧！赚取资金扩张基地，打造终极军事帝国！",\N,\N,\N,\N,\N,\N,\N,0,\N
+6761893238,like_of,军事策略+基地经营,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ad06012e459b,jp,ad06012e459b,1,2026-10-26
+6761893238,name_cn,顶级力量,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ad06012e459b,jp,ad06012e459b,1,2026-10-26
+6761893238,play_desc,建设军事基地、武装士兵并扩张基地，击败敌人建立军事帝国,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ad06012e459b,jp,ad06012e459b,1,2026-10-26
+6761896313,like_of,社交赌场老虎机,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=e16e4a9f50a8,us,e16e4a9f50a8,1,2026-10-27
+6761896313,name_cn,胜利爆破赌场,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=e16e4a9f50a8,us,e16e4a9f50a8,1,2026-10-27
+6761896313,play_desc,转动老虎机卷轴赢取奖励，完成每日任务推进进度并解锁新主题与活动,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=e16e4a9f50a8,us,e16e4a9f50a8,1,2026-10-27
+6762341163,descr_cn,"商店描述原文翻译：
+
+宁静的乡村，在AI数据中心爆炸之后，一切都变了。
+被污染的害虫无穷无尽地涌来，你的农场将成为最后的防线。
+
+现在，挡住蜂拥而至的害虫，成为最后的幸存者吧。
+融合了Roguelike、塔防与射击的全新生存体验，就此开始。
+
+저리가 꼬꼬댁！是一款融合了Roguelike元素、塔防策略与实时射击动作的生存游戏。
+在每局都截然不同的战斗局势中，选择随机技能，打造属于你自己的构筑，挡住害虫军团吧。
+
+这可不是单纯的防御。
+亲自操作、射击、闪避、随时改变策略，体验真正的动作塔防吧。
+
+[ 游戏主要特色 ]
+▶ 无穷无尽涌来的变异害虫
+因AI事故而变异的各种害虫，会以各不相同的攻击模式发起进攻。
+从快速冲锋的个体到大型Boss，每一局都会出现新的威胁。
+
+▶ Roguelike技能选择
+每场战斗都会提供3个随机技能，从中选择一个吧。
+通过攻击强化、范围扩展、特殊效果等多种组合，打造属于你的最强构筑。
+
+▶ 策略性塔防
+为守住农场而进行的布阵、移动与攻击时机将左右胜负。
+根据害虫的种类与动向，灵活调整你的策略吧。
+
+▶ 爽快刺激的射击动作
+运用镐头、鸡蛋、激光、弹弓等多种武器，横扫蜂拥而至的害虫吧。
+手感十",\N,\N,\N,\N,\N,\N,\N,0,\N
+6762341163,like_of,肉鸽射击塔防,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=953b3744d5df,kr,953b3744d5df,1,2026-11-03
+6762341163,name_cn,走开吧咯咯哒：生存防御,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=953b3744d5df,kr,953b3744d5df,1,2026-11-03
+6762341163,play_desc,操控角色射击并布置防御，从随机技能中选build，抵御一波波变异害虫守住农场,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=953b3744d5df,kr,953b3744d5df,1,2026-11-03
+6762359394,descr_cn,"剑 x 杖，华山归还联动确定！
+领取韩国限定武器甜咸甜咸小年糕串/辣甜王年糕串礼物和1000万韩元联动活动奖励！
+
+◆超~帅气捏脸！展现我的个性~！◆
+联动捏脸预约活动登场！打造属于你充满个性的专属角色吧！
+
+◆通过职业转换体验多样技能~！◆
+打破界限的自由职业及技能转换！完美甩掉养成负担和升级压力！
+
+◆放置也能自我成长~！◆
+躺在床上也能独自升级！与可爱的幻兽们一起体验自动刷怪、自动成长的乐趣！
+
+◆轻松邂逅带来的快感~！◆
+一键匹配，零负担实时组队出击！用华丽的剑术和强大的魔法尽情支配战场吧！
+
+◆获取宝物！自由冒险的乐趣~！◆
+广阔地图，宝物掉落也无穷无尽！享受地图各处隐藏的隐藏任务和未知宝物带来的惊喜瞬间吧！
+
+▶－－－－－－－－－－－－－－－－－◀
+
+◆官方网站◆
+官方捏脸活动页面：https://swordxstaffkr.boltray.com/pre/customizing
+官方社区：https://game.naver.com/lounge/SwordxStaff/home
+官方推特：https://x.com/SwordxStaff_kr
+官方YouTube：https://www.youtube.com/@",\N,\N,\N,\N,\N,\N,\N,0,\N
+6762359394,like_of,放置养成 MMORPG,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=e62f373f44de,kr,e62f373f44de,1,2026-11-03
+6762359394,name_cn,剑与杖：华山归还联动,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=e62f373f44de,kr,e62f373f44de,1,2026-11-03
+6762359394,play_desc,切换职业与技能，带宠物自动刷怪升级，组队实时出击探索地图夺宝,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=e62f373f44de,kr,e62f373f44de,1,2026-11-03
+6762593520,descr_cn,"初次邂逅的多元宇宙新武侠RPG《검신제로》
+
+睁开眼，眼前已不是我熟知的江湖。
+破碎的记忆，陌生的战场。将我禁锢的这世界的恶意，究竟是谁的阴谋？
+
+失去所有记忆的绝对者，以及命运已然扭曲的世界线们。
+对抗试图封印我的世界之恶意，夺回失去的绝对者之位。
+
+■ 扭曲的江湖，以及其背后的真相
+   试图封印你的世界之恶意。
+   每击破一个充满欺诈的石之阵法，
+   隐藏的阴谋与被遗忘的真相便更近一步。
+
+■ 武学脉络截然不同的真正江湖战斗
+   绝顶武学若用错，亦成三流武学。
+   以洞悉相性与局势的招式运用来决定胜负。
+   用武学展开的策略战斗之乐趣
+
+■ 有血有肉的侠客们与流淌的江湖故事
+   在江湖各处邂逅的魅力侠客们。
+   与各自的故事交织的缘分。
+   有深度的武侠叙事
+   随你的选择一同展开。
+
+■ 永不停歇的高手之路
+   沉睡之时武学亦在精进。
+   无负担的自动狩猎与丰厚的离线奖励。
+
+■ 即便放下剑，江湖仍在继续
+   从狩猎、钓鱼、烹饪、酿造到坐骑捕获。
+   不握剑的时间，亦是江湖的一部分。
+   尽情享受你所想象的一切武侠风流吧。
+
+在陌生江湖中睁开眼的武林绝对者啊。
+准备好连接记忆，拨正世界的命运了吗",\N,\N,\N,\N,\N,\N,\N,0,\N
+6762593520,like_of,武侠策略RPG,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=90b76acf9725,kr,90b76acf9725,1,2026-10-29
+6762593520,name_cn,剑神Zero,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=90b76acf9725,kr,90b76acf9725,1,2026-10-29
+6762593520,play_desc,扮演失忆的武林至尊，通过属性相克与招式策略战斗，破解阵法、追查阴谋、找回记忆。,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=90b76acf9725,kr,90b76acf9725,1,2026-10-29
+6763262759,descr_cn,"《怪物猎人 Outlanders》是获得 CAPCOM 正式授权，由 TiMi Studio Group 开发、Garena 发行的《怪物猎人》系列最新作。在继承系列标志性武器与独特狩猎手感的同时，带来全新的世界观、冒险家、随从以及全新原创怪物。
+
+① 原创古龙“鲁加·艾阿尔达”与“融光种怪物”登场！
+全身散发耀眼光芒的古龙“鲁加·艾阿尔达”以如闪耀太阳般的威容现身！还有受环境影响而变异的“融光种”怪物，与前所未见的怪物相遇，将引领你走向全新的冒险与挑战！
+
+② 系列代表武器 × 个性十足的冒险家，体验全新狩猎风格！
+大剑、太刀、双剑、大锤、长枪、重弩、盾斧、弓等《怪物猎人》系列代表性的 8 种武器全部登场！
+各具个性的冒险家与丰富多样的武器种类相互结合，在继承《怪物猎人》系列独有狩猎乐趣的同时，带来全新的战斗动作体验！
+
+③ 随时随地，在手机上与会伙伴一同狩猎！
+你可以独自探索广阔世界，也可以召集伙伴组成 4 人小队。无论何时何地，只要与伙伴在一起，任何强大的怪物都能迎战！
+
+④ 与可靠的随从一同踏上狩猎之旅！
+个性十足的三只",\N,\N,\N,\N,\N,\N,\N,0,\N
+6763262759,like_of,共斗狩猎动作,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=a61226f308d7,kr,a61226f308d7,1,2026-10-28
+6763262759,name_cn,怪物猎人 Outlanders,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=a61226f308d7,kr,a61226f308d7,1,2026-10-28
+6763262759,play_desc,选武器与冒险家组队狩猎大型怪物，采集素材强化装备,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=a61226f308d7,kr,a61226f308d7,1,2026-10-28
+6766297786,play_desc,把相关的单词气泡并到一起，凑齐同类的四个,direct,llm,agent-manual,1,merge related words together|you successfully collect 4 words from the same category,us,7678799da3ab,0,2026-11-03T11:02:23
+6766297786,subgenre,puzzle.word,direct,llm,agent-manual,2,satisfying word puzzle game|word association puzzles,us,7678799da3ab,0,2026-11-03T11:02:23
+6766297786,theme,abstract,inferred,llm,agent-manual,2,单词气泡，无角色无叙事,us,7678799da3ab,0,2026-11-03T11:02:23
+6767091927,play_desc,移动拼块补全画面，补好一块就消掉、上方掉新块,direct,llm,agent-manual,1,ピースを動かして、絵の一部を完成させましょう|クリアしたエリアの分だけ、新しいピースが上から落下します,jp,7c6bbb45e459,0,2026-11-03T11:02:23
+6767091927,subgenre,puzzle.block,direct,llm,agent-manual,2,ジグソーパズルとソリティアが融合した、新しい落下型パズルゲーム|ジグソー、ブロックパズル,jp,7c6bbb45e459,0,2026-11-03T11:02:23
+6767091927,theme,abstract,inferred,llm,agent-manual,2,拼图画面内容多样，无统一世界观与角色,jp,7c6bbb45e459,0,2026-11-03T11:02:23
+6767180267,like_of,清洁模拟+修复,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=836f36db0ed3,us,836f36db0ed3,1,2026-10-24
+6767180267,name_cn,解压清洁ASMR,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=836f36db0ed3,us,836f36db0ed3,1,2026-10-24
+6767180267,play_desc,点击滑动清洗、修复脏旧物品，让它们焕然一新,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=836f36db0ed3,us,836f36db0ed3,1,2026-10-24
+6768253096,like_of,开包抽卡+集换收藏,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=c23b0c80b7fe,us,c23b0c80b7fe,1,2026-11-03
+6768253096,name_cn,Pullz,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=c23b0c80b7fe,us,c23b0c80b7fe,1,2026-11-03
+6768253096,play_desc,开卡包抽真实集换卡，可留存、出售换现金或申请实体邮寄,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=c23b0c80b7fe,us,c23b0c80b7fe,1,2026-11-03
+6768258203,descr_cn,"在可爱的贴纸世界里展现你独有的室内设计品味吧！
+用镊子把贴纸一张张贴上去，为温馨的小空间注入生机吧！从家具、植物到可爱角色，每一张贴纸都能帮你DIY出属于自己的完美房间布局。回忆中贴纸簿带来的经典乐趣，如今焕新重生。
+
+体验整理收纳带来的小小幸福吧。把房间收拾得干干净净，将小物件完美排列，光是望着最终完成的美丽空间，就能感受到巨大的满足与舒适。它会成为让你逃离日常、尽情沉浸与治愈的最佳休憩之所。
+
+你的创意之旅没有终点！
+
+丰富多样的空间装饰：从温馨的卧室到充满活力的厨房，按你的喜好尽情布置吧。
+
+活力街景设计：亲手设计熙熙攘攘的商店和如画般美丽的街景吧。
+
+全新挑战：源源不断提供的新任务，随时为你带来新鲜的乐趣与沉浸感。
+
+尽情享受创造秩序与美的乐趣，成为最棒的贴纸场景设计师吧！",\N,\N,\N,\N,\N,\N,\N,0,\N
+6768258203,like_of,贴纸装饰+房间布置,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=2f40db265c44,kr,2f40db265c44,1,2026-10-24
+6768258203,name_cn,贴纸生活,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=2f40db265c44,kr,2f40db265c44,1,2026-10-24
+6768258203,play_desc,用镊子逐张贴贴纸装饰房间，摆放家具植物和角色，完成空间布置,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=2f40db265c44,kr,2f40db265c44,1,2026-10-24
+6768564100,like_of,老虎机,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=e021b232dddd,us,e021b232dddd,1,2026-10-28
+6768564100,name_cn,布鲁诺卷轴赌场,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=e021b232dddd,us,e021b232dddd,1,2026-10-28
+6768564100,play_desc,转动老虎机卷轴赢取奖励，每日登录领奖金并参与限时活动,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=e021b232dddd,us,e021b232dddd,1,2026-10-28
+6769314786,art,pixel,direct,llm,agent-manual,2,Every level is a pixel art masterpiece,us,be25b061f802,0,2026-11-03T11:02:23
+6769314786,play_desc,按颜色放蚂蚁上场，啃掉像素画里对应的色块,direct,llm,agent-manual,1,"Sort your ants by color, send them in, and watch them eat the picture clean",us,be25b061f802,0,2026-11-03T11:02:23
+6769314786,subgenre,puzzle.sort,direct,llm,agent-manual,2,Food Hunt is a satisfying color sort puzzle,us,be25b061f802,0,2026-11-03T11:02:23
+6769314786,theme,abstract,inferred,llm,agent-manual,2,像素画内容为食物图案，但无角色与叙事设定,us,be25b061f802,0,2026-11-03T11:02:23
+6769617371,descr_cn,"极寒席卷三国全境。
+现在，该由你亲手开启新的故事了。
+成为心怀仁义的领主，
+迎接流离失所的难民，邂逅免费SSR武装貂蝉吧。
+点燃希望的火种，
+在冰封的旧日边境上，建成温暖繁荣的城池！
+流民安置：传递温暖，壮大城池
+流民们在暴风雪中徘徊，寻找新的安身之所。
+迎接他们，燃起篝火，为他们安置栖身之地吧！
+新加入的人们各自拥有出众的才能。
+为他们安排合适的工作，
+把冰封的小村庄发展成温暖繁荣的城池吧！
+离线奖励：无需登录，奖励照样累积
+一次性指示居民伐木、制作工具、储备物资吧。
+再次登录即可获得丰厚奖励，
+轻松为下一次城池扩建做好准备。
+耕作与建设：从冰封荒地到温暖家园
+扫开积雪，开垦冻土，种下第一茬作物吧！
+用刚收获的作物养活居民，
+收集木材与石材，建起温暖的家屋、热闹的工坊、宏伟的殿堂。
+每多一粒种子、每多一片屋顶，
+你的城池都会焕发新的活力！
+武装编成：自由搭配，轻松成长
+所有武装共享等级，
+更换武装也无需从头重新培养。
+自由组合武装技能，打出强力连招，
+极寒",\N,\N,\N,\N,\N,\N,\N,0,\N
+6769617371,like_of,模拟经营+卡牌养成,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=7db554ae14e8,kr,7db554ae14e8,1,2026-10-30
+6769617371,name_cn,刀锋之战：三国,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=7db554ae14e8,kr,7db554ae14e8,1,2026-10-30
+6769617371,play_desc,收留难民、清雪耕作建城，编组武将守城并加入联盟互助,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=7db554ae14e8,kr,7db554ae14e8,1,2026-10-30
+6770503071,play_desc,学校主题的轻量脑筋题，看一眼就能答,direct,llm,agent-manual,1,학교 테마 두뇌 퍼즐 게임|간단한 관찰과 판단만으로 퍼즐을 풀 수 있어,kr,9b5176ac5ac5,0,2026-11-03T11:02:23
+6770503071,subgenre,puzzle.brain,direct,llm,agent-manual,2,학교 테마 두뇌 퍼즐 게임|간단한 논리로 최적화했습니다,kr,9b5176ac5ac5,0,2026-11-03T11:02:23
+6770503071,theme,modern,direct,llm,agent-manual,2,학교를 배경으로 한|학교 테마,kr,9b5176ac5ac5,0,2026-11-03T11:02:23
+6771681142,art,2d_flat,direct,llm,agent-manual,2,温かみのある紙の背景と毛筆のデザイン,jp,6eff8a25c7c3,0,2026-11-03T10:56:42
+6771681142,play_desc,把汉字拆成笔画，重新拼出藏在里面的新字,direct,llm,agent-manual,1,漢字を分解・再構成し、新しい文字を導き出す,jp,6eff8a25c7c3,0,2026-11-03T10:56:42
+6771681142,subgenre,puzzle.word,direct,llm,agent-manual,2,漢字の美しさと奥深さを再発見|文字分解の楽しさ,jp,6eff8a25c7c3,0,2026-11-03T10:56:42
+6771681142,theme,abstract,inferred,llm,agent-manual,2,温かみのある紙の背景と毛筆のデザイン——古典美学只落在视听层（纸、笔、字体），无角色、无剧情、无时代情境；文字承载文化知识不等于有历史世界观，故判 abstract 不判 historical,jp,6eff8a25c7c3,0,2026-11-03T10:56:42
+6771681639,play_desc,点鱼让它游进对应鱼缸，凑够数量才能过关,direct,llm,agent-manual,1,물고기를 탭하면 각자의 어항으로 헤엄쳐 갑니다|어항마다 필요한 물고기 수량이 표시,kr,0b9f583a5493,0,2026-11-03T11:02:23
+6771681639,subgenre,puzzle.sort,direct,llm,agent-manual,2,물고기를 탭하면 각자의 어항으로 헤엄쳐 갑니다|수중 생물 분류 실력,kr,0b9f583a5493,0,2026-11-03T11:02:23
+6771681639,theme,animal,direct,llm,agent-manual,2,물고기|수중 생물,kr,0b9f583a5493,0,2026-11-03T11:02:23
+6772975295,art,pixel,direct,llm,agent-manual,2,美しいピクセルアートの傑作を完成させてください,jp,f0ef85a789f3,0,2026-10-26
+6772975295,descr_cn,"欢迎来到 Jewel Color Sort：鲜艳色彩与放松解谜游戏的世界。
+点击分类闪耀的宝石，将它们放入正确的颜色区域吧。
+请仔细整理托盘，完成美丽的像素艺术杰作。
+
+沉浸在创造力与逻辑思维融合的体验中吧。这款游戏拥有流畅的操作手感和令人满足的进度系统，是保持头脑活跃的同时放松身心的最佳方式。通过完美地摆放，把空白的网格变成令人惊叹的钻石艺术作品吧。
+
+玩法
+按色调分类宝石，精准整理库存。仔细规划每一步，将颜色与拼图板上对应的槽位匹配。请享受小碎片逐渐汇聚成一幅完整艺术的过程。
+
+主要特色
+
+舒适的操作手感
+在分类和摆放所有钻石时，请享受流畅的操控与鲜艳的视觉特效。
+
+脑力训练
+在平静的环境中放松身心的同时，提升专注力、逻辑力和空间思维能力吧。
+
+庞大的艺术画廊
+从自然风景、可爱动物到抽象艺术设计，探索以多样主题为特色的独特关卡的庞大收藏吧。
+
+立即下载 Jewel Color Sort，开启色彩、创造力与舒适解谜之旅吧。",\N,\N,\N,\N,\N,\N,\N,0,\N
+6772975295,like_of,颜色分类+拼图,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=f0ef85a789f3,jp,f0ef85a789f3,1,2026-10-26
+6772975295,name_cn,宝石色彩分类：像素艺术拼图,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=f0ef85a789f3,jp,f0ef85a789f3,1,2026-10-26
+6772975295,play_desc,按颜色把宝石分到对应色区，拼成钻石画,direct,llm,agent-manual,1,タップして輝く宝石を分類し、正しいカラーゾーンに配置しましょう,jp,f0ef85a789f3,0,2026-10-26
+6772975295,subgenre,puzzle.sort,direct,llm,agent-manual,2,宝石を分類し、正しいカラーゾーンに配置,jp,f0ef85a789f3,0,2026-10-26
+6772975295,theme,abstract,inferred,llm,agent-manual,2,宝石与画作，无角色叙事,jp,f0ef85a789f3,0,2026-10-26
+6775679985,descr_cn,"世界树的歌声再次响起！
+与受到世界树召唤的英雄们一同踏上旅程的放置型RPG。
+通过英雄收集、策略组合、轻松的放置成长，完成属于你自己的传说。
+
+个性十足的英雄收集
+骑士、魔法师、弓箭手、精灵、猎人，各式各样的英雄都在等着你。
+每位英雄都有专属技能与定位，带谁上阵会改变战斗的走向。
+请感受每一位精心打造英雄的魅力。
+
+组合决定胜负的策略战斗
+前排与后排的布阵、属性相性、英雄之间的协同效应都会改变战果。
+并非只收集强力英雄就能获胜，找到契合战况的组合才是胜利的关键。
+用只属于你的英雄组合，打造出能突破任何敌人的阵型吧。
+
+休息时也在持续成长
+即使不开着游戏，英雄们也会不停歇地继续冒险。
+每次登录都能领取累积的奖励，轻松成长后再挑战下一个关卡。
+即使在忙碌的日常中也能毫无负担地享受。
+
+让我最爱的英雄更加华丽
+每位英雄都准备了多种皮肤。
+用魔女、妖精、歌手、小红帽等全新服装，把你珍爱的英雄打扮得别具一格吧。
+
+越挑战越深入的多彩内容
+攀登层数越高敌人越强的「神秘之塔」，
+与公会成员齐心协力对抗巨大Boss的「公会讨伐」！
+独自也好，一起也好，尽情享受",\N,\N,\N,\N,\N,\N,\N,0,\N
+6775679985,like_of,放置卡牌RPG,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=9398f25a6b7f,kr,9398f25a6b7f,1,2026-10-31
+6775679985,name_cn,世界树之歌,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=9398f25a6b7f,kr,9398f25a6b7f,1,2026-10-31
+6775679985,play_desc,收集英雄、搭配前后排与属性组合，放置自动战斗推图成长,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=9398f25a6b7f,kr,9398f25a6b7f,1,2026-10-31
+6776522053,like_of,箭头解谜,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=8f9204fa8c74,us,8f9204fa8c74,1,2026-10-28
+6776522053,name_cn,冲冲爆破,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=8f9204fa8c74,us,8f9204fa8c74,1,2026-10-28
+6776522053,play_desc,按箭头指向依次点击移出棋盘，避开阻挡清空所有箭头,direct,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=8f9204fa8c74,us,8f9204fa8c74,1,2026-10-28
+6776522053,subgenre,puzzle.brain,direct,llm,agent-manual,2,爽快な矢印パズルゲーム|一手ごとにちょっとした論理的思考と計画が必要,jp,a9c8bcd6bbd2,0,2026-10-28
+6776522053,theme,abstract,inferred,llm,agent-manual,2,箭头与盘面，无角色无叙事,kr,5a24562fcb24,0,2026-10-28
+6776891493,descr_cn,"为了拯救王国回到10年前的龙骑士纳茨！
+再次变强，拯救王国吧！
+与强大的骑士同伴们一起培养强大的龙骑士！
+
+[游戏特色]
+-线上/线下奖励100%相同！24小时持续成长的角色
+-像素风终极王者！华丽爽快的画面，压倒性的无限成长！
+-直观又有趣的多样成长系统！
+-多巴胺爆发！刷装备培养只属于我的特别龙骑士！
+-通过多人突袭、Boss战体验令人窒息的战斗！
+-通过多样服装打造只属于我的龙骑士！
+
+注意事项
+1. 本商品包含部分付费道具及
+游戏币支付功能。
+支付部分付费道具及游戏币时
+将产生实际扣费，请注意。
+
+2. 游戏中购买的数字商品
+根据《电子商务等消费者保护相关法律》
+可能支持或限制撤销订阅。
+
+3. 邮箱：ryonggame4@gmail.com",\N,\N,\N,\N,\N,\N,\N,0,\N
+6776891493,like_of,放置养成RPG,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=4ac475b55fb3,kr,4ac475b55fb3,1,2026-10-29
+6776891493,name_cn,培养龙骑士,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=4ac475b55fb3,kr,4ac475b55fb3,1,2026-10-29
+6776891493,play_desc,收集装备并培养龙骑士，与骑士同伴一起挑战Boss和多副本战斗,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=4ac475b55fb3,kr,4ac475b55fb3,1,2026-10-29
+6779167923,art,pixel,direct,llm,agent-manual,2,픽셀 그림으로 향하고,kr,ea79921672b3,0,2026-11-03T11:02:23
+6779167923,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Food Hunt like（放蚁分拣）,us,525f1340ae12,1,\N
+6779167923,play_desc,点箱子放出蚂蚁，让它们把同色方块搬回巢,direct,llm,agent-manual,1,상자를 탭하면 일개미들이 쏟아져 나와 픽셀 그림으로 향하고|알록달록한 블록을 하나씩 집어 둥지로,kr,ea79921672b3,0,2026-11-03T11:02:23
+6779167923,subgenre,puzzle.sort,direct,llm,agent-manual,2,개미들은 그림 속에서 같은 색의 블록을 모두 옮깁니다,kr,ea79921672b3,0,2026-11-03T11:02:23
+6779167923,theme,abstract,inferred,llm,agent-manual,2,蚂蚁与色块构成像素画，无角色设定与叙事,kr,ea79921672b3,0,2026-11-03T11:02:23
+6779548466,descr_cn,"吞噬天地吧！
+复古×热血！以像素画风重生的正统三国志RPG《热血大作战！》
+
+继承了昔日经典街机与横版动作游戏之魂、满载爽快战斗的三国志RPG终于登场！！
+
+东汉末年，群雄争霸的乱世——
+你将化身一国之主公，率领赵云、关羽、吕布等名将，以天下统一为目标。
+
+集结伙伴，获取宝物与装备，挑战每回都变化的Roguelike战斗！
+放置期间武将也会持续成长，忙碌的人也能轻松享受。
+
+体验融合了令人怀念的昔日像素街机游戏感与现代易玩性的新感觉三国志冒险吧！
+
+=========================================
+
+【游戏特色】
+
+◆ 复古街机的热血在像素战斗中复苏
+令人怀念的像素画面，让人联想到热血街机动作的爽快演出。
+三国志的英雄们将展开魄力十足的战斗。
+
+◆ 每回都不同的Roguelike战斗
+每次游玩都会变化的技能与事件。
+根据战况自由组建Build，找出只属于你的战斗方式吧！
+
+◆ 集结名将培养最强军团
+赵云、关羽、吕布、诸葛亮等熟悉的三国武将陆续登场。
+通过培养、装备、宝物、骑乘等丰富多彩的培养要素，打造最强军团吧。
+
+◆ 放置培养轻松成长
+关闭游戏期间武将也会自动培养。
+只需登录即可获得丰富奖励，节奏流畅地强化战力。
+
+◆ 满载随机事件的冒险",\N,\N,\N,\N,\N,\N,\N,0,\N
+6779548466,like_of,放置养成+肉鸽战斗,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=b54da87e754c,jp,b54da87e754c,1,2026-11-04
+6779548466,name_cn,热血大作战！三国志王国RPG,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=b54da87e754c,jp,b54da87e754c,1,2026-11-04
+6779548466,play_desc,扮演主公收集三国名将，闯随机肉鸽战斗，挂机养成并PVP争天下,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=b54da87e754c,jp,b54da87e754c,1,2026-11-04
+6780728551,descr_cn,"驾驶日本电车，把众多乘客送到车站吧！
+运送乘客越多金币越多，不断升级车辆的速度和性能！
+
+根据你的选择，路线和城市将得到发展，地图可扩展至日本全国。
+从地方线路到大都市，打造梦想中的铁路网络吧！
+
+【游戏特色】
+・以日本电车为主题的休闲驾驶游戏
+・运送乘客获取金币＆强化车辆
+・增加路线和车站扩展地图
+・任何人都能轻松游玩的简单操作
+
+发展只属于你的铁路王国吧！",\N,\N,\N,\N,\N,\N,\N,0,\N
+6780728551,like_of,模拟驾驶经营,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=3393734f2aa6,jp,3393734f2aa6,1,2026-10-24
+6780728551,name_cn,兴奋电车生活,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=3393734f2aa6,jp,3393734f2aa6,1,2026-10-24
+6780728551,play_desc,驾驶电车运送乘客赚金币，升级车辆并扩展线路与城市地图,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=3393734f2aa6,jp,3393734f2aa6,1,2026-10-24
+6780820379,descr_cn,"【嗯～用脚养成！】
+生活在与地球极为相似星球上的少年生命体「嗯」，
+在这颗星球上，必须通过特别试炼才能成为成年生命体「脚」。
+目标是征服宇宙！探索陌生星球，挑战自己的极限。
+带着家乡星球特别制造的胶囊踏上冒险的少年「嗯」，究竟能否成为「脚」呢？
+
+【打开胶囊获取装备吧！】
+砰砰砰！用从家乡星球带来的特别胶囊获取装备吧。
+哪怕只是踩一踩，也可能出现意想不到的华丽等级装备！
+每次更换装备，外观也会多样变化。
+
+【无限关卡，征服宇宙！】
+广阔宇宙中存在数不清的星球。
+把满是外星怪物的无数星球全部征服吧！
+
+【陌生星球上时刻保持警惕！】
+清理铺满屏幕涌来的外星星球怪物吧！
+嗯，游侠变身！去踩更多怪物吧！
+用特别又刺激的战斗征服陌生星球！
+
+【在不同星球遇见的特别伙伴们】
+在不断战斗中遇见的形形色色新伙伴！
+与亲自参与战斗的伙伴们组成队伍，打造各种策略吧！
+
+【强力又华丽的特殊装备】
+收集可多彩改变各部位外观的时装和特殊装备吧。
+可以炫耀与众不同的自己。
+通过多样收集，能更确实地变强。",inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=58ecf6df8111,kr,58ecf6df8111,1,2026-11-07
+6780820379,like_of,放置养成+踩踏闯关,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=58ecf6df8111,kr,58ecf6df8111,1,2026-11-07
+6780820379,name_cn,踩踏养成,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=58ecf6df8111,kr,58ecf6df8111,1,2026-11-07
+6780820379,play_desc,踩踏胶囊开装备，踩怪清屏闯无限星球，收集同伴与装备征服宇宙,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=58ecf6df8111,kr,58ecf6df8111,1,2026-11-07
+6780891673,play_desc,掐准时机把东西砸碎，走完皇家的每一关,inferred,llm,agent-manual,1,描述仅 196 字符，只写 mastering every royal level requires true precision and perfect timing，未写具体操作对象与关卡形式,us,4c41d7828f94,1,2026-11-03T11:02:23
+6780891673,subgenre,puzzle.physics,direct,llm,agent-manual,2,the ultimate physics puzzle game,us,4c41d7828f94,0,2026-11-03T11:02:23
+6780891673,theme,fantasy,inferred,llm,agent-manual,2,royal level、claim your crown——王室设定，推为王国题材,us,4c41d7828f94,0,2026-11-03T11:02:23
+6781944992,descr_cn,"全球下载量突破1,250万的《为谁而炼金》传承谱系新作。
+与历代幻影兵们组建编队，挑战高速战略战斗与最多10人的港口战。
+体验轻松游玩、每天10分钟的RPG。
+
+【序章】
+
+眺望巴别塔的大地·巴别大陆——
+始祖炼金术师尼姆尔试图进行创世的那一瞬间，世界分叉为无数条世界线。
+这里是诞生出的平行世界之中，所编织的「一个时刻」
+
+当国家间的不稳图谋与圣石暴走、逼近的罪兽威胁，使大陆即将被混沌吞噬之时，
+与命运见证者《乌洛波洛斯》缔结契约的，是来自异邦的来访者。
+凭借这一盟约，唤醒了过去幻影兵们的灵魂，获得了共同战斗的力量——《炼金术》。
+
+人们的负面情感《秽》溢出，失去理智逐渐疯狂的世界——。
+化为贪食生命的诅咒的圣石，以及从石中解放的罪兽蹂躏大地，一路走向崩溃。
+
+绝望之影覆盖全土之中，仍怀抱不屈意志的人们开始从各地聚集。
+时而赌上彼此的骄傲展开抗争，时而携手并肩迎击逼近的严酷威胁。
+
+与聚集的伙伴交换的誓言，以及彼此磨砺的热烈热情，终将化为穿透暗云的确切光芒。
+
+凝视真理，斩开缠绕的宿命之锁——
+这是一个异邦人与聚集者们共同编织出的，另一个「为谁而战的故事」。
+
+【5大Master要素】
+
+◆ 历代幻影兵们再度集结
+点缀巴别历史的角色们再度登场。
+培养喜爱的单位，",\N,\N,\N,\N,\N,\N,\N,0,\N
+6781944992,like_of,编队策略RPG,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=43eb7121edd9,jp,43eb7121edd9,1,2026-11-04
+6781944992,name_cn,为谁而炼金 港口大师,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=43eb7121edd9,jp,43eb7121edd9,1,2026-11-04
+6781944992,play_desc,编成幻影兵卡组，进行高速策略战斗与最多十人港口战,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=43eb7121edd9,jp,43eb7121edd9,1,2026-11-04
+6782862607,descr_cn,"在广阔的大海中收集众多鱼类与矿物。
+
+成为传说中的「웰다이버」，征服汹涌大海并平安逃脱！
+
+[游戏特色]
+
+■ 挑战大海吧！
+越往深处下潜，越稀有的鱼类与矿物在等着你。
+变得更强，克服恐惧吧！
+
+■ 通过研究突破极限吧！
+出售鱼类，强化角色。
+通过研究，你可以前往更深、更危险的海域。
+
+■ 动态狩猎的乐趣！
+从娇小可爱的鱼类到深海中的巨大生物！
+运用各种工具捕获鱼类，完成图鉴吧。
+
+■ 你能平安归来吗？
+承受深海的压迫，收集资源逃回地面吧。
+只有真正的「웰다이버」才能成为大海的主人。",\N,\N,\N,\N,\N,\N,\N,0,\N
+6782862607,like_of,深海探索+采集养成,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=b2f6912b7a18,kr,b2f6912b7a18,1,2026-10-30
+6782862607,name_cn,深海潜水员,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=b2f6912b7a18,kr,b2f6912b7a18,1,2026-10-30
+6782862607,play_desc,潜入深海捕鱼采矿，卖资源升级角色，越潜越深并安全返回地面,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=b2f6912b7a18,kr,b2f6912b7a18,1,2026-10-30
+6783591388,descr_cn,"Cat Collector 把你现实生活中遇见的猫咪，变成一份可以长久珍藏的收藏。
+
+在外面看到猫了吗？拍张照片试试吧。Cat Collector 会确认照片里是否真的有猫，然后把它加入我的猫咪收藏。照片、发现地点、我给它起的名字，全都会保存在应用里。
+
+关注朋友，逛逛附近的街区，寻找我所在的地方以及全世界的本周热门猫咪吧。Cat Collector 是一个为猫咪打造的迷人又安全的社交媒体！如果你的相册应用快要被猫咪照片撑爆了，那这个应用就太适合你了。
+
+有什么不一样
+• 只有真猫，没有 AI
+• 在 Cat Map 上可以看到收藏里每只猫是在哪里抓到的。位置数据只有我自己能看到。
+• 寻找全世界所有街区本周被收集最多的猫咪、各街区的热门猫咪
+• 关注全世界抓猫的人，把他们抓到的喵星人收进我的收藏
+• 收集到的每只猫都会变成 iMessage 贴纸
+• 把抓到的猫分享到 Instagram，让粉丝们也能收集
+• 把每天散步的路变成猫咪散步路吧。也邀请朋友一起来！
+• 连不能带回家的猫，也把遇见的猫咪珍藏起来。
+
+从一开始就以隐私为先
+• 抓到每只猫的准确地点只有我自己能看到",\N,\N,\N,\N,\N,\N,\N,0,\N
+6783591388,like_of,拍照收集+地图社交,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=68c7b5f5c0b7,kr,68c7b5f5c0b7,1,2026-10-26
+6783591388,name_cn,猫咪收藏家,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=68c7b5f5c0b7,kr,68c7b5f5c0b7,1,2026-10-26
+6783591388,play_desc,拍下现实中的猫，经AI识别后收入个人收藏，并在地图上标记发现地点,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=68c7b5f5c0b7,kr,68c7b5f5c0b7,1,2026-10-26
+6786206777,like_of,点击消除+解压拼拆,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=a3f71bfaee3d,jp,a3f71bfaee3d,1,2026-11-04
+6786206777,name_cn,方块粉碎,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=a3f71bfaee3d,jp,a3f71bfaee3d,1,2026-11-04
+6786206777,play_desc,点击消除同色方块，逐步拆解3D模型，清空每一关,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=a3f71bfaee3d,jp,a3f71bfaee3d,1,2026-11-04
+6786589102,descr_cn,"你终于来了！来拼图，完成属于你的魔法世界吧！
+欢迎来到闪耀的魔法拼图世界！
+
+匹配同色方块，打出爽快的连击，通关各种拼图，让魔法世界重焕生机吧。
+可爱又个性十足的Teenieping（蒂尼平）们，与众多拼图关卡一起等着你。
+随时随地轻松畅玩的拼图玩法，以及丰富的收集与养成内容，快来体验吧。
+
+■ 爽快的三消拼图
+- 操作简单直观，人人都能上手的拼图玩法
+- 拥有各种机关与目标的众多关卡
+- 强力道具与华丽连击带来的快感
+- 新挑战接连不断的拼图内容
+
+■ 与Teenieping一起的特别冒险
+- 收集并培养各种各样的Teenieping吧
+- 用每只Teenieping的特别能力攻克拼图吧
+- 组建属于你的Teenieping队伍吧
+- 玩得越多，就能遇见更多Teenieping哦
+
+■ 装扮魔法世界吧
+- 通关拼图，获取各种奖励吧
+- 解锁新空间并装扮起来吧
+- 完成美丽的主题空间吧
+- 打造属于你的特别魔法世界吧
+
+
+■ 推荐给这样的你
+- 喜欢三消拼图游戏的人
+- 想找轻松休闲游戏的人
+- 喜欢收集与养成乐趣的人
+- 喜欢可爱迷人角色的人
+
+拼拼图，
+收集Teenieping，
+魔法",\N,\N,\N,\N,\N,\N,\N,0,\N
+6786589102,like_of,三消+收集养成,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=8180b58bace6,kr,8180b58bace6,1,2026-10-31
+6786589102,name_cn,蒂尼平魔法消消乐,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=8180b58bace6,kr,8180b58bace6,1,2026-10-31
+6786589102,play_desc,三消闯关收集蒂尼平角色，解锁并装饰魔法世界,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=8180b58bace6,kr,8180b58bace6,1,2026-10-31
+6787414784,like_of,水排序解谜,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=8178458bf14b,jp,8178458bf14b,1,2026-10-26
+6787414784,name_cn,倒水排序挑战,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=8178458bf14b,jp,8178458bf14b,1,2026-10-26
+6787414784,play_desc,把水倒进瓶子，倒到每瓶只剩一种颜色,direct,llm,agent-manual,1,"Pour water between bottles, match every color|You can only pour onto the same color or into an empty bottle",us,8178458bf14b,0,2026-10-26
+6787414784,subgenre,puzzle.sort,direct,llm,agent-manual,2,relaxing color sorting game|Easy to learn color sorting rules,us,8178458bf14b,0,2026-10-26
+6787414784,theme,abstract,inferred,llm,agent-manual,2,彩色水瓶，无角色无叙事,us,8178458bf14b,0,2026-10-26
+6789496517,like_of,竖版弹幕射击+肉鸽,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=be4f7821de84,cn,be4f7821de84,1,2026-11-02
+6789496517,play_desc,单手操控战机在竖版弹幕中闪避射击，每局随机技能搭配闯关,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=be4f7821de84,cn,be4f7821de84,1,2026-11-02
+6790139777,like_of,整理收纳模拟,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=392f6b598714,jp,392f6b598714,1,2026-11-07
+6790139777,name_cn,超市大乱到井然,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=392f6b598714,jp,392f6b598714,1,2026-11-07
+6790139777,play_desc,捡起散落商品放回对应货架，逐区整理超市至整洁,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=392f6b598714,jp,392f6b598714,1,2026-11-07
+6790707229,descr_cn,"在Jewel Loop - Coloring Sort中，宝石排序与像素艺术融为一体，展开一段治愈系解谜之旅。点击相连的同色宝石，宝石便会轻轻滑入旋转的环道中，转啊转，精准地填满上方的像素画布。没有倒计时，没有催促，只有从容规划与摆放的宁静节奏。随着关卡提升，图案愈发精巧，色彩愈发丰富，任何人都能轻松上手，同时品味逐渐加深的策略乐趣。宝石落位时发出清脆声响的ASMR音效沁入心田，每一次完美匹配都化作静谧的成就感时刻。
+
+双重治愈：宝石排序 × 像素艺术
+
+每一道谜题都是一次创作过程。从简洁的几何图案到细节满满的插画，每一关都藏着一幅独一无二、等待完成的宝石艺术品。
+
+收藏相册
+
+完成的像素艺术都会自动保存到属于你的画廊中。随时浏览作品，重温那些宁静的解谜时光吧。
+
+每日全新挑战
+
+每天都会开放限定图案关卡，解锁全新配色与宝石套装。新鲜乐趣永不停歇。
+
+沉浸式ASMR体验
+
+宝石滑动、色彩充盈、作品完成的每一个瞬间，都伴随着柔和的动画与细腻的音效，每一次成功匹配都真正",\N,\N,\N,\N,\N,\N,\N,0,\N
+6790707229,like_of,宝石排序+像素填色,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=be0cb0560a77,kr,be0cb0560a77,1,2026-10-27
+6790707229,name_cn,宝石环：填色排序,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=be0cb0560a77,kr,be0cb0560a77,1,2026-10-27
+6790707229,play_desc,点击同色宝石送入旋转环，填满上方像素画布完成图案,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=be0cb0560a77,kr,be0cb0560a77,1,2026-10-27
+6791407624,descr_cn,"■ 智能老虎机『L柏青嫂 革命机Valvrave2』登陆斯洛比！
+
+在3D虚拟大厅中畅玩2025年11月进驻门店的『L柏青嫂 革命机Valvrave2』吧！
+
+■ 点击「开始」即刻开玩
+彻底还原真机！用高品质柏青哥应用玩个尽兴！
+※50转后会返回开始画面，但以1组50转为单位，可无限反复游玩。
+
+游玩开始时，上方显示数据计数器。下方显示菜单。
+点击上方「模式切换」按钮，即可隐藏数据计数器。
+
+本应用程序使用了(株)CRI・Middleware的「CRIWARE mobile (TM)」。",\N,\N,\N,\N,\N,\N,\N,0,\N
+6791407624,like_of,老虎机模拟,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ca3452a92d68,jp,ca3452a92d68,1,2026-10-28
+6791407624,name_cn,L柏青嫂 革命机Valvrave 2,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ca3452a92d68,jp,ca3452a92d68,1,2026-10-28
+6791407624,play_desc,在3D虚拟厅玩老虎机，每50转为一组，反复挑战出球,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=ca3452a92d68,jp,ca3452a92d68,1,2026-10-28
+6792678112,descr_cn,"农场经营 × 餐厅模拟《아이러브레스토랑》正式上线！
+
+用刚收获的新鲜食材完成各式各样的料理，为光临的客人送上最棒的服务吧。
+要不要和可爱的「猫咪厨师」一起打造属于你自己的出色餐厅呢？
+
+【游戏介绍】
+
+◆ 从农场到餐桌！充满诚意的农场生活
+店里呈现的美味料理，从新鲜食材开始！
+在农场亲自种植作物，生产鸡、猪等吧。
+等级提升后可以建造工厂扩展生产线，打造富饶农场为餐厅提供坚实后盾。
+
+◆ 从小小零食吧起步的世界级餐厅
+从社区里小巧的快餐店起步，攒下资金开设新门店吧！
+精致感性的咖啡馆、清爽的海滩俱乐部，还有活力满满的餐车
+用各种内饰和装饰道具尽情打造属于你的空间吧。
+
+◆ 越做越有新意的丰富食谱
+爽脆的沙拉、温暖的浓汤、刚出炉的面包和甜蜜的甜点！
+引入新的烹饪设备、不断研究食谱，能推出的菜单就会持续增加。用充满诚意的招牌料理抓住客人的胃口吧！
+
+◆ 员工培养 & 专属制服搭配！
+各种协助门店经营的员工正在等着你！
+用可爱的制服和精致的服装为员工搭配吧
+培养员工并把他们安排在合适的位置，门店销售额和生产",\N,\N,\N,\N,\N,\N,\N,0,\N
+6792678112,like_of,农场经营+餐厅模拟,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=2f3f0acd90e4,kr,2f3f0acd90e4,1,2026-10-27
+6792678112,name_cn,我爱餐厅：猫咪与店铺经营,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=2f3f0acd90e4,kr,2f3f0acd90e4,1,2026-10-27
+6792678112,play_desc,种田养畜产食材，烹饪上菜经营餐厅并扩张门店,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=2f3f0acd90e4,kr,2f3f0acd90e4,1,2026-10-27
+6793924927,play_desc,旋转层层圆环，让缺口连成一线把锁解开,direct,llm,agent-manual,1,각 링을 회전시켜 숨겨진 틈을 일직선으로 맞춰 잠금을 한 겹씩 풀어보세요,kr,b484880ccff1,0,2026-11-03T11:02:23
+6793924927,subgenre,puzzle.brain,direct,llm,agent-manual,2,공간 논리 퍼즐 게임|각 링을 회전시켜 숨겨진 틈을 일직선으로 맞춰,kr,b484880ccff1,0,2026-11-03T11:02:23
+6793924927,theme,abstract,inferred,llm,agent-manual,2,圆环与锁扣，无角色无叙事,kr,b484880ccff1,0,2026-11-03T11:02:23
+6795378556,like_of,肉鸽塔防,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=25514c6f5ae2,cn,25514c6f5ae2,1,2026-11-02
+6795378556,play_desc,选四名英雄布阵守石像，靠肉鸽技能搭配抵御一波波怪物,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=25514c6f5ae2,cn,25514c6f5ae2,1,2026-11-02
+6795531178,like_of,3D消除解谜,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=5517940c9ad9,kr,5517940c9ad9,1,2026-10-26
+6795531178,name_cn,扭转色彩：方块逃脱,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=5517940c9ad9,kr,5517940c9ad9,1,2026-10-26
+6795531178,play_desc,旋转立方体找最大的同色连通块，一点清空,direct,llm,agent-manual,1,"rotate the cube, find the largest connected color groups, and clear every level|Turn the cube, discover groups of matching colors",jp,5517940c9ad9,0,2026-10-26
+6795531178,subgenre,puzzle.match3,inferred,llm,agent-manual,2,找同色连通组并一次清除，与三消的匹配消除同源；旋转是观察手段，不是解谜目标,\N,\N,0,2026-10-26
+6795531178,theme,abstract,inferred,llm,agent-manual,2,立方体与色块，无角色无叙事,\N,\N,0,2026-10-26
+6796547048,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=Water Sort Puzzle like（分拣变体）,jp,44b85d9d7816,1,\N
+6796547048,play_desc,把小可爱按颜色分到不同栖木，位置不够要先规划,direct,llm,agent-manual,1,색상별로 각기 다른 횃대에 깔끔하게 분류|제한된 빈자리,kr,38e3089a8c2e,0,2026-11-03T11:02:23
+6796547048,subgenre,puzzle.sort,direct,llm,agent-manual,2,색상별로 각기 다른 횃대에 깔끔하게 분류,kr,38e3089a8c2e,0,2026-11-03T11:02:23
+6796547048,theme,animal,inferred,llm,agent-manual,2,귀요미들（小可爱）坐在횃대（栖木）上——栖木暗示鸟类，但描述未明说物种,kr,38e3089a8c2e,1,2026-11-03T11:02:23
+6796574369,like_of,收纳解谜,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=82dabd78f650,jp,82dabd78f650,1,2026-10-26
+6796574369,name_cn,完美收纳,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=82dabd78f650,jp,82dabd78f650,1,2026-10-26
+6796574369,play_desc,切割、组合物品后拖入网格，严丝合缝地完成收纳,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=82dabd78f650,jp,82dabd78f650,1,2026-10-26
+6797907221,like_of,落沙消除+空间规划,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=873edd54612e,kr,873edd54612e,1,2026-10-27
+6797907221,name_cn,填沙方块拼图,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=873edd54612e,kr,873edd54612e,1,2026-10-27
+6797907221,play_desc,拖拽方块吸收同色沙粒，让沙堆塌落重组，限时清空整幅沙画,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=873edd54612e,kr,873edd54612e,1,2026-10-27
+6798071755,descr_cn,"啊！可爱的海狸们居然拿起了枪？
+
+要用倾泻而下的石块守住家园！
+
+以为是软糯可爱的游戏？一款拥有超辣打击感的超有趣放置型射击RPG来了！
+如果你在找能一扫压力的休闲枪战游戏，注意！
+动物朋友们的欠揍反转魅力，海狸特攻队出击准备完毕！
+
+◆ 嗖嗖叠起来就完事？！叮叮当当合成养成
+从手枪到迷你枪！把60多种武器唰唰合成起来吧。
+相同武器合并得越多，就会“锵”地变身成意想不到的大炮哦。
+凭借简单的合成系统，这是一款任何人都能轻松享受的休闲独立游戏！
+要不要沉浸在不断合成合并、展现最强火力的养成乐趣中？
+
+◆ 击碎压力！砰砰爆开的动作感
+看看我们枪手队员们疯狂扫射的无情枪法吧！
+填满屏幕的爽快打击感会让你心里痛快到不行！狂射巨大枪械的快感可不是闹着玩的。
+这可不是随处可见的普通可爱游戏！这是保留了浓烈动作感的真正枪战游戏！
+用横扫敌人的痛快射击和毫无喘息间隙的战斗，享受完美的杀时间体验吧。
+世上见过这么完美无缺的射击RPG吗？！
+
+◆ 40只毛茸茸、个性满分的枪手
+收集狙击手、霰弹枪等各自特长鲜明的40多种海狸特工吧。
+按你喜好组建专属特攻队，在热热闹闹的战斗中",\N,\N,\N,\N,\N,\N,\N,0,\N
+6798071755,like_of,放置射击+合成养成,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=6577b018083f,kr,6577b018083f,1,2026-11-03
+6798071755,name_cn,哗啦啦海狸,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=6577b018083f,kr,6577b018083f,1,2026-11-03
+6798071755,play_desc,合成武器强化火力，自动射击守住家园，收集40名海狸特工并转生变强,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=6577b018083f,kr,6577b018083f,1,2026-11-03
+6798901384,descr_cn,"从一小块菜地开始。
+翻土、播种、浇水、收获。
+就是这样一款安静的种田游戏。
+
+[菜地会一点点变宽]
+从9格开始，最多可以扩到24格。
+种植生菜、土豆、玉米、西红柿、辣椒、大蒜。
+每种作物的生长时间都不同，什么时候种什么，决定了一天的安排。
+
+[把种出的作物卖给邻居]
+仓库里堆着的作物可以按基础价卖出。
+但要是按邻居的订单交货，价格会更好。
+混着交多种作物更好，经常来买的邻居会成为老主顾。
+
+[24节气就是游戏规则]
+立春时春季种子开放，处暑时可以种腌泡菜用的蔬菜。
+霜降下初霜后，露地夏季作物那一年的农事就结束了。
+梅雨季会闹霉菌病，8月和9月会来台风。
+
+不过灾害**一定会提前告知您。**
+没看到预报的人，台风不会来。
+立上支柱就不会倒，就算倒了，按一下扶起来就行。
+翻耕的话，种子钱会全部退还。
+作物不会消失。
+
+[收获的作物会积累在图鉴里]
+哪怕只收获过一次的作物也会留在图鉴里。
+老主顾多了，院子里就会一样一样摆上稻草捆和农具。
+
+[主屏幕小组件]
+有几格熟了、要不要浇水，都能在主屏幕上看到。
+
+[想安静地玩]
+一次性购买去广告后，横幅广告和全屏广告就会消失",\N,\N,\N,\N,\N,\N,\N,0,\N
+6798901384,like_of,模拟经营,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=50ba0b6a4986,kr,50ba0b6a4986,1,2026-10-30
+6798901384,name_cn,小农夫的农场成长记,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=50ba0b6a4986,kr,50ba0b6a4986,1,2026-10-30
+6798901384,play_desc,开垦小块菜地，播种浇水收获作物，按邻居订单出售并逐步扩建农田,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=50ba0b6a4986,kr,50ba0b6a4986,1,2026-10-30
+6802383216,like_of,解谜+停车场,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=76000d782afb,us,76000d782afb,1,2026-10-31
+6802383216,name_cn,停车循环,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=76000d782afb,us,76000d782afb,1,2026-10-31
+6802383216,play_desc,规划移动顺序，把物体归位、避免卡死通关,inferred,rule,agent-manual,1,金标集 v2 裁决：开集键机制中性改写（原值臆断对象为车）,us,76000d782afb,1,2026-11-06T19:00:00
+6802383216,subgenre,puzzle.brain,inferred,llm,agent-manual,2,Parking 命名 + 空间规划描述 → 停车解谜；但描述未给可核对的机制句，需看截图确认不是分拣或三消,us,76000d782afb,1,2026-10-31
+6802383216,theme,modern,inferred,llm,agent-manual,2,停车场景，现代都市,us,76000d782afb,0,2026-10-31
+6802965838,descr_cn,"逛百货商场时，你是否曾想象过“如果我自己来经营会怎样”？
+现在就来亲自当老板，打造属于你的时尚小镇吧！从一家小小的快餐店起步，把冷清的店铺一家家变成人气门店！让安静的衣服店变身SNS热门打卡地！让积满灰尘的玩具店变成潮流周边店！
+从店铺经营到伙伴培养、时尚穿搭、室内装修。
+轻松享受丰富多样的内容，扩张百货商场，成为最棒的老板吧！
+
+【自由经营，商业传奇的诞生】
+从一家小小的快餐店起步，逐步扩张到超市、时尚店铺、周边店吧。
+每家店都有不同的经营方式在等着你。
+当资金和经验积累起来后，就能收购整个百货商场，让所有店铺登顶热门打卡地，蜕变为真正的商业大亨！
+
+【随心搭配风格，完成招牌造型】
+从休闲运动风到优雅连衣裙，从潮流街头风到可爱风格！
+根据心情自由搭配，再加上自定义装修内容，不仅能打造角色造型，还能完美装点奢华豪宅！
+
+【可靠伙伴，事业扩张势不可挡】
+比起独自一人，一起才更开心！
+结识明星销售员、天才设计师、营销专家等各式各样的伙伴，一起成长吧。
+邀请特别偶像担任品牌模特，让你的品牌更加闪耀",inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=1f0706d6f7ff,kr,1f0706d6f7ff,1,2026-11-06
+6802965838,like_of,模拟经营+换装,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=1f0706d6f7ff,kr,1f0706d6f7ff,1,2026-11-06
+6802965838,name_cn,我的时尚商场,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=1f0706d6f7ff,kr,1f0706d6f7ff,1,2026-11-06
+6802965838,play_desc,经营小店赚资金，逐步扩张成百货商场并装扮角色,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=1f0706d6f7ff,kr,1f0706d6f7ff,1,2026-11-06
+6803313025,descr_cn,"一把剑，蜕变为劈开天下的绝对神剑！
+一根手指即可称霸天下的极致放置快感！
+剔除复杂繁琐的系统，只保留成长与打击感的本质！
+
+【游戏特色】
+
+捡！用！觉！躺着也能变强！
+
+【捡】起来！
+只需放置即可完成刷取！无限涌来的战利品与稀有装备！
+
+【用】起来！
+一击横扫 endless 涌来的敌人，压倒性的打击感！
+
+【觉】醒吧！
+挑战极限的试炼突破！终于解锁的神剑真正本能！
+
+【打】碎它！
+单手畅享的不断强化！瞬间爆发的疯狂战斗力！
+
+【薅】到手！
+无需担心氪金！免费VIP福利与超省心的24小时放置奖励！
+
+▣官方社区▣
+https://game.naver.com/lounge/RAAS/home
+
+▣官方频道▣
+使用条款：https://www.bayonez.com/site/service-policy
+隐私政策：https://www.bayonez.com/site/z-policy
+客服邮箱：emeforgetest@gmail.com",\N,\N,\N,\N,\N,\N,\N,0,\N
+6803313025,like_of,放置养成,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=23104561c2cd,kr,23104561c2cd,1,2026-11-05
+6803313025,name_cn,转生后成了一把剑,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=23104561c2cd,kr,23104561c2cd,1,2026-11-05
+6803313025,play_desc,挂机自动刷装备并强化角色，扫荡敌人突破试炼,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=23104561c2cd,kr,23104561c2cd,1,2026-11-05
+6803396660,descr_cn,"率领宇宙最强的猫军团，从黑心企业中生存下来！
+
+运送相当于3〜4颗行星大小货物的底层配送机器人，因配送事故迫降在未知星球！更糟的是，弄丢了大老板珍爱的零食，全宇宙因此宣布进入紧急状态。
+
+为了生存，打开配送箱吧！让从箱子里蹦出的可爱又危险的猫咪单位，以电光石火的合成（合并）进化，解锁强力技能。粉碎蜂拥而至的外星掠夺者的爽快防守战，以及任务失败就会连星球一起炸飞的愉快又危险的黑色喜剧RPG，现在开始！
+
+游戏特色
+
+抵御蜂拥而至的外星掠夺者波次
+在瞄准箱子不断袭来的外星海盗猛攻与分秒逼近的威胁中，坚守防线吧。抵挡无穷无尽涌来的波次，展开快节奏的生存系防守战。每个关卡都有爽快动作与新挑战等待着你，体验一举横扫铺满屏幕敌人的割草快感。
+
+超高速合成＆进化
+打开之前不知道会出什么的奇妙箱子！合成从箱子里蹦出的猫咪单位，解锁终极力量吧。只需轻点几下就能让军团强力成长的直观合成进化系统，敬请享受。等级越高，外观越华丽、破坏力越强的精锐猫部队任你打造。
+
+解锁战略性增益＆技能组合
+每当清除敌人波次时到来的Roguelike式抉择时刻，强大的力量",\N,\N,\N,\N,\N,\N,\N,0,\N
+6803396660,like_of,合成+塔防生存,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=00c9e430a488,jp,00c9e430a488,1,2026-10-24
+6803396660,name_cn,行星破坏喵喵喵：合成生存者,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=00c9e430a488,jp,00c9e430a488,1,2026-10-24
+6803396660,play_desc,开箱合成猫咪单位进化升级，抵御一波波外星敌人守住防线,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=00c9e430a488,jp,00c9e430a488,1,2026-10-24
+6804630049,descr_cn,"门的另一边，是下一个谜题。
+乘电梯巡游各楼层，寻找房间里隐藏的线索吧。
+使用找到的道具，将各楼层的线索串联起来，以逃脱为目标吧。
+
+【特点】
+・没有繁琐的计算，难度较为简单，不擅长逃脱游戏的人也能轻松游玩。
+・会根据进度显示提示，不用担心卡关！
+・进度状态自不必说，游戏内的机关等也会自动保存！
+・不需要纸和笔！在游戏内记笔记吧！
+
+【玩法】
+操作方法当然也很简单！
+
+・点击进行调查
+・点击画面下方的箭头移动楼层
+・选中道具后，再次点击即可放大显示
+・选中道具后点击或拖拽即可使用
+・在显示道具的状态下选中其他道具并点击或拖拽即可合成
+・从画面左上角的菜单按钮可以查看提示。
+
+【Jammsworks】
+程序员：Asahi Hirata
+设计师：Naruma Saito
+音效：Kensuke Horikoshi
+
+由3人制作应用。
+为了让各位用户玩得开心，我们每天都在反复摸索。
+如果喜欢的话，也请务必玩玩其他应用哦！
+
+【提供】
+Music is VFR：http://musicisvfr.com
+Pocket Sound : http://pocket-se.info/
+icons8：https://icons8.com/
+びたちー素材馆",\N,\N,\N,\N,\N,\N,\N,0,\N
+6804630049,like_of,密室逃脱解谜,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=1f4e6e248d68,jp,1f4e6e248d68,1,2026-11-06
+6804630049,name_cn,逃脱游戏 Past Floor,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=1f4e6e248d68,jp,1f4e6e248d68,1,2026-11-06
+6804630049,play_desc,搭电梯逐层探索房间线索、使用和合成道具解谜以逃出,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=1f4e6e248d68,jp,1f4e6e248d68,1,2026-11-06
+6805327940,descr_cn,"这是一款模拟器，让你从初中棒球部开始，一路走完选秀、职业出道、FA、海外发展、退役的完整球员生涯。
+
+每个赛季都会出现决定成败的概率型选择。判定严格按画面上显示的概率执行，设计诚实透明——运气不好的话，那就是真的运气不好。
+
+在生涯每个阶段各有一次机会，可以观看广告，以球员的善行积累运气，提升成功概率。没有强制弹出的广告。
+
+60个虚拟球团、伤病与兵役、交易与永久缺号，真实还原了棒球人生的各个岔路口。
+
+无需注册会员即可直接开始，进度会保存在设备上。",\N,\N,\N,\N,\N,\N,\N,0,\N
+6805327940,like_of,棒球生涯模拟,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=155bf81c5864,kr,155bf81c5864,1,2026-10-31
+6805327940,name_cn,培养棒球选手 蓝筹明星,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=155bf81c5864,kr,155bf81c5864,1,2026-10-31
+6805327940,play_desc,从中学棒球部起步，通过概率选择推进选秀、出道、FA、海外与退役的球员生涯,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=155bf81c5864,kr,155bf81c5864,1,2026-10-31
+6807107830,descr_cn,"十七岁，从青训队开始。何时退役由你决定。
+
+这是一款从头到尾跟随一名足球选手整个职业生涯的模拟游戏。不是经营球队的游戏，而是作为一名球员生活的游戏。
+
+■ 每月成长一次的球员
+赛季从8月到5月，共十个月。每个月都会显示当月比赛记录以及哪些能力增长了多少。盘带57 → 58 +1。跑得越多、表现越好，成长幅度越大。可以逐月手动推进，也可以自动跳过。
+
+■ 每两个赛季选择一次成长卡
+能力值共十项，会随着出场自动成长。每两个赛季从三张同等级成长卡中选择一张。等级分为普通·稀有·史诗·独特·传说，首张卡为史诗，三张卡各可免费重抽一次。卡牌混合出现：直接提升能力值的卡、拉高隐藏上限的卡、满足条件后才能获得奖励的卡。每项能力都有隐藏上限，只有触及才能知晓。
+
+■ 本月最佳球员、本月最佳球队
+表现出色的月份会带来奖项。本月最佳球员、本月最佳球队，零封对手则获得本月最佳扑救。没有暗箱抽选，完全依据记录决定，奖杯会累积在职业生涯中。球队排名和新闻也会每月变化。
+
+■ 不隐藏概率
+赛季中遇到的各种情况，会全部显示每种结果的出现概率，能力值和教练信任度对这些数字的影响程度也",\N,\N,\N,\N,\N,\N,\N,0,\N
+6807107830,like_of,球员生涯模拟,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=af260fe85342,kr,af260fe85342,1,2026-10-26
+6807107830,name_cn,培养足球选手：职业足球生涯模拟,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=af260fe85342,kr,af260fe85342,1,2026-10-26
+6807107830,play_desc,从17岁青训起步，按月推进赛季，选成长卡提升能力，打比赛拿荣誉，最终退役评分,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=af260fe85342,kr,af260fe85342,1,2026-10-26
+6807325506,descr_cn,"少女的武林成长记，再度开启！
+
+为了替惨遭灭门的门派复仇，
+一名少女再次踏上武林之路。
+
+华丽的武功动作与无止境的成长！
+收集更强大的武功与装备，
+完成属于自己的战斗风格，向最强武林高手发起挑战。
+
+【游戏特色】
+▶华丽展开的风格化武功动作！
+  用迅捷爽快的攻击和华丽的武功技能横扫敌人。
+  在轻松的放置型战斗中，也能体验到强烈的打击感和动感十足的动作。
+▶不断变强的武林少女成长！
+  通过反复修炼与晋级，挑战更高的境界。
+  培养角色、强化各种能力，去对抗越来越强大的敌人。
+▶用多样武功打造专属战斗风格！
+  获取并培养拥有不同特性的各种武功吧。
+  根据战斗状况和敌人特性组合武功，完成属于自己的技能卡组。
+▶收集强力装备，迈向更高境界！
+  获取并强化各种装备，提升武林少女的战斗力。
+  将角色成长、装备与武功一同培养，打造更强大的战斗力。
+▶检验修炼成果的多样成长内容！
+  通过不断的修炼与挑战，获取成长所需的各种奖励。
+  每天确认不断变强的角色，迈向新的成长目标",\N,\N,\N,\N,\N,\N,\N,0,\N
+6807325506,like_of,放置武侠RPG,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=cd876144056d,kr,cd876144056d,1,2026-11-04
+6807325506,name_cn,武林少女养成：Revive,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=cd876144056d,kr,cd876144056d,1,2026-11-04
+6807325506,play_desc,放置挂机自动战斗，收集武功与装备强化角色，搭配技能组挑战更高境界与1:1对决,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=cd876144056d,kr,cd876144056d,1,2026-11-04
+6808466426,descr_cn,"【开拓兔是什么？】
+
+超人气「クラシル」系列推出全新作品《开拓兔》，与可爱兔子一起开拓世界各地的城市！
+
+只需点击屏幕，城市就会一点点建起来，是一款简单的点击＆放置类游戏。
+
+开拓城市并完成任务即可获得金币！
+利用碎片时间慢慢开拓，享受与可爱兔子一起的积点生活吧！
+
+【开拓兔怎么玩？】
+
+玩法非常简单。
+只需点击「开拓」按钮，不断开拓城市即可！
+
+随着开拓推进，建筑会增多，街道也会逐渐成形。
+开拓完一个区域即为通关！
+完成任务即可获得金币。
+
+・开拓城市：点击屏幕，让城市一点点发展起来吧！
+・增加建筑：推进开拓，打造热闹繁华的城市吧！
+・自动开拓：还有自动推进开拓的便捷功能！
+・获取金币：完成区域通关等任务即可获得金币！
+
+无需复杂操作。
+只需点击就能让城市发展，游戏新手也能轻松上手。
+
+【玩法】
+
+1. 开拓城市：点击「开拓」按钮，和兔子一起开始建造城市吧！
+
+2. 增加建筑：每次点击都会推进开拓，街道不断变化哦！
+
+3. 强化开拓：提升点击效率、强化自动功能，更高效地开拓吧！
+
+4. 通关区域：开拓完一个区域即为通关！也来享受下一个区域的开拓吧！
+
+5. 获取金币",\N,\N,\N,\N,\N,\N,\N,0,\N
+6808466426,like_of,点击放置经营,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=2bddf0f1bec5,jp,2bddf0f1bec5,1,2026-10-27
+6808466426,name_cn,开拓兔,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=2bddf0f1bec5,jp,2bddf0f1bec5,1,2026-10-27
+6808466426,play_desc,点一下开拓一点，兔子自动把城镇建起来,direct,llm,agent-manual,1,画面をタップするだけで、少しずつ街ができあがっていく、かんたんタップ＆オート系ゲーム|オートで開拓する,jp,2bddf0f1bec5,0,2026-10-27
+6808466426,subgenre,simulation.management,inferred,llm,agent-manual,2,建城经营（街を開拓する、建物を増やす）+ 自动开拓；是点击放置化的建城，Newzoo 无 idle_tycoon 单列值，归 management,jp,2bddf0f1bec5,0,2026-10-27
+6808466426,theme,animal,direct,llm,agent-manual,2,かわいいうさぎと一緒に,jp,2bddf0f1bec5,0,2026-10-27
+6809578554,descr_cn,"从小学到职业，再到大联盟。
+作为一名球员，走出属于你自己的棒球人生。
+
+マイキャリ（MY BASEBALL CAREER／我的棒球生涯）是一款能让你从小学一直享受到退役的棒球模拟游戏，体验球员的成长与生活。
+
+要反复进行怎样的练习，选择哪条升学道路。
+是优先队友的成长，还是自己的成长。
+你的选择与表现，将打造出只属于你自己的职业生涯。
+
+■ 从小学到职业的大舞台
+少年棒球、初中、高中。与伙伴们一起以全国大赛为目标，积累成绩进军选秀。
+成为职业选手后，挑战联赛冠军与个人头衔。用出色表现赢得下一份合同，开辟通往大联盟的道路。
+赛季成绩与累计的通算纪录都会保留。尽情享受直到退役的职业生涯吧。
+
+■ 自由多样的选择
+软式还是硬式，社团活动还是俱乐部球队，名校还是无名校。成为职业选手后，还有年薪谈判、转会、挑战海外……
+你的选择将大大改变此后的人生。
+
+■ 不只是棒球，还有只属于你的人生
+恋爱、结婚、视频投稿、游戏内SNS、高尔夫……
+埋头打棒球的日子，与重要之人共度的日子，都是你人生的一部分。
+
+■ 用自己的表现抓住机会
+搭载3D打击与投球操作。读懂对手的意图，用自己的双手决定比赛吧。
+
+■ 从小学到退役，基本游玩免费
+从小学到职业退役均可免费游玩。
+可能会显示广告。
+
+在买断制的「完全版」中，可使用以下追加功能。
+
+・隐藏广告
+・编辑球队名、球场名、选",\N,\N,\N,\N,\N,\N,\N,0,\N
+6809578554,like_of,棒球养成模拟,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=06d7a813aec3,jp,06d7a813aec3,1,2026-11-05
+6809578554,name_cn,我的棒球生涯,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=06d7a813aec3,jp,06d7a813aec3,1,2026-11-05
+6809578554,play_desc,从小学到职业棒球，通过训练和比赛选择成长路线，经营球员生涯,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=06d7a813aec3,jp,06d7a813aec3,1,2026-11-05
+6810886970,like_of,弹射+升级,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=63e73219ccc4,us,63e73219ccc4,1,2026-11-02
+6810886970,name_cn,只是一块石头,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=63e73219ccc4,us,63e73219ccc4,1,2026-11-02
+6810886970,play_desc,弹弓发射岩石滚下山坡撞碎障碍，用收益升级以冲过终点,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=63e73219ccc4,us,63e73219ccc4,1,2026-11-02
+6811006356,like_of,消除+烹饪经营,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=d24f02ec1495,us,d24f02ec1495,1,2026-11-03
+6811006356,name_cn,美食泡泡,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=d24f02ec1495,us,d24f02ec1495,1,2026-11-03
+6811006356,play_desc,从拼图网格中匹配正确食材，自动烹饪后按顺序上菜，满足顾客。,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=d24f02ec1495,us,d24f02ec1495,1,2026-11-03
+6812216260,like_of,半即时回合制MMORPG,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=677762d2345b,cn,677762d2345b,1,2026-10-27
+6812216260,play_desc,选职业穿越三国，ATB回合战斗，收集武将宠、搭配将星卡组队刷副本,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=677762d2345b,cn,677762d2345b,1,2026-10-27
+6812671122,like_of,放置卡牌+公会战,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=d4d056cea9fe,cn,d4d056cea9fe,1,2026-10-27
+6812671122,play_desc,收集培养魔神卡牌，编队推图挂机，参与公会跨服攻防,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=d4d056cea9fe,cn,d4d056cea9fe,1,2026-10-27
+6813545317,like_of,语音模仿派对,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=49e5d4b08e70,jp,49e5d4b08e70,1,2026-11-01
+6813545317,name_cn,模仿派对,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=49e5d4b08e70,jp,49e5d4b08e70,1,2026-11-01
+6813545317,play_desc,听一段声音后全桌同时模仿，按音准节奏评分，转盘决定加分或惩罚,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=49e5d4b08e70,jp,49e5d4b08e70,1,2026-11-01
+6814103261,descr_cn,"一根绳索，将两人紧紧相连。
+
+《Tether Up!》是一款与伙伴被绳索系在一起、不断向更高处攀登的合作攀爬动作游戏。没有关卡切换，没有检查点，也没有预设的终点。有的只是落脚点、风，以及绳索另一端的那另一个人。
+
+◆ 绳索，既是伙伴也是敌人
+绳索松弛时行动自由。但当它绷紧的瞬间，伙伴的重量与势头会原封不动地传到自己身上。跳得太快会被拉回去，步调一致就能触及原本够不到的落脚点。是拉、是等、还是跳。那一瞬间的判断，决定了两人的高度。
+
+◆ 坠落，也不会结束
+就算掉下几十米也没关系。重新抓住落脚点，继续往上爬就好。唯一会中断的，只有两人一起坠入谷底的时候。所以无论多少次都能笑着重来，无论多少次都能重新开始。
+
+◆ 天空的颜色，会告诉你前进了多远
+溪谷、风之庭院、云上遗迹、黄金天空。背景随着攀登不断变换，没有加载也没有等待时间，只有景色在流转。每100米的到达提示，会静静地推你一把。
+
+◆ 10种以上的机关在等着你
+移动地板、升降梯、跳台、崩塌的落脚点、冰面地板、下沉地板、消失地板、横风。还有只有两人配合才能通过的协作机关。跷跷板会因重心而倾斜，开关桥需要两个开关才能连接，旋转地板用40秒完成一次旋转，风之谷以10秒为周期狂风大作。同样的攀登方式，绝不可能再来第二次。
+
+◆ 对手，是世界某处的某个人
+在线时可以通过随机匹配与陌生的伙",\N,\N,\N,\N,\N,\N,\N,0,\N
+6814103261,like_of,双人协作攀爬,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=178a75cdaa18,jp,178a75cdaa18,1,2026-11-02
+6814103261,name_cn,绳索攀登,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=178a75cdaa18,jp,178a75cdaa18,1,2026-11-02
+6814103261,play_desc,两人用绳索相连，互相拉扯借力，不断向上攀爬，以较低者的高度计分,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=178a75cdaa18,jp,178a75cdaa18,1,2026-11-02
+6814706023,art,unclear,none,llm,agent-manual,2,描述仅 89 字符，只有「可爱」这类形容词，无任何渲染形态信息,cn,94b037f680e0,1,2026-10-25
+6814706023,like_of,放置射击RPG,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=94b037f680e0,cn,94b037f680e0,1,2026-10-25
+6814706023,play_desc,猫咪扛枪自动开火，你点技能、升级军团,inferred,llm,agent-manual,1,可爱毛茸茸的猫咪带着巨大的枪去冒险|建立你自己的猫咪军团,cn,94b037f680e0,0,2026-10-25
+6814706023,subgenre,role_playing.idle_rpg,direct,llm,agent-manual,2,最可爱的放置射击RPG,cn,94b037f680e0,0,2026-10-25
+6814706023,theme,animal,direct,llm,agent-manual,2,可爱毛茸茸的猫咪,cn,94b037f680e0,0,2026-10-25
+6815304121,descr_cn,"“昨天也上班，今天也上班。勇者的职场是地下城？！”
+
+勇者的上班之路永无止境！
+
+请帮助今天也准时到地下城上班的勇者，
+阻挡蜂拥而至的怪物、开采矿山，将他培养成最强的勇者吧！
+
+■ 填满屏幕的华丽技能爆发！
+高品质像素画风与爽快打击感，一旦开始就停不下来的快感，快来体验吧。
+
+■ 解锁勇者！
+个性十足的各种勇者正在地底深处等待着你。
+逐一解锁新的勇者，用只属于你的组合征服地下城吧。
+
+■ Boss！矿山！防守！
+与巨大Boss的一决胜负、从矿山中获得的丰厚资源，
+还有阻挡不断涌来敌人的防守玩法！
+在一款游戏中体验多种内容吧。
+
+■ 可爱宠物玩偶合成！
+将相同的宠物玩偶合成，成长为更强大的宠物玩偶吧。
+与等级越高越强大的宠物玩偶一起，地下城也不足为惧。
+
+今天勇者的上班打卡就掌握在你手中。
+现在就下载，前往地下城上班吧！
+
+[咨询邮箱]
+service.lb@gameduo.net
+
+[隐私政策]
+https://gameduo.net/privacy-policy
+
+[服务运营政策]
+https://gameduo.net/terms-of-service
+
+[开发者联系方式]
+070-8865-1186
+
+- 商品价格中包含",\N,\N,\N,\N,\N,\N,\N,0,\N
+6815304121,like_of,塔防+合成,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=5127e45932b7,kr,5127e45932b7,1,2026-10-27
+6815304121,name_cn,勇者今天也地下出勤,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=5127e45932b7,kr,5127e45932b7,1,2026-10-27
+6815304121,play_desc,操控勇者防守地牢，抵御怪物、挖矿赚钱，并合成宠物玩偶提升战力,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=5127e45932b7,kr,5127e45932b7,1,2026-10-27
+6816938728,art,2d_cartoon,inferred,llm,agent-manual,2,舞台効果、スポットライト、ロンド——舞台演出语境；2D 立绘依动漫 IP 推断,jp,e992f8395312,1,2026-11-03T10:56:42
+6816938728,like_of,,\N,rule,\N,\N,like_anchor 受控词表清洗；原值=实机柏青嫂模拟 like,jp,e992f8395312,1,\N
+6816938728,play_desc,还原柏青嫂实机的转盘与 AT 抽选，看演出等中奖,direct,llm,agent-manual,1,業界初の新しいATの形【貫通型AT】|ボーナスで「ゲーム数ストック特化ゾーン」の上乗せ強化,jp,e992f8395312,0,2026-11-03T10:56:42
+6816938728,subgenre,casino.slots,direct,llm,agent-manual,2,『L少女歌劇 レヴュースタァライト -The SLOT-』が777Realに登場,jp,e992f8395312,0,2026-11-03T10:56:42
+6816938728,theme,anime,inferred,llm,agent-manual,2,少女歌劇 レヴュースタァライト——动漫 IP 授权改编,jp,e992f8395312,0,2026-11-03T10:56:42
+6819018049,descr_cn,"体验竞轮选手一生的3D竞轮模拟游戏。
+从进入养成所的一名选手开始，经历A级3班的出道、到S级S班、制霸GI，乃至年末的“轮界大奖赛”。成为老将后支持同地区的后辈，直到引退之日，描绘只属于你的选手人生。
+
+■ 正宗3D比赛
+・9车同发的比赛以3D实时推进。引导员、红板、打钟、最终直道后方——再现竞轮特有的赛况展开
+・起跑后立刻争夺引导员身后的位置（S）。抢到S的线列将在前方领骑周回
+・线列的排列、发力时机（领骑・卷上・差し・阻挡）、脚力（体力）的分配通过点击操作
+・还有横向挤靠的博弈。再现前车后轮与自己的前轮接触时容易摔倒的“哈斯”
+・从红板开始连续点击“踩踏”进入“全开”状态。可按自己的时机发力。被挤向内道时，也可暂时逃到内圈线内侧
+・最后连打冲刺。终点前以甩车把决胜负
+・点击出走表上的选手名字，可确认该选手的状态（级别・状态一句话・与你的对战成绩等）
+・GI决赛・大奖赛从选手在入场通道列队的入场演出开始。夺冠还有颁奖仪式
+・竞轮场的电子公告牌显示发走前的赔率和终点后的名次・派彩（仅显示）
+・选手・自行车・竞轮场的3D模型。也可随时切换回传统模型
+・可切换后方・视线・俯瞰・电视转播等镜头。“视线”镜头是从选手视角看到的景象
+・比赛可通过回放重新观看，喜欢的可保存到“最佳比赛”
+
+■ 培养选手
+・培养主页为所属地区的",\N,\N,\N,\N,\N,\N,\N,0,\N
+6819018049,like_of,竞轮模拟+养成,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=594bc600c657,jp,594bc600c657,1,2026-10-28
+6819018049,play_desc,培养竞轮选手，在3D比赛中通过卡位、冲刺和体力分配争夺名次，目标是称霸GI和年终,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=594bc600c657,jp,594bc600c657,1,2026-10-28
+6820156980,like_of,合成消除,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=8c950e1b8b87,jp,8c950e1b8b87,1,2026-10-28
+6820156980,name_cn,史莱姆拼图游戏,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=8c950e1b8b87,jp,8c950e1b8b87,1,2026-10-28
+6820156980,play_desc,滑动合并史莱姆方块，凑出更大史莱姆并清空棋盘,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=8c950e1b8b87,jp,8c950e1b8b87,1,2026-10-28
+6820870836,like_of,三消收集,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=5870bcf33db7,cn,5870bcf33db7,1,2026-11-05
+6820870836,name_cn,水洼爪爪,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=5870bcf33db7,cn,5870bcf33db7,1,2026-11-05
+6820870836,play_desc,滑动相邻黏土动物凑三连消除，在限定步数内收集目标动物过关,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=5870bcf33db7,cn,5870bcf33db7,1,2026-11-05
+6821785946,descr_cn,"输入的文字，直接变成桥。
+
+输入文字后，这些字会排列在山谷间形成桥梁。根据字的形状，桥会变得坚固或脆弱。这是一款物理益智游戏，你要寻找能让所有车辆都通过的词语。
+
+・300个关卡。有吊桥、船只穿行的河流、喷涌的水流、浮桥等各种机关。
+・满足每个关卡的条件，收集3颗星吧。
+・在自由模式中，可以用喜欢的词语试试能让多少辆车通过。
+・可以将游玩过程制作成短视频分享。
+
+会显示广告。",\N,\N,\N,\N,\N,\N,\N,0,\N
+6821785946,like_of,物理益智,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=81e13fec98c7,jp,81e13fec98c7,1,2026-10-24
+6821785946,name_cn,词语桥,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=81e13fec98c7,jp,81e13fec98c7,1,2026-10-24
+6821785946,play_desc,输入词语让文字排成桥，按字形承重，让所有车辆安全通过,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=81e13fec98c7,jp,81e13fec98c7,1,2026-10-24
+6822588273,descr_cn,"简单爽快的合成游戏！开发200多种食材，打造日本第一的烤串店！
+
+想开一家时尚的隐秘酒吧？
+还是充满人情味的路边摊，或是温馨舒适的食堂？
+开一家只属于你的理想餐厅，朝着顶级厨师的目标前进吧！
+Global Gear Lab倾情呈现，美味美食与乐趣满满的最新力作！
+现在就穿过暖帘，跳进烤串职人的世界吧！
+
+……………………………………
+【串盛的玩法】
+◆ 将串串拼在一起的简单合成益智 ◆
+操作超级简单！将相同的串食材滑动到一起，匹配相同种类即可。
+从经典的「葱间」「鸡腿」「鸡肝」，到谁都没见过的超奇特品种……登场的烤串竟然多达200种以上！
+下一串会诞生什么样的烤串呢，烹饪的兴奋感停不下来！
+
+◆ 招待形形色色的客人吧 ◆
+按照光临的客人（讲究的美食家们）的点单，提供你引以为傲的料理，让店铺生意兴隆！
+让客人满意的话，说不定还能解锁那位客人的「秘密档案」！？
+店铺等级提升后，还会有更多个性丰富的常客增加哦。
+
+◆ 大好机会！VIP客人光临！？ ◆
+使用游戏内获得的「VIP票」，就能触发邀请特别客人的限定活动！
+在限定时间内响应点单，让店铺销售额猛涨吧！
+
+◆ 目标巅峰！热血「烤串大会」 ◆
+不只是经营店铺！
+还有与对手职人们比拼技艺的小游戏！
+赢下热血对决，就能获得只有在这里才能得到的超",\N,\N,\N,\N,\N,\N,\N,0,\N
+6822588273,like_of,合成经营,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=42fdfb994f86,jp,42fdfb994f86,1,2026-10-30
+6822588273,name_cn,大口吃串烧,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=42fdfb994f86,jp,42fdfb994f86,1,2026-10-30
+6822588273,play_desc,滑动合并相同烤串解锁新品种，按顾客订单上菜经营烧鸟店,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=42fdfb994f86,jp,42fdfb994f86,1,2026-10-30
+6822935249,descr_cn,"位于东京下星泽后巷的一家小小的昭和时代茶馆——吃茶星。传说中的星大师收你为徒。学习技艺，赢得街坊邻里的心，从紧张的见习生成长为属于你自己的咖啡品牌创始人吧。
+
+Tokyo Brew Tycoon是一款以手绘像素艺术打造、单手即可畅玩的治愈系咖啡师职业游戏。
+
+一杯一杯，亲手冲泡 每一杯都是用手指享受的小迷你游戏。• 转动磨豆机，磨出恰到好处的粗细 • 手冲要慢慢来，匀速画圈 • 蒸煮牛奶，打出绵密细腻的奶泡 • 心形、郁金香、树叶拉花 • 像真正的吃茶店一样用虹吸壶萃取 • 搅打抹茶，打出柔滑的泡沫 • 亲自烘焙咖啡豆，寻找完美的烘焙度
+
+一杯一杯积累的咖啡师职业生涯 50个等级、6个职级，从见习生一路攀升到属于你自己的品牌老板。星大师会督促你、夸奖你，偶尔也会训斥你。每升一级，都会解锁新的饮品、工具和故事。
+
+略带苦涩的故事 下星泽正在改变。精致的连锁店Gold Bean觊觎着街区里的每一个角落，不太受欢迎的客人找上门来索要“保护费”。常客、对手，偶尔还有黑道。在多幕交织的故事中，守护住吃茶星吧。
+
+打造属于你自己的咖啡帝国 • 在街区地图上四处走动，结识邻里",\N,\N,\N,\N,\N,\N,\N,0,\N
+6822935249,like_of,模拟经营+冲煮小游戏,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=49db187245bb,kr,49db187245bb,1,2026-11-01
+6822935249,name_cn,东京咖啡大亨,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=49db187245bb,kr,49db187245bb,1,2026-11-01
+6822935249,play_desc,通过研磨、手冲、拉花等小游戏一杯杯制作咖啡，从学徒晋升为咖啡品牌创始人,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=49db187245bb,kr,49db187245bb,1,2026-11-01
+6823042308,descr_cn,"这是一款只有在地图上相邻的都道府县才会按照真实地图的样子拼合在一起的益智游戏。
+
+东京都与神奈川县、大阪府与京都府……相邻的县在箱子里相互接触时，县界就会严丝合缝地拼在一起，形成一个整体。不相邻的县则不会拼合。不断连接下去就会形成关东、近畿等地区，当47个都道府县全部连接起来时，日本列岛就完成了。
+
+■ 玩法
+・用手指左右移动县，松手后就会落入箱子中
+・相邻的县相互接触就会合体。集齐某个地区的县后会出现“〇〇地区 完成！”
+・卡住时可以用“洗牌”摇晃箱子，让县重新滚落
+・把47个都道府县全部落完后，请在60秒以内完成日本列岛
+・完成后日本列岛会消失，开始下一轮。挑战你能连接多少轮
+・箱子溢出，或超过60秒则游戏结束
+
+第一次游玩时，手指的插图会为你引导操作。
+
+■ 鬼畜模式
+从主页的“鬼畜模式”即可从头开始游玩。
+・没有都道府县名称，颜色全部为相同的绿色。只能靠形状作为线索
+・出现顺序完全随机。相邻的县不一定会来
+・会计时，每完成一次日本列岛就记录一圈的单圈用时
+・分数和最佳单圈用时仅在鬼畜模式中记录
+
+■ 额外关卡“亚洲大陆”
+完成日本列岛后，偶尔会出现额外关卡。
+・日本列岛会变成亚洲的“日本”，目标是拼合亚洲各国，完成亚洲大陆
+・在亚洲期间，所有入账分数均为3倍
+・如果搞不清国家的位置，可以用地图按钮确认
+・完成亚洲后会回到日本，继续游玩
+
+■ 分数",\N,\N,\N,\N,\N,\N,\N,0,\N
+6823042308,like_of,拼图+地理益智,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=86e0feb7a0d7,jp,86e0feb7a0d7,1,2026-10-24
+6823042308,name_cn,新·都道府县游戏,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=86e0feb7a0d7,jp,86e0feb7a0d7,1,2026-10-24
+6823042308,play_desc,左右移动并落下都道府县，让相邻县境拼合，最终拼出日本列岛,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=86e0feb7a0d7,jp,86e0feb7a0d7,1,2026-10-24
+6823125665,descr_cn,"【本游戏特色】
+・以万圣节为舞台的独特逃脱游戏
+・精心打磨的美丽画面
+・BGM与音效烘托游戏氛围
+・操作简单直观，仅需点击即可推进
+・附带提示与攻略，新手也能安心游玩
+
+【玩法】
+① 点击在意的地方进行调查
+房间中隐藏着许多线索。
+仔细观察画面，通过点击来探索吧。
+② 使用道具解开谜题
+・点击选中道具，再点击想要使用的位置即可使用。
+・双击道具可放大显示。
+・放大的道具还可与其他道具进行组合。
+③ 卡关时善用提示
+・游戏内搭载【提示功能】，即使“不知道下一步该做什么”也能安心。
+・实在解不开时还可查看【攻略】。
+④ 搭载自动存档功能
+・即使中途中断游戏，下次也可通过【Load】按钮从上次进度继续游玩。
+・可按自己的节奏轻松享受。
+
+【关于难度】
+本逃脱游戏设定为【相对简单的难度】。
+新手也能轻松游玩，初次接触逃脱游戏的人也能安心。
+同时，也有需要些许灵光一现的谜题，因此逃脱游戏爱好者也能乐在其中。
+
+【预计游玩时间】
+本作游玩时间约为【30分钟左右】。
+可快速游玩，非常适合碎片时间或休息时体验。
+
+【精美的画面与音效】
+本作在画面上尤为讲究。
+真实",\N,\N,\N,\N,\N,\N,\N,0,\N
+6823125665,like_of,解谜逃脱,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=3338441795f8,jp,3338441795f8,1,2026-10-24
+6823125665,name_cn,逃脱游戏 万圣节之夜,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=3338441795f8,jp,3338441795f8,1,2026-10-24
+6823125665,play_desc,点击场景搜寻线索，组合使用道具解开谜题，逃出万圣节房间,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=3338441795f8,jp,3338441795f8,1,2026-10-24
+6823592745,descr_cn,"某天走在路上，我这样想象过。
+
+如果用此刻脚下踩着的步道砖
+来玩俄罗斯方块，会怎么样？
+
+致敬那款传奇游戏，
+却把核心规则拧了过来。
+
+就算拼满一行，什么也不会消失。
+只是无止境地铺着步道砖而已。
+
+听着街道的噪音，或是雨声，
+用放松的心情堆叠步道砖吧。
+
+没有分数、也没有成就的世界，
+在「보도보도」里，
+
+通勤路上、悬空的时光、临睡之前——
+用U型联锁砖填满日常里的空白吧。
+
+「보도보도：只是一味无止境铺步道砖的游戏」
+
+Imagined by Studio WhyNot (insta @studio.whynot)
+Made Real by Simulien  (insta @insomniac4t)",\N,\N,\N,\N,\N,\N,\N,0,\N
+6823592745,like_of,休闲拼图,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=1e78d36decb9,kr,1e78d36decb9,1,2026-10-28
+6823592745,name_cn,铺砖铺砖,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=1e78d36decb9,kr,1e78d36decb9,1,2026-10-28
+6823592745,play_desc,用U型砖块不断铺设人行道，没有消除和得分，只求放松堆叠,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=1e78d36decb9,kr,1e78d36decb9,1,2026-10-28
+6824357074,like_of,找物整理,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=4ff82bb355f1,cn,4ff82bb355f1,1,2026-11-07
+6824357074,play_desc,点选房间散落物品，按顶部提示收进目标栏，暂存区满前规划顺序完成整理,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=4ff82bb355f1,cn,4ff82bb355f1,1,2026-11-07
+6824811299,like_of,模拟经营+跳跃,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=e178c802998e,cn,e178c802998e,1,2026-10-28
+6824811299,play_desc,购买小猪并照料水槽饲料，售卖产物换金币解锁农场；点击屏幕左右控制小猪向上跳踩平台,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=e178c802998e,cn,e178c802998e,1,2026-10-28
+6824876279,descr_cn,"某人的手机落到了你手里。
+解锁、读短信、翻照片和备忘录、接起打来的电话。
+发生了什么，答案全在这部手机里。
+
+〈타인의 폰〉（别人的手机）是一款没有游戏画面也没有菜单、只用一部真正属于别人的智能手机来解谜的推理·恐怖游戏。
+ messenger、照片、备忘录、地图、银行、通话记录——手机里所有应用都是线索。
+
+■ 这样的事件在等着你
+· 406号 — 每天夜里11点11分，死人会发来短信。
+· 婚礼宾客 — 去拍了一张圆盘照片回来，礼金包不见了。
+· 等待接听 — 2007年失踪的高三学生的滑盖手机。未接的短信有41条。
+· 三十三（新事件） — 拆除前夜，用无人机把封闭疗养院的窗户一扇一扇数一遍。
+从恐怖、推理、惊悚到喜剧，超过15个事件，每周还会新增新事件。
+
+■ 因为是别人的手机才可能做到的事
+· 实时流动的时间 — 游玩过程中短信和电话也会不断进来。
+· 冒充那个人回复 — 对方以为你就是手机主人。语气错一个就会露馅。
+· 真正的推理 — 要把照片里的日期、一行备忘录、通话记录串联起来才能解开的密码。
+· 反转与多重结局，用声音聆听的通话和语音留言。
+· 卡住了有提示，还是卡住就「看答案」。
+
+戴上耳机，关掉灯再开始。
+现在你手里的，是",\N,\N,\N,\N,\N,\N,\N,0,\N
+6824876279,like_of,解谜推理,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=db356037e3d7,kr,db356037e3d7,1,2026-11-02
+6824876279,name_cn,他人的手机,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=db356037e3d7,kr,db356037e3d7,1,2026-11-02
+6824876279,play_desc,翻查他人手机里的短信、照片和通话记录，拼凑线索破解密码，找出事件真相,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=db356037e3d7,kr,db356037e3d7,1,2026-11-02
+6825755236,like_of,解谜+逻辑推理,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=afc1c2cb7703,cn,afc1c2cb7703,1,2026-10-30
+6825755236,play_desc,点击棋子移动，利用重力与同伴落脚，占住目标棋子位置过关,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=afc1c2cb7703,cn,afc1c2cb7703,1,2026-10-30
+6826518555,like_of,回合对战+收集养成,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=7acebb35e623,cn,7acebb35e623,1,2026-11-05
+6826518555,play_desc,选鸽子比拼属性进行回合对战并解锁皮肤提升属性,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=7acebb35e623,cn,7acebb35e623,1,2026-11-05
+6826721746,like_of,3D网球双打,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=bfb0300307e9,jp,bfb0300307e9,1,2026-11-07
+6826721746,name_cn,软式网球3D,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=bfb0300307e9,jp,bfb0300307e9,1,2026-11-07
+6826721746,play_desc,操控前后卫角色移动蓄力击球，与队友配合赢下双打比赛,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=bfb0300307e9,jp,bfb0300307e9,1,2026-11-07
+6827000949,descr_cn,"那一刻，司机如何应对。
+
+急病乘客救护、防护无线、道口异常。在线路上所有电车都按同一运行图行驶的情况下，从驾驶台应对突发状况的电车驾驶游戏。
+
+■ 会发生什么，只有开起来才知道
+在场景途中，它会突然发生。听取调度的列车无线，确认信号与显示器，当场做出判断。
+・急病乘客救护：前车或后车出现急病乘客。在车站停上几分钟，运行图开始紊乱
+・防护无线：警报响起后，立即紧急制动。等待调度的无线指令后恢复运行
+・道口异常：特殊信号发光机只闪一瞬。能否不错过并停下
+・车门夹人：发车后立即通过车掌阀停车。等待发车信号的蜂鸣器后发车
+
+■ 运行图紊乱后，调度会实施扣车与运行间隔调整
+前车、后车、对向线路，都在同一运行图下运行。因突发状况一列车停下，延误就会向后传播。
+扣车或调整生效后，车站的运行指示器上会显示发车时刻。听取调度的无线指令，等到显示的时刻再发车，调整与前后的电车之间的间隔。
+
+■ 用与调度相同的图，查看线路的当前状况
+在运行状况画面中，可以暂停时间，查看线路上所有电车的位置与延误、信号以及已开通的进路。
+
+■ 从清晨到夜晚，从地面到地下
+清晨、白天、傍晚、夜晚景色各异。傍晚穿行于日落时分的城市，夜晚在前照灯照亮轨道的车窗灯火与车站荧光灯中行驶。
+
+■ 用 ATS 与 ATC 两种方式驾驶
+地面区间为 ATS-P，地下铁为 ATC。保安装置监视着速度…",inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=792d657b0fb0,jp,792d657b0fb0,1,2026-11-07
+6827000949,like_of,电车驾驶模拟,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=792d657b0fb0,jp,792d657b0fb0,1,2026-11-07
+6827000949,name_cn,电车驾驶游戏 东湾线·地铁若叶线篇,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=792d657b0fb0,jp,792d657b0fb0,1,2026-11-07
+6827000949,play_desc,驾驶电车按时刻表运行，应对急病人、道口异常等突发并调整晚点,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=792d657b0fb0,jp,792d657b0fb0,1,2026-11-07
+6827373811,descr_cn,"沙漠花园的各个角落都藏着小沙狐。你能把它们全部找出来吗？
+
+沙狐拼图是一款规则简单的轻松逻辑拼图。
+• 每一横行只有一只沙狐
+• 每一竖列只有一只沙狐
+• 每个同色区域内只有一只沙狐
+• 沙狐之间连对角线都不能相邻
+
+轻点格子即可标上X，按住并拖动就能一次标记多个格子。找到沙狐时，已经找到的沙狐们会一起冲你咧嘴笑。
+
+用心打造的逻辑拼图
+• 从5×5到12×12，共1,170道拼图
+• 每道拼图都只有一个答案，不靠猜、只用逻辑就能解出
+• 会一步步告诉你为什么这个格子是沙狐、为什么那个格子是X的提示
+• 撤销、贴心教程、悠闲游玩
+
+专属我的沙狐小窝
+• 解拼图，或者每天一次在想看时看段短广告，就能收集阳光
+• 用温馨的小物件装饰沙狐小窝吧
+• 用毛色、配饰（蝴蝶结、眼镜、帽子可一起搭配）、游戏盘主题打造只属于我的沙狐
+
+按我的方式享受
+• 用昵称和沙狐造型参与的全球排行榜
+• 换手机也能用恢复代码接续的云备份
+• 支持韩语、英语、日语、德语、西班牙语
+
+5×5～9×9冒险（70道拼图）无需购买即可游玩。10×10、11×11、12×12拼图包以及额外阳光、部分装饰道具",inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=44be007742b7,kr,44be007742b7,1,2026-11-06
+6827373811,like_of,逻辑解谜,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=44be007742b7,kr,44be007742b7,1,2026-11-06
+6827373811,name_cn,沙漠狐狸拼图,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=44be007742b7,kr,44be007742b7,1,2026-11-06
+6827373811,play_desc,在网格中按行列与色块各放一只狐狸且互不斜邻，用X排除推理,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=44be007742b7,kr,44be007742b7,1,2026-11-06
+689888397,like_of,,\N,\N,\N,\N,\N,cn,eb7b3c86cc55,0,\N
+689888397,play_desc,布置炮塔防御怪物进攻，保护萝卜不被吃掉,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=eb7b3c86cc55,cn,eb7b3c86cc55,1,2026-11-06
+698255242,like_of,节奏跑酷,\N,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=8df086733a92,us,8df086733a92,1,2026-10-24
+698255242,name_cn,几何冲刺精简版,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=8df086733a92,us,8df086733a92,1,2026-10-24
+698255242,play_desc,单指点击让方块跳跃飞行，跟随音乐节奏躲开尖刺障碍抵达终点,inferred,llm,deepseek-chat,1,DeepSeek 依据 us 店面商店描述生成；descr_sha1=8df086733a92,us,8df086733a92,1,2026-10-24
+724594093,art,3d_stylized,inferred,human,agent-manual,2,截图（jp 第2张，纯实机）：玩偶有体积、高光与投影，无描边 → 3D 卡通渲染,\N,\N,0,2026-11-05 12:37:11
+724594093,play_desc,把三个以上相同的迪士尼玩偶连起来消掉,direct,llm,agent-manual,1,ぬいぐるみの「ツム」を３つつなげるだけ|同じキャラクターのツムを3コ以上、なぞってつなげる,jp,711f5bd09a6a,0,2026-11-03T11:02:23
+724594093,subgenre,puzzle.match3,direct,llm,agent-manual,2,ツムは3コ以上つなげると消えて得点になるよ,jp,711f5bd09a6a,0,2026-11-03T11:02:23
+724594093,theme,other,inferred,llm,agent-manual,2,ミッキーマウス、ドナルドダック、くまのプーさん——多 IP 混合角色集，不属单一题材,jp,711f5bd09a6a,0,2026-11-03T11:02:23
+791532221,art,2d_cartoon,inferred,llm,agent-manual,2,清新的藤蔓场景，明晰的面板设计，华丽爽快的特效——可判为平面卡通，2D/3D 需看截图,cn,04f6e35e3b14,1,2026-11-03T10:56:42
+791532221,like_of,,\N,\N,\N,\N,\N,cn,04f6e35e3b14,0,\N
+791532221,play_desc,滑动交换相邻小动物，三个同色连成线即消除过关,direct,llm,agent-manual,1,滑动手指让三个及以上的同色小动物横竖相连即可消除,cn,04f6e35e3b14,0,2026-11-03T10:56:42
+791532221,subgenre,puzzle.match3,direct,llm,agent-manual,2,以三消游戏的方式|休闲三消玩法,cn,04f6e35e3b14,0,2026-11-03T10:56:42
+791532221,theme,animal,direct,llm,agent-manual,2,萌动有趣的小动物们,cn,04f6e35e3b14,0,2026-11-03T10:56:42
+870442795,descr_cn,"五子棋达人上线！
+
+五子棋达人采用官方连珠规则。
+所谓连珠规则，是为了抵消黑棋因先手而拥有的绝对优势，仅对黑棋限制三三、四四、长连的官方五子棋规则。
+目前世界大赛采用的是更复杂的开局连珠规则，但考虑到初学者上手太难，我们暂时先采用连珠规则。
+后续如果普及度提高，也在考虑将其修订为正式规则。
+完全没有内购，无需爱心，完全免费畅玩五子棋达人！
+可以与全球五子棋高手进行实时在线对局。
+
+什么是连珠规则？
+
+为抵消黑棋先手的优势，对黑棋施加若干限制的五子棋规则。
+
+1. 黑棋三三、四四为禁手。（四三允许）
+ - 黑棋三三中的三仅指活三。眠三不算。
+2. 白棋三三、四四等无任何限制。
+3. 黑棋六子及以上为禁手。
+4. 白棋连成五子、六子等五子及以上即获胜。
+
+SUD Inc.",\N,\N,\N,\N,\N,\N,\N,0,\N
+870442795,like_of,五子棋对战,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=dff5d5bcab66,kr,dff5d5bcab66,1,2026-10-24
+870442795,name_cn,五子棋达人,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=dff5d5bcab66,kr,dff5d5bcab66,1,2026-10-24
+870442795,play_desc,在15路棋盘落子连成五子，黑方受禁手限制，与全球玩家实时对战,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=dff5d5bcab66,kr,dff5d5bcab66,1,2026-10-24
+881528249,like_of,捕鱼收集,\N,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=26730a611bbd,cn,26730a611bbd,1,2026-11-03
+881528249,name_cn,钓鱼3专业版,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=26730a611bbd,cn,26730a611bbd,1,2026-11-03
+881528249,play_desc,捕捉不同分值的鱼类累计得分，解锁奖杯,inferred,llm,deepseek-chat,1,DeepSeek 依据 cn 店面商店描述生成；descr_sha1=26730a611bbd,cn,26730a611bbd,1,2026-11-03
+963067330,descr_cn,"■ 请帮助饼干逃出烤箱！
+■ 人人都能轻松愉快游玩的休闲跑酷动作游戏
+■ 每月邂逅全新可爱的饼干们与激动人心的冒险世界
+■ 跳跃！躲避障碍物，吃果冻冲击最高纪录
+■ 收集饼干与宠物，聆听隐藏的故事
+■ 还有仅限新用户/回归用户领取的特别超丰厚奖励！
+
+---
+
+休闲跑酷动作游戏
+- 跳跃躲避障碍物！滑行！获取果冻。
+- 用毫无冷场的多样模式尽情畅玩！
+
+可爱饼干缔造的奇妙冒险
+- 聆听小小饼干们创造的无数故事。
+- 在甜品构成的世界中不断奔跑。
+
+持续不断的内容更新
+- 每月邂逅全新饼干、宠物、故事与关卡。
+- 在新模式中寻找新的乐趣。
+
+为新用户/回归用户准备的强力福利
+- 仅登录即可领取的特别奖励！
+- 水晶、满级饼干、传说宝物都已备好。
+
+丰富的收集要素
+- 数百种饼干、宠物、宝物、故事、皮肤乃至背景图！
+- 完成属于你自己的收藏并领取奖励！
+
+多样模式与实时竞技
+- 饼干的挑战：在饼干专属关卡中达成最高等级。
+- 团逃：最多10名跑者共同通关巨型关卡。
+- 奖杯赛：与实时匹配的用户对决并获胜",\N,\N,\N,\N,\N,\N,\N,0,\N
+963067330,like_of,跑酷+收集养成,\N,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=297c2330de6f,kr,297c2330de6f,1,2026-10-26
+963067330,name_cn,跑跑姜饼人：烤箱大逃亡,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=297c2330de6f,kr,297c2330de6f,1,2026-10-26
+963067330,play_desc,操控饼干跳跃滑行躲避障碍吃果冻，刷新跑酷最高分,inferred,llm,deepseek-chat,1,DeepSeek 依据 kr 店面商店描述生成；descr_sha1=297c2330de6f,kr,297c2330de6f,1,2026-10-26
+979859989,play_desc,下中国象棋，残局闯关或跟真人对弈,direct,llm,agent-manual,1,涵盖经典象棋、趣味揭棋、残局闯关、人机对战|1000关名局等你闯,cn,0c73d1b86c25,0,2026-11-03T11:02:23
+979859989,subgenre,puzzle.brain,inferred,llm,agent-manual,2,中国象棋是纯逻辑对弈，Newzoo 无对应值；card_battle.traditional 明确指牌类（solitaire/mahjong/棋牌），象棋是棋盘博弈不是牌局，故归 brain,cn,0c73d1b86c25,0,2026-11-03T11:02:23
+979859989,theme,historical,inferred,llm,agent-manual,2,中国象棋、残局名局、棋艺教学——传统棋类文化语境,cn,0c73d1b86c25,0,2026-11-03T11:02:23
+989673964,art,3d_stylized,inferred,human,agent-manual,2,截图（cn 第2张，宣传图+小窗实机）：角色七头身、材质风格化非 PBR → 3D 风格化,\N,\N,1,2026-11-05 12:37:11
+989673964,like_of,,\N,\N,\N,\N,\N,cn,99cd100b0cef,0,\N
+989673964,play_desc,5v5 三路推塔，选英雄开黑上分，一局十分钟,direct,llm,agent-manual,1,5V5王者峡谷、公平对战|三路推塔,cn,99cd100b0cef,0,2026-11-03T10:56:42
+989673964,subgenre,action.moba,direct,llm,agent-manual,2,国民MOBA手游大作|5V5团队公平竞技手游,cn,99cd100b0cef,0,2026-11-03T10:56:42
+989673964,theme,fantasy,inferred,llm,agent-manual,2,王者峡谷、英雄、召唤师——架空幻想大陆,cn,99cd100b0cef,0,2026-11-03T10:56:42
+991847114,descr_cn,"◆牧场放置游戏 出货猪◆
+累计下载量突破200万！
+
+给超可爱的猪喂食并出货来赚钱吧！
+操作简单，最适合打发空闲时间，让人忍不住一直玩下去的游戏！
+悠闲地把猪出货的牧场物语！
+不断地把猪出货，完成全图鉴吧！
+猪会多得不得了！
+源源不断地冒出来！
+
+【游戏介绍】
+
+▼规则简单
+从牧场的猪舍里不断冒出来的猪，点一点喂食让它们成长，再点击卡车出货吧！
+
+▼购买饲料
+购买牧场的饲料后牧场生产力会提升，新品种的猪和猪的数量都会增加哦。
+
+▼通过交配获得新品种！
+一天可以进行一次交配。
+交配就能获得新品种的猪哦！
+顺便还有机会获得奖励！
+
+▼突然开始的与店主之间的牧场物语
+你会突然收到牧场肉店店主的委托，要求你把猪出货！
+请务必以收集全部猪为目标吧！
+
+▼昼夜变化的游戏
+晚上游玩时牧场会变成夜晚，早上或白天游玩时会变亮，BGM也会变化。晚上悠闲地玩能让你睡得香甜，治愈日常的疲惫。
+
+
+▼与朋友竞争！合作！交流功能
+和朋友一起合作增加金钱吧！
+还可以聊天哦！
+
+
+本游戏由株式会社EAGLE制作。
+
+
+■ 定期订阅服务
+- 精英火腿通行证：1个月 ¥980／月
+- 自动更新订阅将通过 Apple ID 扣费
+- 使用条款（EULA）：https://www.apple.com/",\N,\N,\N,\N,\N,\N,\N,0,\N
+991847114,like_of,放置养成经营,\N,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=2ba4818585b4,jp,2ba4818585b4,1,2026-11-01
+991847114,name_cn,出货小猪：养猪场养成游戏,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=2ba4818585b4,jp,2ba4818585b4,1,2026-11-01
+991847114,play_desc,点击小猪喂食养成，再点卡车出货赚钱，解锁新品种猪。,inferred,llm,deepseek-chat,1,DeepSeek 依据 jp 店面商店描述生成；descr_sha1=2ba4818585b4,jp,2ba4818585b4,1,2026-11-01

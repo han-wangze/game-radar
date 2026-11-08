@@ -2,7 +2,7 @@
 
 每天两次抓取美国、中国、日本、韩国 App Store 免费游戏榜 Top 100，把第一次进榜的产品整理成台账。产出是三页可直接打开的静态站点、一个 SQLite 面板、一份 14 天分析报告。
 
-**项目状态**：可运行。采集与建页链路需本地数据库，三页站点与定版报告可直接查看；标签生成依赖可选的模型密钥。
+**项目状态**：可运行。采集与建页链路需本地数据库，三页站点与定版报告可直接查看；标签生成依赖可选的模型密钥。原始库不入库，但仓库带一份 `data/sample/` 样例数据，克隆后能重建面板并复算报告里的全部数字。
 
 ---
 
@@ -30,11 +30,13 @@
 |---|---|
 | 来源 | Apple 公开接口：`itunes.apple.com/{cc}/rss/topfreeapplications/limit=100/genre=6014/json` 取榜单（`6014` 为 Games 顶级类），`lookup?id=...&country={cc}&entity=software` 取详情 |
 | 范围 | 四国 × 免费游戏榜 Top100 × 每 12 小时一次 |
-| 面板 | 截至 2026-11-07，连续 16 个榜日（10-23 → 11-07），6,400 条榜位记录，524 个产品、675 条「产品 × 店面」记录，缺日 0 |
+| 面板 | 截至 2026-11-07，连续 16 个榜日（10-23 → 11-07），6,400 条榜位记录，缺日 0；窗口内出现过的产品 502 个、「产品 × 店面」657 条 |
 | 字段 | 名次、产品 ID、名称、品类数组、上架/更新日期、累计评分人数与均分、价格、商店介绍、截图 URL |
 | 存储 | SQLite（WAL）：`fact_rank` 榜位、`fact_metric` 按榜日的评分快照、`dim_app` / `dim_app_country` 产品与店面维度、`fact_tag` 标签、`job_log` 抓取记录 |
 
-同日两次抓取后者覆盖前者，`job_log` 记录每次快照时间，引用数字时一并带上版本。数据来自公开接口，未做二次加工；原始榜位快照存于本地 SQLite，不随仓库分发。
+同日两次抓取后者覆盖前者，`job_log` 记录每次快照时间，引用数字时一并带上版本。每次抓取按「整份快照」写入：先删本次要写的那段名次再插入，上游返回不全时整班不覆盖、记 `partial` 交告警，不会留下上一班的残行。数据来自公开接口；原始榜位快照存于本地 SQLite，不随仓库分发，可复算的样例见下文。
+
+产品库（`dim_app`）是累计维度，比面板多：截至同日 524 个产品、675 条「产品 × 店面」——多出的部分是当天早些时候那班抓过、收盘快照里已掉出 Top100 的产品。
 
 **技术**
 
@@ -55,7 +57,7 @@ Python 3.10+，只用标准库，无需安装依赖。采集、视图计算、�
 
 ## 实际完成了什么？
 
-**采集与面板**：定时任务每 12 小时跑一次，顺序是采集 → 生成中文标签 → 健康检查 → 告警 → 重建三页。同一榜日重跑覆盖，不产生重复行；`health.py` 查缺日与分店面记录完整性，`check_alerts.py` 覆盖六类运行异常并以退出码标示。
+**采集与面板**：定时任务每 12 小时跑一次，顺序是采集 → 生成中文标签 → 健康检查 → 告警 → 重建三页。同一榜日重跑覆盖，不产生重复行；`health.py` 查缺日与分店面记录完整性，`check_alerts.py` 覆盖七类运行异常（含「条数与任务记录不符 / 名次不连续」）并以退出码标示。`data/sample/job_log.csv` 是这 128 次运行的完整记录，可直接核对节奏与成败。
 
 **三页静态站点**（`site/`，HTML 与样式自成一页，双击即可打开；截图需联网）：
 
@@ -65,17 +67,18 @@ Python 3.10+，只用标准库，无需安装依赖。采集、视图计算、�
 | `yesterday.html` | 前一榜日的同一套结构，按该榜日截点重算 |
 | `weekly.html` | 最近一个 7 榜日齐全的已结束自然周：本周首次进榜、进榜名次分布、与上周对照、口径 |
 
-日报与周报的首次进榜清单都按上架时长分组。日报各组默认展开；周报只展开「新上架（≤30 天）」，并在这一组内按首次进榜市场再分四段，其余组折叠。每张卡片常显玩法一句话、玩法类型、中文译名、品类、上架天数、厂商与进榜名次，展开可看商店介绍原文、日韩介绍的中文译文和首张截图。周报按产品去重，同一款跨多国进榜只列一次。
+日报与周报的首次进榜清单都按上架时长分组。日报各组默认展开；周报只展开「新上架（≤30 天）」，并在这一组内按首次进榜市场再分四段，其余组折叠。每张卡片常显玩法一句话、玩法类型、中文译名、品类、上架天数、厂商与进榜名次，展开可看商店介绍预览（前 320 字，末尾回链 App Store 看全文）、日韩介绍的中文译文和首张截图。周报按产品去重，同一款跨多国进榜只列一次。
 
-**标签**：当前 `play_desc` 283 款、`like_of` 220 款有值、`name_cn` 176 款、`descr_cn` 120 款。玩法类型允许留空。这些是本地面板的当前值，公开仓库不含数据库，无法在此复核。`like_of` 是历史字段名，当前存的是玩法类型短语而非产品名。
+**标签**：当前 `play_desc` 283 款、`like_of` 220 款有值、`name_cn` 176 款、`descr_cn` 120 款（全库口径，含已掉出榜单的产品）。玩法类型允许留空。用 `data/sample` 复核到的是截点 2026-11-05 的 257 / 196 / 156 / 107——与报告期望值相差的正是下面提到的那 2 项不一致。`like_of` 是历史字段名，当前存的是玩法类型短语而非产品名。
 
-**分析与校验**：14 天定版报告 `reports/2026-11-06_v3.md` 及一页摘要；`sql/01–07` 七个查询与 `results/` 的 CSV 快照——其中 `01/02/03/06/07` 为当前分析，`04` 的评分数份额与 `05` 的四分层已降级为存档、结论不引用（`sql/04_share_cr4.sql:9`、`sql/05_quantile.sql:4-7`）；`verify_numbers.py` 129 项数字断言；`tests/` 两组回归测试，口径回归覆盖当前链路，标签校验测试已归档（覆盖 2026-11-06 停用的闭集标签体系）。
+**分析与校验**：14 天定版报告 `reports/2026-11-06_v3.md` 及一页摘要；`sql/01–07` 七个查询与 `results/` 的 CSV 快照（截点 2026-11-05，与定版报告同窗口；`01_gap_check.csv` 只有表头，因为这条查询的正常结果就是 0 行 = 零缺口）——其中 `01/02/03/06/07` 为当前分析，`04` 的评分数份额与 `05` 的四分层已降级为存档、结论不引用（`sql/04_share_cr4.sql:9`、`sql/05_quantile.sql:4-7`）；`verify_numbers.py` 129 项数字断言；`tests/` 三组回归测试，口径回归与快照写入覆盖当前链路，标签校验测试已归档（覆盖 2026-11-06 停用的闭集标签体系）。
 
-**脚本状态**（`scripts/` 共 23 个）：
+**脚本状态**（`scripts/` 共 25 个）：
 
 | 状态 | 脚本 | 说明 |
 |---|---|---|
 | 当前链路（13） | `fetch_daily` `gen_cn_blurb` `gen_descr_cn` `health` `check_alerts` `build_site` `build_weekly` `new_entrants` `seed_genre_map` `seed_tag_def` `backfill_app_country` `run_sql` `verify_numbers` | 需本地 `data/radar.db` |
+| 样例数据（2） | `export_sample` `load_sample` | 导出/重建可公开提交的面板，见下 |
 | 一次性迁移（6） | `migrate_tag_v3` `migrate_tag_v4` `migrate_v5*` `apply_golden_v2` | 迁移完即归档，不再运行 |
 | 依赖未公开数据（3） | `extract_docx` `make_review_page` `tag_apps` | 分别依赖本地 `refs/`、`tag_work/`，公开仓库内无法直接运行 |
 | 实验性（1） | `try_deepseek_search` | 验证 DeepSeek Search 能力，不接生产链路 |
@@ -104,27 +107,39 @@ Python 3.10+，只用标准库，无需安装依赖。采集、视图计算、�
 - 品类来自 Apple 的 `sub_genre`，与「玩法」不是一套粒度，两者不能平移比较；`Unclassified` 是上游数据缺失，不是零。
 - 定版报告 §3 的累计评价份额与品类内 CR4 是存档数字，依赖会被后续抓取覆盖的字段，不参与可复现校验；站点三页不使用这两个指标。
 - `verify_numbers.py` 当前 129 项断言有 2 项不一致，都是标签覆盖数随每日回填增长；期望值定版于 2026-11-06，定版报告里「148 项全部一致」是当时的状态。
+- 2026-11-08 之前榜位是按名次逐行覆盖写入的，有 4 个（榜日 × 国家）快照的第 100 名沿用当天早些时候那班的数据（清单见 `check_alerts.py` 的 `KNOWN_BROKEN`）。写入口已改为整份替换，这 4 处没有行级来源可分辨，保留原样。
 
 ## 项目能否运行、复现或演示？
 
-**演示**：直接打开 `site/index.html`、`yesterday.html`、`weekly.html`，三页互相链接，无需启动服务、无需密钥；卡片截图需联网加载。
+**演示**：直接打开 `site/index.html`、`yesterday.html`、`weekly.html`，三页互相链接，无需启动服务、无需密钥；卡片截图需联网加载，展开卡片可看商店介绍预览，末尾回链 App Store 看全文。
+
+**复现**：仓库带一份 `data/sample/`——8 张表的 CSV 与 `MANIFEST.json`（面板 16 个榜日、6,400 条榜位、快照版本 2026-11-08T05:40:45）。它不含商店介绍原文与截图 URL（版权与体积原因），但统计复算需要的东西齐全：
+
+```bash
+python scripts/load_sample.py                        # 按 schema.sql 重建 data/sample.db
+python scripts/verify_numbers.py --db data/sample.db # 129 项断言，结果与本地库一致
+python scripts/run_sql.py sql/07_cohort_survival.sql --db data/sample.db
+```
 
 **运行**：Python 3.10+，无需 `pip install`。数据库 `data/radar.db` 按 `.gitignore` 不入库，新环境需从 `schema.sql` 建库后开始采集；Apple 没有历史接口，已有的 16 个榜日无法在新环境回补，只能从当天重新积累。模型能力可选，把 `.env.example` 复制为 `.env` 填入 key 即可启用，没有 key 时台账、页面、分析照常生成，只是卡片缺玩法、玩法类型、译名与译文。
 
 ```bash
-python scripts/fetch_daily.py                 # 抓四国 Top100 + 详情，同日重跑覆盖
+python scripts/fetch_daily.py                 # 抓四国 Top100 + 详情，同日重跑整份覆盖
+python scripts/seed_genre_map.py              # 建品类字典；漏了这步 sub_genre 全成 Unclassified
+python scripts/seed_tag_def.py                # 标签定义与版本号
 python scripts/gen_cn_blurb.py                # 生成玩法 / 玩法类型 / 译名（需 .env）
 python scripts/gen_descr_cn.py --only-missing # 补翻缺失的日韩商店介绍
 python scripts/health.py                      # 缺日与覆盖率体检
-python scripts/check_alerts.py                # 六类告警，退出码 1 = 有严重项
+python scripts/check_alerts.py                # 七类告警，退出码 1 = 有严重项
 python scripts/build_site.py                  # 重建三页
 ```
 
-**复现与核对**：`verify_numbers.py`、`run_sql.py` 与所有采集/建页脚本都需要本地 `data/radar.db`；无库时 `verify_numbers.py` 直接退出（退出码 2）。两个 `tests/` 不依赖数据库，可直接运行。
+**复现与核对**：`verify_numbers.py`、`run_sql.py` 与所有采集/建页脚本都需要一个数据库（本地 `data/radar.db` 或样例 `data/sample.db`）；无库时 `verify_numbers.py` 直接退出（退出码 2）。三个 `tests/` 不依赖数据库，可直接运行。
 
 ```bash
 python scripts/verify_numbers.py              # 重算报告数字，129 项断言
 python tests/test_kou_jing.py                 # 口径回归（当前链路）
+python tests/test_snapshot_replace.py         # 快照写入：整份替换 / 不完整不覆盖
 python tests/test_tag_validate.py             # 标签校验 + 变异测试（已归档）
 python scripts/run_sql.py sql/07_cohort_survival.sql   # 跑留榜 cohort 查询
 ```
@@ -140,5 +155,11 @@ scripts/          采集、标签生成、建页、体检、告警、校验
 sql/ results/     七个分析查询与对应 CSV 快照
 reports/          定版报告、一页摘要与历史快照
 site/             三页静态交付物（入库）
+data/sample/      可复算的样例数据（8 张表 CSV + MANIFEST，入库）
 data/radar.db     本地面板（按 .gitignore 不入库）
+LICENSE           代码许可（MIT）
 ```
+
+## 使用许可与数据来源
+
+代码以 MIT 许可发布，见 [`LICENSE`](LICENSE)。榜单名次来自 Apple 公开的 RSS 与 lookup 接口；**商店介绍与截图的版权归各开发者与 Apple 所有**，站点的处理方式是引用而非转载：介绍只截取前 320 字并回链 App Store 商品页，截图只引用 Apple 图片服务的 URL、不镜像，样例数据也不含这两类内容。项目与 Apple 无隶属关系。

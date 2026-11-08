@@ -94,6 +94,11 @@ def first_shot(raw):
 # 注意「新上架」≠ 项目定义的「新游（首次进榜）」，页面上必须把两者说清。
 NEW_AGE, RETURN_AGE = 30, 90
 
+# 商店原文/译文的展示上限。公开页面只放前 N 字，完整内容回链 App Store：
+# 一是整段转载商店文案不合适（文案版权归各开发者与 Apple），
+# 二是一屏读不完 —— 读者要的是「这游戏怎么玩」，不是全文。
+PREVIEW_CHARS = 320
+
 # 日报页脚口径（index / yesterday 共用单一来源，杜绝两页措辞漂移）。
 # 生成口径：玩法/玩法类型/译名由模型基于已入库的商店介绍文本生成，不写
 # 「没有逐条人工核对」这类自我拆台的话。
@@ -103,6 +108,11 @@ DAILY_CAVEAT = (
     "上架超过 {RETURN_AGE} 天的老游戏重新进榜，标为回榜。"
     "玩法、玩法类型与译名由模型基于商店介绍生成。"
 )
+
+# 页脚第二行：交代第三方内容的出处与边界。页面只放商店文案的前 PREVIEW_CHARS 字，
+# 完整内容与截图都回链 App Store，版权归各开发者与 Apple。
+SOURCE_NOTE = ("商店介绍与截图版权归各开发者与 Apple 所有，本页仅作榜单研究的引用；"
+               "介绍只截取前 {PREVIEW} 字，完整内容与截图请到 App Store 查看。")
 
 GROUPS = [
     ("new", "新上架（≤30 天）"),
@@ -178,6 +188,18 @@ def summarize(play_desc, limit=40):
     return (s[:limit] + "…") if len(s) > limit else s
 
 
+def preview(text, n: int = PREVIEW_CHARS) -> str:
+    """取前 n 字，超长补省略号。换行原样保留（CSS 是 pre-wrap）。"""
+    s = (text or "").strip()
+    return s if len(s) <= n else s[:n].rstrip() + "…"
+
+
+def store_link(cc: str, app_id: str) -> str:
+    """回链 App Store 商品页。既是给读者的「看全文」入口，也是转载的出处。"""
+    return (f'<a class="ext" href="https://apps.apple.com/{esc(cc)}/app/id{esc(app_id)}" '
+            f'target="_blank" rel="noopener noreferrer">在 App Store 查看完整介绍 ↗</a>')
+
+
 def render_ent(row, group_key):
     """一张进榜卡片：名次 / 名称（含中文译名）/ 元信息 / 玩法 / 玩法类型，可展开商店介绍。"""
     (cc, name, rank, genre, age, seller, aid, descr, shots,
@@ -211,17 +233,21 @@ def render_ent(row, group_key):
              f'referrerpolicy="no-referrer">') if img else ""
 
     # 展开层：优先给中文译文；没有译文时给原文并标出语种（不写"未翻译"这种交代）。
+    # 两者都只放前 PREVIEW_CHARS 字，末尾接 App Store 链接 —— 存储的是全文，
+    # 展示的是预览，读者要全文就点过去。
     lang = descr_lang(descr)
+    link = store_link(cc, aid)
     if descr_cn:
         main_html = (f'<span class="orig-tag">商店介绍 · 中文译文</span>'
-                     f'<div class="descr-cn">{esc(descr_cn)}</div>')
+                     f'<div class="descr-cn">{esc(preview(descr_cn))}</div>')
         if descr:
             main_html += (f'<details class="orig"><summary>查看{lang or ""}原文</summary>'
-                          f'<div class="orig-body">{esc(descr)}</div></details>')
+                          f'<div class="orig-body">{esc(preview(descr))}</div></details>')
     else:
         tag = f'商店介绍 · {lang}原文' if lang else "商店介绍"
         main_html = (f'<span class="orig-tag">{tag}</span>'
-                     f'<div class="descr-cn">{esc(descr)}</div>')
+                     f'<div class="descr-cn">{esc(preview(descr))}</div>')
+    main_html += f'<div class="ext-row">{link}</div>'
 
     return (f'<details class="ent"><summary>{body}</summary>'
             f'<div class="appcard">{thumb}'
@@ -534,6 +560,10 @@ border:1px solid var(--line);flex:none;background:#fff}
 .orig-tag{display:block;font-size:10px;color:var(--faint);margin:0 0 5px;
 font-weight:650;letter-spacing:.05em}
 .descr-cn{white-space:pre-wrap;word-break:break-word;padding-right:4px}
+.ext-row{margin-top:9px}
+a.ext{font-size:11.5px;color:var(--accent-ink);text-decoration:none;
+border-bottom:1px solid var(--accent-soft);display:inline-block}
+a.ext:hover{border-bottom-color:var(--accent-ink)}
 details.orig{margin-top:8px}
 details.orig>summary{cursor:pointer;list-style:none;font-size:11px;color:var(--muted);
 display:inline-flex;align-items:center;gap:4px}
@@ -808,7 +838,9 @@ def render(d, nav="") -> str:
     # 4. 口径不再单列 04 板块，压成页脚两三行小字（读者要的是「今天谁进来了」，
     #    口径是脚注不是章节）。文案来自 DAILY_CAVEAT 单一来源，两页共用。
     caveat = DAILY_CAVEAT.format(RETURN_AGE=RETURN_AGE)
+    note = SOURCE_NOTE.format(PREVIEW=PREVIEW_CHARS)
     A(f'<footer><p class="foot-note">{caveat}</p>'
+      f'<p class="foot-note">{note}</p>'
       f'数据来自 Apple App Store 免费游戏榜 · '
       f'本页生成于 {datetime.now().strftime("%Y-%m-%d %H:%M")}</footer>')
     A("</div></body></html>")

@@ -62,18 +62,36 @@ def load_rows(path: Path) -> list[dict]:
         rows = list(csv.DictReader(f))
     # CSV 里的 descr_excerpt 只有前 300 字，判 art / subgenre 时经常不够。
     # 直接从库里取全文补上，页面上「看完整描述」才是真的完整。
-    full = {}
+    #
+    # 描述是**分店面**口径：dim_app.descr 自 2026-11-05 起冻结（存的是迁移时最后
+    # 写入国那份，实际是韩文），拿它当判定依据会让 US/JP 的标签对着韩文介绍判。
+    # 这里按 fact_tag.descr_country 取该标签当初真正依据的那份，
+    # 取不到再按 us→cn→jp→kr 兜底。
+    by_pair: dict[tuple[str, str], str] = {}
+    used: dict[tuple[str, str], str] = {}
     try:
         conn = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
-        for aid, descr in conn.execute("SELECT app_id, COALESCE(descr,'') FROM dim_app"):
-            full[aid] = descr
+        for aid, cc, descr in conn.execute(
+                "SELECT app_id, country, COALESCE(descr,'') FROM dim_app_country"):
+            if descr.strip():
+                by_pair[(aid, cc)] = descr
+        used = {(aid, key): cc for aid, key, cc in conn.execute(
+            "SELECT app_id, tag_key, descr_country FROM fact_tag")}
         conn.close()
     except sqlite3.Error:
         pass
     kept = []
     for r in rows:
         item = {c: (r.get(c) or "") for c in COLS}
-        item["descr_full"] = full.get(item["app_id"]) or item["descr_excerpt"]
+        cc = used.get((item["app_id"], item["tag_key"]))
+        text = by_pair.get((item["app_id"], cc)) if cc else None
+        if not text:
+            for cand in ("us", "cn", "jp", "kr"):
+                text = by_pair.get((item["app_id"], cand))
+                if text:
+                    break
+        item["descr_full"] = text or item["descr_excerpt"]
+        item["descr_src"] = cc or "兜底"
         kept.append(item)
     return kept
 
@@ -242,7 +260,10 @@ function render(){
   }
   cursor = i;
   const r = p[i];
-  const d = DOM[r.tag_key];
+  // 抽检表可能是旧批次（subgenre / theme / art 等已停用的键），dim_tag_def 里没有
+  // 对应定义。这里兜一个最小对象，页面照样能逐条判，不会因为一个 undefined 整页白屏。
+  const d = DOM[r.tag_key] || {name: r.tag_key, definition: '', values: null, max_len: 60};
+  const question = Q[r.tag_key] || '这条标签准确吗？';
   const st = store[keyOf(r)] || {};
   const closed = Array.isArray(d.values);
 
@@ -260,12 +281,13 @@ function render(){
   stage.innerHTML = `<div class="card">
     <div class="kicker">第 ${i + 1} / ${p.length} 条　·　${esc(d.name)}</div>
     <div class="pname">${esc(r.name)}</div>
-    <div class="q">${esc(Q[r.tag_key])}</div>
+    <div class="q">${esc(question)}</div>
     <div class="val">${esc(r.value)}</div>
     <div class="tags">
       <span class="tag ${esc(r.evidence_strength)}">证据强度 ${esc(r.evidence_strength)}</span>
       ${r.need_review === '1' ? '<span class="tag rev">原标记：待复核</span>' : ''}
       <span class="tag">批次 ${esc(r.batch)}</span>
+      <span class="tag">描述来源 ${esc(r.descr_src || '—')}</span>
     </div>
     <div class="ev"><b>模型给的证据</b><br>${esc(r.evidence || '（空）')}</div>
     <details><summary>看完整描述（判定依据）</summary>

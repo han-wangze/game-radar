@@ -1,0 +1,180 @@
+{
+  "generated_at": "2026-11-08T15:58:53",
+  "generated_by": "scripts/export_sample.py",
+  "source": "data/radar.db（本地采集库，不随仓库分发）",
+  "null_token": "\\N",
+  "panel": {
+    "panel_start": "2026-10-23",
+    "panel_end": "2026-11-07",
+    "n_days": 16,
+    "n_rank_rows": 6400,
+    "n_apps": 502,
+    "n_app_country_pairs": 657,
+    "snapshot_stamp": "2026-11-08T05:40:45"
+  },
+  "tables": [
+    {
+      "table": "dim_app",
+      "file": "dim_app.csv",
+      "rows": 524,
+      "columns": [
+        "app_id",
+        "bundle_id",
+        "name",
+        "seller",
+        "genre",
+        "genres_all",
+        "release_date",
+        "ver_date",
+        "rating_avg",
+        "rating_count",
+        "price",
+        "currency",
+        "first_seen",
+        "last_seen"
+      ],
+      "excluded_columns": [
+        "descr",
+        "summary"
+      ],
+      "bytes": 110453
+    },
+    {
+      "table": "dim_app_country",
+      "file": "dim_app_country.csv",
+      "rows": 675,
+      "columns": [
+        "app_id",
+        "country",
+        "release_date",
+        "ver_date",
+        "name",
+        "genre",
+        "genres_all",
+        "rating_count",
+        "rating_avg",
+        "price",
+        "currency",
+        "descr_sha1",
+        "first_seen",
+        "last_seen"
+      ],
+      "excluded_columns": [
+        "descr",
+        "screenshots"
+      ],
+      "bytes": 120156
+    },
+    {
+      "table": "fact_rank",
+      "file": "fact_rank.csv",
+      "rows": 6400,
+      "columns": [
+        "snap_date",
+        "country",
+        "chart",
+        "rank",
+        "app_id"
+      ],
+      "excluded_columns": [],
+      "bytes": 274120
+    },
+    {
+      "table": "fact_metric",
+      "file": "fact_metric.csv",
+      "rows": 6763,
+      "columns": [
+        "snap_date",
+        "country",
+        "app_id",
+        "rating_count",
+        "rating_avg",
+        "price"
+      ],
+      "excluded_columns": [],
+      "bytes": 288591
+    },
+    {
+      "table": "dim_genre_map",
+      "file": "dim_genre_map.csv",
+      "rows": 109,
+      "columns": [
+        "raw",
+        "canonical",
+        "is_top"
+      ],
+      "excluded_columns": [],
+      "bytes": 2474
+    },
+    {
+      "table": "dim_tag_def",
+      "file": "dim_tag_def.csv",
+      "rows": 4,
+      "columns": [
+        "tag_key",
+        "name_cn",
+        "definition",
+        "value_domain",
+        "max_len",
+        "source",
+        "multi_value",
+        "ver",
+        "changed_at",
+        "note"
+      ],
+      "excluded_columns": [],
+      "bytes": 2009
+    },
+    {
+      "table": "fact_tag",
+      "file": "fact_tag.csv",
+      "rows": 1033,
+      "columns": [
+        "app_id",
+        "tag_key",
+        "value",
+        "evidence_strength",
+        "method",
+        "model",
+        "tag_ver",
+        "evidence",
+        "descr_country",
+        "descr_sha1",
+        "need_review",
+        "tagged_at"
+      ],
+      "excluded_columns": [
+        "confidence"
+      ],
+      "bytes": 316423
+    },
+    {
+      "table": "job_log",
+      "file": "job_log.csv",
+      "rows": 128,
+      "columns": [
+        "run_id",
+        "run_at",
+        "snap_date",
+        "country",
+        "chart",
+        "status",
+        "n_rank",
+        "n_detail",
+        "http_code",
+        "duration_s",
+        "note"
+      ],
+      "excluded_columns": [],
+      "bytes": 9590
+    }
+  ],
+  "excluded_reason": {
+    "dim_app.descr": "2026-11-05 起废弃，冻结着最后写入国的文本，任何分析都不读",
+    "dim_app.summary": "榜单接口给的一句话简介，与商店介绍同源（单行最长 2KB 以上），页面不读它",
+    "dim_app_country.descr": "该店面的商店完整介绍，版权归各开发者与 Apple，不随仓库分发",
+    "dim_app_country.screenshots": "截图 URL 数组，体积大且随时会变，页面已按需外链",
+    "fact_tag.confidence": "模型自评，无外部基准，schema 注释已声明「不对外使用」"
+  },
+  "load": "python scripts/load_sample.py"
+}

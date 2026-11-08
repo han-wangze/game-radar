@@ -12,6 +12,8 @@ game-radar / 每日快照采集（D0）
   - 详情：itunes.apple.com/lookup?id=a,b,c&country={cc}&entity=software
           单批 50 个可行；提供 userRatingCount / primaryGenreName / description
   - 榜单无历史接口 → 榜位变化类指标必须靠每日累积，缺一天永久缺一天
+  - 写入按「整份快照」处理：先删本次要写的那段名次再插入；上游返回不完整时
+    不覆盖（保住上一次的完整快照），记 partial 并让 check_alerts 报警
 
 用法：
     python scripts/fetch_daily.py                     # 四国 × 游戏总榜
@@ -79,8 +81,15 @@ ON CONFLICT(app_id) DO UPDATE SET
 """
 
 INSERT_RANK = """
-INSERT OR REPLACE INTO fact_rank (snap_date, country, chart, rank, app_id)
+INSERT INTO fact_rank (snap_date, country, chart, rank, app_id)
 VALUES (?,?,?,?,?)
+"""
+# 写名次前先删掉本次要覆盖的那一段（见 run_one 的注释）。
+# 不能只靠 INSERT OR REPLACE：主键含 rank，被截断的响应会留下上一次的高位次，
+# 而 check_alerts 只数条数，看不出来 —— 快照会「看起来完整」。
+DELETE_RANK = """
+DELETE FROM fact_rank
+ WHERE snap_date=? AND country=? AND chart=? AND rank<=?
 """
 
 # 分店面字段（release_date / rating_count / price ...）必须写进 dim_app_country：
@@ -218,6 +227,30 @@ def fetch_details(cc: str, app_ids: list[str]) -> dict[str, dict]:
     return out
 
 
+def snapshot_check(chart_rows: list[dict], limit: int) -> tuple[bool, str]:
+    """这次拿到的榜单够不够写一份完整快照。返回 (是否完整, 不完整时的说明)。"""
+    max_rank = max((r["rank"] for r in chart_rows), default=0)
+    if max_rank < limit:
+        return False, (f"榜单仅 {len(chart_rows)} 条（最高名次 {max_rank}/{limit}），"
+                       f"未覆盖已有快照")
+    return True, ""
+
+
+def replace_rank_snapshot(conn: sqlite3.Connection, snap_date: str, cc: str,
+                          chart_name: str, chart_rows: list[dict]) -> int:
+    """整份替换该 (榜日, 国家, 榜) 的名次行，返回写入条数。
+
+    只删 rank <= 本次最高名次：`--limit 20` 这类局部抓取不会顺手抹掉 21–100 的旧行；
+    完整抓取（1..100）则等于整份替换，不会留下上一班的残行。
+    DELETE 与 INSERT 由调用方放在同一事务里提交，中途失败整份回滚，不留空快照。
+    """
+    max_rank = max((r["rank"] for r in chart_rows), default=0)
+    conn.execute(DELETE_RANK, (snap_date, cc, chart_name, max_rank))
+    conn.executemany(INSERT_RANK, [(snap_date, cc, chart_name, r["rank"], r["app_id"])
+                                   for r in chart_rows])
+    return len(chart_rows)
+
+
 def ensure_db() -> sqlite3.Connection:
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
@@ -244,6 +277,21 @@ def run_one(conn: sqlite3.Connection, cc: str, chart_key: str, limit: int,
         return "fail"
 
     log(f"[{cc}/{chart_key}] 榜单 {len(chart_rows)} 条")
+    got = len(chart_rows)
+
+    # 上游返回的榜单不完整时**不覆盖**已有快照。
+    # 主键是 (snap_date, country, chart, rank)，只写拿到的前 N 条会留下上一次的
+    # 高位次，条数照样是 100 —— 快照看起来完整，实际是两次抓取拼起来的。
+    # 宁可保住上一次完整快照、让 partial 触发告警，也不写一份看不出缺口的快照。
+    complete, note = snapshot_check(chart_rows, limit)
+    if not complete:
+        log(f"[{cc}/{chart_key}] {note}")
+        if not dry_run:
+            conn.execute(INSERT_LOG, (run_at, snap_date, cc, chart_name, "partial",
+                                      got, 0, 200, round(time.time() - t0, 1), note))
+            conn.commit()
+        return "partial"
+
     app_ids = [r["app_id"] for r in chart_rows]
 
     try:
@@ -260,6 +308,10 @@ def run_one(conn: sqlite3.Connection, cc: str, chart_key: str, limit: int,
             log(f"    #{r['rank']:<3} {r['name'][:26]:<26} | {(d.get('genre') or '?'):<16} "
                 f"| 评分数 {d.get('rating_count')} | 上线 {d.get('release_date')}")
         return "ok"
+
+    # 整份替换本次要写的名次区间，而不是逐行 INSERT OR REPLACE
+    # （局部抓取不会抹掉高位次、完整抓取不会留下旧行，见 replace_rank_snapshot）。
+    replace_rank_snapshot(conn, snap_date, cc, chart_name, chart_rows)
 
     for r in chart_rows:
         d = details.get(r["app_id"], {})
@@ -284,7 +336,6 @@ def run_one(conn: sqlite3.Connection, cc: str, chart_key: str, limit: int,
             d.get("descr"), d.get("screenshots"), d.get("descr_sha1"),
             snap_date, snap_date,
         ))
-        conn.execute(INSERT_RANK, (snap_date, cc, chart_name, r["rank"], r["app_id"]))
         if d:
             conn.execute(INSERT_METRIC, (snap_date, cc, r["app_id"], d.get("rating_count"),
                                         d.get("rating_avg"), d.get("price")))
