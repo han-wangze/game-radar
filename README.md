@@ -111,7 +111,9 @@ Python 3.10+，只用标准库，无需安装依赖。采集、视图计算、�
 
 ## 项目能否运行、复现或演示？
 
-**演示**：直接打开 `site/index.html`、`yesterday.html`、`weekly.html`，三页互相链接，无需启动服务、无需密钥；卡片截图需联网加载，展开卡片可看商店介绍预览，末尾回链 App Store 看全文。
+**演示**：在线版 <https://han-wangze.github.io/game-radar/> 直接可看。离线时双击 `site/index.html`、`yesterday.html`、`weekly.html` 也是同一套页面，三页互相链接，无需启动服务、无需密钥；卡片截图需联网加载，展开卡片可看商店介绍预览，末尾回链 App Store 看全文。
+
+在线版是**最近一次本机构建的快照**，不是实时榜单：采集跑在本机的定时任务里，`.github/workflows/pages.yml` 只做一件事——把 `site/` 目录发布到 Pages，`site/` 更新时才重新部署。
 
 **复现**：仓库带一份 `data/sample/`——8 张表的 CSV 与 `MANIFEST.json`（面板 16 个榜日、6,400 条榜位、快照版本 2026-11-08T05:40:45）。它不含商店介绍原文与截图 URL（版权与体积原因），但统计复算需要的东西齐全：
 
@@ -155,6 +157,7 @@ scripts/          采集、标签生成、建页、体检、告警、校验
 sql/ results/     七个分析查询与对应 CSV 快照
 reports/          定版报告、一页摘要与历史快照
 site/             三页静态交付物（入库）
+.github/workflows/pages.yml  只把 site/ 发布到 GitHub Pages
 data/sample/      可复算的样例数据（8 张表 CSV + MANIFEST，入库）
 data/radar.db     本地面板（按 .gitignore 不入库）
 LICENSE           代码许可（MIT）

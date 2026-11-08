@@ -1,0 +1,46 @@
+name: Deploy site
+
+# 只发布 site/ 这一份构建产物，不跑采集：
+# 采集依赖本机定时任务，Apple 也没有历史榜单接口，CI 里抓不到仓库这份快照。
+# 因此在线页面是「最近一次本机构建」的快照，不是实时榜单。
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 检查三页齐全
+        run: |
+          for f in index.html yesterday.html weekly.html; do
+            test -s "site/$f" || { echo "缺少 site/$f"; exit 1; }
+          done
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
