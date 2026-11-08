@@ -1,0 +1,404 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>四国新游周报 · 2026-10-26 ~ 2026-11-01</title>
+<style>
+:root{
+--bg:#f4f6fa;--surface:#fff;--soft:#f8fafc;
+--ink:#0f172a;--ink-2:#334155;--muted:#64748b;--faint:#94a3b8;
+--line:#e6eaf1;--line-2:#d5dce7;
+--accent:#2f5bea;--accent-ink:#1e40af;--accent-soft:#eef3ff;
+--new-ink:#046c4e;--new-bg:#e7f7f0;--new-line:#b7e4d0;
+--ret-ink:#9a5b06;--ret-bg:#fdf4e3;--ret-line:#f0d9a8;
+--ok:#047857;--bad:#b42318;
+--r-sm:8px;--r:12px;--r-lg:16px;--sh:0 1px 2px rgba(16,24,40,.04),0 1px 3px rgba(16,24,40,.03);
+--sh-hover:0 10px 24px -12px rgba(16,24,40,.16);
+--font:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB",
+"Microsoft YaHei","Noto Sans CJK SC",sans-serif;
+--mono:ui-monospace,SFMono-Regular,"SF Mono",Consolas,"Liberation Mono",monospace}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14.5px/1.7 var(--font);
+-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1060px;margin:0 auto;padding:0 24px 72px}
+/* ── 顶栏 ───────────────────────────────────────────── */
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;
+padding:16px 0;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:9px;font-size:12.5px;font-weight:700;
+letter-spacing:.09em;text-transform:uppercase}
+.brand i{width:18px;height:18px;border-radius:50%;position:relative;flex:none;
+background:conic-gradient(from 220deg,var(--accent),#8aa4ff,var(--accent));
+box-shadow:inset 0 0 0 1px rgba(47,91,234,.22)}
+.brand i::after{content:"";position:absolute;inset:4.5px;border-radius:50%;background:var(--bg)}
+.brand em{font-style:normal;color:var(--faint);font-weight:500;letter-spacing:.02em;
+text-transform:none;margin-left:-3px}
+.nav{display:flex;gap:6px;flex-wrap:wrap}
+.nav a,.nav b{font-size:12px;padding:6px 11px;border-radius:999px;line-height:1;
+font-weight:550;white-space:nowrap}
+.nav a{color:var(--ink-2);background:var(--surface);border:1px solid var(--line)}
+.nav a:hover{border-color:var(--line-2);text-decoration:none}
+.nav b{color:#fff;background:var(--ink);border:1px solid var(--ink);font-weight:550}
+/* ── 页首 ───────────────────────────────────────────── */
+.hero{padding:34px 0 0}
+.eyebrow{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);
+font-weight:700;margin-bottom:9px}
+h1{font-size:30px;line-height:1.2;letter-spacing:-.025em;margin:0 0 9px;font-weight:750}
+.deck{font-size:13.5px;color:var(--muted);max-width:800px;margin:0;line-height:1.65}
+.deck b{color:var(--ink-2);font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:15px}
+.chip{font-size:11.5px;color:var(--ink-2);background:var(--surface);border:1px solid var(--line);
+border-radius:999px;padding:4px 10px;display:inline-flex;gap:6px;align-items:baseline;line-height:1.45}
+.chip b{font-weight:650;font-variant-numeric:tabular-nums}
+.chip code{font-family:var(--mono);font-size:10.5px;background:none;border:0;padding:0;
+color:var(--muted)}
+/* ── 指标卡 ─────────────────────────────────────────── */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0 0}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
+padding:15px 17px 13px;box-shadow:var(--sh)}
+.stat .k{font-size:11.5px;color:var(--muted)}
+.stat .v{font-size:26px;font-weight:700;letter-spacing:-.02em;line-height:1.2;
+margin-top:5px;font-variant-numeric:tabular-nums}
+.stat .h{font-size:10.5px;color:var(--faint);margin-top:3px;line-height:1.5}
+/* ── 板块标题 ───────────────────────────────────────── */
+.sec{margin-top:40px}
+.sec-h{display:flex;align-items:center;gap:9px;margin:0 0 3px}
+.sec-h .idx{font-family:var(--mono);font-size:10.5px;color:var(--accent);
+background:var(--accent-soft);border:1px solid #dbe5ff;border-radius:6px;
+padding:2px 6px;font-weight:650;line-height:1.3;flex:none}
+.sec-h h2{font-size:18.5px;line-height:1.4;margin:0;letter-spacing:-.012em;font-weight:680}
+.sec-d{font-size:12.5px;color:var(--muted);margin:1px 0 14px;max-width:860px;line-height:1.65}
+.sec-d b{color:var(--ink-2);font-weight:600}
+/* ── 进榜卡片 ───────────────────────────────────────── */
+.grp{display:flex;align-items:center;gap:8px;margin:18px 0 8px;font-size:12px;
+font-weight:650;color:var(--ink-2)}
+.grp .cnt{font-weight:500;color:var(--faint);font-size:10.5px;background:var(--surface);
+border:1px solid var(--line);border-radius:999px;padding:1px 7px}
+.grp-fold{margin:18px 0 8px}
+.grp-fold>summary.grp{cursor:pointer;list-style:none;margin:0}
+.grp-fold>summary.grp::-webkit-details-marker{display:none}
+.grp-fold>summary.grp::before{content:"▸";color:var(--faint);font-size:10px;margin-right:1px}
+.grp-fold[open]>summary.grp::before{content:"▾"}
+.grp-fold>summary.grp .cnt::after{content:" · 展开";color:var(--faint)}
+.grp-fold[open]>summary.grp .cnt::after{content:" · 收起"}
+.entrants{display:grid;gap:8px}
+.ent-static{padding:13px 16px 12px}
+.ent{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
+box-shadow:var(--sh);transition:border-color .16s,box-shadow .16s}
+.ent:hover{border-color:var(--line-2);box-shadow:var(--sh-hover)}
+.ent>summary{list-style:none;cursor:pointer;padding:13px 16px 12px;display:block;position:relative}
+.ent>summary::-webkit-details-marker{display:none}
+.ent>summary::after{content:"＋";position:absolute;right:14px;top:11px;color:var(--faint);
+font-size:12px;font-weight:400;line-height:1}
+.ent[open]>summary::after{content:"－"}
+.r1{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding-right:22px}
+.rk{font-family:var(--mono);font-size:11px;font-weight:600;color:var(--muted);
+background:var(--soft);border:1px solid var(--line);border-radius:6px;padding:2px 5px;
+min-width:33px;text-align:center;flex:none;line-height:1.35}
+.nm{font-size:16px;font-weight:680;line-height:1.35;letter-spacing:-.008em;word-break:break-word}
+.nm-cn{font-size:12.5px;font-weight:450;color:var(--muted);letter-spacing:0}
+.badge{font-size:10.5px;padding:2px 8px;border-radius:999px;font-weight:600;
+white-space:nowrap;line-height:1.45}
+.b-new{background:var(--new-bg);color:var(--new-ink);border:1px solid var(--new-line)}
+.b-return{background:var(--ret-bg);color:var(--ret-ink);border:1px solid var(--ret-line)}
+.meta{display:block;font-size:11.5px;color:var(--muted);margin-top:5px;line-height:1.55;
+word-break:break-word}
+.meta b{color:var(--ink-2);font-weight:550}
+.play{display:block;font-size:13.5px;color:var(--ink-2);margin-top:7px;line-height:1.6}
+.play .lab,.like .lab{display:inline-block;font-size:10px;font-weight:650;letter-spacing:.05em;
+padding:1px 6px;border-radius:5px;margin-right:7px;vertical-align:1.5px;line-height:1.6}
+.play .lab{color:var(--accent-ink);background:var(--accent-soft)}
+.like{display:block;font-size:12px;color:var(--ink-2);margin-top:5px}
+.like .lab{color:var(--ink-2);background:var(--soft);border:1px solid var(--line-2)}
+.appcard{display:flex;flex-wrap:wrap;gap:14px;margin:0 16px 14px;padding-top:12px;
+border-top:1px dashed var(--line);align-items:flex-start}
+.appcard img{width:74px;height:132px;object-fit:cover;object-position:top;border-radius:8px;
+border:1px solid var(--line);flex:none;background:#fff}
+.appcard .txt{flex:1 1 300px;min-width:0;font-size:12.5px;line-height:1.75;color:var(--ink-2)}
+.orig-tag{display:block;font-size:10px;color:var(--faint);margin:0 0 5px;
+font-weight:650;letter-spacing:.05em}
+.descr-cn{white-space:pre-wrap;word-break:break-word;padding-right:4px}
+details.orig{margin-top:8px}
+details.orig>summary{cursor:pointer;list-style:none;font-size:11px;color:var(--muted);
+display:inline-flex;align-items:center;gap:4px}
+details.orig>summary::-webkit-details-marker{display:none}
+details.orig>summary::before{content:"▸";font-size:9px;color:var(--faint)}
+details.orig[open]>summary::before{content:"▾"}
+.orig-body{margin-top:6px;padding:9px 11px;background:var(--soft);border:1px solid var(--line);
+border-radius:var(--r-sm);max-height:260px;overflow:auto;white-space:pre-wrap;
+word-break:break-word;font-size:11.5px;color:var(--muted);line-height:1.7}
+/* ── 品类结构 ───────────────────────────────────────── */
+.mkt{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
+padding:14px 16px 10px;margin-bottom:10px;box-shadow:var(--sh)}
+.mkt .name{font-size:12.5px;font-weight:650;margin-bottom:11px;display:flex;
+justify-content:space-between;align-items:baseline;gap:10px}
+.mkt .name span{font-weight:400;color:var(--faint);font-size:10.5px}
+.row{display:grid;grid-template-columns:112px 1fr 92px;gap:10px;align-items:center;
+font-size:12px;margin-bottom:7px}
+.row .lab{color:var(--ink-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.track{height:7px;background:var(--soft);border-radius:4px;overflow:hidden}
+.track i{display:block;height:100%;border-radius:4px;
+background:linear-gradient(90deg,#6b8bff,var(--accent))}
+.row .val{text-align:right;color:var(--muted);font-variant-numeric:tabular-nums;font-size:11px}
+/* ── 跟进清单（上次进榜产品的名次变化） ──────────── */
+.fu{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
+box-shadow:var(--sh);overflow:hidden}
+.fu-row{display:grid;grid-template-columns:52px minmax(0,1fr) 112px 52px;gap:10px;
+align-items:center;padding:10px 15px;border-bottom:1px solid var(--line);font-size:12.5px}
+.fu-row:last-child{border-bottom:0}
+.fu-mkt{font-size:11px;color:var(--muted)}
+.fu-nm{font-weight:600;word-break:break-word;line-height:1.4}
+.fu-nm .cn{font-size:11px;font-weight:400;color:var(--muted)}
+.fu-rk{font-family:var(--mono);font-size:11px;color:var(--muted);
+font-variant-numeric:tabular-nums;white-space:nowrap;text-align:right}
+.fu-rk b{color:var(--ink);font-weight:700}
+.fu-d{font-size:10.5px;font-weight:650;text-align:center;white-space:nowrap;
+border-radius:999px;padding:2px 0}
+.fu-d.up{color:#b42318;background:#fef3f2;border:1px solid #fecdca}
+.fu-d.down{color:#0f7b6c;background:#ecfdf3;border:1px solid #a6f4c5}
+.fu-d.flat,.fu-d.off{color:var(--faint);background:var(--soft);border:1px solid var(--line)}
+/* ── 两列网格（榜单构成） ──────────────────────────── */
+.env{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.env .mkt{margin-bottom:0}
+@media(max-width:720px){ .env{grid-template-columns:1fr} }
+@media(max-width:520px){
+ .fu-row{grid-template-columns:minmax(0,1fr) 52px;gap:3px 10px;padding:10px 13px}
+ .fu-mkt{grid-column:1;grid-row:1;font-size:10.5px}
+ .fu-nm{grid-column:1;grid-row:2;font-size:13px}
+ .fu-rk{grid-column:1;grid-row:3;text-align:left}
+ .fu-d{grid-column:2;grid-row:1 / span 3;align-self:center}
+}
+/* ── 留存 / 年龄 ────────────────────────────────────── */
+.stack{display:flex;height:9px;border-radius:5px;overflow:hidden;background:var(--soft)}
+.stack i{display:block;height:100%}
+.stacklab{display:flex;gap:13px;font-size:10.5px;color:var(--muted);margin-top:8px;
+flex-wrap:wrap;font-variant-numeric:tabular-nums}
+.stacklab span{display:inline-flex;align-items:center;gap:5px}
+.stacklab i{width:7px;height:7px;border-radius:2px;display:inline-block;flex:none}
+/* ── 口径 / 页脚 ────────────────────────────────────── */
+code{font-family:var(--mono);font-size:11px;background:var(--soft);border:1px solid var(--line);
+border-radius:4px;padding:1px 5px}
+.ok{color:var(--ok)}.bad{color:var(--bad)}
+.lim-h{font-size:12.5px;font-weight:680;color:var(--ink);margin:20px 0 0;
+padding-left:9px;border-left:2px solid var(--accent);line-height:1.5}
+footer{margin-top:44px;padding-top:15px;border-top:1px solid var(--line);
+color:var(--faint);font-size:11.5px;line-height:1.75}
+.foot-note{font-size:12px;color:var(--muted);line-height:1.75;margin:0 0 7px}
+/* ── 响应式 ─────────────────────────────────────────── */
+@media(max-width:820px){
+ .wrap{padding:0 16px 56px}
+ h1{font-size:24px}
+ .row{grid-template-columns:90px 1fr 78px}
+}
+@media(max-width:720px){
+ /* 顶栏必须换行：品牌 + 三个导航胶囊在 390px 会撑破页面，造成整页横向溢出 */
+ .top{flex-wrap:wrap;row-gap:10px;padding:13px 0}
+ .brand{flex:0 0 auto}
+ .brand em{display:none}
+ .nav{flex:1 1 100%;min-width:0}
+ .nav a,.nav b{font-size:11.5px;padding:5px 9px}
+}
+@media(max-width:620px){
+}
+@media(max-width:520px){
+ .stats{grid-template-columns:repeat(3,1fr);gap:8px}
+ .stat{padding:11px 12px 10px}
+ .stat .v{font-size:20px}
+ .stat .h{display:none}
+ .nm{font-size:15px}
+ .appcard img{width:62px;height:111px}
+}
+
+/* 周报专用：台账行（每行带玩法 / 译名 / 在榜 N-M 天） + 简单表格 */
+.wk{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
+box-shadow:var(--sh);overflow:hidden;margin-bottom:10px}
+.wk-head,.wk-row{display:grid;grid-template-columns:74px minmax(0,1fr) 66px;
+gap:12px;align-items:center;padding:9px 15px}
+.wk-head{background:var(--soft);border-bottom:1px solid var(--line);font-size:10.5px;
+color:var(--faint);font-weight:600;letter-spacing:.04em}
+.wk-head span:last-child{text-align:right}
+.wk-row{border-bottom:1px solid var(--line)}
+.wk-row:last-child{border-bottom:0}
+.wk-row:hover{background:#fbfcfe}
+.wk-side{display:flex;flex-direction:column;gap:1px;line-height:1.35;min-width:0}
+.wk-date{font-family:var(--mono);font-size:10.5px;color:var(--faint)}
+.wk-mkt{font-size:11px;color:var(--muted)}
+.wk-rk{font-family:var(--mono);font-size:11px;font-weight:650;color:var(--ink-2)}
+.wk-nm{font-size:14px;font-weight:650;line-height:1.4;word-break:break-word}
+.wk-nm .cn{font-size:11.5px;font-weight:400;color:var(--muted)}
+.wk-play{font-size:12.5px;color:var(--ink-2);margin-top:3px;line-height:1.55}
+.wk-facts{font-size:11px;color:var(--muted);margin-top:4px;line-height:1.5}
+.wk-st{text-align:right}
+.st-on{font-size:10px;font-weight:650;color:var(--new-ink);background:var(--new-bg);
+border:1px solid var(--new-line);border-radius:999px;padding:1px 7px;white-space:nowrap}
+.st-off{font-size:10px;color:var(--faint);background:var(--soft);border:1px solid var(--line);
+border-radius:999px;padding:1px 7px;white-space:nowrap}
+@media(max-width:720px){
+ .wk-head{display:none}
+ .wk-row{grid-template-columns:1fr auto;gap:4px 10px;padding:11px 14px}
+ .wk-side{grid-column:1;flex-direction:row;gap:8px;align-items:baseline}
+ .wk-main{grid-column:1 / -1}
+ .wk-st{grid-column:2;grid-row:1}
+}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+th{font-size:10.5px;color:var(--faint);font-weight:600;background:var(--soft);
+letter-spacing:.03em}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+.tbl-wrap{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
+box-shadow:var(--sh);overflow:hidden;margin-bottom:10px}
+.tbl-wrap th{border-bottom:1px solid var(--line)}
+.tbl-wrap tr:last-child td{border-bottom:0}
+.cav{font-size:12.5px;color:var(--ink-2);line-height:1.8;margin:0 0 10px}
+.cav:last-child{margin-bottom:0}
+</style></head><body><div class="wrap">
+<div class="top"><div class="brand"><i></i>game-radar <em>新游台账</em></div><div class="nav"><a href="index.html">← 日报（今天 2026-11-07）</a>　<b>周报（2026-10-26 ~ 2026-11-01）</b>　<a href="yesterday.html">日报（昨天）→</a></div></div>
+<div class="hero"><div class="eyebrow">App Store · 周报</div><h1>本周新游</h1><p class="deck">美国 / 中国 / 日本 / 韩国 <b>Top100</b>，本周<b>第一次进榜</b>的产品：玩法、玩法类型与进榜名次。</p><div class="chips"><span class="chip">统计周期 <b>2026-10-26 → 2026-11-01</b></span><span class="chip">榜日 <b class="">7 / 7</b></span><span class="chip">快照 <code>2026-11-08 05:40</code></span></div></div>
+<div class="stats"><div class="stat"><div class="k">本周首次进榜</div><div class="v">98 款</div><div class="h">进榜事件 116 次（可在多市场分别进榜）</div></div><div class="stat"><div class="k">其中新上架</div><div class="v">28 款</div><div class="h">回榜 59 款 · 上架 31–90 天 11 款</div></div><div class="stat"><div class="k">进榜前 30 位</div><div class="v">19 款</div><div class="h">前 10 位 10 款 · 其余 79 款从 31–100 位进来</div></div></div>
+<section class="sec"><div class="sec-h"><span class="idx">01</span><h2>本周首次进榜</h2></div>
+<p class="sec-d">按产品去重后 98 款（同一款在多个市场分别进榜时只列一次，取最早那条）。美国 13　·　中国 19　·　日本 33　·　韩国 33。</p>
+<div class="grp">新上架（≤30 天）<span class="cnt">28 款</span></div>
+<div class="grp">首次进榜市场 · 美国<span class="cnt">2 款</span></div>
+<div class="wk">
+<div class="wk-head"><span>日期 · 市场</span><span>产品 · 玩法</span><span style="text-align:right">在榜</span></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">美国</span><span class="wk-rk">#30</span></div><div class="wk-main"><div class="wk-nm">VAMPIR<span class="cn">（吸血鬼）</span></div><div class="wk-play">扮演吸血鬼在战场厮杀，通过刷资源与制作交易不断变强并争夺势力</div><div class="wk-facts">玩法类型 吸血鬼题材 MMORPG · 品类 动作 · 上架 0 天 · Netmarble Corporation</div></div><div class="wk-st"><span class="st-off">1/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-29</span><span class="wk-mkt">美国</span><span class="wk-rk">#5</span></div><div class="wk-main"><div class="wk-nm">No Man&#x27;s Sky<span class="cn">（无人深空）</span></div><div class="wk-play">驾驶飞船穿梭星系，降落各星球探索采集、交易战斗并生存，最终驶向宇宙中心。</div><div class="wk-facts">玩法类型 开放世界太空探索 · 品类 动作 · 上架 1 天 · Hello Games Ltd</div></div><div class="wk-st"><span class="st-on">4/4 天</span></div></div>
+</div>
+<div class="grp">首次进榜市场 · 中国<span class="cnt">4 款</span></div>
+<div class="wk">
+<div class="wk-head"><span>日期 · 市场</span><span>产品 · 玩法</span><span style="text-align:right">在榜</span></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">中国</span><span class="wk-rk">#3</span></div><div class="wk-main"><div class="wk-nm">魔神英雄传-正版授权</div><div class="wk-play">收集培养魔神卡牌，编队推图挂机，参与公会跨服攻防</div><div class="wk-facts">玩法类型 放置卡牌+公会战 · 品类 未分类 · 上架 0 天 · Hangzhou Jiulan Network Technology Co., Ltd</div></div><div class="wk-st"><span class="st-off">5/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">中国</span><span class="wk-rk">#22</span></div><div class="wk-main"><div class="wk-nm">桃园：将帅录</div><div class="wk-play">选职业穿越三国，ATB回合战斗，收集武将宠、搭配将星卡组队刷副本</div><div class="wk-facts">玩法类型 半即时回合制MMORPG · 品类 策略 · 上架 4 天 · Zhejiang UmarkNetwork Technology Co.,Ltd</div></div><div class="wk-st"><span class="st-off">4/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-28</span><span class="wk-mkt">中国</span><span class="wk-rk">#20</span></div><div class="wk-main"><div class="wk-nm">解救猪猪</div><div class="wk-play">购买小猪并照料水槽饲料，售卖产物换金币解锁农场；点击屏幕左右控制小猪向上跳踩平台</div><div class="wk-facts">玩法类型 模拟经营+跳跃 · 品类 棋盘 · 上架 3 天 · 德水 郝</div></div><div class="wk-st"><span class="st-off">1/5 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-30</span><span class="wk-mkt">中国</span><span class="wk-rk">#7</span></div><div class="wk-main"><div class="wk-nm">疯狂消方块：鸭鸭来解谜</div><div class="wk-play">点击棋子移动，利用重力与同伴落脚，占住目标棋子位置过关</div><div class="wk-facts">玩法类型 解谜+逻辑推理 · 品类 解谜 · 上架 3 天 · 轩 殷</div></div><div class="wk-st"><span class="st-off">2/3 天</span></div></div>
+</div>
+<div class="grp">首次进榜市场 · 日本<span class="cnt">8 款</span></div>
+<div class="wk">
+<div class="wk-head"><span>日期 · 市场</span><span>产品 · 玩法</span><span style="text-align:right">在榜</span></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">日本</span><span class="wk-rk">#28</span></div><div class="wk-main"><div class="wk-nm">開拓うさぎ by クラシル<span class="cn">（开拓兔）</span></div><div class="wk-play">点一下开拓一点，兔子自动把城镇建起来</div><div class="wk-facts">玩法类型 点击放置经营 · 品类 解谜 · 上架 1 天 · Kurashiru, Inc</div></div><div class="wk-st"><span class="st-on">6/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-28</span><span class="wk-mkt">日本</span><span class="wk-rk">#1</span></div><div class="wk-main"><div class="wk-nm">モンスターハンターアウトランダーズ<span class="cn">（怪物猎人：旅人）</span></div><div class="wk-play">选武器与伙伴组队狩猎怪物，探索世界并收集素材打造装备</div><div class="wk-facts">玩法类型 共斗狩猎动作 · 品类 动作 · 上架 0 天 · PROXIMA BETA PTE.LIMITED</div></div><div class="wk-st"><span class="st-on">5/5 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-28</span><span class="wk-mkt">日本</span><span class="wk-rk">#2</span></div><div class="wk-main"><div class="wk-nm">BLEACH Mirrors High【ミラハイ】<span class="cn">（死神 镜界巅峰）</span></div><div class="wk-play">扮演死神单指操作高速连击，推进原创剧情并自定义斩魄刀</div><div class="wk-facts">玩法类型 3D动作战斗 · 品类 动作 · 上架 1 天 · Bandai Namco Entertainment Inc.</div></div><div class="wk-st"><span class="st-on">5/5 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-28</span><span class="wk-mkt">日本</span><span class="wk-rk">#29</span></div><div class="wk-main"><div class="wk-nm">[スロスピ]Lパチスロ 革命機ヴァルヴレイヴ2<span class="cn">（L柏青嫂 革命机Valvrave 2）</span></div><div class="wk-play">在3D虚拟厅玩老虎机，每50转为一组，反复挑战出球</div><div class="wk-facts">玩法类型 老虎机模拟 · 品类 模拟 · 上架 3 天 · SPIRIDGE INC.</div></div><div class="wk-st"><span class="st-off">3/5 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-28</span><span class="wk-mkt">日本</span><span class="wk-rk">#46</span></div><div class="wk-main"><div class="wk-nm">競輪人生3D</div><div class="wk-play">培养竞轮选手，在3D比赛中通过卡位、冲刺和体力分配争夺名次，目标是称霸GI和年终</div><div class="wk-facts">玩法类型 竞轮模拟+养成 · 品类 体育 · 上架 19 天 · Shuhei Torisaki</div></div><div class="wk-st"><span class="st-off">2/5 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-28</span><span class="wk-mkt">日本</span><span class="wk-rk">#93</span></div><div class="wk-main"><div class="wk-nm">Slimee - Slime Puzzle Game<span class="cn">（史莱姆拼图游戏）</span></div><div class="wk-play">滑动合并史莱姆方块，凑出更大史莱姆并清空棋盘</div><div class="wk-facts">玩法类型 合成消除 · 品类 解谜 · 上架 7 天 · D-oneApp</div></div><div class="wk-st"><span class="st-off">1/5 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-30</span><span class="wk-mkt">日本</span><span class="wk-rk">#94</span></div><div class="wk-main"><div class="wk-nm">もぐもぐ くしもり<span class="cn">（大口吃串烧）</span></div><div class="wk-play">滑动合并相同烤串解锁新品种，按顾客订单上菜经营烧鸟店</div><div class="wk-facts">玩法类型 合成经营 · 品类 家庭 · 上架 3 天 · GlobalGearLab Co. Ltd.</div></div><div class="wk-st"><span class="st-off">1/3 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">11-01</span><span class="wk-mkt">日本</span><span class="wk-rk">#76</span></div><div class="wk-main"><div class="wk-nm">Mimic Party !<span class="cn">（模仿派对）</span></div><div class="wk-play">听一段声音后全桌同时模仿，按音准节奏评分，转盘决定加分或惩罚</div><div class="wk-facts">玩法类型 语音模仿派对 · 品类 未分类 · 上架 20 天 · FoliesAPP</div></div><div class="wk-st"><span class="st-on">1/1 天</span></div></div>
+</div>
+<div class="grp">首次进榜市场 · 韩国<span class="cnt">14 款</span></div>
+<div class="wk">
+<div class="wk-head"><span>日期 · 市场</span><span>产品 · 玩法</span><span style="text-align:right">在榜</span></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-26</span><span class="wk-mkt">韩国</span><span class="wk-rk">#1</span></div><div class="wk-main"><div class="wk-nm">미카: 던전 백패커<span class="cn">（米卡：地牢背包客）</span></div><div class="wk-play">逐格探索地牢，管理粮食与背包空间，合成装备并组建四人队伍击败楼层Boss</div><div class="wk-facts">玩法类型 地牢探索+背包构筑 · 品类 角色扮演 · 上架 0 天 · Tae won Go</div></div><div class="wk-st"><span class="st-on">7/7 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">韩国</span><span class="wk-rk">#3</span></div><div class="wk-main"><div class="wk-nm">아이러브레스토랑 : 고양이와 매장 경영<span class="cn">（我爱餐厅：猫咪与店铺经营）</span></div><div class="wk-play">种田养畜产食材，烹饪上菜经营餐厅并扩张门店</div><div class="wk-facts">玩法类型 农场经营+餐厅模拟 · 品类 模拟 · 上架 29 天 · SONEW Co.,Ltd.</div></div><div class="wk-st"><span class="st-on">6/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">韩国</span><span class="wk-rk">#71</span></div><div class="wk-main"><div class="wk-nm">용사는 오늘도 지하근무<span class="cn">（勇者今天也地下出勤）</span></div><div class="wk-play">操控勇者防守地牢，抵御怪物、挖矿赚钱，并合成宠物玩偶提升战力</div><div class="wk-facts">玩法类型 塔防+合成 · 品类 角色扮演 · 上架 2 天 · Game Duo Co.,Ltd.</div></div><div class="wk-st"><span class="st-off">3/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">韩国</span><span class="wk-rk">#84</span></div><div class="wk-main"><div class="wk-nm">행성파괴 냥냐냥: 머지 서바이버<span class="cn">（行星破坏喵喵喵：合成生存者）</span></div><div class="wk-play">开箱合成猫咪单位进化升级，抵御一波波外星敌人守住防线</div><div class="wk-facts">玩法类型 合成+塔防生存 · 品类 动作 · 上架 8 天 · VEROPLAY LIMITED</div></div><div class="wk-st"><span class="st-on">6/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-28</span><span class="wk-mkt">韩国</span><span class="wk-rk">#1</span></div><div class="wk-main"><div class="wk-nm">몬스터헌터 아웃랜더스<span class="cn">（怪物猎人 Outlanders）</span></div><div class="wk-play">选武器与冒险家组队狩猎大型怪物，采集素材强化装备</div><div class="wk-facts">玩法类型 共斗狩猎动作 · 品类 动作 · 上架 0 天 · Garena Online Private Ltd.</div></div><div class="wk-st"><span class="st-on">5/5 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-28</span><span class="wk-mkt">韩国</span><span class="wk-rk">#10</span></div><div class="wk-main"><div class="wk-nm">BLEACH Mirrors High<span class="cn">（死神 Mirrors High）</span></div><div class="wk-play">扮演死神与伙伴组队，一键触控释放华丽连招，推进原创剧情并自定义斩魄刀</div><div class="wk-facts">玩法类型 3D动作战斗 · 品类 角色扮演 · 上架 1 天 · Bandai Namco Entertainment Inc.</div></div><div class="wk-st"><span class="st-on">5/5 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-28</span><span class="wk-mkt">韩国</span><span class="wk-rk">#63</span></div><div class="wk-main"><div class="wk-nm">보도보도<span class="cn">（铺砖铺砖）</span></div><div class="wk-play">用U型砖块不断铺设人行道，没有消除和得分，只求放松堆叠</div><div class="wk-facts">玩法类型 休闲拼图 · 品类 解谜 · 上架 7 天 · Kisun Kim</div></div><div class="wk-st"><span class="st-off">3/5 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-29</span><span class="wk-mkt">韩国</span><span class="wk-rk">#9</span></div><div class="wk-main"><div class="wk-nm">검신제로<span class="cn">（剑神Zero）</span></div><div class="wk-play">扮演失忆的武林至尊，通过属性相克与招式策略战斗，破解阵法、追查阴谋、找回记忆。</div><div class="wk-facts">玩法类型 武侠策略RPG · 品类 策略 · 上架 0 天 · Neptune Company</div></div><div class="wk-st"><span class="st-on">4/4 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-29</span><span class="wk-mkt">韩国</span><span class="wk-rk">#30</span></div><div class="wk-main"><div class="wk-nm">워라인: 스나이퍼<span class="cn">（战争线：狙击手）</span></div><div class="wk-play">狙击关键目标并指挥部队清剿街区、重建基地、扩张联盟称霸世界地图</div><div class="wk-facts">玩法类型 狙击+策略经营 · 品类 策略 · 上架 1 天 · Powerfantasy HK Limited</div></div><div class="wk-st"><span class="st-on">4/4 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-29</span><span class="wk-mkt">韩国</span><span class="wk-rk">#53</span></div><div class="wk-main"><div class="wk-nm">드래곤 나이트 키우기<span class="cn">（培养龙骑士）</span></div><div class="wk-play">收集装备并培养龙骑士，与骑士同伴一起挑战Boss和多副本战斗</div><div class="wk-facts">玩法类型 放置养成RPG · 品类 模拟 · 上架 1 天 · Ryong Game Co., Ltd</div></div><div class="wk-st"><span class="st-on">4/4 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-29</span><span class="wk-mkt">韩国</span><span class="wk-rk">#58</span></div><div class="wk-main"><div class="wk-nm">포격크루: 턴제 PvP<span class="cn">（炮击小队：回合制PvP）</span></div><div class="wk-play">拖拽瞄准发射炮弹，结合角度、风向与技能，回合制击败对手</div><div class="wk-facts">玩法类型 回合制弹射对战 · 品类 角色扮演 · 上架 1 天 · VNG SINGAPORE PTE LTD</div></div><div class="wk-st"><span class="st-off">1/4 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-30</span><span class="wk-mkt">韩国</span><span class="wk-rk">#55</span></div><div class="wk-main"><div class="wk-nm">웰다이버<span class="cn">（深海潜水员）</span></div><div class="wk-play">潜入深海捕鱼采矿，卖资源升级角色，越潜越深并安全返回地面</div><div class="wk-facts">玩法类型 深海探索+采集养成 · 品类 动作 · 上架 2 天 · LoadComplete Co., Ltd</div></div><div class="wk-st"><span class="st-on">3/3 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-31</span><span class="wk-mkt">韩国</span><span class="wk-rk">#64</span></div><div class="wk-main"><div class="wk-nm">세계수의 노래<span class="cn">（世界树之歌）</span></div><div class="wk-play">收集英雄、搭配前后排与属性组合，放置自动战斗推图成长</div><div class="wk-facts">玩法类型 放置卡牌RPG · 品类 角色扮演 · 上架 3 天 · END9 GAMES Corp.</div></div><div class="wk-st"><span class="st-off">1/2 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">11-01</span><span class="wk-mkt">韩国</span><span class="wk-rk">#73</span></div><div class="wk-main"><div class="wk-nm">Tokyo Brew Tycoon: 카페 게임<span class="cn">（东京咖啡大亨）</span></div><div class="wk-play">通过研磨、手冲、拉花等小游戏一杯杯制作咖啡，从学徒晋升为咖啡品牌创始人</div><div class="wk-facts">玩法类型 模拟经营+冲煮小游戏 · 品类 模拟 · 上架 10 天 · Giuseppe Lupo</div></div><div class="wk-st"><span class="st-on">1/1 天</span></div></div>
+</div>
+<details class="grp-fold"><summary class="grp">上架 31–90 天<span class="cnt">11 款</span></summary><div class="wk">
+<div class="wk-head"><span>日期 · 市场</span><span>产品 · 玩法</span><span style="text-align:right">在榜</span></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-26</span><span class="wk-mkt">中国</span><span class="wk-rk">#12</span></div><div class="wk-main"><div class="wk-nm">跃动小子</div><div class="wk-play">点击开宝箱收集装备，在角斗场战斗成为王者</div><div class="wk-facts">玩法类型 开箱养成+放置战斗 · 品类 策略 · 上架 40 天 · BAI XIANG NETWORK TECHNOLOGY (SHANGHAI) CO., LTD</div></div><div class="wk-st"><span class="st-on">7/7 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-26</span><span class="wk-mkt">日本</span><span class="wk-rk">#49</span></div><div class="wk-main"><div class="wk-nm">Top Force: 最強指揮官<span class="cn">（顶级力量）</span></div><div class="wk-play">建设军事基地、武装士兵并扩张基地，击败敌人建立军事帝国</div><div class="wk-facts">玩法类型 军事策略+基地经营 · 品类 策略 · 上架 37 天 · Century Games Innovation Pte. Ltd.</div></div><div class="wk-st"><span class="st-on">7/7 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-26</span><span class="wk-mkt">日本</span><span class="wk-rk">#92</span></div><div class="wk-main"><div class="wk-nm">Make It Fit - Packing Puzzle<span class="cn">（完美收纳）</span></div><div class="wk-play">切割、组合物品后拖入网格，严丝合缝地完成收纳</div><div class="wk-facts">玩法类型 收纳解谜 · 品类 解谜 · 上架 67 天 · Luong Vuong</div></div><div class="wk-st"><span class="st-off">3/7 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-26</span><span class="wk-mkt">韩国</span><span class="wk-rk">#72</span></div><div class="wk-main"><div class="wk-nm">Twist Colors: Cubescape<span class="cn">（扭转色彩：方块逃脱）</span></div><div class="wk-play">旋转立方体找最大的同色连通块，一点清空</div><div class="wk-facts">玩法类型 3D消除解谜 · 品类 解谜 · 上架 70 天 · Nova Games Technology Limited</div></div><div class="wk-st"><span class="st-on">7/7 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-26</span><span class="wk-mkt">韩国</span><span class="wk-rk">#78</span></div><div class="wk-main"><div class="wk-nm">축구선수 키우기: 프로 축구 커리어 시뮬레이션<span class="cn">（培养足球选手：职业足球生涯模拟）</span></div><div class="wk-play">从17岁青训起步，按月推进赛季，选成长卡提升能力，打比赛拿荣誉，最终退役评分</div><div class="wk-facts">玩法类型 球员生涯模拟 · 品类 体育 · 上架 35 天 · YT Lab</div></div><div class="wk-st"><span class="st-on">7/7 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">韩国</span><span class="wk-rk">#81</span></div><div class="wk-main"><div class="wk-nm">Jewel Loop - Coloring Sort<span class="cn">（宝石环：填色排序）</span></div><div class="wk-play">点击同色宝石送入旋转环，填满上方像素画布完成图案</div><div class="wk-facts">玩法类型 宝石排序+像素填色 · 品类 解谜 · 上架 90 天 · Ta Ta Game Technology Limited</div></div><div class="wk-st"><span class="st-off">3/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">韩国</span><span class="wk-rk">#88</span></div><div class="wk-main"><div class="wk-nm">Fill Sand: Block Puzzle<span class="cn">（填沙方块拼图）</span></div><div class="wk-play">拖拽方块吸收同色沙粒，让沙堆塌落重组，限时清空整幅沙画</div><div class="wk-facts">玩法类型 落沙消除+空间规划 · 品类 解谜 · 上架 61 天 · Stormborn Inc.</div></div><div class="wk-st"><span class="st-off">2/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-30</span><span class="wk-mkt">韩国</span><span class="wk-rk">#40</span></div><div class="wk-main"><div class="wk-nm">꼬마농부의 농장 성장기<span class="cn">（小农夫的农场成长记）</span></div><div class="wk-play">开垦小块菜地，播种浇水收获作物，按邻居订单出售并逐步扩建农田</div><div class="wk-facts">玩法类型 模拟经营 · 品类 模拟 · 上架 77 天 · JIHWAN SEOK</div></div><div class="wk-st"><span class="st-off">2/3 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-31</span><span class="wk-mkt">韩国</span><span class="wk-rk">#70</span></div><div class="wk-main"><div class="wk-nm">야구선수 키우기, 블루칩스타<span class="cn">（培养棒球选手 蓝筹明星）</span></div><div class="wk-play">从中学棒球部起步，通过概率选择推进选秀、出道、FA、海外与退役的球员生涯</div><div class="wk-facts">玩法类型 棒球生涯模拟 · 品类 策略 · 上架 58 天 · Anyone Company Co., Ltd.</div></div><div class="wk-st"><span class="st-off">1/2 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-31</span><span class="wk-mkt">韩国</span><span class="wk-rk">#100</span></div><div class="wk-main"><div class="wk-nm">티니핑 매직 매치<span class="cn">（蒂尼平魔法消消乐）</span></div><div class="wk-play">三消闯关收集蒂尼平角色，解锁并装饰魔法世界</div><div class="wk-facts">玩法类型 三消+收集养成 · 品类 冒险 · 上架 87 天 · BY4M STUDIO CO.,LTD.</div></div><div class="wk-st"><span class="st-off">1/2 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-31</span><span class="wk-mkt">美国</span><span class="wk-rk">#64</span></div><div class="wk-main"><div class="wk-nm">Parking Loop<span class="cn">（停车循环）</span></div><div class="wk-play">规划移动顺序，把物体归位、避免卡死通关</div><div class="wk-facts">玩法类型 解谜+停车场 · 品类 解谜 · 上架 57 天 · Loop Games Oyun Teknolojileri Anonim Sirketi</div></div><div class="wk-st"><span class="st-on">2/2 天</span></div></div>
+</div></details>
+<details class="grp-fold"><summary class="grp">上架 >90 天 · 回榜<span class="cnt">59 款</span></summary><div class="wk">
+<div class="wk-head"><span>日期 · 市场</span><span>产品 · 玩法</span><span style="text-align:right">在榜</span></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-26</span><span class="wk-mkt">中国</span><span class="wk-rk">#99</span></div><div class="wk-main"><div class="wk-nm">无尽冬日</div><div class="wk-play">当镇长分配幸存者采集资源、升级熔炉、招募英雄并结盟争夺冰原物资</div><div class="wk-facts">玩法类型 生存策略+放置 · 品类 模拟 · 上架 2.4 年 · Shanghai Qingdi Technology Company Limited</div></div><div class="wk-st"><span class="st-on">7/7 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-26</span><span class="wk-mkt">日本</span><span class="wk-rk">#33</span></div><div class="wk-main"><div class="wk-nm">にゃんこクエスト<span class="cn">（猫咪任务）</span></div><div class="wk-play">滚动猫咪把岛上的动物撞飞，闯关推进成为猫王</div><div class="wk-facts">玩法类型 物理滚球闯关 · 品类 动作 · 上架 4.9 年 · ponos corporation</div></div><div class="wk-st"><span class="st-off">2/7 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-26</span><span class="wk-mkt">日本</span><span class="wk-rk">#90</span></div><div class="wk-main"><div class="wk-nm">Water Sort Puzzle : Challenge<span class="cn">（倒水排序挑战）</span></div><div class="wk-play">把水倒进瓶子，倒到每瓶只剩一种颜色</div><div class="wk-facts">玩法类型 水排序解谜 · 品类 解谜 · 上架 111 天 · 贺翔 段</div></div><div class="wk-st"><span class="st-on">7/7 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-26</span><span class="wk-mkt">日本</span><span class="wk-rk">#95</span></div><div class="wk-main"><div class="wk-nm">Path Flow - Maze Puzzle<span class="cn">（路径流动：迷宫解谜）</span></div><div class="wk-play">滑动方块连接箭头方向，为每个方块找到正确路径并逃出网格。</div><div class="wk-facts">玩法类型 滑动解谜 · 品类 解谜 · 上架 202 天 · GlimmerJoy Limited</div></div><div class="wk-st"><span class="st-off">1/7 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-26</span><span class="wk-mkt">日本</span><span class="wk-rk">#97</span></div><div class="wk-main"><div class="wk-nm">Jewel Color Sort: ピクセルアートパズル<span class="cn">（宝石色彩分类：像素艺术拼图）</span></div><div class="wk-play">按颜色把宝石分到对应色区，拼成钻石画</div><div class="wk-facts">玩法类型 颜色分类+拼图 · 品类 解谜 · 上架 123 天 · HappyTapLand Technology Co., Ltd.</div></div><div class="wk-st"><span class="st-on">7/7 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-26</span><span class="wk-mkt">韩国</span><span class="wk-rk">#26</span></div><div class="wk-main"><div class="wk-nm">쿠키런: 오븐브레이크<span class="cn">（跑跑姜饼人：烤箱大逃亡）</span></div><div class="wk-play">操控饼干跳跃滑行躲避障碍吃果冻，刷新跑酷最高分</div><div class="wk-facts">玩法类型 跑酷+收集养成 · 品类 竞速 · 上架 10 年 · Devsisters Corp.</div></div><div class="wk-st"><span class="st-on">7/7 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-26</span><span class="wk-mkt">韩国</span><span class="wk-rk">#58</span></div><div class="wk-main"><div class="wk-nm">Cat Collector: 진짜 고양이<span class="cn">（猫咪收藏家）</span></div><div class="wk-play">拍下现实中的猫，经AI识别后收入个人收藏，并在地图上标记发现地点</div><div class="wk-facts">玩法类型 拍照收集+地图社交 · 品类 家庭 · 上架 117 天 · nftstory limited</div></div><div class="wk-st"><span class="st-off">1/7 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-26</span><span class="wk-mkt">韩国</span><span class="wk-rk">#87</span></div><div class="wk-main"><div class="wk-nm">チート勇者～インベントリ攻略ゲー～RPG<span class="cn">（作弊勇者 背包攻略RPG）</span></div><div class="wk-play">在背包格子里合并像素装备提升战力，搭配宠物与职业组合自动战斗闯关</div><div class="wk-facts">玩法类型 合成+放置战斗 · 品类 策略 · 上架 154 天 · 5minlab</div></div><div class="wk-st"><span class="st-off">4/7 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-26</span><span class="wk-mkt">韩国</span><span class="wk-rk">#100</span></div><div class="wk-main"><div class="wk-nm">단어 연상 - 단어잇기 낱말 퀴즈 퍼즐게임<span class="cn">（单词联想单词接龙猜词拼图游戏）</span></div><div class="wk-play">在有限步数内把单词拖到指定分类区，正确归类即可过关</div><div class="wk-facts">玩法类型 单词分类解谜 · 品类 解谜 · 上架 334 天 · Astrasen PTE. LTD.</div></div><div class="wk-st"><span class="st-off">4/7 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">中国</span><span class="wk-rk">#100</span></div><div class="wk-main"><div class="wk-nm">捕鱼大作战-街机打鱼游戏王者</div><div class="wk-play">发射炮弹打鱼赚金币，升级炮台挑战各类鱼BOSS</div><div class="wk-facts">玩法类型 街机捕鱼 · 品类 模拟 · 上架 6.2 年 · Tuyoo Online HK Limited</div></div><div class="wk-st"><span class="st-off">1/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">日本</span><span class="wk-rk">#73</span></div><div class="wk-main"><div class="wk-nm">Colorever: Gem Art Puzzle<span class="cn">（彩绘宝石艺术拼图）</span></div><div class="wk-play">点同色连成的宝石组，让它们滑进对应位置拼成画</div><div class="wk-facts">玩法类型 宝石排序解谜 · 品类 解谜 · 上架 190 天 · OAKEVER GAMES PTE. LTD.</div></div><div class="wk-st"><span class="st-on">6/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">日本</span><span class="wk-rk">#84</span></div><div class="wk-main"><div class="wk-nm">BRAVE FRONTIER LEGION<span class="cn">（勇者前线 军团）</span></div><div class="wk-play">收集召唤英雄组建军团，编队养成后参加10v10共斗对战</div><div class="wk-facts">玩法类型 共斗对战RPG · 品类 冒险 · 上架 1.3 年 · GRANDSOFT, K.K.</div></div><div class="wk-st"><span class="st-off">2/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">日本</span><span class="wk-rk">#94</span></div><div class="wk-main"><div class="wk-nm">Jigsawcard Solitaire Puzzle<span class="cn">（拼图卡牌纸牌）</span></div><div class="wk-play">滑动拼图卡补齐画面，翻面找线索</div><div class="wk-facts">玩法类型 拼图+卡牌滑动 · 品类 解谜 · 上架 344 天 · OAKEVER GAMES PTE. LTD.</div></div><div class="wk-st"><span class="st-on">6/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">日本</span><span class="wk-rk">#98</span></div><div class="wk-main"><div class="wk-nm">毛糸クラッシュ - パーキングゲーム バスのゲーム<span class="cn">（毛线冲击）</span></div><div class="wk-play">选炮台点同色方块射击，阻止龙前进并救出小猫</div><div class="wk-facts">玩法类型 颜色射击解谜 · 品类 解谜 · 上架 1.6 年 · Astrasen PTE. LTD.</div></div><div class="wk-st"><span class="st-off">1/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">日本</span><span class="wk-rk">#99</span></div><div class="wk-main"><div class="wk-nm">火鍋マスター：フードパズル<span class="cn">（火锅大师：美食拼图）</span></div><div class="wk-play">从火锅中找出三个相同食材，点击分拣到对应餐盘，管理有限空位清空锅底过关。</div><div class="wk-facts">玩法类型 三消分拣 · 品类 解谜 · 上架 247 天 · Chengmai Jiutai Technology Co., Ltd.</div></div><div class="wk-st"><span class="st-off">2/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">韩国</span><span class="wk-rk">#80</span></div><div class="wk-main"><div class="wk-nm">Detective Difference: Spot Fun<span class="cn">（侦探找茬）</span></div><div class="wk-play">在两幅图里逐处找出不同的地方</div><div class="wk-facts">玩法类型 找不同 · 品类 解谜 · 上架 1.9 年 · LONGSEA LINK LIMITED</div></div><div class="wk-st"><span class="st-on">6/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">韩国</span><span class="wk-rk">#95</span></div><div class="wk-main"><div class="wk-nm">ダンジョンスラッシャー：ローグライクRPG<span class="cn">（地下城斩击者：Roguelike RPG）</span></div><div class="wk-play">横版动作闯关，组合技能与遗物构筑流派，击败Boss深入地下城</div><div class="wk-facts">玩法类型 横版动作+肉鸽 · 品类 动作 · 上架 4.4 年 · gihyeon lim</div></div><div class="wk-st"><span class="st-on">6/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">韩国</span><span class="wk-rk">#100</span></div><div class="wk-main"><div class="wk-nm">Candy Crush Saga<span class="cn">（糖果传奇）</span></div><div class="wk-play">交换相邻糖果凑三连消除，完成收集、清障等关卡目标</div><div class="wk-facts">玩法类型 三消解谜 · 品类 解谜 · 上架 14 年 · King.com Limited</div></div><div class="wk-st"><span class="st-on">6/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-27</span><span class="wk-mkt">美国</span><span class="wk-rk">#73</span></div><div class="wk-main"><div class="wk-nm">Victory Blast Casino<span class="cn">（胜利爆破赌场）</span></div><div class="wk-play">转动老虎机卷轴赢取奖励，完成每日任务推进进度并解锁新主题与活动</div><div class="wk-facts">玩法类型 社交赌场老虎机 · 品类 赌场 · 上架 177 天 · Luma Field Inc</div></div><div class="wk-st"><span class="st-on">6/6 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-28</span><span class="wk-mkt">中国</span><span class="wk-rk">#85</span></div><div class="wk-main"><div class="wk-nm">向僵尸开炮-尸潮来袭</div><div class="wk-play">扮演先锋官守防线，随机搭配技能与枪械，割草清剿尸潮</div><div class="wk-facts">玩法类型 射击Roguelike · 品类 策略 · 上架 2.8 年 · Hainan Shengchang Network Technology Co., Ltd.</div></div><div class="wk-st"><span class="st-off">3/5 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-28</span><span class="wk-mkt">中国</span><span class="wk-rk">#87</span></div><div class="wk-main"><div class="wk-nm">皇冠斗地主-小团团力荐</div><div class="wk-play">参与斗地主与麻将等真人牌局，靠出牌与胡牌赢下对局</div><div class="wk-facts">玩法类型 棋牌合集 · 品类 卡牌 · 上架 239 天 · Yiqu Play Technology (Beijing) Co., Ltd</div></div><div class="wk-st"><span class="st-off">2/5 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-28</span><span class="wk-mkt">中国</span><span class="wk-rk">#96</span></div><div class="wk-main"><div class="wk-nm">整洁小房间 - 小小收纳师达人 收拾布置房间</div><div class="wk-play">拖拽散落物品归位到合适位置，整理布置房间并解锁角色故事</div><div class="wk-facts">玩法类型 收纳整理 · 品类 模拟 · 上架 1.3 年 · GLORYWAY PTE. LTD.</div></div><div class="wk-st"><span class="st-off">1/5 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-28</span><span class="wk-mkt">中国</span><span class="wk-rk">#98</span></div><div class="wk-main"><div class="wk-nm">桃源深处有人家</div><div class="wk-play">耕作种植、建设田园小家，与萝卜和村民经营山居生活</div><div class="wk-facts">玩法类型 国风田园经营 · 品类 模拟 · 上架 3.6 年 · Tencent Technology (Chengdu) Co., Ltd.</div></div><div class="wk-st"><span class="st-on">5/5 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-28</span><span class="wk-mkt">中国</span><span class="wk-rk">#100</span></div><div class="wk-main"><div class="wk-nm">明日之后</div><div class="wk-play">在废土大世界采集狩猎造武器，建营地抵御感染者求生</div><div class="wk-facts">玩法类型 废土生存建造 · 品类 角色扮演 · 上架 8 年 · Hangzhou NetEase Leihuo Technology Co., Ltd.</div></div><div class="wk-st"><span class="st-off">1/5 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-28</span><span class="wk-mkt">日本</span><span class="wk-rk">#100</span></div><div class="wk-main"><div class="wk-nm">モンスターハンターNow<span class="cn">（怪物猎人Now）</span></div><div class="wk-play">在现实地图上探索采集素材，限时75秒单手狩猎大型怪物，制作装备并组队讨伐</div><div class="wk-facts">玩法类型 位置探索+动作狩猎 · 品类 动作 · 上架 3.1 年 · Scopely Explore, Inc.</div></div><div class="wk-st"><span class="st-off">3/5 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-28</span><span class="wk-mkt">韩国</span><span class="wk-rk">#74</span></div><div class="wk-main"><div class="wk-nm">X 클래시<span class="cn">（X 冲突）</span></div><div class="wk-play">收集并匹配英雄，组建联盟，重建王国</div><div class="wk-facts">玩法类型 收集匹配+策略 · 品类 策略 · 上架 1.1 年 · Wang Xun</div></div><div class="wk-st"><span class="st-off">1/5 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-28</span><span class="wk-mkt">美国</span><span class="wk-rk">#91</span></div><div class="wk-main"><div class="wk-nm">GOGO! Blast<span class="cn">（冲冲爆破）</span></div><div class="wk-play">按箭头指向依次点击移出棋盘，避开阻挡清空所有箭头</div><div class="wk-facts">玩法类型 箭头解谜 · 品类 解谜 · 上架 118 天 · HURELAX PTE. LTD.</div></div><div class="wk-st"><span class="st-on">5/5 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-28</span><span class="wk-mkt">美国</span><span class="wk-rk">#96</span></div><div class="wk-main"><div class="wk-nm">Bruno Reels Casino<span class="cn">（布鲁诺卷轴赌场）</span></div><div class="wk-play">转动老虎机卷轴赢取奖励，每日登录领奖金并参与限时活动</div><div class="wk-facts">玩法类型 老虎机 · 品类 赌场 · 上架 165 天 · EverPrime Futures Inc.</div></div><div class="wk-st"><span class="st-off">3/5 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-29</span><span class="wk-mkt">中国</span><span class="wk-rk">#95</span></div><div class="wk-main"><div class="wk-nm">时光杂货店</div><div class="wk-play">经营杂货店等怀旧店铺赚取收益，逐步扩张成为乡镇首富</div><div class="wk-facts">玩法类型 模拟经营 · 品类 模拟 · 上架 2.2 年 · Anhui Leihu Network Technology Co., Ltd</div></div><div class="wk-st"><span class="st-off">3/4 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-29</span><span class="wk-mkt">日本</span><span class="wk-rk">#84</span></div><div class="wk-main"><div class="wk-nm">勝利の女神：NIKKE<span class="cn">（胜利女神：妮姬）</span></div><div class="wk-play">编队少女枪手掩体射击，用技能与武器击破敌群推进剧情</div><div class="wk-facts">玩法类型 掩体射击+角色养成 · 品类 角色扮演 · 上架 4 年 · PROXIMA BETA PTE.LIMITED</div></div><div class="wk-st"><span class="st-on">4/4 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-29</span><span class="wk-mkt">日本</span><span class="wk-rk">#87</span></div><div class="wk-main"><div class="wk-nm">777Real(777リアル) パチンコ･パチスロアプリ<span class="cn">（777Real 弹珠机老虎机）</span></div><div class="wk-play">在手机上模拟弹珠机与老虎机，转动机型抽奖赢取金币</div><div class="wk-facts">玩法类型 弹珠机+老虎机 · 品类 模拟 · 上架 5.8 年 · Sammy Networks Co., Ltd.</div></div><div class="wk-st"><span class="st-off">2/4 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-29</span><span class="wk-mkt">韩国</span><span class="wk-rk">#28</span></div><div class="wk-main"><div class="wk-nm">헌터 키우기 : 방치형 RPG - 신규 서버 오픈!<span class="cn">（养猎人：放置型RPG）</span></div><div class="wk-play">放置自动战斗刷资源升级，转职吸能变强并挑战PVP</div><div class="wk-facts">玩法类型 放置RPG · 品类 角色扮演 · 上架 3.4 年 · Gameberry Studio Inc</div></div><div class="wk-st"><span class="st-off">3/4 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-29</span><span class="wk-mkt">韩国</span><span class="wk-rk">#81</span></div><div class="wk-main"><div class="wk-nm">Mini Soccer Star 2027<span class="cn">（迷你足球明星2027）</span></div><div class="wk-play">拖拽点击操控球员完成射门传球，从青训踢到国家队夺冠的足球生涯。</div><div class="wk-facts">玩法类型 足球生涯模拟 · 品类 体育 · 上架 4.3 年 · VIVA GAMES S.L.</div></div><div class="wk-st"><span class="st-on">4/4 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-29</span><span class="wk-mkt">美国</span><span class="wk-rk">#95</span></div><div class="wk-main"><div class="wk-nm">Cube Land Puzzle Game<span class="cn">（方块乐园解谜）</span></div><div class="wk-play">瞄准同色光柱打碎 3D 方块塔</div><div class="wk-facts">玩法类型 3D方块消除 · 品类 解谜 · 上架 284 天 · ROTATELAB YAZILIM VE BILISIM TEKNOLOJILERI SANAYI TICARET ANONIM SIRKETI</div></div><div class="wk-st"><span class="st-on">4/4 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-30</span><span class="wk-mkt">中国</span><span class="wk-rk">#99</span></div><div class="wk-main"><div class="wk-nm">鱼乐达人-王者捕鱼电玩街机打鱼游戏</div><div class="wk-play">发射炮弹捕鱼，升级炮台提高倍率，赢取金币奖励</div><div class="wk-facts">玩法类型 街机捕鱼 · 品类 休闲 · 上架 3.8 年 · CoolPlus Software (HongKong) Limited</div></div><div class="wk-st"><span class="st-off">1/3 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-30</span><span class="wk-mkt">日本</span><span class="wk-rk">#90</span></div><div class="wk-main"><div class="wk-nm">EDGE POKER (エッジポーカー)<span class="cn">（边缘扑克）</span></div><div class="wk-play">与全国玩家进行德州扑克对战，AI实时提示最优操作并复盘牌局，提升牌技冲击高段位。</div><div class="wk-facts">玩法类型 德州扑克+AI辅助 · 品类 卡牌 · 上架 277 天 · DeNA Co., Ltd.</div></div><div class="wk-st"><span class="st-on">3/3 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-30</span><span class="wk-mkt">日本</span><span class="wk-rk">#93</span></div><div class="wk-main"><div class="wk-nm">Color Puzzle Jam - バスゲーム 車のジャム<span class="cn">（色彩拼图大堵塞 巴士游戏 汽车堵塞）</span></div><div class="wk-play">点车出库接走同色乘客，车只能朝箭头方向开</div><div class="wk-facts">玩法类型 停车场解谜 · 品类 解谜 · 上架 221 天 · GLORYWAY PTE. LTD.</div></div><div class="wk-st"><span class="st-on">3/3 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-30</span><span class="wk-mkt">日本</span><span class="wk-rk">#95</span></div><div class="wk-main"><div class="wk-nm">스큐어 잼: 푸드 게임 (Skewer Jam)<span class="cn">（烤串果酱）</span></div><div class="wk-play">分类整理烤串食材，完成三消关卡解锁烧烤奖励</div><div class="wk-facts">玩法类型 三消+分类整理 · 品类 解谜 · 上架 1.1 年 · Zego Global Pte Ltd</div></div><div class="wk-st"><span class="st-on">3/3 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-30</span><span class="wk-mkt">日本</span><span class="wk-rk">#97</span></div><div class="wk-main"><div class="wk-nm">Bingo Blitz™ - ビンゴゲーム<span class="cn">（宾果闪电战）</span></div><div class="wk-play">抽取数字填满宾果卡连线获胜，边玩边环游世界收集奖励</div><div class="wk-facts">玩法类型 多人宾果 · 品类 棋盘 · 上架 14.2 年 · Playtika Santa Monica, LLC</div></div><div class="wk-st"><span class="st-off">1/3 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-30</span><span class="wk-mkt">韩国</span><span class="wk-rk">#51</span></div><div class="wk-main"><div class="wk-nm">블레이드 워: 삼국<span class="cn">（刀锋之战：三国）</span></div><div class="wk-play">收留难民、清雪耕作建城，编组武将守城并加入联盟互助</div><div class="wk-facts">玩法类型 模拟经营+卡牌养成 · 品类 策略 · 上架 140 天 · EVISTA PTE. LTD.</div></div><div class="wk-st"><span class="st-on">3/3 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-30</span><span class="wk-mkt">美国</span><span class="wk-rk">#83</span></div><div class="wk-main"><div class="wk-nm">Clash of Clans<span class="cn">（部落冲突）</span></div><div class="wk-play">建村庄造兵，加入部落打部落战，掠夺资源升级防御</div><div class="wk-facts">玩法类型 策略建造+部落对战 · 品类 动作 · 上架 14.3 年 · Supercell Oy</div></div><div class="wk-st"><span class="st-off">1/3 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-31</span><span class="wk-mkt">中国</span><span class="wk-rk">#85</span></div><div class="wk-main"><div class="wk-nm">崩坏：星穹铁道</div><div class="wk-play">乘星穹列车穿梭各星球，回合制指令战斗，探索世界结识伙伴</div><div class="wk-facts">玩法类型 回合制RPG+探索 · 品类 角色扮演 · 上架 3.5 年 · Shanghai miHoYo YingTie Technology Co., Ltd.</div></div><div class="wk-st"><span class="st-on">2/2 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-31</span><span class="wk-mkt">中国</span><span class="wk-rk">#94</span></div><div class="wk-main"><div class="wk-nm">Tile Blast<span class="cn">（方块爆破）</span></div><div class="wk-play">点击匹配三个同色方块，在限时内完成每关目标</div><div class="wk-facts">玩法类型 三消解谜 · 品类 解谜 · 上架 3.2 年 · Loop Games Oyun Teknolojileri Anonim Sirketi</div></div><div class="wk-st"><span class="st-off">1/2 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-31</span><span class="wk-mkt">中国</span><span class="wk-rk">#95</span></div><div class="wk-main"><div class="wk-nm">实况足球</div><div class="wk-play">招募球星组建球队，实时操控比赛并调整阵型战术击败对手</div><div class="wk-facts">玩法类型 足球竞技+球队经营 · 品类 体育 · 上架 8.3 年 · Hangzhou NetEase Leihuo Technology Co., Ltd.</div></div><div class="wk-st"><span class="st-on">2/2 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-31</span><span class="wk-mkt">日本</span><span class="wk-rk">#82</span></div><div class="wk-main"><div class="wk-nm">Cookingo: Perfect Meal<span class="cn">（烹饪日记：完美一餐）</span></div><div class="wk-play">切配食材、搅拌混合并摆盘调味，把原料做成一道道治愈料理</div><div class="wk-facts">玩法类型 烹饪模拟 · 品类 休闲 · 上架 319 天 · Higame Global Limited</div></div><div class="wk-st"><span class="st-on">2/2 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-31</span><span class="wk-mkt">日本</span><span class="wk-rk">#91</span></div><div class="wk-main"><div class="wk-nm">호텔 레거시<span class="cn">（酒店遗产）</span></div><div class="wk-play">合并物品产出服务与餐点，翻新并经营酒店，打造一流品牌</div><div class="wk-facts">玩法类型 合成+模拟经营 · 品类 解谜 · 上架 291 天 · Century Games Innovation Pte. Ltd.</div></div><div class="wk-st"><span class="st-on">2/2 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-31</span><span class="wk-mkt">日本</span><span class="wk-rk">#98</span></div><div class="wk-main"><div class="wk-nm">Travel Town - Merge Adventure<span class="cn">（旅行小镇）</span></div><div class="wk-play">合并道具完成居民订单赚金币，再用金币修复并升级海滨小镇建筑</div><div class="wk-facts">玩法类型 合成+模拟经营 · 品类 棋盘 · 上架 4.7 年 · Moon Active LTD</div></div><div class="wk-st"><span class="st-on">2/2 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-31</span><span class="wk-mkt">日本</span><span class="wk-rk">#99</span></div><div class="wk-main"><div class="wk-nm">Family Farm Merge<span class="cn">（家庭农场合并）</span></div><div class="wk-play">拖拽合并作物与农场物品，解锁资源，重建荒废农场</div><div class="wk-facts">玩法类型 合成经营 · 品类 解谜 · 上架 175 天 · Century Games Innovation Pte. Ltd.</div></div><div class="wk-st"><span class="st-on">2/2 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-31</span><span class="wk-mkt">韩国</span><span class="wk-rk">#88</span></div><div class="wk-main"><div class="wk-nm">텐텐오락실<span class="cn">（点点游戏厅）</span></div><div class="wk-play">创建房间邀请好友，在30多款短平快小游戏中比拼排名</div><div class="wk-facts">玩法类型 休闲派对迷你游戏 · 品类 策略 · 上架 10.1 年 · AppteenPlanet Co.,Ltd.</div></div><div class="wk-st"><span class="st-off">1/2 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-31</span><span class="wk-mkt">美国</span><span class="wk-rk">#94</span></div><div class="wk-main"><div class="wk-nm">Sunday City: Life Simulator<span class="cn">（周日城市：生活模拟器）</span></div><div class="wk-play">从快递员做起，打工赚钱、开店铺、赛车交友，逐步成为富豪。</div><div class="wk-facts">玩法类型 生活模拟+经营 · 品类 模拟 · 上架 360 天 · AP KEFIR LTD</div></div><div class="wk-st"><span class="st-on">2/2 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">10-31</span><span class="wk-mkt">美国</span><span class="wk-rk">#99</span></div><div class="wk-main"><div class="wk-nm">라스트 어사일럼: 페스트<span class="cn">（最后的避难所：瘟疫）</span></div><div class="wk-play">扮演瘟疫医生经营避难所，治疗病患、招募英雄抵御鼠群并重建城镇</div><div class="wk-facts">玩法类型 模拟经营+塔防 · 品类 模拟 · 上架 262 天 · WISENESS GAME ONLINE INTERNATIONAL LTD</div></div><div class="wk-st"><span class="st-on">2/2 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">11-01</span><span class="wk-mkt">中国</span><span class="wk-rk">#66</span></div><div class="wk-main"><div class="wk-nm">明日方舟</div><div class="wk-play">部署干员防守据点，抵御一波波敌人进攻</div><div class="wk-facts">玩法类型 塔防+角色养成 · 品类 卡牌 · 上架 7.5 年 · Shanghai Hypergryph Network Technology Co., Ltd.</div></div><div class="wk-st"><span class="st-on">1/1 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">11-01</span><span class="wk-mkt">中国</span><span class="wk-rk">#97</span></div><div class="wk-main"><div class="wk-nm">鸣潮</div><div class="wk-play">在开放世界高速跑酷探索，用闪避与协战打出流畅动作战斗，找回记忆。</div><div class="wk-facts">玩法类型 开放世界动作RPG · 品类 角色扮演 · 上架 2.4 年 · Guangzhou Kuro Binaria Technology Co., Ltd</div></div><div class="wk-st"><span class="st-on">1/1 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">11-01</span><span class="wk-mkt">日本</span><span class="wk-rk">#67</span></div><div class="wk-main"><div class="wk-nm">Pikmin Bloom<span class="cn">（皮克敏绽放）</span></div><div class="wk-play">带着皮克敏走路探索，种花、收集装饰皮克敏并合作打蘑菇</div><div class="wk-facts">玩法类型 步行收集+养成 · 品类 冒险 · 上架 5 年 · Scopely Explore, Inc.</div></div><div class="wk-st"><span class="st-on">1/1 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">11-01</span><span class="wk-mkt">日本</span><span class="wk-rk">#74</span></div><div class="wk-main"><div class="wk-nm">Aimy(アイミー)キャラクリ＆着せ替え＆AIチャット<span class="cn">（Aimy）</span></div><div class="wk-play">捏脸换装打造专属虚拟形象，与AI角色聊天通话培养感情</div><div class="wk-facts">玩法类型 捏脸换装+AI聊天 · 品类 模拟 · 上架 3.1 年 · AISAAC INC.</div></div><div class="wk-st"><span class="st-on">1/1 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">11-01</span><span class="wk-mkt">日本</span><span class="wk-rk">#99</span></div><div class="wk-main"><div class="wk-nm">出荷ぶた-養豚場育成ゲーム！放置で癒しの牧場経営<span class="cn">（出货小猪：养猪场养成游戏）</span></div><div class="wk-play">点击小猪喂食养成，再点卡车出货赚钱，解锁新品种猪。</div><div class="wk-facts">玩法类型 放置养成经营 · 品类 模拟 · 上架 11.3 年 · EAGLE, K.K.</div></div><div class="wk-st"><span class="st-on">1/1 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">11-01</span><span class="wk-mkt">美国</span><span class="wk-rk">#83</span></div><div class="wk-main"><div class="wk-nm">Free Fire x NARUTO SHIPPUDEN<span class="cn">（Free Fire 火影忍者疾风传联动）</span></div><div class="wk-play">50人跳伞登岛搜集武器，在缩圈中生存并淘汰对手成为最后一人</div><div class="wk-facts">玩法类型 战术竞技射击 · 品类 冒险 · 上架 8.9 年 · GARENA INTERNATIONAL I PRIVATE LIMITED</div></div><div class="wk-st"><span class="st-on">1/1 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">11-01</span><span class="wk-mkt">美国</span><span class="wk-rk">#86</span></div><div class="wk-main"><div class="wk-nm">Dark War:Survival<span class="cn">（暗黑战争：生存）</span></div><div class="wk-play">在末日废土中建造避难所、招募幸存者、采集资源并抵御僵尸，重建文明。</div><div class="wk-facts">玩法类型 末日生存经营 · 品类 卡牌 · 上架 2.1 年 · Omnilojo Pte Ltd</div></div><div class="wk-st"><span class="st-on">1/1 天</span></div></div>
+<div class="wk-row"><div class="wk-side"><span class="wk-date">11-01</span><span class="wk-mkt">美国</span><span class="wk-rk">#100</span></div><div class="wk-main"><div class="wk-nm">Exposed - Who&#x27;s Most Likely To<span class="cn">（曝光谁最可能）</span></div><div class="wk-play">每轮回答谁最可能做某事，大家投票选人后揭晓结果</div><div class="wk-facts">玩法类型 聚会投票 · 品类 问答 · 上架 5.6 年 · VYS Games</div></div><div class="wk-st"><span class="st-on">1/1 天</span></div></div>
+</div></details>
+</section>
+<section class="sec"><div class="sec-h"><span class="idx">02</span><h2>进榜名次分布</h2></div>
+<div class="mkt"><div class="name">进榜位次<span>98 款 · 按产品去重</span></div>
+<div class="row"><div class="lab">1–10 位</div><div class="track"><i style="width:10.2%"></i></div><div class="val">10 款 · 10%</div></div>
+<div class="row"><div class="lab">11–30 位</div><div class="track"><i style="width:9.2%"></i></div><div class="val">9 款 · 9%</div></div>
+<div class="row"><div class="lab">31–50 位</div><div class="track"><i style="width:4.1%"></i></div><div class="val">4 款 · 4%</div></div>
+<div class="row"><div class="lab">51–100 位</div><div class="track"><i style="width:76.5%"></i></div><div class="val">75 款 · 77%</div></div>
+</div>
+<p class="sec-d">条形长度 = 该档占本周 98 款的比例（线性刻度，满格 = 100%）。</p>
+<p class="sec-d">位次按产品去重后取最早那次进榜。98 款里 19 款进的是前 30 位，79 款落在 31–100 位，其中 75 款在 51–100 位。</p>
+</section>
+<section class="sec"><div class="sec-h"><span class="idx">03</span><h2>与上周对照</h2></div>
+<div class="tbl-wrap"><table><thead><tr><th>周期</th><th class="num">榜日</th><th class="num">进榜次数</th><th class="num">去重产品</th></tr></thead><tbody>
+<tr><td>2026-10-26 ~ 2026-11-01（本周）</td><td class="num">7</td><td class="num">116</td><td class="num">98</td></tr>
+<tr><td>2026-10-19 ~ 2026-10-25（上一周）</td><td class="num">3</td><td class="num">69</td><td class="num">63</td></tr>
+</tbody></table></div>
+<p class="sec-d">上一周只有 3 个榜日（面板从 2026-10-23 开始），<b>条数不可直接比较</b>；这里保留原始数字供回看，不据此算增减或趋势。</p>
+</section>
+<section class="sec"><div class="sec-h"><span class="idx">04</span><h2>口径</h2></div>
+<p class="cav">周期为自然周，取库内最近一个榜日齐全的已结束周。同一产品在多个市场进榜时按 app_id 去重，取最早一次；位次分布与上周对照同此口径。</p>
+<p class="cav">「在榜 N/M 天」是榜位状态而非留存：M 是进榜后到周末的可观察榜日数，N 是其中连续在榜的天数，中途掉出再回来则重新计算。本周 98 款中仅 15 款有完整 7 天窗，其余只宜逐条参考。上周仅 3 个榜日，条数不与本周直接比较。</p>
+<p class="cav">上架天数、厂商、品类取该产品所在店面的值；玩法、玩法类型与译名由模型基于商店介绍生成。</p>
+</section>
+<footer>静态页由 <code>scripts/build_weekly.py</code> 生成于 2026-11-08 09:11（本机时区）。数据源 <code>data/radar.db</code>；每个数字可追到 <code>sql/</code> 或本脚本的查询。<br><a href="index.html">← 日报（今天）</a>　<a href="yesterday.html">日报（昨天）</a></footer>
+</div></body></html>

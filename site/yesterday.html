@@ -1,0 +1,811 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>四国新游 · 2026-11-06</title><style>
+:root{
+--bg:#f4f6fa;--surface:#fff;--soft:#f8fafc;
+--ink:#0f172a;--ink-2:#334155;--muted:#64748b;--faint:#94a3b8;
+--line:#e6eaf1;--line-2:#d5dce7;
+--accent:#2f5bea;--accent-ink:#1e40af;--accent-soft:#eef3ff;
+--new-ink:#046c4e;--new-bg:#e7f7f0;--new-line:#b7e4d0;
+--ret-ink:#9a5b06;--ret-bg:#fdf4e3;--ret-line:#f0d9a8;
+--ok:#047857;--bad:#b42318;
+--r-sm:8px;--r:12px;--r-lg:16px;--sh:0 1px 2px rgba(16,24,40,.04),0 1px 3px rgba(16,24,40,.03);
+--sh-hover:0 10px 24px -12px rgba(16,24,40,.16);
+--font:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB",
+"Microsoft YaHei","Noto Sans CJK SC",sans-serif;
+--mono:ui-monospace,SFMono-Regular,"SF Mono",Consolas,"Liberation Mono",monospace}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14.5px/1.7 var(--font);
+-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1060px;margin:0 auto;padding:0 24px 72px}
+/* ── 顶栏 ───────────────────────────────────────────── */
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;
+padding:16px 0;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:9px;font-size:12.5px;font-weight:700;
+letter-spacing:.09em;text-transform:uppercase}
+.brand i{width:18px;height:18px;border-radius:50%;position:relative;flex:none;
+background:conic-gradient(from 220deg,var(--accent),#8aa4ff,var(--accent));
+box-shadow:inset 0 0 0 1px rgba(47,91,234,.22)}
+.brand i::after{content:"";position:absolute;inset:4.5px;border-radius:50%;background:var(--bg)}
+.brand em{font-style:normal;color:var(--faint);font-weight:500;letter-spacing:.02em;
+text-transform:none;margin-left:-3px}
+.nav{display:flex;gap:6px;flex-wrap:wrap}
+.nav a,.nav b{font-size:12px;padding:6px 11px;border-radius:999px;line-height:1;
+font-weight:550;white-space:nowrap}
+.nav a{color:var(--ink-2);background:var(--surface);border:1px solid var(--line)}
+.nav a:hover{border-color:var(--line-2);text-decoration:none}
+.nav b{color:#fff;background:var(--ink);border:1px solid var(--ink);font-weight:550}
+/* ── 页首 ───────────────────────────────────────────── */
+.hero{padding:34px 0 0}
+.eyebrow{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);
+font-weight:700;margin-bottom:9px}
+h1{font-size:30px;line-height:1.2;letter-spacing:-.025em;margin:0 0 9px;font-weight:750}
+.deck{font-size:13.5px;color:var(--muted);max-width:800px;margin:0;line-height:1.65}
+.deck b{color:var(--ink-2);font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:15px}
+.chip{font-size:11.5px;color:var(--ink-2);background:var(--surface);border:1px solid var(--line);
+border-radius:999px;padding:4px 10px;display:inline-flex;gap:6px;align-items:baseline;line-height:1.45}
+.chip b{font-weight:650;font-variant-numeric:tabular-nums}
+.chip code{font-family:var(--mono);font-size:10.5px;background:none;border:0;padding:0;
+color:var(--muted)}
+/* ── 指标卡 ─────────────────────────────────────────── */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0 0}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
+padding:15px 17px 13px;box-shadow:var(--sh)}
+.stat .k{font-size:11.5px;color:var(--muted)}
+.stat .v{font-size:26px;font-weight:700;letter-spacing:-.02em;line-height:1.2;
+margin-top:5px;font-variant-numeric:tabular-nums}
+.stat .h{font-size:10.5px;color:var(--faint);margin-top:3px;line-height:1.5}
+/* ── 板块标题 ───────────────────────────────────────── */
+.sec{margin-top:40px}
+.sec-h{display:flex;align-items:center;gap:9px;margin:0 0 3px}
+.sec-h .idx{font-family:var(--mono);font-size:10.5px;color:var(--accent);
+background:var(--accent-soft);border:1px solid #dbe5ff;border-radius:6px;
+padding:2px 6px;font-weight:650;line-height:1.3;flex:none}
+.sec-h h2{font-size:18.5px;line-height:1.4;margin:0;letter-spacing:-.012em;font-weight:680}
+.sec-d{font-size:12.5px;color:var(--muted);margin:1px 0 14px;max-width:860px;line-height:1.65}
+.sec-d b{color:var(--ink-2);font-weight:600}
+/* ── 进榜卡片 ───────────────────────────────────────── */
+.grp{display:flex;align-items:center;gap:8px;margin:18px 0 8px;font-size:12px;
+font-weight:650;color:var(--ink-2)}
+.grp .cnt{font-weight:500;color:var(--faint);font-size:10.5px;background:var(--surface);
+border:1px solid var(--line);border-radius:999px;padding:1px 7px}
+.grp-fold{margin:18px 0 8px}
+.grp-fold>summary.grp{cursor:pointer;list-style:none;margin:0}
+.grp-fold>summary.grp::-webkit-details-marker{display:none}
+.grp-fold>summary.grp::before{content:"▸";color:var(--faint);font-size:10px;margin-right:1px}
+.grp-fold[open]>summary.grp::before{content:"▾"}
+.grp-fold>summary.grp .cnt::after{content:" · 展开";color:var(--faint)}
+.grp-fold[open]>summary.grp .cnt::after{content:" · 收起"}
+.entrants{display:grid;gap:8px}
+.ent-static{padding:13px 16px 12px}
+.ent{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
+box-shadow:var(--sh);transition:border-color .16s,box-shadow .16s}
+.ent:hover{border-color:var(--line-2);box-shadow:var(--sh-hover)}
+.ent>summary{list-style:none;cursor:pointer;padding:13px 16px 12px;display:block;position:relative}
+.ent>summary::-webkit-details-marker{display:none}
+.ent>summary::after{content:"＋";position:absolute;right:14px;top:11px;color:var(--faint);
+font-size:12px;font-weight:400;line-height:1}
+.ent[open]>summary::after{content:"－"}
+.r1{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding-right:22px}
+.rk{font-family:var(--mono);font-size:11px;font-weight:600;color:var(--muted);
+background:var(--soft);border:1px solid var(--line);border-radius:6px;padding:2px 5px;
+min-width:33px;text-align:center;flex:none;line-height:1.35}
+.nm{font-size:16px;font-weight:680;line-height:1.35;letter-spacing:-.008em;word-break:break-word}
+.nm-cn{font-size:12.5px;font-weight:450;color:var(--muted);letter-spacing:0}
+.badge{font-size:10.5px;padding:2px 8px;border-radius:999px;font-weight:600;
+white-space:nowrap;line-height:1.45}
+.b-new{background:var(--new-bg);color:var(--new-ink);border:1px solid var(--new-line)}
+.b-return{background:var(--ret-bg);color:var(--ret-ink);border:1px solid var(--ret-line)}
+.meta{display:block;font-size:11.5px;color:var(--muted);margin-top:5px;line-height:1.55;
+word-break:break-word}
+.meta b{color:var(--ink-2);font-weight:550}
+.play{display:block;font-size:13.5px;color:var(--ink-2);margin-top:7px;line-height:1.6}
+.play .lab,.like .lab{display:inline-block;font-size:10px;font-weight:650;letter-spacing:.05em;
+padding:1px 6px;border-radius:5px;margin-right:7px;vertical-align:1.5px;line-height:1.6}
+.play .lab{color:var(--accent-ink);background:var(--accent-soft)}
+.like{display:block;font-size:12px;color:var(--ink-2);margin-top:5px}
+.like .lab{color:var(--ink-2);background:var(--soft);border:1px solid var(--line-2)}
+.appcard{display:flex;flex-wrap:wrap;gap:14px;margin:0 16px 14px;padding-top:12px;
+border-top:1px dashed var(--line);align-items:flex-start}
+.appcard img{width:74px;height:132px;object-fit:cover;object-position:top;border-radius:8px;
+border:1px solid var(--line);flex:none;background:#fff}
+.appcard .txt{flex:1 1 300px;min-width:0;font-size:12.5px;line-height:1.75;color:var(--ink-2)}
+.orig-tag{display:block;font-size:10px;color:var(--faint);margin:0 0 5px;
+font-weight:650;letter-spacing:.05em}
+.descr-cn{white-space:pre-wrap;word-break:break-word;padding-right:4px}
+details.orig{margin-top:8px}
+details.orig>summary{cursor:pointer;list-style:none;font-size:11px;color:var(--muted);
+display:inline-flex;align-items:center;gap:4px}
+details.orig>summary::-webkit-details-marker{display:none}
+details.orig>summary::before{content:"▸";font-size:9px;color:var(--faint)}
+details.orig[open]>summary::before{content:"▾"}
+.orig-body{margin-top:6px;padding:9px 11px;background:var(--soft);border:1px solid var(--line);
+border-radius:var(--r-sm);max-height:260px;overflow:auto;white-space:pre-wrap;
+word-break:break-word;font-size:11.5px;color:var(--muted);line-height:1.7}
+/* ── 品类结构 ───────────────────────────────────────── */
+.mkt{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
+padding:14px 16px 10px;margin-bottom:10px;box-shadow:var(--sh)}
+.mkt .name{font-size:12.5px;font-weight:650;margin-bottom:11px;display:flex;
+justify-content:space-between;align-items:baseline;gap:10px}
+.mkt .name span{font-weight:400;color:var(--faint);font-size:10.5px}
+.row{display:grid;grid-template-columns:112px 1fr 92px;gap:10px;align-items:center;
+font-size:12px;margin-bottom:7px}
+.row .lab{color:var(--ink-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.track{height:7px;background:var(--soft);border-radius:4px;overflow:hidden}
+.track i{display:block;height:100%;border-radius:4px;
+background:linear-gradient(90deg,#6b8bff,var(--accent))}
+.row .val{text-align:right;color:var(--muted);font-variant-numeric:tabular-nums;font-size:11px}
+/* ── 跟进清单（上次进榜产品的名次变化） ──────────── */
+.fu{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
+box-shadow:var(--sh);overflow:hidden}
+.fu-row{display:grid;grid-template-columns:52px minmax(0,1fr) 112px 52px;gap:10px;
+align-items:center;padding:10px 15px;border-bottom:1px solid var(--line);font-size:12.5px}
+.fu-row:last-child{border-bottom:0}
+.fu-mkt{font-size:11px;color:var(--muted)}
+.fu-nm{font-weight:600;word-break:break-word;line-height:1.4}
+.fu-nm .cn{font-size:11px;font-weight:400;color:var(--muted)}
+.fu-rk{font-family:var(--mono);font-size:11px;color:var(--muted);
+font-variant-numeric:tabular-nums;white-space:nowrap;text-align:right}
+.fu-rk b{color:var(--ink);font-weight:700}
+.fu-d{font-size:10.5px;font-weight:650;text-align:center;white-space:nowrap;
+border-radius:999px;padding:2px 0}
+.fu-d.up{color:#b42318;background:#fef3f2;border:1px solid #fecdca}
+.fu-d.down{color:#0f7b6c;background:#ecfdf3;border:1px solid #a6f4c5}
+.fu-d.flat,.fu-d.off{color:var(--faint);background:var(--soft);border:1px solid var(--line)}
+/* ── 两列网格（榜单构成） ──────────────────────────── */
+.env{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.env .mkt{margin-bottom:0}
+@media(max-width:720px){ .env{grid-template-columns:1fr} }
+@media(max-width:520px){
+ .fu-row{grid-template-columns:minmax(0,1fr) 52px;gap:3px 10px;padding:10px 13px}
+ .fu-mkt{grid-column:1;grid-row:1;font-size:10.5px}
+ .fu-nm{grid-column:1;grid-row:2;font-size:13px}
+ .fu-rk{grid-column:1;grid-row:3;text-align:left}
+ .fu-d{grid-column:2;grid-row:1 / span 3;align-self:center}
+}
+/* ── 留存 / 年龄 ────────────────────────────────────── */
+.stack{display:flex;height:9px;border-radius:5px;overflow:hidden;background:var(--soft)}
+.stack i{display:block;height:100%}
+.stacklab{display:flex;gap:13px;font-size:10.5px;color:var(--muted);margin-top:8px;
+flex-wrap:wrap;font-variant-numeric:tabular-nums}
+.stacklab span{display:inline-flex;align-items:center;gap:5px}
+.stacklab i{width:7px;height:7px;border-radius:2px;display:inline-block;flex:none}
+/* ── 口径 / 页脚 ────────────────────────────────────── */
+code{font-family:var(--mono);font-size:11px;background:var(--soft);border:1px solid var(--line);
+border-radius:4px;padding:1px 5px}
+.ok{color:var(--ok)}.bad{color:var(--bad)}
+.lim-h{font-size:12.5px;font-weight:680;color:var(--ink);margin:20px 0 0;
+padding-left:9px;border-left:2px solid var(--accent);line-height:1.5}
+footer{margin-top:44px;padding-top:15px;border-top:1px solid var(--line);
+color:var(--faint);font-size:11.5px;line-height:1.75}
+.foot-note{font-size:12px;color:var(--muted);line-height:1.75;margin:0 0 7px}
+/* ── 响应式 ─────────────────────────────────────────── */
+@media(max-width:820px){
+ .wrap{padding:0 16px 56px}
+ h1{font-size:24px}
+ .row{grid-template-columns:90px 1fr 78px}
+}
+@media(max-width:720px){
+ /* 顶栏必须换行：品牌 + 三个导航胶囊在 390px 会撑破页面，造成整页横向溢出 */
+ .top{flex-wrap:wrap;row-gap:10px;padding:13px 0}
+ .brand{flex:0 0 auto}
+ .brand em{display:none}
+ .nav{flex:1 1 100%;min-width:0}
+ .nav a,.nav b{font-size:11.5px;padding:5px 9px}
+}
+@media(max-width:620px){
+}
+@media(max-width:520px){
+ .stats{grid-template-columns:repeat(3,1fr);gap:8px}
+ .stat{padding:11px 12px 10px}
+ .stat .v{font-size:20px}
+ .stat .h{display:none}
+ .nm{font-size:15px}
+ .appcard img{width:62px;height:111px}
+}
+</style></head><body><div class="wrap"><div class="top"><div class="brand"><i></i>game-radar <em>新游雷达</em></div>
+<div class="nav"><b>昨天（2026-11-06）</b>　<a href="index.html">今天（2026-11-07）→</a>　<a href="weekly.html">周报 →</a></div></div>
+<div class="hero"><div class="eyebrow">App Store 免费游戏榜 · 美国 / 中国 / 日本 / 韩国</div>
+<h1>四国新游</h1>
+<p class="deck">四个市场 <b>Top100</b> 中第一次进榜的产品：
+玩法、玩法类型与进榜名次。</p>
+<div class="chips">
+<span class="chip">快照 <b>2026-11-07 05:36</b> · 榜日 <b>2026-11-06</b></span>
+<span class="chip">每 12 小时更新</span>
+</div></div><div class="stats">
+<div class="stat"><div class="k">首次进榜</div>
+<div class="v">14 款</div>
+<div class="h">四国合计 · 2026-11-06</div></div>
+<div class="stat"><div class="k">其中全新上架</div>
+<div class="v">3 款</div>
+<div class="h">上线 ≤30 天 · 其余 11 款是老游戏回归或翻新</div></div>
+<div class="stat"><div class="k">最好位次</div>
+<div class="v">#8</div>
+<div class="h">其余 13 款在 #13–#100 之间</div></div>
+</div><section class="sec"><div class="sec-h"><span class="idx">01</span><h2>首次进榜</h2></div><p class="sec-d">按上架天数分组，<b>新上架</b>（≤30 天）排在前面；点开任意一款可看商店介绍与截图。</p><details class="grp-fold" open><summary class="grp">新上架（≤30 天）<span class="cnt">3 款</span></summary><div class="entrants"><details class="ent"><summary><span class="r1"><span class="rk">#8</span><span class="nm">脱出ゲーム Past Floor</span><span class="nm-cn">（逃脱游戏 Past Floor）</span><span class="badge b-new">新上架</span></span><span class="meta">Jammsworks Inc. · 冒险 · 日本 · 上架 2 天</span><span class="play"><span class="lab">玩法</span>搭电梯逐层探索房间线索、使用和合成道具解谜以逃出</span><span class="like"><span class="lab">玩法类型</span>密室逃脱解谜</span></summary><div class="appcard"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/6d/cd/4c6dcd88-f87a-0da3-32c3-73b5ae27c557/IMG_1306__U5dee_U3057_U66ff_U3048.png/320x480bb.jpg" alt="脱出ゲーム Past Floor 商店截图" loading="lazy" referrerpolicy="no-referrer"><div class="txt"><span class="orig-tag">商店介绍 · 中文译文</span><div class="descr-cn">门的另一边，是下一个谜题。
+乘电梯巡游各楼层，寻找房间里隐藏的线索吧。
+使用找到的道具，将各楼层的线索串联起来，以逃脱为目标吧。
+
+【特点】
+・没有繁琐的计算，难度较为简单，不擅长逃脱游戏的人也能轻松游玩。
+・会根据进度显示提示，不用担心卡关！
+・进度状态自不必说，游戏内的机关等也会自动保存！
+・不需要纸和笔！在游戏内记笔记吧！
+
+【玩法】
+操作方法当然也很简单！
+
+・点击进行调查
+・点击画面下方的箭头移动楼层
+・选中道具后，再次点击即可放大显示
+・选中道具后点击或拖拽即可使用
+・在显示道具的状态下选中其他道具并点击或拖拽即可合成
+・从画面左上角的菜单按钮可以查看提示。
+
+【Jammsworks】
+程序员：Asahi Hirata
+设计师：Naruma Saito
+音效：Kensuke Horikoshi
+
+由3人制作应用。
+为了让各位用户玩得开心，我们每天都在反复摸索。
+如果喜欢的话，也请务必玩玩其他应用哦！
+
+【提供】
+Music is VFR：http://musicisvfr.com
+Pocket Sound : http://pocket-se.info/
+icons8：https://icons8.com/
+びたちー素材馆</div><details class="orig"><summary>查看日文原文</summary><div class="orig-body">扉の向こうに、次の謎。
+エレベーターでフロアを巡り、部屋に隠された手がかりを探そう。
+見つけたアイテムを使い、各フロアの手がかりをつなげて脱出を目指そう。
+
+【特徴】
+・面倒な計算もなく、難易度はやさしめなので、脱出ゲームが苦手な人でも気軽にプレイできます。
+・進行状況に合わせたヒントが出てくるので行き詰まる心配なし！
+・進行状況はもちろん、ゲーム内の仕掛けなども自動セーブされます！
+・紙とペンは必要なし！ゲーム内でメモをとろう！
+
+【あそびかた】
+操作方法ももちろん簡単！
+
+・タップで調べる
+・画面下の矢印をタップでフロアを移動
+・アイテムを選択して、もう一度タップで拡大表示
+・アイテムを選択してタップまたはドラッグで使用
+・アイテムを表示したまま別のアイテムを選択してタップまたはドラッグすると合成
+・画面左上のメニューボタンからヒントが見られます。
+
+【Jammsworks】
+プログラマー：Asahi Hirata
+デザイナー：Naruma Saito
+サウンド：Kensuke Horikoshi
+
+３人でアプリを制作しています。
+ユーザーの皆様に楽しんで頂けるよう日々試行錯誤を重ねています。
+もし気に入っていただけたら他のアプリも是非遊んでみてくださいね！
+
+【提供】
+Music is VFR：http://musicisvfr.com
+Pocket Sound : http://pocket-se.info/
+icons8：https://icons8.com/
+びたちー素材館</div></details></div></div></details><details class="ent"><summary><span class="r1"><span class="rk">#44</span><span class="nm">마이 시크 몰</span><span class="nm-cn">（我的时尚商场）</span><span class="badge b-new">新上架</span></span><span class="meta">Luminora Interactive Group Limited · 模拟 · 韩国 · 上架 3 天</span><span class="play"><span class="lab">玩法</span>经营小店赚资金，逐步扩张成百货商场并装扮角色</span><span class="like"><span class="lab">玩法类型</span>模拟经营+换装</span></summary><div class="appcard"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2c/43/a6/2c43a603-d7ac-c9eb-60e9-d981ba8483e3/1.jpg/320x480bb.jpg" alt="마이 시크 몰 商店截图" loading="lazy" referrerpolicy="no-referrer"><div class="txt"><span class="orig-tag">商店介绍 · 中文译文</span><div class="descr-cn">逛百货商场时，你是否曾想象过“如果我自己来经营会怎样”？
+现在就来亲自当老板，打造属于你的时尚小镇吧！从一家小小的快餐店起步，把冷清的店铺一家家变成人气门店！让安静的衣服店变身SNS热门打卡地！让积满灰尘的玩具店变成潮流周边店！
+从店铺经营到伙伴培养、时尚穿搭、室内装修。
+轻松享受丰富多样的内容，扩张百货商场，成为最棒的老板吧！
+
+【自由经营，商业传奇的诞生】
+从一家小小的快餐店起步，逐步扩张到超市、时尚店铺、周边店吧。
+每家店都有不同的经营方式在等着你。
+当资金和经验积累起来后，就能收购整个百货商场，让所有店铺登顶热门打卡地，蜕变为真正的商业大亨！
+
+【随心搭配风格，完成招牌造型】
+从休闲运动风到优雅连衣裙，从潮流街头风到可爱风格！
+根据心情自由搭配，再加上自定义装修内容，不仅能打造角色造型，还能完美装点奢华豪宅！
+
+【可靠伙伴，事业扩张势不可挡】
+比起独自一人，一起才更开心！
+结识明星销售员、天才设计师、营销专家等各式各样的伙伴，一起成长吧。
+邀请特别偶像担任品牌模特，让你的品牌更加闪耀</div><details class="orig"><summary>查看韩文原文</summary><div class="orig-body">백화점을 둘러보다가 ‘ 내가 직접 운영한다면 어떨까?’ 상상해 본 적이 있으신가요?
+이제 직접 사장이 되어 당신만의 패션 타운을 만들어 보세요! 작은 패스트푸드점에서 시작해 한산한 가게들을 하나씩 인기 매장으로! 조용한 의류 매장은 SNS 핫플레이스로! 먼지만 쌓이던 장난감 가게는 트렌디한 굿즈 숍으로!
+매장 경영부터 파트너 육성, 패션 코디, 인테리어까지.
+다채로운 콘텐츠들을 가볍게 즐기면서 백화점을 확장시키고 최고의 사장님으로 되어보세요!
+
+【자유로운 경영, 비즈니스 레전드의 탄생】
+작은 패스트푸드점에서 시작해 마트, 패션 매장, 굿즈 숍까지 하나씩 확장해 보세요.
+가게마다 색다른 경영 방식이 기다리고 있어요.
+자금과 경험이 쌓이면 백화점 전체를 인수해 모든 매장을 핫플레이스로 등극시키고, 진정한 비즈니스 타이쿤으로 거듭날 수 있습니다!
+
+【내 멋대로 스타일링, 시그니처 룩 완성】
+캐주얼 스포츠룩부터 우아한 드레스, 트렌디한 스트리트 룩과 사랑스러운 스타일까지!
+기분에 따라 자유롭게 코디하고 커스텀 인테리어 콘텐츠까지 더해져 캐릭터 스타일링은 물론, 럭셔리 하우스까지 완벽하게 꾸밀 수 있습니다!
+
+【든든한 파트너, 거침없는 사업 확장】
+혼자보다 함께라면 더 즐거운 법!
+스타 영업 사원, 천재 디자이너, 마케팅 전문가 등 다양한 파트너를 만나고 함께 성장해 보세요.
+특별한 아이돌을 브랜드 모델로 맞이해 나만의 브랜드를 더욱 빛나게 만들 수도 있답니다!
+새로운 인연을 만나고 함께 성장할수록 나의 백화점과 이야기도 더욱 풍성해질 거예요.
+
+【지친 일상 속 힐링, 영앤리치 라이프】
+비즈니스 전장에서 잠시 벗어나, 오직 나를 위한 여유로운 시간을 즐겨 보세요! 자유롭게 쇼핑하며 마음에 드는 아이템을 채우고, 나만의 럭셔리 하우스에서 편안하게 쉬어도 좋아요. 
+방치형 플레이로 바쁜 일상 속에서도 자투리 시간만으로 나만의 패션 타운을 부담 없이 관리할 수 있습니다!
+
+새롭게 변신한 매장 앞에 고객들이 길게 줄을 서고, 쉴 새 없이 울리는 매출 알림을 보며 직접 경영의 즐거움과 뿌듯한 성취감을 느껴 보세요! 
+지금 바로 모두가 꿈꾸는 나만의 패션 타운을 만들어 보세요. 
+작은 가게에서 시작해 누구나 부러워할 패션 타운을 완성하고, 밑바닥에서 정상까지 올라서는 완벽한 역전극의 주인공이 되어 보세요!</div></details></div></div></details><details class="ent"><summary><span class="r1"><span class="rk">#46</span><span class="nm">사막여우 퍼즐</span><span class="nm-cn">（沙漠狐狸拼图）</span><span class="badge b-new">新上架</span></span><span class="meta">SANGHOON LEE · 解谜 · 韩国 · 上架 4 天</span><span class="play"><span class="lab">玩法</span>在网格中按行列与色块各放一只狐狸且互不斜邻，用X排除推理</span><span class="like"><span class="lab">玩法类型</span>逻辑解谜</span></summary><div class="appcard"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/5e/92/695e92ae-766c-1549-e60c-cc646173a860/01-find-foxes.png/320x480bb.jpg" alt="사막여우 퍼즐 商店截图" loading="lazy" referrerpolicy="no-referrer"><div class="txt"><span class="orig-tag">商店介绍 · 中文译文</span><div class="descr-cn">沙漠花园的各个角落都藏着小沙狐。你能把它们全部找出来吗？
+
+沙狐拼图是一款规则简单的轻松逻辑拼图。
+• 每一横行只有一只沙狐
+• 每一竖列只有一只沙狐
+• 每个同色区域内只有一只沙狐
+• 沙狐之间连对角线都不能相邻
+
+轻点格子即可标上X，按住并拖动就能一次标记多个格子。找到沙狐时，已经找到的沙狐们会一起冲你咧嘴笑。
+
+用心打造的逻辑拼图
+• 从5×5到12×12，共1,170道拼图
+• 每道拼图都只有一个答案，不靠猜、只用逻辑就能解出
+• 会一步步告诉你为什么这个格子是沙狐、为什么那个格子是X的提示
+• 撤销、贴心教程、悠闲游玩
+
+专属我的沙狐小窝
+• 解拼图，或者每天一次在想看时看段短广告，就能收集阳光
+• 用温馨的小物件装饰沙狐小窝吧
+• 用毛色、配饰（蝴蝶结、眼镜、帽子可一起搭配）、游戏盘主题打造只属于我的沙狐
+
+按我的方式享受
+• 用昵称和沙狐造型参与的全球排行榜
+• 换手机也能用恢复代码接续的云备份
+• 支持韩语、英语、日语、德语、西班牙语
+
+5×5～9×9冒险（70道拼图）无需购买即可游玩。10×10、11×11、12×12拼图包以及额外阳光、部分装饰道具</div><details class="orig"><summary>查看韩文原文</summary><div class="orig-body">사막 정원 곳곳에 작은 사막여우들이 숨어 있어요. 모두 찾아낼 수 있을까요?
+
+사막여우 퍼즐은 규칙이 간단한 편안한 논리 퍼즐이에요.
+• 가로줄마다 여우는 딱 한 마리
+• 세로줄마다 여우는 딱 한 마리
+• 같은 색깔 영역마다 여우는 딱 한 마리
+• 여우끼리는 대각선까지 서로 붙어 있지 않아요
+
+칸을 톡 눌러 X를 표시하고, 누른 채로 쭉 끌면 여러 칸을 한 번에 표시할 수 있어요. 여우를 찾으면 지금까지 찾은 여우들이 함께 방긋 웃어 줘요.
+
+정성껏 만든 논리 퍼즐
+• 5×5부터 12×12까지 1,170개 퍼즐
+• 모든 퍼즐은 정답이 하나뿐이고, 찍지 않고 논리만으로 풀 수 있어요
+• 왜 그 칸이 여우인지, 왜 X인지 차근차근 알려 주는 힌트
+• 되돌리기, 친절한 튜토리얼, 느긋한 플레이
+
+나만의 여우 아지트
+• 퍼즐을 풀거나, 하루 한 번 원할 때 짧은 광고를 보고 햇살을 모을 수 있어요
+• 아늑한 소품으로 여우 아지트를 꾸며 보세요
+• 털색, 액세서리(리본·안경·모자를 함께), 게임판 테마로 나만의 여우를 만들어요
+
+내 방식대로 즐기기
+• 닉네임과 여우 모습으로 참여하는 전체 랭킹
+• 휴대폰을 바꿔도 복구 코드로 이어지는 클라우드 백업
+• 한국어, 영어, 일본어, 독일어, 스페인어 지원
+
+5×5~9×9 모험(70개 퍼즐)은 구매 없이 플레이할 수 있어요. 10×10, 11×11, 12×12 퍼즐 팩과 추가 햇살, 일부 꾸미기 아이템은 선택형 인앱 구매로 제공돼요.
+
+문의: support@ggeomddakji.com</div></details></div></div></details></div></details><details class="grp-fold" open><summary class="grp">上架 >90 天 · 回榜<span class="cnt">11 款</span></summary><div class="entrants"><details class="ent"><summary><span class="r1"><span class="rk">#13</span><span class="nm">헬로 타운 : 신입사원 머지 성공 스토리</span><span class="nm-cn">（你好小镇：新员工合成成功记）</span><span class="badge b-return">回榜</span></span><span class="meta">Springcomes Co., Ltd. · 解谜 · 韩国 · 上架 1.9 年</span><span class="play"><span class="lab">玩法</span>合并相同物品完成顾客订单赚取资金，装修并扩建店铺以打造顶级商场</span><span class="like"><span class="lab">玩法类型</span>合成+模拟经营</span></summary><div class="appcard"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e4/9a/c9/e49ac9b3-9d0f-50b9-cb05-e5a93aeda7ca/_Ud5ec_Ub85c_Ud0c0_Uc6b4_1290X2796_KR_U00280_U0029.png/320x480bb.jpg" alt="헬로 타운 : 신입사원 머지 성공 스토리 商店截图" loading="lazy" referrerpolicy="no-referrer"><div class="txt"><span class="orig-tag">商店介绍 · 中文译文</span><div class="descr-cn">大韩民国合成游戏第1名！欢迎来到Hello Town^^
+完全不用担心广告，也不用担心网络连接！
+通过合成帮助新员工智秀走向成功与成长！
+
+成功入职房地产企业的新员工智秀，怀揣着满满的梦想第一天上班，却对破旧老朽的建筑大失所望。智秀通过公司的任务，让新店铺入驻老旧建筑，帮助进行翻新与运营，将其打造成充满活力的商街。
+
+通过合成（merge）创造收益、进行翻新，完成最棒的商街建筑吧！帮助新员工智秀把公司打造成一流企业，最终登上下一任经营层的位置吧！
+
+在享受合成（merge）益智游戏的过程中，还能更出色地扩建建筑！
+
+游戏特色：
+
+通过合成（merge）、合并来完成客人们的订单吧！
+   - 合成面包、咖啡、水果！将相同物品合并，转换成更高等级的物品。
+   - 通过合成完成客人们各种各样的订单，获取奖励！
+
+修理破旧老朽的店铺吧！
+   - 用攒下的钱装饰店铺！
+   - 还可以养猫。
+   - 完成装饰任务并升级吧！
+
+开设新店铺吧！
+  - 装饰新店铺，迎接更多客人。
+  - 雇佣经理提升收益，扩建建筑吧！
+
+与全世界的人一起竞争</div><details class="orig"><summary>查看韩文原文</summary><div class="orig-body">대한민국 머지게임 1위! 헬로타운에 오신 것을 환영합니다^^
+광고 걱정, 인터넷 연결 걱정은 하나도 하지 마세요!
+머지를 통해 신입사원 지수의 성공과 성장을 도와주세요!
+
+부동산 기업에 합격한 신입사원 지수는 부푼 꿈을 꾸며 첫 출근을 하지만 허름하고 낡은 건물에 매우 실망합니다. 지수는 회사의 미션을 통해 낡은 건물에 새로운 매장들을 입주시키고 리모델링과 운영을 도와 활기 넘치는 상가로 만들어 나갑니다.
+
+머지(merge)를 통해 수익을 창출하고 리모델링하여 최고의 상가 건물을 완성하세요! 회사를 일류 기업으로 만들어 최종적으로 차기 경영진의 자리에 오를 수 있도록 신입사원 지수를 도와주세요! 
+
+머지(merge) 퍼즐 게임을 즐기다 보면 더욱 멋지게 건물을 확장할 수 있습니다!
+
+게임특징 : 
+
+손님들의 주문을 머지(merge), 병합하여 완성하세요!
+   - 빵, 커피, 과일을 머지! 동일한 아이템을 합쳐서 상위 아이템으로 바꾸세요.
+   - 손님들의 다양한 주문을 머지로 완성하고 보상을 획득하세요! 
+
+낡고 오래된 매장을 수리하세요!
+   - 모은 돈으로 가게를 꾸미세요!
+   - 고양이도 키울 수 있습니다.
+   - 꾸미기 미션을 완성하고 레벨업을 하세요!
+
+새 매장을 오픈 하세요!
+  - 새로운 가게를 꾸미고 더 많은 손님을 받으세요.
+  - 매니저를 고용하여 수익을 증대 시키고 건물을 확장하세요! 
+
+전세계 사람들과 경쟁해보세요!
+  - 15Lv에 국가 랭킹이 오픈되며 25Lv에 월드 랭킹이 오픈됩니다.
+  - 우리나라에서 나의 실력은? 전세계에서 나의 실력은 어느정도일까요?
+  - 전세계 유저들과 경쟁하고 세계 최고의 머지 게임 플레이어가 되어보세요!
+
+인터넷이 안되도 걱정마세요! 
+ - 오프라인으로도 플레이가 가능합니다!
+
+게임에 대한 질문이 있나요? 고객지원으로 문의하시면 성의껏 답변해 드리겠습니다. help@spcomes.com로 연락해 주세요.</div></details></div></div></details><details class="ent"><summary><span class="r1"><span class="rk">#43</span><span class="nm">드래곤빌리지3</span><span class="nm-cn">（龙之村庄3）</span><span class="badge b-return">回榜</span></span><span class="meta">Highbrow · 角色扮演 · 韩国 · 上架 163 天</span><span class="play"><span class="lab">玩法</span>收集并交配龙，建造装饰龙之村庄，养成后组队实时PvP与公会Boss战</span><span class="like"><span class="lab">玩法类型</span>收集养成+经营对战</span></summary><div class="appcard"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/42/6a/ad426a5a-61fd-c567-7edf-d3fda2d81a2d/0_APP_IPHONE_67_0.jpg/320x480bb.jpg" alt="드래곤빌리지3 商店截图" loading="lazy" referrerpolicy="no-referrer"><div class="txt"><span class="orig-tag">商店介绍 · 中文译文</span><div class="descr-cn">■ 收集与交配龙的无尽乐趣
+超乎想象的“交配”系统：组合龙，发现只有通过你的选择才会诞生的神秘稀有龙。
+可爱爆棚！像素龙收集：收集众多以复古感性精心打造的龙，体验完成专属图鉴的乐趣。
+无限扩展的阵容：通过定期更新追加的数千种龙，激发你的收集欲。
+
+■ 装饰属于我的龙之村
+生机勃勃的村庄：建造建筑、布置栖息地，建设让龙们尽情奔跑玩耍的美丽村庄。
+温暖的互动与治愈：给龙喂食、抚摸它们并进行交流。光是看着龙们聚在篝火前的日常，就已经很治愈了。
+
+■ 策略十足的实时PvP竞技场
+超越单纯收集的智谋对决：通过龙的属性相性、技能组合与布阵，与全世界的驯龙师实时一决高下。
+你的策略在此得到证明：登上竞技场之巅，赢得最强驯龙师的荣誉。
+
+■ 共同挑战的强大Boss raid
+与公会成员一起的协同战斗：挑战巨大Boss“Dragon Slayer”，获取压倒性的奖励与战利品。
+你能体验到比起独自一人，与同伴一起时更强大的成长。
+
+■ 沉浸感十足的冒险与故事
+庞大世界观的探索：与高品质插画一同展开的趣味十</div><details class="orig"><summary>查看韩文原文</summary><div class="orig-body">■ 드래곤 수집과 교배의 끝없는 즐거움
+상상 그 이상의 &#x27;교배&#x27; 시스템: 드래곤들을 조합하여 오직 당신의 선택으로만 탄생하는 신비로운 희귀 드래곤을 발견하세요.
+귀여움 폭발! 도트 드래곤 수집: 레트로 감성으로 정교하게 구현된 수많은 드래곤을 수집하고 나만의 도감을 완성하는 재미를 느껴보세요.
+무한히 확장되는 라인업: 정기적인 업데이트를 통해 추가될 수천 종의 드래곤이 당신의 수집욕을 자극합니다.
+
+■ 나만의 드래곤 빌리지 꾸미기
+살아 숨 쉬는 마을: 건물을 짓고 서식지를 배치하여 드래곤들이 마음껏 뛰놀 수 있는 아름다운 빌리지를 건설하세요.
+따뜻한 교감과 힐링: 드래곤에게 먹이를 주고, 쓰다듬으며 소통하세요. 모닥불 앞에 모인 드래곤들의 일상을 지켜보는 것만으로도 힐링이 됩니다.
+
+■ 전략이 살아있는 실시간 PvP 아레나
+단순한 수집을 넘어선 지략 대결: 드래곤의 속성 상성과 스킬 조합, 배치를 통해 전 세계 테이머들과 실시간으로 승부를 겨루세요.
+당신의 전략이 증명되는 곳: 아레나의 정점에 올라 최고의 테이머라는 명예를 차지하세요.
+
+■ 함께 도전하는 강력한 보스 레이드
+길드원과 함께하는 협동 전투: 거대 보스 &#x27;드래곤 슬레이어&#x27;에 도전하고 압도적인 보상과 전리품을 획득하세요.
+혼자보다 함께일 때 더 강력한 성장을 경험할 수 있습니다.
+
+■ 몰입감 넘치는 모험과 스토리
+방대한 세계관 탐험: 고퀄리티 일러스트와 함께 펼쳐지는 흥미진진한 이야기를 따라가며 드래곤 세계의 비밀을 밝혀내세요.
+개성 넘치는 코스튬으로 나만의 테이머 캐릭터를 꾸미는 즐거움까지!
+
+[구독 상품 설명]
+
+1. 구독 가격 및 구독 기간
+메뉴의 &quot;광고 제거&quot; 버튼을 클릭하면 &quot;광고 제거 프리미엄&quot;을 구독 할 수 있습니다.
+구독 가격은 각 ₩9,900 이며 구독기간은 한달입니다.
+
+2. 구독 내용 설명
+구독은 &quot;광고 제거 프리미엄&quot; 1종입니다.
+1) 구독 후 매월 자동으로 구독이 연장됩니다. 만약 구독 유효 기간내에 구독을 취소할 경우, 구독 기간이 종료된 후에는 월정액 특권을 누릴 수 없게 됩니다.
+2) 광고 제거 구독은 구독 기간 동안 모든 광고가 제거되고 광고를 보고 지급하는 상품을 즉시 지급 합니다.
+
+3. 구독 자동 연장 설명
+애플 구독 기능은 자동 연장이 되는 구독 시스템이며 iTunes Account에서 자동 결제가 됩니다. 구독 서비스를 해지 하려면 모바일 기기의 iTunes/Apple ID설정 관리 페이지에서 자동 구독 기능을 취소 할 수 있습니다. 자동 구독 연장은 구독 주기 종료 후 24 시간 이내에 결제되며 iTunes 계정으로 직접 지불이 확인됩니다. 구독주기가 종료되기 최소 24 시간 이전에 자동 갱신 구독을 취소하지 않으면 구독주기가 자동으로 연장됩니다.
+구매 확인 후 구독 비용은 iTunes Account에서 결제됩니다.
+구독 종료 전 24시간내 구독 기간 연장 및 구독 기간 연장 비용을 확인합니다.
+
+4. 구독 취소 설명
+구독을 취소하시려면 iOS기기에서 &quot;설정&quot; 선택 ---&gt; &quot;iTunes Store 및 App Store&quot;선택 ---&gt;&quot;Apple ID&quot;클릭 후 &quot;Apple ID 보기&quot;를 클릭해서 &quot;계정 설정&quot; 화면에 들어간 후에 &quot;구독&quot;--&gt;&quot;관리&quot; 클릭하여 &quot;드래곤빌리지3&quot;의 구독사항을 선택해서 구독 취소 할 수 있습니다.
+
+[서비스 이용약관]
+https://terms.withhive.com/terms/policy/view/M988/T166#T166
+
+[개인정보 처리방침]
+https://terms.withhive.com/terms/policy/view/M988/T167#T167</div></details></div></div></details><details class="ent"><summary><span class="r1"><span class="rk">#58</span><span class="nm">Raid Plaza</span><span class="nm-cn">（突袭广场）</span><span class="badge b-return">回榜</span></span><span class="meta">Evermore Labs SRL · 未分类 · 韩国 · 上架 3.3 年</span><span class="play"><span class="lab">玩法</span>选头目并提交训练家码，由房主加好友后邀请你进远程团体战</span><span class="like"><span class="lab">玩法类型</span>组队匹配工具</span></summary><div class="appcard"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/af/2a/66af2ac6-d027-a229-7229-423afdafcc71/01-raids.png/320x480bb.jpg" alt="Raid Plaza 商店截图" loading="lazy" referrerpolicy="no-referrer"><div class="txt"><span class="orig-tag">商店介绍 · 英文原文</span><div class="descr-cn">Raid Plaza gets you into remote raids for the bosses you want, quickly and easily. Pick a boss, add your trainer code, and a host sends you a friend request and a raid invite within minutes. No waiting queues, no group chats: the fastest remote invites on the store.
+
+WHAT YOU CAN DO
+• Raid invites: Legendary, Mega, Shadow and every other raid in rotation.
+• Max Battles: invites to Max Battles, Gigantamax included.
+• Gifts from other regions: get the regional gifts you&#x27;re missing.
+• Bring your friends: request invites for several trainer codes at once and raid together for the friendship bonus.
+• Follow every request: see each step live, and why a request ended if it didn&#x27;t work out.
+• Raid map: find raids anywhere, scan an area, and ask for a host at the raid you want.
+
+HOW IT WORKS
+1. Add your trainer code.
+2. Pick a raid boss, a Max Battle or a gift region.
+3. Accept the friend request in the game and join the lobby when the invite arrives.
+
+Your next raid is just a few taps away. See you in the lobby!</div></div></div></details><details class="ent"><summary><span class="r1"><span class="rk">#87</span><span class="nm">GO FRIEND</span><span class="nm-cn">（GO Friend）</span><span class="badge b-return">回榜</span></span><span class="meta">takumi suzuki · 未分类 · 日本 · 上架 8.2 年</span><span class="play"><span class="lab">玩法</span>通过共享地图和招募板参与全球远程团体战并查询攻略工具</span><span class="like"><span class="lab">玩法类型</span>辅助工具+组队匹配</span></summary><div class="appcard"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/71/18/ce/7118ce2a-fd0d-587f-a050-429e20122a13/_U65e5_U672c_U8a9e01.png/392x696bb.png" alt="GO FRIEND 商店截图" loading="lazy" referrerpolicy="no-referrer"><div class="txt"><span class="orig-tag">商店介绍 · 中文译文</span><div class="descr-cn">GO FRIEND（够朋友）是一款可以参加世界各地邀请团体战（远程团体战）、招募邀请团体战参加者，还能通过共享地图分享团体战、奖励、宝可梦巢穴等信息的工具。
+
+
+
+主要功能
+◆邀请团体战留言板
+・使用远程团体战通行证，24小时随时参加世界各地的团体战
+・招募邀请团体战的参加者
+・自动优先参加（自动匹配）
+・通过推送通知实时通知状况
+・主办者评价／ guest评价
+・使用奖励插件优先自动匹配
+
+
+
+◆攻略信息的浏览和工具的使用
+・浏览文章
+・使用工具
+　个体值检查器/GO对战联盟相关/克制列表/对战模拟器/交换图片生成器等
+・通过推送通知告知最新信息
+・留言板（国内・海外的好友招募／宝可梦交换／闲聊）
+
+
+
+◆日本国内的共享地图
+・实时显示团体战出现的Boss、招式构成、开始时间、剩余时间
+・显示下次EX团体战信息
+・显示最新任务信息
+・显示巢穴信息
+・登记团体战、田野调查任务、巢穴信息
+・推送通知周边团体战信息、奖励信息
+・图标自定义功能
+・显示筛选功能
+・通过GPS显示当前位置
+・通过谷歌地图进行路线导航
+・将登记信息分享到SNS
+・S2单元格显示功能</div><details class="orig"><summary>查看日文原文</summary><div class="orig-body">GO FRIEND(ゴーフレンド)は世界各地の招待レイド（リモートレイド）への参加、招待レイドの参加者募集ができる他、共有マップでレイド、リワード、ポケモンの巣などの情報をシェアできるツールです。
+
+
+
+主な機能
+◆招待レイド掲示板
+・リモートレイドパスを使って世界各地のレイドに24時間いつでも参加可能
+・招待レイドの参加者を募集
+・自動優先参加（自動マッチング）
+・プッシュ通知による状況のリアルタイム通知
+・ホスト評価／ゲスト評価
+・ボーナスプラグで優先的に自動マッチング
+
+
+
+◆攻略情報の閲覧やツールの使用
+・記事の閲覧
+・ツールの使用
+　個体値チェッカー/GOバトルリーグ関連/カウンターリスト/バトルシミュレーター/交換画像ジェネレーターなど
+・プッシュ通知による最新情報のお知らせ
+・掲示板（国内・海外のフレンド募集／ポケモン交換／雑談）
+
+
+
+◆日本国内の共有マップ
+・レイドの出現ボス、技構成、開始時間、残り時間をリアルタイム表示
+・次回EXレイド情報の表示
+・最新タスク情報の表示
+・巣情報の表示
+・レイド、フィールドリサーチタスク、巣情報の登録
+・周辺のレイド情報、リワード情報のプッシュ通知
+・アイコンのカスタマイズ機能
+・表示フィルタリング機能
+・GPSで現在位置を表示
+・グーグルマップによる経路案内
+・登録情報のSNS共有
+・S2セル表示機能</div></details></div></div></details><details class="ent"><summary><span class="r1"><span class="rk">#88</span><span class="nm">트래블 소트: 컬러 &amp; 매치 (Travel Sort)</span><span class="nm-cn">（旅行排序）</span><span class="badge b-return">回榜</span></span><span class="meta">HAPPY HOUR GAMES PTE LTD · 解谜 · 韩国 · 上架 284 天</span><span class="play"><span class="lab">玩法</span>把彩色液体在瓶子间倒来倒去，让每个瓶子只留一种颜色。</span><span class="like"><span class="lab">玩法类型</span>水排序解谜</span></summary><div class="appcard"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/79/5d/f5795d3d-9c09-0305-2032-a1fc17d7b926/Travel_Sort_SS_V9_01_jade_EN_260911.jpg/320x480bb.jpg" alt="트래블 소트: 컬러 &amp; 매치 (Travel Sort) 商店截图" loading="lazy" referrerpolicy="no-referrer"><div class="txt"><span class="orig-tag">商店介绍 · 中文译文</span><div class="descr-cn">倒水、配色，在 Travel Sort 中轻松畅玩！
+
+把五颜六色的水在不同瓶子间倒来倒去，让每个瓶子只留下一种颜色。规则简单，但随着隐藏的色彩分层、新的瓶子布局和各种障碍的出现，谜题会变得越来越有趣、越来越有策略性。
+
+没有计时器，你可以一步一步慢慢思考，按自己的节奏游玩。伴随着柔和的水流效果、鲜明的色彩和舒适的 ASMR 风格音效，享受令人满足的水排序谜题吧。
+
+Travel Sort 特色
+
+- 轻松上手：倒水、配同色，让每个瓶子都变成单一颜色。
+- 数千个关卡：挑战越来越棘手的各种难题。
+- 舒适 ASMR：每次倒水都能享受令人满足的音效。
+- 实用道具：遇到困难时使用撤销、洗牌、额外瓶子。
+- 没有计时器：不必匆忙，一步一步思考，按自己的节奏游玩。
+- 离线游玩：没有 Wi-Fi 也能玩基础谜题关卡。
+
+倒水、配色、排序，在 Travel Sort 中享受轻松的谜题时光吧！</div><details class="orig"><summary>查看韩文原文</summary><div class="orig-body">물을 붓고, 색을 맞추고, 트래블 소트에서 편안하게 즐겨보세요!
+
+알록달록한 물을 병 사이로 옮기고, 각 병에 한 가지 색만 남도록 정리하세요. 규칙은 쉽지만 숨겨진 컬러 레이어, 새로운 병 배치, 다양한 장애물이 등장하면서 퍼즐은 점점 더 흥미롭고 전략적으로 변합니다.
+
+타이머가 없어 한 수씩 천천히 생각하며 자신의 속도로 플레이할 수 있습니다. 부드러운 물 효과, 선명한 색감, 편안한 ASMR 스타일 사운드와 함께 만족스러운 워터 소트 퍼즐을 즐겨보세요.
+
+트래블 소트 특징
+
+- 쉽게 시작: 물을 붓고, 같은 색을 맞추고, 각 병을 한 가지 색으로 완성하세요.
+- 수천 개의 레벨: 점점 더 까다로워지는 다양한 챌린지에 도전하세요.
+- 편안한 ASMR: 물을 부을 때마다 만족스러운 사운드를 즐겨보세요.
+- 유용한 부스터: 어려울 때 되돌리기, 셔플, 추가 병을 사용하세요.
+- 타이머 없음: 서두르지 않고 한 수씩 생각하며 자신의 속도로 플레이하세요.
+- 오프라인 플레이: Wi-Fi 없이도 기본 퍼즐 레벨을 즐길 수 있습니다.
+
+물을 붓고, 색을 맞추고, 정렬하며 트래블 소트에서 편안한 퍼즐 시간을 즐겨보세요!</div></details></div></div></details><details class="ent"><summary><span class="r1"><span class="rk">#92</span><span class="nm">트래블 소트: 컬러 &amp; 매치 (Travel Sort)</span><span class="nm-cn">（旅行排序）</span><span class="badge b-return">回榜</span></span><span class="meta">HAPPY HOUR GAMES PTE LTD · 解谜 · 日本 · 上架 284 天</span><span class="play"><span class="lab">玩法</span>把彩色液体在瓶子间倒来倒去，让每个瓶子只留一种颜色。</span><span class="like"><span class="lab">玩法类型</span>水排序解谜</span></summary><div class="appcard"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/79/5d/f5795d3d-9c09-0305-2032-a1fc17d7b926/Travel_Sort_SS_V9_01_jade_EN_260911.jpg/320x480bb.jpg" alt="트래블 소트: 컬러 &amp; 매치 (Travel Sort) 商店截图" loading="lazy" referrerpolicy="no-referrer"><div class="txt"><span class="orig-tag">商店介绍 · 中文译文</span><div class="descr-cn">倒水、配色，在 Travel Sort 中轻松畅玩！
+
+把五颜六色的水在不同瓶子间倒来倒去，让每个瓶子只留下一种颜色。规则简单，但随着隐藏的色彩分层、新的瓶子布局和各种障碍的出现，谜题会变得越来越有趣、越来越有策略性。
+
+没有计时器，你可以一步一步慢慢思考，按自己的节奏游玩。伴随着柔和的水流效果、鲜明的色彩和舒适的 ASMR 风格音效，享受令人满足的水排序谜题吧。
+
+Travel Sort 特色
+
+- 轻松上手：倒水、配同色，让每个瓶子都变成单一颜色。
+- 数千个关卡：挑战越来越棘手的各种难题。
+- 舒适 ASMR：每次倒水都能享受令人满足的音效。
+- 实用道具：遇到困难时使用撤销、洗牌、额外瓶子。
+- 没有计时器：不必匆忙，一步一步思考，按自己的节奏游玩。
+- 离线游玩：没有 Wi-Fi 也能玩基础谜题关卡。
+
+倒水、配色、排序，在 Travel Sort 中享受轻松的谜题时光吧！</div><details class="orig"><summary>查看日文原文</summary><div class="orig-body">トラベルソートで、水を注いで、色をそろえて、リラックス！
+カラフルな水をボトルからボトルへ注ぎ、すべてのボトルを1色ずつそろえましょう。ルールは簡単ですが、隠れた色の層、ユニークな障害物、新しいボトル配置が登場し、パズルは少しずつ奥深くなっていきます。
+
+タイマーはないので、焦らず自分のペースで楽しめます。なめらかな水の演出、鮮やかなカラー、リラックスできるASMR風サウンドで、注ぐたびに気持ちいい爽快感を味わえます。
+
+トラベルソートの特徴
+- かんたんに遊べる： 水を注ぎ、同じ色をそろえて、ボトルを完成させよう。 
+- 何千ものパズル： 少しずつ難しくなる、やりごたえのあるチャレンジに挑戦。 
+- リラックスASMR： 水を注ぐたびに心地よいサウンドを楽しめます。 
+- 便利なブースター： 「元に戻す」「シャッフル」「ボトル追加」で難しいパズルをサポート。 
+- タイマーなし： 一手ずつじっくり考えて、自分のペースでプレイ。 
+- オフラインプレイ： Wi-Fiがなくても基本のパズルレベルを楽しめます。 
+
+水を注いで、色をそろえて、ソートして。トラベルソートで今すぐリラックス！</div></details></div></div></details><details class="ent"><summary><span class="r1"><span class="rk">#94</span><span class="nm">Lordrush</span><span class="nm-cn">（领主突袭）</span><span class="badge b-return">回榜</span></span><span class="meta">Century Games Innovation Pte. Ltd. · 策略 · 美国 · 上架 110 天</span><span class="play"><span class="lab">玩法</span>重建要塞、采集资源、升级防御塔并招募英雄，抵御一波波攻城并争夺王座</span><span class="like"><span class="lab">玩法类型</span>塔防+城堡建造</span></summary><div class="appcard"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/fe/2d/54fe2d6a-f4df-5f1b-c2a1-ad769741d50c/A-1179x2556.jpg/320x480bb.jpg" alt="Lordrush 商店截图" loading="lazy" referrerpolicy="no-referrer"><div class="txt"><span class="orig-tag">商店介绍 · 英文原文</span><div class="descr-cn">Lordrush is a medieval tower defense strategy game where you rebuild a ruined fortress and defend your realm from attacks.
+
+Gather resources, raise defenses, upgrade towers, and recruit heroes as you prepare for each assault.
+
+Set in a harsh medieval world of stone castles, armored heroes, war-torn battlefields, and rival lords, Lordrush blends fortress building, resource management, hero strategy, and tactical defense.
+
+
+• Fight for Resources
+Wood, stone, and iron are essential for expansion. Compete with exiles, rebels, and other forces for control of vital resources.
+
+• Build Fortress Walls
+Construct defensive walls to slow enemy advances and give your towers more time to strike.
+
+• Upgrade Towers
+Place and upgrade towers to expand your firepower, increase damage, and hold key defensive positions.
+
+• Strengthen Your Fortress
+As enemy attacks grow stronger, reinforce your walls, expand your towers, and turn your settlement into a powerful medieval stronghold.
+
+• Defend Against Sieges
+Enemies attack your fortress in waves. Adjust your defenses based on enemy routes and strength, and hold the line.
+
+• Recruit Heroes
+Recruit medieval heroes with different abilities. Deploy them to change the course of battle.
+
+• Make Tactical Choices
+Every building, upgrade, and hero deployment can affect the outcome. Plan carefully to survive the next siege.
+
+• Manage Your People
+Assign survivors as workers, hunters, or cooks to maintain resource production, food supplies, and daily fortress operations.
+
+• Maintain Health and Order
+Your people’s condition affects productivity. Keep food stocked, maintain stability, and help your fortress continue to grow.
+
+• Issue Decrees
+Set rules under pressure from scarce resources and outside threats. Maintain order and guide the growth of your stronghold.
+
+• Join Alliances
+Create or join alliances, share resources, coordinate defenses, and face powerful enemies together.
+
+• Challenge Other Lords
+Train heroes, build squads, and compete for points, rare rewards, and greater influence across the continent.
+
+• Claim the Throne
+Start from a single fortress, build your defenses, gather resources, expand your power, and become a lord who cannot be ignored.</div></div></div></details><details class="ent"><summary><span class="r1"><span class="rk">#95</span><span class="nm">Solitaire Associations Journey</span><span class="nm-cn">（纸牌联想之旅）</span><span class="badge b-return">回榜</span></span><span class="meta">Hitapps Games LTD · 文字 · 日本 · 上架 1.1 年</span><span class="play"><span class="lab">玩法</span>在有限步数内把单词卡按类别归位，全部整理正确即过关。</span><span class="like"><span class="lab">玩法类型</span>单词分类接龙</span></summary><div class="appcard"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/42/0d/d9420dd6-29f9-19ec-6c39-de674e7a34c8/1290x2796_JA_1.png/320x480bb.jpg" alt="Solitaire Associations Journey 商店截图" loading="lazy" referrerpolicy="no-referrer"><div class="txt"><span class="orig-tag">商店介绍 · 中文译文</span><div class="descr-cn">Solitaire 是一款将经典纸牌接龙游戏机制与现代单词拼图相结合的独特游戏，提供同时考验词汇量、逻辑力和策略的全新免费拼图体验。
+
+进入单词接龙的世界吧。这里不使用传统纸牌，而是使用单词卡和类别卡。每个关卡都从部分填充的棋盘开始，你需要先放置类别卡，然后将相关的单词卡整理到正确的类别中。这是一款结合单词联想与类别拼图的健脑型游戏。
+
+当你需要让大脑休息时，这款免费离线单词游戏非常适合喜欢单词拼图、联想游戏和免费纸牌接龙的玩家。每一步都至关重要，因此你需要分析棋盘、提前思考，并在有限的移动次数内准确分类单词。
+
+策略决定胜负。将所有单词整理到正确的类别中，并明智地使用移动次数，你就能获胜。如果移动次数不足或没有可放置的卡牌，你就会失败。
+
+享受免费拼图、刺激大脑，随时随地无需 WiFi 轻松畅玩。
+
+这款游戏是喜欢单词联想、单词拼图和纸牌接龙游戏的玩家的理想选择。立即下载，开启旅程吧。
+
+使用条款：https://hitappsgames.com/terms/
+
+隐私政策：https://hitappsgames.com/privac</div><details class="orig"><summary>查看日文原文</summary><div class="orig-body">ソリティア - ワードゲームは単なるワードゲームではありません。意味で単語をつなげ、巧みな連想を発見し、脳に挑戦するユニークで夢中になるワードパズルです。今すぐプレイして、いくつの連想をマスターできるか試しましょう！
+
+クラシックなソリティアの仕組みと現代的なワードパズルを融合した新しいタイプのカードゲーム。語彙力、論理力、戦略性が同時に試されます。
+
+伝統的なカードが単語カードやカテゴリカードに置き換わった新感覚のソリティア。各レベルは一部のカードが配置された状態から始まり、山札から1枚ずつ引いて戦略的に置いていきます。カテゴリカードを置いてから関連する単語を積み重ねましょう。
+
+脳トレに最適で、無料のワードパズルソリティアが好きな人にぴったり。すべての動きが重要で、先を読み、正しく並べ替えることが勝利のカギです。
+
+注意！チャレンジは戦略にあります:
+
+すべての単語を正しいカテゴリに仕分け、手を賢く使えば勝利。
+
+動きがなくなると敗北。
+
+カジュアルプレイヤーでもワードパズルの達人でも、リラックスしながら頭を鍛えられる最高の方法です。落ち着いたデザインと直感的な操作で簡単に遊べますが、マスターするのは難しい！
+
+特徴:
+
+ワードパズルに新しいひねり
+
+ソリティアから着想を得た革新的な仕組み
+
+難易度が上がる数百のレベル
+
+時間制限なし、自分のペースで遊べる
+
+中毒性があり、語彙力アップに最適
+
+今すぐダウンロードして、この唯一無二のソリティア・ワードパズルをマスターしよう！
+
+利用規約: https://hitappsgames.com/terms/
+プライバシーポリシー: https://hitappsgames.com/privacy-policy/</div></details></div></div></details><details class="ent"><summary><span class="r1"><span class="rk">#97</span><span class="nm">Triple Match: 3Dグッズソートマッチゲーム</span><span class="nm-cn">（三消收纳大师 3D）</span><span class="badge b-return">回榜</span></span><span class="meta">Orange One Limited · 解谜 · 日本 · 上架 2.9 年</span><span class="play"><span class="lab">玩法</span>限时把货架上的商品三个一组配对消除，清空全部货架过关</span><span class="like"><span class="lab">玩法类型</span>三消+收纳</span></summary><div class="appcard"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/de/6f/abde6f5c-e44c-551c-8a1a-5aee3ba64909/b64b192c-7487-47a4-8fc4-0b897522095f_1jp_ios.png/392x696bb.png" alt="Triple Match: 3Dグッズソートマッチゲーム 商店截图" loading="lazy" referrerpolicy="no-referrer"><div class="txt"><span class="orig-tag">商店介绍 · 中文译文</span><div class="descr-cn">如果在限定时间内把超市里的东西全部买到手，那会是什么感觉？那个如梦般的瞬间，现在就在这里实现了！
+
+《Goods Master 3D: 分拣大师 收纳游戏》能让你在3D体验中分拣蔬菜、水果、饮料、零食、玩具等丰富多样的物品。
+
+欢迎来到《Goods Master 3D: 分拣大师 收纳游戏》！这款三消分拣游戏会让你深深着迷，乐趣无穷，玩上几个小时都停不下来！来吧，现在就挑战一下，尽情享受吧！
+
+玩法：
+1. 将相同的商品三个排在一起，放到货架上，即可过关。
+2. 清掉眼前的商品后，后面的商品就会显示出来。
+3. 持续进行，直到清掉所有商品、把货架清空为止。
+注意：在限定时间内完成游戏，把所有商品按类别整理好，就能赢得这场3D消除游戏。
+
+游戏特色：
+免费游玩：完全免费，无限制自由畅玩。
+无需Wi-Fi：没有网络限制，随时随地都能玩。
+游戏场景：逼真的商品表现，让你仿佛在享受真实的购物体验。
+脑力训练：玩法简单，难度却很高。
+幸运抽奖：有机会获得道具和大量金币！
+
+《Goods Master 3D: 分拣大师 收纳游戏》提供从简单到复杂的各种难度，刺激你的大脑和反应能力。来考验一下自己的游戏技巧和智慧吧</div><details class="orig"><summary>查看日文原文</summary><div class="orig-body">スーパーでのお買い物を限られた時間内にすべてを手に入れることができたら、どんな気分でしょうか？その夢のような瞬間が、今ここで実現しました！
+
+「Goods Master 3D: 仕分けマスター 収納ゲーム」は、様々な野菜、果物、ドリンク、お菓子、おもちゃなど、豊富なグッズを3D体験で仕分けできます。
+
+「Goods Master 3D: 仕分けマスター 収納ゲーム」へようこそ！トリプルマッチの魅力に引き込まれるソートゲームで、何時間でも夢中になれる楽しさが待っています！さあ、今すぐ挑戦して、楽しんでください！
+
+遊び方：
+1. 同じ商品を3つ並べ、棚に配置し、クリアします。
+2. 目の前の商品をクリアすると、奥の商品が表示されます。
+3. 全ての商品をクリアし、棚を空にするまで続けます。
+ご注意：制限時間内にゲームを完了し、すべての商品をカテゴリーに整理することで、3Dマッチゲームに勝利できます。
+
+ゲーム特徴：
+無料プレイ：完全無料で、制限なく自由にゲームをお楽しみいただけます。
+Wi-Fi不要：ネットワーク制限なしで、いつでもどこでもプレイできます。
+ゲームシーン：リアルな商品表現で、まるで本物のショッピングを楽しんでいるかのような体験ができます。
+脳トレーニング：シンプルなゲームプレイと高い難易度が特徴です。
+ラッキースピン：アイテムや大量のゴールドコインを入手できるチャンスがあります！
+
+「Goods Master 3D: 仕分けマスター 収納ゲーム」は、シンプルから複雑なレベルまで、様々な難易度を提供し、あなたの脳と反射神経を刺激します。自分のゲームスキルと知性を試し、新たなる高みを目指しましょう。
+
+「Goods Master 3D: 仕分けマスター 収納ゲーム」は、楽しさと発見の旅を提供します。今すぐ「Goods Master 3D: 仕分けマスター 収納ゲーム」をプレイして、驚きと楽しさに満ちた世界への扉を開きましょう。新しいレベルへの挑戦と探索をお楽しみください。
+
+「Goods Master 3D: 仕分けマスター 収納ゲーム」をダウンロードして、新しい冒険に出発しましょう！
+
+
+プライバシーポリシー：https://orangeonelimited.com/privacy.html
+利用規約：https://orangeonelimited.com/useragreement.html</div></details></div></div></details><details class="ent"><summary><span class="r1"><span class="rk">#100</span><span class="nm">保卫萝卜</span><span class="badge b-return">回榜</span></span><span class="meta">Beijing Kai Luo Tian Xia Technology Co., Ltd. · 策略 · 中国 · 上架 14.3 年</span><span class="play"><span class="lab">玩法</span>布置防御塔阻止怪物吃掉萝卜，收集宝物并孵化怪物蛋解锁隐藏地图</span><span class="like"><span class="lab">玩法类型</span>塔防</span></summary><div class="appcard"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/0f/89/e6/0f89e679-7c6b-aa1f-0022-3744b3353ba9/pr_source.png/406x228bb.png" alt="保卫萝卜 商店截图" loading="lazy" referrerpolicy="no-referrer"><div class="txt"><span class="orig-tag">商店介绍</span><div class="descr-cn">进入超过70个国家总榜、游戏榜TOP10，在整个亚太地区各市场排行榜TOP1-TOP5，欧美地区43个国家TOP25，被全球101个国家推荐为“热门游戏”，短短100天超过1000万次下载，好评如潮！！怎能错过！！ 
+
+这是一款制作精美、真正可爱范儿的超萌塔防游戏~~!!! 
+容易上手、老少皆宜、带给你无法割舍的小快乐！ 
+你的任务就是保护好可爱的萝卜,别让怪物吃掉它哦~~ 
+内置新手引导,只需5秒,从菜鸟变高手!! 
+
+游戏特色: 
+*105个关卡,5套精美的主题包,从天际到丛林、沙漠，再到深海! 
+*35张极限模式、隐藏关卡等你来发现! 
+*16关独一无二的创新BOSS模式地图，让塔防通过限时MINIGAME方式玩出花样、玩出乐趣! 
+*18个风格独特的防御塔，鱼刺塔、太阳花、便便塔、船锚塔…..更多花样等你探索~ 
+*将宝贝掉落、收集加入到超萌可爱的塔防游戏过程中，在保卫萝卜的同时还可以收集怪物和宝贝，20个精美怪异的怪物蛋等你来发现！
+*新增怪物养成系统，把收集来的怪物蛋孵化成萌死人的怪物宝宝，把它们养大后将会解锁隐藏地图！
+*地图上精美的障碍物里，藏着许多宝贝和惊喜，打掉它挖掘宝藏吧！
+*70+个搞笑滑稽的怪物,它们有着奇怪的名字:Woowala、Pinky Ninja 、Twisty Fork…… 
+*100+ 滑稽的音效,每个怪物和塔都会发出独特有趣的声音! 
+*每个关卡只有15-25波怪物,碎片时间就可以玩的很过瘾啦! 
+*支持Game Center，好多成就等你来完成！！</div></div></div></details><details class="ent"><summary><span class="r1"><span class="rk">#100</span><span class="nm">Top Force: 最強指揮官</span><span class="nm-cn">（顶级力量）</span><span class="badge b-return">回榜</span></span><span class="meta">Century Games Innovation Pte. Ltd. · 策略 · 美国 · 上架 151 天</span><span class="play"><span class="lab">玩法</span>建设军事基地、武装士兵并扩张基地，击败敌人建立军事帝国</span><span class="like"><span class="lab">玩法类型</span>军事策略+基地经营</span></summary><div class="appcard"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/7c/91/197c9196-937a-819d-ce83-0521e058b0fe/_U56fe_U4e001242x2688_Uff08Build_your_base_U0029.png/320x480bb.jpg" alt="Top Force: 最強指揮官 商店截图" loading="lazy" referrerpolicy="no-referrer"><div class="txt"><span class="orig-tag">商店介绍 · 中文译文</span><div class="descr-cn">欢迎来到Top Force！这是一款轻松上手、爽快感十足的军事策略游戏！
+在前线建造军事基地，武装士兵，在提供支援的同时击破敌人吧！赚取资金扩张基地，打造终极军事帝国！</div><details class="orig"><summary>查看英文原文</summary><div class="orig-body">Welcome to Top Force: Commander, a relaxing and fun military game! 
+You need to build a military base on the front lines, arm your soldiers, provide support, and defeat the enemy. Use the money you earn to expand your base and ultimately build a military empire!</div></details></div></div></details></div></details></section><section class="sec"><div class="sec-h"><span class="idx">02</span><h2>上次进榜产品的名次变化</h2></div><p class="sec-d">2026-11-05 首次进榜的 <b>8</b> 款：仍在榜 <b>5</b> 款，已掉出 <b>3</b> 款。</p><div class="fu"><div class="fu-row"><span class="fu-mkt">韩国</span><span class="fu-nm">전생했더니 검 한 자루<span class="cn">（转生后成了一把剑）</span></span><span class="fu-rk">#3 → <b>#7</b></span><span class="fu-d down">↓4</span></div><div class="fu-row"><span class="fu-mkt">中国</span><span class="fu-nm">OverPeak<span class="cn">（巅峰之上）</span></span><span class="fu-rk">#8 → <b>#10</b></span><span class="fu-d down">↓2</span></div><div class="fu-row"><span class="fu-mkt">日本</span><span class="fu-nm">マイキャリ｜野球シミュレーションゲーム<span class="cn">（我的棒球生涯）</span></span><span class="fu-rk">#58 → <b>#47</b></span><span class="fu-d up">↑11</span></div><div class="fu-row"><span class="fu-mkt">韩国</span><span class="fu-nm">마비노기 모바일<span class="cn">（洛奇 Mobile）</span></span><span class="fu-rk">#94 → <b>#75</b></span><span class="fu-d up">↑19</span></div><div class="fu-row"><span class="fu-mkt">韩国</span><span class="fu-nm">XP Hero (XP 히어로)<span class="cn">（XP英雄）</span></span><span class="fu-rk">#73 → <b>#94</b></span><span class="fu-d down">↓21</span></div><div class="fu-row"><span class="fu-mkt">中国</span><span class="fu-nm">解救大鸽</span><span class="fu-rk">#48</span><span class="fu-d off">已掉出</span></div><div class="fu-row"><span class="fu-mkt">中国</span><span class="fu-nm">Puddle_Paw<span class="cn">（水洼爪爪）</span></span><span class="fu-rk">#59</span><span class="fu-d off">已掉出</span></div><div class="fu-row"><span class="fu-mkt">韩国</span><span class="fu-nm">Clawtopia - 인형뽑기 연습게임<span class="cn">（抓娃娃乌托邦）</span></span><span class="fu-rk">#78</span><span class="fu-d off">已掉出</span></div></div></section><section class="sec"><div class="sec-h"><span class="idx">03</span><h2>当前榜单构成</h2></div><p class="sec-d">每个市场 100 个席位，下面按上架时长与品类分别统计在榜产品。</p><h3 class="lim-h">上架时长分布</h3><div class="env" style="margin-top:10px"><div class="mkt"><div class="name">美国<span>上架时长 · 共 100 款</span></div><div class="stack"><i style="width:1.0%;background:#2f5bea"></i><i style="width:3.0%;background:#0ea5a4"></i><i style="width:39.0%;background:#f59e0b"></i><i style="width:57.0%;background:#cbd5e1"></i></div><div class="stacklab"><span><i style="background:#2f5bea"></i>0–30 天 1%</span><span><i style="background:#0ea5a4"></i>31–90 天 3%</span><span><i style="background:#f59e0b"></i>91–365 天 39%</span><span><i style="background:#cbd5e1"></i>365+ 天 57%</span></div></div><div class="mkt"><div class="name">中国<span>上架时长 · 共 100 款</span></div><div class="stack"><i style="width:9.0%;background:#2f5bea"></i><i style="width:4.0%;background:#0ea5a4"></i><i style="width:8.0%;background:#f59e0b"></i><i style="width:79.0%;background:#cbd5e1"></i></div><div class="stacklab"><span><i style="background:#2f5bea"></i>0–30 天 9%</span><span><i style="background:#0ea5a4"></i>31–90 天 4%</span><span><i style="background:#f59e0b"></i>91–365 天 8%</span><span><i style="background:#cbd5e1"></i>365+ 天 79%</span></div></div><div class="mkt"><div class="name">日本<span>上架时长 · 共 100 款</span></div><div class="stack"><i style="width:14.0%;background:#2f5bea"></i><i style="width:10.0%;background:#0ea5a4"></i><i style="width:37.0%;background:#f59e0b"></i><i style="width:39.0%;background:#cbd5e1"></i></div><div class="stacklab"><span><i style="background:#2f5bea"></i>0–30 天 14%</span><span><i style="background:#0ea5a4"></i>31–90 天 10%</span><span><i style="background:#f59e0b"></i>91–365 天 37%</span><span><i style="background:#cbd5e1"></i>365+ 天 39%</span></div></div><div class="mkt"><div class="name">韩国<span>上架时长 · 共 100 款</span></div><div class="stack"><i style="width:13.0%;background:#2f5bea"></i><i style="width:12.0%;background:#0ea5a4"></i><i style="width:29.0%;background:#f59e0b"></i><i style="width:46.0%;background:#cbd5e1"></i></div><div class="stacklab"><span><i style="background:#2f5bea"></i>0–30 天 13%</span><span><i style="background:#0ea5a4"></i>31–90 天 12%</span><span><i style="background:#f59e0b"></i>91–365 天 29%</span><span><i style="background:#cbd5e1"></i>365+ 天 46%</span></div></div></div><h3 class="lim-h">品类席位 · 前 5</h3><div class="env" style="margin-top:10px"><div class="mkt"><div class="name">美国<span>品类 · 前 5 位</span></div><div class="row"><div class="lab">解谜</div><div class="track"><i style="width:43.0%"></i></div><div class="val">43 席 · 43%</div></div><div class="row"><div class="lab">策略</div><div class="track"><i style="width:12.0%"></i></div><div class="val">12 席 · 12%</div></div><div class="row"><div class="lab">动作</div><div class="track"><i style="width:11.0%"></i></div><div class="val">11 席 · 11%</div></div><div class="row"><div class="lab">模拟</div><div class="track"><i style="width:6.0%"></i></div><div class="val">6 席 · 6%</div></div><div class="row"><div class="lab">卡牌</div><div class="track"><i style="width:5.0%"></i></div><div class="val">5 席 · 5%</div></div></div><div class="mkt"><div class="name">中国<span>品类 · 前 5 位</span></div><div class="row"><div class="lab">动作</div><div class="track"><i style="width:19.0%"></i></div><div class="val">19 席 · 19%</div></div><div class="row"><div class="lab">模拟</div><div class="track"><i style="width:17.0%"></i></div><div class="val">17 席 · 17%</div></div><div class="row"><div class="lab">冒险</div><div class="track"><i style="width:14.0%"></i></div><div class="val">14 席 · 14%</div></div><div class="row"><div class="lab">策略</div><div class="track"><i style="width:11.0%"></i></div><div class="val">11 席 · 11%</div></div><div class="row"><div class="lab">角色扮演</div><div class="track"><i style="width:8.0%"></i></div><div class="val">8 席 · 8%</div></div></div><div class="mkt"><div class="name">日本<span>品类 · 前 5 位</span></div><div class="row"><div class="lab">解谜</div><div class="track"><i style="width:43.0%"></i></div><div class="val">43 席 · 43%</div></div><div class="row"><div class="lab">模拟</div><div class="track"><i style="width:11.0%"></i></div><div class="val">11 席 · 11%</div></div><div class="row"><div class="lab">策略</div><div class="track"><i style="width:10.0%"></i></div><div class="val">10 席 · 10%</div></div><div class="row"><div class="lab">动作</div><div class="track"><i style="width:6.0%"></i></div><div class="val">6 席 · 6%</div></div><div class="row"><div class="lab">角色扮演</div><div class="track"><i style="width:6.0%"></i></div><div class="val">6 席 · 6%</div></div></div><div class="mkt"><div class="name">韩国<span>品类 · 前 5 位</span></div><div class="row"><div class="lab">解谜</div><div class="track"><i style="width:37.0%"></i></div><div class="val">37 席 · 37%</div></div><div class="row"><div class="lab">模拟</div><div class="track"><i style="width:13.0%"></i></div><div class="val">13 席 · 13%</div></div><div class="row"><div class="lab">策略</div><div class="track"><i style="width:12.0%"></i></div><div class="val">12 席 · 12%</div></div><div class="row"><div class="lab">动作</div><div class="track"><i style="width:10.0%"></i></div><div class="val">10 席 · 10%</div></div><div class="row"><div class="lab">角色扮演</div><div class="track"><i style="width:10.0%"></i></div><div class="val">10 席 · 10%</div></div></div></div></section><footer><p class="foot-note">榜单每 12 小时抓取名次。「进榜」指第一次出现在该市场 Top100；上架超过 90 天的老游戏重新进榜，标为回榜。玩法、玩法类型与译名由模型基于商店介绍生成。</p>数据来自 Apple App Store 免费游戏榜 · 本页生成于 2026-11-08 05:41</footer></div></body></html>
