@@ -435,7 +435,8 @@ def render(d, days: int, complete: bool, nav: str) -> str:
         f'{datetime.now().strftime("%Y-%m-%d %H:%M")}（本机时区）。'
         f'数据源 <code>data/radar.db</code>；每个数字可追到 <code>sql/</code> 或本脚本的查询。'
         f'<br><a href="index.html">← 日报（今天）</a>　'
-        f'<a href="yesterday.html">日报（昨天）</a></footer>')
+        f'<a href="yesterday.html">日报（昨天）</a>　'
+        f'<a href="{S.REPO_URL}">项目源码</a></footer>')
     add('</div></body></html>')
     return "\n".join(A)
 

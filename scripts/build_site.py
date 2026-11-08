@@ -114,6 +114,9 @@ DAILY_CAVEAT = (
 SOURCE_NOTE = ("商店介绍与截图版权归各开发者与 Apple 所有，本页仅作榜单研究的引用；"
                "介绍只截取前 {PREVIEW} 字，完整内容与截图请到 App Store 查看。")
 
+# 页脚回链仓库：从 Pages 分享链接进来的人，不该只能靠猜找到源码。
+REPO_URL = "https://github.com/han-wangze/game-radar"
+
 GROUPS = [
     ("new", "新上架（≤30 天）"),
     ("mid", "上架 31–90 天"),
@@ -842,7 +845,8 @@ def render(d, nav="") -> str:
     A(f'<footer><p class="foot-note">{caveat}</p>'
       f'<p class="foot-note">{note}</p>'
       f'数据来自 Apple App Store 免费游戏榜 · '
-      f'本页生成于 {datetime.now().strftime("%Y-%m-%d %H:%M")}</footer>')
+      f'本页生成于 {datetime.now().strftime("%Y-%m-%d %H:%M")} · '
+      f'<a href="{REPO_URL}">项目源码</a></footer>')
     A("</div></body></html>")
     return "".join(parts)
 
