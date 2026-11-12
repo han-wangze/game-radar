@@ -56,6 +56,14 @@ KNOWN_BROKEN = {
     ("2026-11-05", "kr"): "同上",
 }
 
+# 已知的整日缺口：那天定时任务根本没跑（机器没开/被跳过），不是采集代码的问题。
+# Apple 没有历史榜单接口，这一天永远补不回来，报 CRITICAL 也修不了 ——
+# 但也不能装作没有，所以单独打印一行「已知缺日」，页面上同样写明。
+# 目的只有一个：让告警对**新增**缺口保持灵敏，而不是天天亮红灯变成背景噪音。
+KNOWN_MISSING = {
+    "2026-11-11": "当天定时任务未运行，Apple 无历史接口，无法回补",
+}
+
 
 def add(findings, level, code, msg, detail=None):
     findings.append({"level": level, "code": code, "msg": msg, "detail": detail or {}})
@@ -118,6 +126,13 @@ def main() -> int:
             if (d.isoformat(), cc, ch) not in have:
                 missing.append(f"{d.isoformat()}/{cc}")
         d += timedelta(days=1)
+    if missing:
+        known_days = sorted({m.split("/")[0] for m in missing
+                             if m.split("/")[0] in KNOWN_MISSING})
+        missing = [m for m in missing if m.split("/")[0] not in KNOWN_MISSING]
+        if known_days:
+            print(f"已知缺日 {len(known_days)} 天（{', '.join(known_days)}），"
+                  f"见 KNOWN_MISSING，不计入告警")
     if missing:
         add(findings, "CRITICAL", "missing_days",
             f"整日缺失 {len(missing)} 处（缺日不可回补）",

@@ -345,14 +345,17 @@ def load(conn, target=None):
         f"GROUP BY 1,2,3")}
     from datetime import date, timedelta
     miss = 0
+    gap_dates = []
     d0, d1 = date.fromisoformat(days[0]), date.fromisoformat(days[-1])
     cur = d0
     while cur <= d1:
-        for cc, ch in dims:
-            if (cur.isoformat(), cc, ch) not in have:
-                miss += 1
+        lacks = [1 for cc, ch in dims if (cur.isoformat(), cc, ch) not in have]
+        if lacks:
+            miss += len(lacks)
+            gap_dates.append(cur.isoformat())
         cur += timedelta(days=1)
     d["missing"] = miss
+    d["gap_dates"] = gap_dates
 
     # 当日首次进榜（带该店面的商店描述、首张截图与中文简介）
     d["entrants"] = conn.execute(S("""
@@ -842,8 +845,18 @@ def render(d, nav="") -> str:
     #    口径是脚注不是章节）。文案来自 DAILY_CAVEAT 单一来源，两页共用。
     caveat = DAILY_CAVEAT.format(RETURN_AGE=RETURN_AGE)
     note = SOURCE_NOTE.format(PREVIEW=PREVIEW_CHARS)
+    # 缺日必须写在页面上：面板连续 N 天是卖点，但有一天没抓到也是事实，
+    # 只藏在告警里等于让读者按「完整面板」去读同比数字。
+    gap_note = ""
+    if d["gap_dates"]:
+        shown = "、".join(g[:10] for g in d["gap_dates"][:3])
+        more = " 等" if len(d["gap_dates"]) > 3 else ""
+        gap_note = (f'<p class="foot-note">面板共 {d["days"]} 个榜日，其中 '
+                    f'{len(d["gap_dates"])} 天整日未采集（{shown}{more}）——'
+                    f'Apple 不提供历史榜单，这段补不回来。</p>')
     A(f'<footer><p class="foot-note">{caveat}</p>'
       f'<p class="foot-note">{note}</p>'
+      f'{gap_note}'
       f'数据来自 Apple App Store 免费游戏榜 · '
       f'本页生成于 {datetime.now().strftime("%Y-%m-%d %H:%M")} · '
       f'<a href="{REPO_URL}">项目源码</a></footer>')
@@ -861,6 +874,8 @@ def main() -> int:
                     help="默认运行时不额外生成 yesterday.html")
     ap.add_argument("--no-weekly", action="store_true",
                     help="默认运行时不额外生成 weekly.html")
+    ap.add_argument("--no-publish", action="store_true",
+                    help="即使开着 .publish-on-build 也不推送到 GitHub")
     args = ap.parse_args()
 
     if not Path(args.db).exists():
@@ -902,6 +917,20 @@ def main() -> int:
                 build_weekly.generate(args.db, ROOT / "site" / "weekly.html")
     finally:
         conn.close()
+
+    # 构建成功就把三页推到线上：本机是唯一有数据库的地方（Apple 无历史接口），
+    # 线上看板只能由本机构建后推上去。开关是仓库根的 .publish-on-build（本地文件、
+    # 不入库），免得每次本地试建都往公开仓库推提交；--no-publish 可临时跳过。
+    # 只搬页面与 README，内容没变时 publish_site 自己会跳过，不产生空提交。
+    if (not args.no_publish and not args.date
+            and Path(args.out).resolve() == OUT_PATH.resolve()
+            and (ROOT / ".publish-on-build").exists()):
+        try:
+            import publish_site            # 延迟导入：单独建页时不需要它
+            print()
+            publish_site.publish()
+        except Exception as exc:           # 发布失败不该让建页失败
+            print(f"发布跳过：{exc}")
     return 0
 
 
