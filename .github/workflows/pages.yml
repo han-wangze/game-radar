@@ -22,11 +22,12 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  # 上传与部署拆成两个 job：deploy-pages 靠 listArtifacts() 查产物，
+  # 同一 job 内上传完立刻查会有竞态（actions/deploy-pages#451），
+  # 产物刚 finalize 不到 1 秒时查找会返回 0 个而误判失败。
+  # 拆开后 deploy 在 build 结束后才启动，查找发生在数秒之后。
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v7
 
@@ -42,5 +43,12 @@ jobs:
         with:
           path: site
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
       - id: deploy
         uses: actions/deploy-pages@v5
